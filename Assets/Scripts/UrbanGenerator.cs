@@ -13,6 +13,9 @@ public class UrbanGenerator : MonoBehaviour {
     private Transform _parentTransform = null;
     private float[] carPositions;
 
+    public int crowdDensity = 10;
+    public GameObject crowdList;
+
     void Start()
     {
         carPositions = new float[] { -2.8f, 0, 2.8f };
@@ -37,10 +40,16 @@ public class UrbanGenerator : MonoBehaviour {
 
         if(spawnCrowd == true)
         {
-            GameObject crowdTest = Instantiate(Resources.Load("crowdTest"), new Vector3(trackLocation.x, trackLocation.y + 0.5f, trackLocation.z + 7), Quaternion.identity) as GameObject;
-            crowdTest.transform.parent = _parentTransform;
-            crowdTest.transform.Rotate(0, 180, 0);
+            for (int i = 0; i < crowdDensity; i++)
+            {
+                GameObject crowdTest = Instantiate(crowdList);
+                crowdTest.transform.GetChild(Random.Range(0, 8)).gameObject.SetActive(true);
+                crowdTest.transform.position = new Vector3(trackLocation.x + Random.Range(0, 20), trackLocation.y + 0.5f, trackLocation.z + Random.Range(0, 3) + 7);
+                crowdTest.transform.rotation = Quaternion.Euler(0, 180, 0);
+            }
         }
+
+
 
         GameObject carTest = Instantiate(Resources.Load("redCar"), new Vector3(trackLocation.x, trackLocation.y + 0.5f, carPositions[Random.Range(0,3)]), Quaternion.identity) as GameObject;
         carTest.transform.parent = _parentTransform;
