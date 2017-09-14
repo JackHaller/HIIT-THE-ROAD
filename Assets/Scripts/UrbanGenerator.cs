@@ -1,0 +1,143 @@
+﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+
+public class UrbanGenerator : MonoBehaviour {
+
+	public static int numOfBuildings = 14;
+	public Transform[] BuildingList = new Transform[numOfBuildings];
+	private float currentXOfPlayer;
+	public float ChanceOfBuildingSpawn;
+	private int Density = 3;
+    private int _initialSpacing = 20;
+    private Transform _parentTransform = null;
+    private float[] carPositions;
+
+    void Start()
+    {
+        carPositions = new float[] { -2.8f, 0, 2.8f };
+    }
+
+    public void UrbanLandscapeGeneration(Vector3 trackLocation, bool spawnCrowd, Transform parentTransform)
+    {
+        _parentTransform = parentTransform;
+
+
+		CreateLeftBuildingCluster(trackLocation, spawnCrowd);
+		CreateRightBuildingCluster(trackLocation, spawnCrowd);
+			
+		
+	}
+	
+	private void CreateLeftBuildingCluster (Vector3 trackLocation, bool spawnCrowd) {
+
+        // Add an extra tile to hide visible grass -- issue due to moving buildings far enough away from the track to clear the cannons
+        GameObject newTile = Instantiate(Resources.Load("Tile"), new Vector3(trackLocation.x, trackLocation.y - 0.01f, trackLocation.z - 15.0f), Quaternion.identity) as GameObject;
+        newTile.transform.parent = _parentTransform;
+
+        if(spawnCrowd == true)
+        {
+            GameObject crowdTest = Instantiate(Resources.Load("crowdTest"), new Vector3(trackLocation.x, trackLocation.y + 0.5f, trackLocation.z + 7), Quaternion.identity) as GameObject;
+            crowdTest.transform.parent = _parentTransform;
+            crowdTest.transform.Rotate(0, 180, 0);
+        }
+
+        GameObject carTest = Instantiate(Resources.Load("redCar"), new Vector3(trackLocation.x, trackLocation.y + 0.5f, carPositions[Random.Range(0,3)]), Quaternion.identity) as GameObject;
+        carTest.transform.parent = _parentTransform;
+        carTest.transform.Rotate(0, 90, 0);
+
+        carTest = Instantiate(Resources.Load("redCar"), new Vector3(trackLocation.x, trackLocation.y + 0.5f, carPositions[Random.Range(0, 3)]), Quaternion.identity) as GameObject;
+        carTest.transform.parent = _parentTransform;
+        carTest.transform.Rotate(0, 90, 0);
+
+        Vector3 location = new Vector3(trackLocation.x, trackLocation.y, trackLocation.z - _initialSpacing); // difference of 3
+		
+		for(int i = 0; i < Density; i++){
+			AddTile(location, false);
+			location.z = location.z - 20.0f;
+		}
+	}
+	
+	private void CreateRightBuildingCluster (Vector3 trackLocation, bool spawnCrowd) {
+
+        // Add an extra tile to hide visible grass -- issue due to moving buildings far enough away from the track to clear the cannons
+        GameObject newTile =  Instantiate(Resources.Load("Tile"), new Vector3(trackLocation.x, trackLocation.y - 0.01f, trackLocation.z + 15.0f), Quaternion.identity) as GameObject;
+        newTile.transform.parent = _parentTransform;
+
+        if (spawnCrowd == true)
+        {
+            GameObject crowdTest = Instantiate(Resources.Load("crowdTest"), new Vector3(trackLocation.x, trackLocation.y + 0.5f, trackLocation.z - 7), Quaternion.identity) as GameObject;
+            crowdTest.transform.parent = _parentTransform;
+        }
+
+
+        Vector3 location = new Vector3(trackLocation.x, trackLocation.y, trackLocation.z + _initialSpacing);
+		
+		for(int i = 0; i < Density; i++){
+			AddTile(location, true);
+			location.z = location.z + 20.0f;
+		}
+	}
+	
+	private void AddTile (Vector3 location, bool isRight) {
+
+        GameObject newTile = Instantiate(Resources.Load("Tile"), location, Quaternion.identity) as GameObject;
+        newTile.transform.parent = _parentTransform;
+       
+		var test = Random.Range(0.0f, 1.0f);
+		if(test < ChanceOfBuildingSpawn)
+		{
+			AddBuilding(new Vector3(location.x - 5.0f, location.y, location.z - 5.005f), isRight); // Add a slight stagger to stop shimmer from overlapping textures.
+		}
+		test = Random.Range(0.0f, 1.0f);
+		if(test < ChanceOfBuildingSpawn)
+		{
+			AddBuilding(new Vector3(location.x + 5.0f, location.y, location.z - 4.095f), isRight);
+		}
+		test = Random.Range(0.0f, 1.0f);
+		if(test < ChanceOfBuildingSpawn)
+		{
+			AddBuilding(new Vector3(location.x - 5.0f, location.y, location.z + 5.005f), isRight);
+		}
+		test = Random.Range(0.0f, 1.0f);
+		if(test < ChanceOfBuildingSpawn)
+		{
+			AddBuilding(new Vector3(location.x + 5.0f, location.y, location.z + 4.095f), isRight);
+		}
+    }
+
+	// Adds Building to certain location in scene
+	private void AddBuilding (Vector3 location, bool isRight) {
+		int indexOfBuilding = Random.Range (0, (numOfBuildings - 1));
+		
+		if (isRight) {
+            if (Time.time != 0) // Does not add script if part of initial setup.
+            {
+                Vector3 spawnLocation = new Vector3(location.x, location.y - 30f, location.z + 15f);
+                //Transform newBuilding = Instantiate(BuildingList[indexOfBuilding], spawnLocation, Quaternion.identity) as Transform;
+                //newBuilding.transform.parent = _parentTransform;
+                //SpawnedObjectLerper lerper = newBuilding.gameObject.AddComponent<SpawnedObjectLerper>();
+                //lerper.Initialise(30f, -15f);
+            }
+            else {
+                //Transform newBuilding = Instantiate(BuildingList[indexOfBuilding], location, Quaternion.identity) as Transform;
+                //newBuilding.transform.parent = _parentTransform;
+            }
+
+		} else {
+            if (Time.time != 0)
+            {
+                Vector3 spawnLocation = new Vector3(location.x, location.y - 30f, location.z - 15f);
+                //Transform newBuilding = Instantiate(BuildingList[indexOfBuilding], spawnLocation, Quaternion.Euler(0, 180, 0)) as Transform;
+                //newBuilding.transform.parent = _parentTransform;
+                //SpawnedObjectLerper lerper = newBuilding.gameObject.AddComponent<SpawnedObjectLerper>();
+                //lerper.Initialise(30f, 15f);
+            }
+            else
+            {
+                //Transform newBuilding = Instantiate(BuildingList[indexOfBuilding], location, Quaternion.Euler(0, 180, 0)) as Transform;
+                //newBuilding.transform.parent = _parentTransform;
+            }
+		}
+	}
+}

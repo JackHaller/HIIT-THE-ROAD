@@ -1,0 +1,6988 @@
+Timestamp: 27 August 2015 10:18:14
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:0:0:0:</>
+</block >
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:20:0:0:</>
+</block >
+<block P2>
+<sectiontype>StraightFlat(Clone)/>
+<PowerPosXYZ:40:1.5:0:</>
+<BlockPosXYZ>:40:0:0:</>
+</block P2>
+<block C>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:60:1:7.5:</>
+<BlockPosXYZ>:60:0:0:</>
+</block C>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:80:0:0:</>
+</block >
+<block H-0-10-5:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:100:0:0:</>
+</block H-0-10-5:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:120:0:0:</>
+</block >
+<block H-1-10-5:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:140:0:0:</>
+</block H-1-10-5:>
+<block H-3-5-2:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:160:0:0:</>
+</block H-3-5-2:B>
+<block L>
+<sectiontype>LevelChange(Clone)/>
+<BlockPosXYZ>:180:0:0:</>
+</block L>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:200:0:0:</>
+</block >
+<block H-0-9-3.642962:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:220:0:0:</>
+</block H-0-9-3.642962:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:240:0:0:</>
+</block >
+<block H-2-15-3.447145:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:260:0:0:</>
+</block H-2-15-3.447145:>
+
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:280:0:0:</>
+</block >
+<block H-2-9-3.24769:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:300:0:0:</>
+</block H-2-9-3.24769:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:320:0:0:</>
+</block >
+<block H-3-20-4.487819:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:340:0:0:</>
+</block H-3-20-4.487819:>
+:0:</>
+</block H-3-20-3.124262:P3>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:360:0:0:</>
+</block >
+<block H-2-10-2.839268:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:380:0:0:</>
+</block H-2-10-2.839268:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:400:0:0:</>
+</block >
+<block H-0-13-5.02396:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:420:0:0:</>
+</block H-0-13-5.02396:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:440:0:0:</>
+</block >
+<block H-2-7-3.449638:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:460:0:0:</>
+</block H-2-7-3.449638:>
+<block H-1-11-3.43168:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:480:0:0:</>
+</block H-1-11-3.43168:>
+<block H-1-8-2.547726:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:500:0:0:</>
+</block H-1-8-2.547726:>
+<block H-2-10-2.655207:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:520:0:0:</>
+</block H-2-10-2.655207:B>
+<block H-2-8-3.075041:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:540:0:0:</>
+</block H-2-8-3.075041:>
+<block H-2-14-3.061707:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:560:0:0:</>
+</block H-2-14-3.061707:>
+<block H-3-20-3.078697:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:580:0:0:</>
+</block H-3-20-3.078697:>
+<block H-2-10-2.775968:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:600:1:-7.5:</>
+<BlockPosXYZ>:600:0:0:</>
+</block H-2-10-2.775968:C>
+<block H-2-7-2.526065:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:620:0:0:</>
+</block H-2-7-2.526065:>
+<block H-1-11-4.269401:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:640:0:0:</>
+</block H-1-11-4.269401:>
+<block P3>
+<sectiontype>StraightFlat(Clone)/>
+<PowerPosXYZ:660:1.5:0:</>
+<BlockPosXYZ>:660:0:0:</>
+</block P3>
+<block H-3-20-3.635006:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:680:0:0:</>
+</block H-3-20-3.635006:>
+<block H-1-4-5.607445:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:700:0:0:</>
+</block H-1-4-5.607445:>
+<block H-1-11-4.443417:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:720:0:0:</>
+</block H-1-11-4.443417:>
+<block H-3-20-5.062361:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:740:1:7.5:</>
+<BlockPosXYZ>:740:0:0:</>
+</block H-3-20-5.062361:C>
+<block H-0-17-3.868778:BP1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:760:1.5:-2:</>
+<BlockPosXYZ>:760:0:0:</>
+</block H-0-17-3.868778:BP1>
+<block H-0-11-2.866266:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:780:0:0:</>
+</block H-0-11-2.866266:>
+<block H-0-11-4.476484:BP2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:800:1.5:-2:</>
+<BlockPosXYZ>:800:0:0:</>
+</block H-0-11-4.476484:BP2>
+<block H-1-12-5.3:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:820:0:0:</>
+</block H-1-12-5.3:>
+<block H-0-10-6.4:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:840:1.5:-2.5:</>
+<BlockPosXYZ>:840:0:0:</>
+</block H-0-10-6.4:P2>
+<block H-1-9-5.4:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:860:0:0:</>
+</block H-1-9-5.4:>
+<block H-0-10-5.6:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:880:0:0:</>
+</block H-0-10-5.6:>
+<block H-1-10-5.5:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:900:0:0:</>
+</block H-1-10-5.5:>
+<block H-0-13-4.6:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:920:1.5:-2.5:</>
+<BlockPosXYZ>:920:0:0:</>
+</block H-0-13-4.6:P2>
+<block H-1-10-5.2:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:940:1.5:2.5:</>
+<BlockPosXYZ>:940:0:0:</>
+</block H-1-10-5.2:P2>
+<block H-0-14-4.8:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:960:0:0:</>
+</block H-0-14-4.8:>
+<block H-1-13-5.6:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:980:0:0:</>
+</block H-1-13-5.6:>
+<block H-0-13-6:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1000:0:0:</>
+</block H-0-13-6:>
+<block H-1-10-5.9:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1020:0:0:</>
+</block H-1-10-5.9:>
+<block H-0-8-4.7:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1040:0:0:</>
+</block H-0-8-4.7:>
+<block H-1-10-5.3:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1060:0:0:</>
+</block H-1-10-5.3:>
+<block H-0-9-6.2:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1080:0:0:</>
+</block H-0-9-6.2:>
+<block H-1-10-5.7:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1100:0:0:</>
+</block H-1-10-5.7:>
+<block H-0-9-6.3:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1120:0:0:</>
+</block H-0-9-6.3:>
+<block H-1-6-5.3:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:1140:1.5:2.5:</>
+<BlockPosXYZ>:1140:0:0:</>
+</block H-1-6-5.3:P2>
+<block H-0-11-6:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:1160:1.5:-2.5:</>
+<BlockPosXYZ>:1160:0:0:</>
+</block H-0-11-6:P2>
+<block H-1-11-6.1:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1180:0:0:</>
+</block H-1-11-6.1:>
+<block H-0-15-5.3:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1200:0:0:</>
+</block H-0-15-5.3:>
+<block H-1-7-5.6:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1220:0:0:</>
+</block H-1-7-5.6:>
+<block H-0-13-5.9:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:1240:1.5:-2.5:</>
+<BlockPosXYZ>:1240:0:0:</>
+</block H-0-13-5.9:P2>
+<block H-0-16-3.721124:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1260:0:0:</>
+</block H-0-16-3.721124:>
+<block H-3-20-4.577704:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1280:0:0:</>
+</block H-3-20-4.577704:>
+<block H-1-14-4.048129:CP3>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:1300:1:-7.5:</>
+<PowerPosXYZ:1300:1.5:0:</>
+<BlockPosXYZ>:1300:0:0:</>
+</block H-1-14-4.048129:CP3>
+<block H-1-10-2.221371:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1320:0:0:</>
+</block H-1-10-2.221371:>
+<block H-2-12-3.455277:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:1340:1:7.5:</>
+<BlockPosXYZ>:1340:0:0:</>
+</block H-2-12-3.455277:BC>
+<block H-0-14-5.870077:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:1360:1.5:-2:</>
+<BlockPosXYZ>:1360:0:0:</>
+</block H-0-14-5.870077:P1>
+<block H-2-5-2.616056:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1380:0:0:</>
+</block H-2-5-2.616056:B>
+<block H-2-8-2.72928:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1400:0:0:</>
+</block H-2-8-2.72928:>
+<block H-3-20-3.587702:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1420:0:0:</>
+</block H-3-20-3.587702:>
+<block H-1-11-5.037084:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1440:0:0:</>
+</block H-1-11-5.037084:>
+YZ>:1480:0:0:</>
+</block H-2-17-2.554469:>
+<block H-3-20-2.95786:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1500:0:0:</>
+</block H-3-20-2.95786:>
+<block H-0-10-2.97959:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1520:0:0:</>
+</block H-0-10-2.97959:>
+<block H-3-20-4.172034:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1540:0:0:</>
+</block H-3-20-4.172034:B>
+<block H-0-5-2.138839:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1560:0:0:</>
+</block H-0-5-2.138839:B>
+<block H-3-20-3.853503:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1580:0:0:</>
+</block H-3-20-3.853503:>
+<block H-2-8-2.649848:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1600:0:0:</>
+</block H-2-8-2.649848:>
+<block H-3-20-3.390856:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:1620:1:-7.5:</>
+<BlockPosXYZ>:1620:0:0:</>
+</block H-3-20-3.390856:C>
+<block H-1-11-5.230358:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1640:0:0:</>
+</block H-1-11-5.230358:>
+<block H-2-9-2.682213:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1660:0:0:</>
+</block H-2-9-2.682213:>
+<block H-3-20-4.345251:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1680:0:0:</>
+</block H-3-20-4.345251:>
+<block H-3-20-4.91071:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1700:0:0:</>
+</block H-3-20-4.91071:>
+<block H-2-14-2.958738:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1720:0:0:</>
+</block H-2-14-2.958738:>
+<block H-2-16-2.787287:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:1740:1.5:0:</>
+<BlockPosXYZ>:1740:0:0:</>
+</block H-2-16-2.787287:P1>
+<block H-3-20-3.203912:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1760:0:0:</>
+</block H-3-20-3.203912:>
+<block H-3-20-5.572665:P3C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:1780:1:7.5:</>
+<PowerPosXYZ:1780:1.5:2:</>
+<BlockPosXYZ>:1780:0:0:</>
+</block H-3-20-5.572665:P3C>
+<block H-2-10-3.146484:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1800:0:0:</>
+</block H-2-10-3.146484:>
+<block H-1-11-5.612168:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1820:0:0:</>
+</block H-1-11-5.612168:>
+<block H-1-13-3.743903:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1840:0:0:</>
+</block H-1-13-3.743903:>
+<block H-3-20-3.225247:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1860:0:0:</>
+</block H-3-20-3.225247:>
+<block H-1-16-3.740945:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1880:0:0:</>
+</block H-1-16-3.740945:>
+<block H-0-15-4.716668:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:1900:1:7.5:</>
+<BlockPosXYZ>:1900:0:0:</>
+</block H-0-15-4.716668:C>
+<block H-1-12-5.51744:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:1920:1:7.5:</>
+<BlockPosXYZ>:1920:0:0:</>
+</block H-1-12-5.51744:BC>
+<block H-1-12-3.604039:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:1940:1:-7.5:</>
+<BlockPosXYZ>:1940:0:0:</>
+</block H-1-12-3.604039:C>
+<block H-0-15-4.8:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:1960:1.5:-2.5:</>
+<BlockPosXYZ>:1960:0:0:</>
+</block H-0-15-4.8:P2>
+<block H-1-10-6.1:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:1980:0:0:</>
+</block H-1-10-6.1:>
+<block H-0-10-4.8:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2000:0:0:</>
+</block H-0-10-4.8:>
+<block H-1-4-6:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2020:0:0:</>
+</block H-1-4-6:B>
+<block H-0-16-5.6:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2040:0:0:</>
+</block H-0-16-5.6:>
+<block H-1-8-5.9:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:2060:1.5:2.5:</>
+<BlockPosXYZ>:2060:0:0:</>
+</block H-1-8-5.9:P2>
+<block H-0-11-4.9:BP2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:2080:1.5:-2.5:</>
+<BlockPosXYZ>:2080:0:0:</>
+</block H-0-11-4.9:BP2>
+<block H-1-9-5.7:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2100:0:0:</>
+</block H-1-9-5.7:>
+<block H-0-12-5.5:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2120:0:0:</>
+</block H-0-12-5.5:>
+<block H-1-10-5.6:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2140:0:0:</>
+</block H-1-10-5.6:>
+<block H-0-9-4.5:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2160:0:0:</>
+</block H-0-9-4.5:>
+<block H-1-12-5.6:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2180:0:0:</>
+</block H-1-12-5.6:>
+<block H-0-17-6.4:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2200:0:0:</>
+</block H-0-17-6.4:>
+<block H-1-12-5.3:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:2220:1.5:2.5:</>
+<BlockPosXYZ>:2220:0:0:</>
+</block H-1-12-5.3:P2>
+<block H-0-10-6.3:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2240:0:0:</>
+</block H-0-10-6.3:>
+<block H-1-14-5.1:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2260:0:0:</>
+</block H-1-14-5.1:>
+<block H-0-9-4.8:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2280:0:0:</>
+</block H-0-9-4.8:>
+<block H-1-7-4.9:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2300:0:0:</>
+</block H-1-7-4.9:>
+<block H-0-13-6:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2320:0:0:</>
+</block H-0-13-6:>
+<block H-1-13-5.5:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2340:0:0:</>
+</block H-1-13-5.5:>
+<block H-0-11-5.6:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:2360:1.5:-2.5:</>
+<BlockPosXYZ>:2360:0:0:</>
+</block H-0-11-5.6:P2>
+<block H-1-16-6.1:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2380:0:0:</>
+</block H-1-16-6.1:B>
+<block H-0-9-5.4:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2400:0:0:</>
+</block H-0-9-5.4:>
+<block H-1-11-4.919851:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:2420:1:7.5:</>
+<BlockPosXYZ>:2420:0:0:</>
+</block H-1-11-4.919851:C>
+<block H-2-9-3.301025:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:2440:1:7.5:</>
+<BlockPosXYZ>:2440:0:0:</>
+</block H-2-9-3.301025:C>
+<block H-3-20-4.719605:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2460:0:0:</>
+</block H-3-20-4.719605:>
+<block H-1-13-2.444227:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2480:0:0:</>
+</block H-1-13-2.444227:>
+<block H-0-14-4.277491:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:2500:1:7.5:</>
+<BlockPosXYZ>:2500:0:0:</>
+</block H-0-14-4.277491:C>
+<block H-1-10-3.093056:P3C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:2520:1:7.5:</>
+<PowerPosXYZ:2520:1.5:2:</>
+<BlockPosXYZ>:2520:0:0:</>
+</block H-1-10-3.093056:P3C>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:2540:0:0:</>
+</block >
+<block H-2-8-3.066415:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2560:0:0:</>
+</block H-2-8-3.066415:>
+<block H-1-9-4.746592:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:2580:1:7.5:</>
+<BlockPosXYZ>:2580:0:0:</>
+</block H-1-9-4.746592:C>
+<block H-2-9-2.940586:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:2600:1.5:0:</>
+<BlockPosXYZ>:2600:0:0:</>
+</block H-2-9-2.940586:P3>
+<block H-0-11-4.240812:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2620:0:0:</>
+</block H-0-11-4.240812:>
+<block H-0-10-3.868888:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2640:0:0:</>
+</block H-0-10-3.868888:>
+<block H-0-13-5.142663:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2660:0:0:</>
+</block H-0-13-5.142663:>
+<block H-0-12-3.582503:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2680:0:0:</>
+</block H-0-12-3.582503:>
+<block H-3-20-3.247811:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2700:0:0:</>
+</block H-3-20-3.247811:B>
+<block H-1-9-4.710825:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2720:0:0:</>
+</block H-1-9-4.710825:B>
+<block H-1-9-3.829055:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2740:0:0:</>
+</block H-1-9-3.829055:>
+<block H-1-8-2.729577:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2760:0:0:</>
+</block H-1-8-2.729577:>
+<block H-0-11-3.734964:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:2780:1:-7.5:</>
+<BlockPosXYZ>:2780:0:0:</>
+</block H-0-11-3.734964:C>
+<block H-1-9-2.25502:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:2800:1:-7.5:</>
+<BlockPosXYZ>:2800:0:0:</>
+</block H-1-9-2.25502:C>
+<block H-3-20-3.751719:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2820:0:0:</>
+</block H-3-20-3.751719:>
+<block H-3-20-4.057916:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2840:0:0:</>
+</block H-3-20-4.057916:>
+<block H-0-6-2.17816:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2860:0:0:</>
+</block H-0-6-2.17816:B>
+<block H-1-9-2.699503:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2880:0:0:</>
+</block H-1-9-2.699503:>
+<block H-1-9-6.4:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:2900:1.5:2.5:</>
+<BlockPosXYZ>:2900:0:0:</>
+</block H-1-9-6.4:P2>
+<block H-0-15-5.5:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:2920:1.5:-2.5:</>
+<BlockPosXYZ>:2920:0:0:</>
+</block H-0-15-5.5:P2>
+<block H-1-12-4.6:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2940:0:0:</>
+</block H-1-12-4.6:>
+<block H-0-15-5.7:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2960:0:0:</>
+</block H-0-15-5.7:>
+<block H-1-11-6.3:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:2980:0:0:</>
+</block H-1-11-6.3:B>
+<block H-0-6-6.2:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3000:0:0:</>
+</block H-0-6-6.2:>
+<block H-1-9-5.2:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3020:0:0:</>
+</block H-1-9-5.2:>
+<block H-0-8-6:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3040:0:0:</>
+</block H-0-8-6:>
+<block H-1-6-6.2:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:3060:1.5:2.5:</>
+<BlockPosXYZ>:3060:0:0:</>
+</block H-1-6-6.2:P2>
+<block H-0-12-5.4:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3080:0:0:</>
+</block H-0-12-5.4:>
+<block H-1-12-4.5:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3100:0:0:</>
+</block H-1-12-4.5:>
+<block H-0-5-4.5:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3120:0:0:</>
+</block H-0-5-4.5:>
+<block H-1-5-5.9:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3140:0:0:</>
+</block H-1-5-5.9:>
+<block H-0-6-5.8:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3160:0:0:</>
+</block H-0-6-5.8:>
+<block H-1-8-6:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:3180:1.5:2.5:</>
+<BlockPosXYZ>:3180:0:0:</>
+</block H-1-8-6:P2>
+<block H-0-10-5.3:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3200:0:0:</>
+</block H-0-10-5.3:>
+<block H-1-11-6.2:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3220:0:0:</>
+</block H-1-11-6.2:>
+<block H-0-15-6.1:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3240:0:0:</>
+</block H-0-15-6.1:>
+<block H-1-7-4.7:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:3260:1.5:2.5:</>
+<BlockPosXYZ>:3260:0:0:</>
+</block H-1-7-4.7:P2>
+<block H-0-6-6.2:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3280:0:0:</>
+</block H-0-6-6.2:>
+<block H-1-15-5.5:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3300:0:0:</>
+</block H-1-15-5.5:>
+<block H-0-14-4.8:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3320:0:0:</>
+</block H-0-14-4.8:>
+<block H-1-11-4.5:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3340:0:0:</>
+</block H-1-11-4.5:>
+<block H-1-5-3.786365:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3360:0:0:</>
+</block H-1-5-3.786365:>
+<block H-2-11-2.57062:P2C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:3380:1:7.5:</>
+<PowerPosXYZ:3380:1.5:0:</>
+<BlockPosXYZ>:3380:0:0:</>
+</block H-2-11-2.57062:P2C>
+<block H-1-11-2.362122:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3400:0:0:</>
+</block H-1-11-2.362122:B>
+<block H-1-6-4.405086:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:3420:1:-7.5:</>
+<BlockPosXYZ>:3420:0:0:</>
+</block H-1-6-4.405086:C>
+<block H-2-5-3.039605:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3440:0:0:</>
+</block H-2-5-3.039605:>
+<block H-3-20-3.537625:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3460:0:0:</>
+</block H-3-20-3.537625:B>
+<block H-2-12-2.803556:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3480:0:0:</>
+</block H-2-12-2.803556:>
+<block H-2-11-2.566385:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3500:0:0:</>
+</block H-2-11-2.566385:>
+<block H-3-20-3.436252:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3520:0:0:</>
+</block H-3-20-3.436252:>
+<block H-0-14-3.275177:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3540:0:0:</>
+</block H-0-14-3.275177:>
+<block H-1-15-3.05336:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3560:0:0:</>
+</block H-1-15-3.05336:>
+<block H-2-13-3.461522:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3580:0:0:</>
+</block H-2-13-3.461522:>
+<block H-1-6-5.362132:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:3600:1:-7.5:</>
+<BlockPosXYZ>:3600:0:0:</>
+</block H-1-6-5.362132:C>
+<block H-2-9-2.988678:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3620:0:0:</>
+</block H-2-9-2.988678:>
+<block H-2-14-2.842156:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3640:0:0:</>
+</block H-2-14-2.842156:>
+<block H-1-9-3.675868:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3660:0:0:</>
+</block H-1-9-3.675868:>
+<block H-0-8-4.83992:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3680:0:0:</>
+</block H-0-8-4.83992:>
+<block H-2-13-3.359841:CP3>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:3700:1:7.5:</>
+<PowerPosXYZ:3700:1.5:0:</>
+<BlockPosXYZ>:3700:0:0:</>
+</block H-2-13-3.359841:CP3>
+<block H-2-11-3.072382:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3720:0:0:</>
+</block H-2-11-3.072382:>
+<block H-0-6-5.873389:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:3740:1:7.5:</>
+<BlockPosXYZ>:3740:0:0:</>
+</block H-0-6-5.873389:BC>
+<block H-1-5-5.818501:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3760:0:0:</>
+</block H-1-5-5.818501:>
+<block H-3-20-2.752584:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3780:0:0:</>
+</block H-3-20-2.752584:>
+<block H-2-11-3.056789:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:3800:1:7.5:</>
+<BlockPosXYZ>:3800:0:0:</>
+</block H-2-11-3.056789:BC>
+<block H-1-12-4.754817:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3820:0:0:</>
+</block H-1-12-4.754817:>
+<block H-0-9-5.6:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3840:0:0:</>
+</block H-0-9-5.6:>
+<block H-1-12-6.4:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:3860:1.5:2.5:</>
+<BlockPosXYZ>:3860:0:0:</>
+</block H-1-12-6.4:P2>
+<block H-0-11-5:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3880:0:0:</>
+</block H-0-11-5:>
+<block H-1-5-6.3:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3900:0:0:</>
+</block H-1-5-6.3:>
+<block H-0-15-4.5:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3920:0:0:</>
+</block H-0-15-4.5:>
+<block H-1-10-5.9:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:3940:1.5:2.5:</>
+<BlockPosXYZ>:3940:0:0:</>
+</block H-1-10-5.9:P2>
+<block H-0-13-6.3:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:3960:1.5:-2.5:</>
+<BlockPosXYZ>:3960:0:0:</>
+</block H-0-13-6.3:P2>
+<block H-1-9-6.3:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:3980:0:0:</>
+</block H-1-9-6.3:>
+<block H-0-13-4.7:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4000:0:0:</>
+</block H-0-13-4.7:>
+<block H-1-14-5.2:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4020:0:0:</>
+</block H-1-14-5.2:>
+<block H-0-6-5:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4040:0:0:</>
+</block H-0-6-5:>
+<block H-1-8-4.5:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4060:0:0:</>
+</block H-1-8-4.5:>
+<block H-0-13-4.6:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:4080:1.5:-2.5:</>
+<BlockPosXYZ>:4080:0:0:</>
+</block H-0-13-4.6:P2>
+<block H-1-8-6.3:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4100:0:0:</>
+</block H-1-8-6.3:>
+<block H-0-11-4.8:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4120:0:0:</>
+</block H-0-11-4.8:>
+<block H-1-9-5.3:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4140:0:0:</>
+</block H-1-9-5.3:>
+<block H-0-12-6.4:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4160:0:0:</>
+</block H-0-12-6.4:>
+<block H-1-18-5:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4180:0:0:</>
+</block H-1-18-5:>
+<block H-0-10-5:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:4200:1.5:-2.5:</>
+<BlockPosXYZ>:4200:0:0:</>
+</block H-0-10-5:P2>
+<block H-1-11-5.5:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4220:0:0:</>
+</block H-1-11-5.5:>
+<block H-0-16-6:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4240:0:0:</>
+</block H-0-16-6:>
+<block H-1-15-5:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4260:0:0:</>
+</block H-1-15-5:>
+<block H-0-9-4.5:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4280:0:0:</>
+</block H-0-9-4.5:B>
+<block H-0-10-2.939549:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:4300:1.5:-2:</>
+<BlockPosXYZ>:4300:0:0:</>
+</block H-0-10-2.939549:P2>
+<block H-1-13-3.571131:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4320:0:0:</>
+</block H-1-13-3.571131:>
+<block H-1-16-4.894477:CP3>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:4340:1:7.5:</>
+<PowerPosXYZ:4340:1.5:0:</>
+<BlockPosXYZ>:4340:0:0:</>
+</block H-1-16-4.894477:CP3>
+<block H-3-20-2.659364:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4360:0:0:</>
+</block H-3-20-2.659364:>
+<block C>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:4380:1:7.5:</>
+<BlockPosXYZ>:4380:0:0:</>
+</block C>
+<block H-0-9-3.993972:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4400:0:0:</>
+</block H-0-9-3.993972:>
+<block H-0-7-3.958428:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4420:0:0:</>
+</block H-0-7-3.958428:>
+<block H-2-8-3.195037:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4440:0:0:</>
+</block H-2-8-3.195037:>
+<block H-3-20-5.522713:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4460:0:0:</>
+</block H-3-20-5.522713:B>
+<block H-3-20-5.119841:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4480:0:0:</>
+</block H-3-20-5.119841:B>
+<block H-1-7-5.546047:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:4500:1:-7.5:</>
+<BlockPosXYZ>:4500:0:0:</>
+</block H-1-7-5.546047:C>
+<block H-2-12-2.871562:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4520:0:0:</>
+</block H-2-12-2.871562:>
+<block H-2-12-3.159527:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:4540:1.5:0:</>
+<BlockPosXYZ>:4540:0:0:</>
+</block H-2-12-3.159527:P1>
+<block H-1-8-2.836226:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:4560:1:7.5:</>
+<BlockPosXYZ>:4560:0:0:</>
+</block H-1-8-2.836226:C>
+<block H-1-13-2.063866:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:4580:1:-7.5:</>
+<BlockPosXYZ>:4580:0:0:</>
+</block H-1-13-2.063866:C>
+<block H-0-7-5.227798:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:4600:1:7.5:</>
+<BlockPosXYZ>:4600:0:0:</>
+</block H-0-7-5.227798:C>
+<block H-1-13-5.346079:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:4620:1:7.5:</>
+<BlockPosXYZ>:4620:0:0:</>
+</block H-1-13-5.346079:C>
+<block H-0-13-5.712121:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4640:0:0:</>
+</block H-0-13-5.712121:>
+<block H-2-15-2.67807:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:4660:1:-7.5:</>
+<BlockPosXYZ>:4660:0:0:</>
+</block H-2-15-2.67807:C>
+<block H-0-15-4.146576:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:4680:1.5:-2:</>
+<BlockPosXYZ>:4680:0:0:</>
+</block H-0-15-4.146576:P1>
+<block H-2-10-3.403291:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:4700:1:-7.5:</>
+<BlockPosXYZ>:4700:0:0:</>
+</block H-2-10-3.403291:C>
+<block H-3-20-4.385196:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4720:0:0:</>
+</block H-3-20-4.385196:>
+<block H-1-18-5.143459:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:4740:1:7.5:</>
+<BlockPosXYZ>:4740:0:0:</>
+</block H-1-18-5.143459:BC>
+<block H-0-13-2.279604:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4760:0:0:</>
+</block H-0-13-2.279604:>
+<block H-1-8-6.3:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4780:0:0:</>
+</block H-1-8-6.3:>
+<block H-0-11-5.3:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4800:0:0:</>
+</block H-0-11-5.3:>
+<block H-1-11-4.7:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4820:0:0:</>
+</block H-1-11-4.7:>
+<block H-0-5-6.3:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4840:0:0:</>
+</block H-0-5-6.3:>
+<block H-1-12-6.4:BP2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:4860:1.5:2.5:</>
+<BlockPosXYZ>:4860:0:0:</>
+</block H-1-12-6.4:BP2>
+<block H-0-12-5.3:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4880:0:0:</>
+</block H-0-12-5.3:>
+<block H-1-12-5.5:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4900:0:0:</>
+</block H-1-12-5.5:>
+<block H-0-7-4.5:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4920:0:0:</>
+</block H-0-7-4.5:>
+<block H-1-9-6:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4940:0:0:</>
+</block H-1-9-6:>
+<block H-0-11-6.2:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4960:0:0:</>
+</block H-0-11-6.2:>
+<block H-1-15-4.8:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:4980:0:0:</>
+</block H-1-15-4.8:>
+<block H-0-13-6:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:5000:0:0:</>
+</block H-0-13-6:>
+<block H-1-11-6:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:5020:0:0:</>
+</block H-1-11-6:>
+<block H-0-7-5.6:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:5040:0:0:</>
+</block H-0-7-5.6:>
+<block H-1-6-5.8:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:5060:1.5:2.5:</>
+<BlockPosXYZ>:5060:0:0:</>
+</block H-1-6-5.8:P2>
+<block H-0-17-5.9:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:5080:0:0:</>
+</block H-0-17-5.9:>
+<block H-1-7-5.9:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:5100:0:0:</>
+</block H-1-7-5.9:>
+<block H-0-11-6.1:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:5120:0:0:</>
+</block H-0-11-6.1:>
+<block H-1-5-5.5:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:5140:0:0:</>
+</block H-1-5-5.5:>
+<block H-0-12-4.5:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:5160:0:0:</>
+</block H-0-12-4.5:>
+<block H-1-11-5.5:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:5180:0:0:</>
+</block H-1-11-5.5:>
+<block H-0-12-5.1:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:5200:0:0:</>
+</block H-0-12-5.1:>
+ock >
+<block H-0-12-3.478562:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:6060:0:0:</>
+</block H-0-12-3.478562:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6080:0:0:</>
+</block >
+<block H-2-13-3.248979:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:6100:0:0:</>
+</block H-2-13-3.248979:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6120:0:0:</>
+</block >
+<block H-0-14-5.216266:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:6140:1.5:-2:</>
+<BlockPosXYZ>:6140:0:0:</>
+</block H-0-14-5.216266:P3>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6160:0:0:</>
+</block >
+<block H-1-8-3.894811:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:6180:0:0:</>
+</block H-1-8-3.894811:B>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6200:0:0:</>
+</block >
+<block H-2-7-3.265978:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:6220:0:0:</>
+</block H-2-7-3.265978:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6240:0:0:</>
+</block >
+<block H-2-13-2.506066:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:6260:0:0:</>
+</block H-2-13-2.506066:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6280:0:0:</>
+</block >
+<block H-2-13-2.655205:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:6300:0:0:</>
+</block H-2-13-2.655205:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6320:0:0:</>
+</block >
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6340:0:0:</>
+</block >
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6360:0:0:</>
+</block >
+<block H-0-16-2.35708:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:6380:0:0:</>
+</block H-0-16-2.35708:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6400:0:0:</>
+</block >
+<block H-0-8-5.115446:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:6420:0:0:</>
+</block H-0-8-5.115446:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6440:0:0:</>
+</block >
+<block H-2-9-2.68483:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:6460:0:0:</>
+</block H-2-9-2.68483:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6480:0:0:</>
+</block >
+<block H-1-9-4.756479:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:6500:0:0:</>
+</block H-1-9-4.756479:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6520:0:0:</>
+</block >
+<block H-1-9-4.658491:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:6540:0:0:</>
+</block H-1-9-4.658491:B>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6560:0:0:</>
+</block >
+<block H-0-4-2.030391:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:6580:0:0:</>
+</block H-0-4-2.030391:B>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6600:0:0:</>
+</block >
+<block H-1-5-4.189356:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:6620:1.5:2:</>
+<BlockPosXYZ>:6620:0:0:</>
+</block H-1-5-4.189356:P1>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6640:0:0:</>
+</block >
+<block H-1-5-4.505642:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:6660:0:0:</>
+</block H-1-5-4.505642:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6680:0:0:</>
+</block >
+<block H-2-8-3.423415:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:6700:0:0:</>
+</block H-2-8-3.423415:B>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6720:0:0:</>
+</block >
+<block P3>
+<sectiontype>StraightFlat(Clone)/>
+<PowerPosXYZ:6740:1.5:0:</>
+<BlockPosXYZ>:6740:0:0:</>
+</block P3>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6760:0:0:</>
+</block >
+<block H-1-12-2.670957:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:6780:0:0:</>
+</block H-1-12-2.670957:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6800:0:0:</>
+</block >
+<block H-2-13-3.08976:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:6820:0:0:</>
+</block H-2-13-3.08976:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6840:0:0:</>
+</block >
+<block H-3-20-2.878031:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:6860:0:0:</>
+</block H-3-20-2.878031:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6880:0:0:</>
+</block >
+<block H-1-13-4.716933:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:6900:0:0:</>
+</block H-1-13-4.716933:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6920:0:0:</>
+</block >
+<block H-0-12-3.823694:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:6940:0:0:</>
+</block H-0-12-3.823694:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:6960:0:0:</>
+</block >
+<block H-2-12-3.446188:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:6980:0:0:</>
+</block H-2-12-3.446188:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7000:0:0:</>
+</block >
+<block H-1-13-3.792746:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:7020:0:0:</>
+</block H-1-13-3.792746:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7040:0:0:</>
+</block >
+<block H-0-16-3.003515:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:7060:1.5:-2:</>
+<BlockPosXYZ>:7060:0:0:</>
+</block H-0-16-3.003515:P2>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7080:0:0:</>
+</block >
+<block H-2-10-2.887852:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:7100:0:0:</>
+</block H-2-10-2.887852:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7120:0:0:</>
+</block >
+<block H-2-11-2.814636:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:7140:0:0:</>
+</block H-2-11-2.814636:B>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7160:0:0:</>
+</block >
+<block H-2-10-3.012059:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:7180:0:0:</>
+</block H-2-10-3.012059:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7200:0:0:</>
+</block >
+<block H-1-14-3.145776:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:7220:1.5:2:</>
+<BlockPosXYZ>:7220:0:0:</>
+</block H-1-14-3.145776:P1>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7240:0:0:</>
+</block >
+<block H-0-7-3.331551:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:7260:1.5:-2:</>
+<BlockPosXYZ>:7260:0:0:</>
+</block H-0-7-3.331551:P1>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7280:0:0:</>
+</block >
+<block H-1-10-2.135532:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:7300:0:0:</>
+</block H-1-10-2.135532:B>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7320:0:0:</>
+</block >
+<block H-0-15-5.814271:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:7340:1.5:-2:</>
+<BlockPosXYZ>:7340:0:0:</>
+</block H-0-15-5.814271:P2>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7360:0:0:</>
+</block >
+<block H-0-9-2.00168:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:7380:0:0:</>
+</block H-0-9-2.00168:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7400:0:0:</>
+</block >
+<block H-0-11-5.212045:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:7420:0:0:</>
+</block H-0-11-5.212045:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7440:0:0:</>
+</block >
+<block H-2-6-3.239282:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:7460:1.5:0:</>
+<BlockPosXYZ>:7460:0:0:</>
+</block H-2-6-3.239282:P2>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7480:0:0:</>
+</block >
+<block H-1-12-3.36037:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:7500:0:0:</>
+</block H-1-12-3.36037:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7520:0:0:</>
+</block >
+<block H-3-20-3.441588:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:7540:0:0:</>
+</block H-3-20-3.441588:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7560:0:0:</>
+</block >
+<block H-0-11-4.469842:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:7580:0:0:</>
+</block H-0-11-4.469842:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7600:0:0:</>
+</block >
+<block H-3-20-4.221721:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:7620:0:0:</>
+</block H-3-20-4.221721:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7640:0:0:</>
+</block >
+<block H-3-20-2.111773:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:7660:0:0:</>
+</block H-3-20-2.111773:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7680:0:0:</>
+</block >
+<block H-0-11-5.950853:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:7700:0:0:</>
+</block H-0-11-5.950853:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7720:0:0:</>
+</block >
+<block H-1-8-2.047312:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:7740:1.5:2:</>
+<BlockPosXYZ>:7740:0:0:</>
+</block H-1-8-2.047312:P1>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7760:0:0:</>
+</block >
+<block H-1-14-3.025452:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:7780:0:0:</>
+</block H-1-14-3.025452:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7800:0:0:</>
+</block >
+<block H-1-5-2.863667:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:7820:0:0:</>
+</block H-1-5-2.863667:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7840:0:0:</>
+</block >
+<block H-1-7-3.340827:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:7860:0:0:</>
+</block H-1-7-3.340827:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7880:0:0:</>
+</block >
+<block H-2-12-3.233182:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:7900:0:0:</>
+</block H-2-12-3.233182:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7920:0:0:</>
+</block >
+<block H-3-20-4.011102:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:7940:0:0:</>
+</block H-3-20-4.011102:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:7960:0:0:</>
+</block >
+<block H-3-20-3.27008:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:7980:0:0:</>
+</block H-3-20-3.27008:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8000:0:0:</>
+</block >
+<block H-2-12-2.505803:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8020:0:0:</>
+</block H-2-12-2.505803:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8040:0:0:</>
+</block >
+<block H-3-20-4.264226:BP3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:8060:1.5:2:</>
+<BlockPosXYZ>:8060:0:0:</>
+</block H-3-20-4.264226:BP3>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8080:0:0:</>
+</block >
+<block H-1-12-3.97557:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8100:0:0:</>
+</block H-1-12-3.97557:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8120:0:0:</>
+</block >
+<block H-2-9-2.964526:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8140:0:0:</>
+</block H-2-9-2.964526:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8160:0:0:</>
+</block >
+<block H-0-10-5.122595:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8180:0:0:</>
+</block H-0-10-5.122595:B>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8200:0:0:</>
+</block >
+<block H-0-10-5.797566:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8220:0:0:</>
+</block H-0-10-5.797566:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8240:0:0:</>
+</block >
+<block H-3-20-4.458815:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8260:0:0:</>
+</block H-3-20-4.458815:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8280:0:0:</>
+</block >
+<block H-3-20-3.039716:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8300:0:0:</>
+</block H-3-20-3.039716:B>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8320:0:0:</>
+</block >
+<block H-0-10-4.535548:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8340:0:0:</>
+</block H-0-10-4.535548:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8360:0:0:</>
+</block >
+<block H-3-20-5.815978:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8380:0:0:</>
+</block H-3-20-5.815978:B>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8400:0:0:</>
+</block >
+<block H-0-14-3.167231:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8420:0:0:</>
+</block H-0-14-3.167231:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8440:0:0:</>
+</block >
+<block H-2-11-2.583066:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8460:0:0:</>
+</block H-2-11-2.583066:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8480:0:0:</>
+</block >
+<block H-2-13-2.59453:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8500:0:0:</>
+</block H-2-13-2.59453:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8520:0:0:</>
+</block >
+<block H-2-10-2.513205:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8540:0:0:</>
+</block H-2-10-2.513205:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8560:0:0:</>
+</block >
+<block H-0-12-3.103908:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8580:0:0:</>
+</block H-0-12-3.103908:B>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8600:0:0:</>
+</block >
+<block H-1-9-4.609663:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8620:0:0:</>
+</block H-1-9-4.609663:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8640:0:0:</>
+</block >
+<block H-0-11-4.191834:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8660:0:0:</>
+</block H-0-11-4.191834:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8680:0:0:</>
+</block >
+<block H-1-12-4.00228:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8700:0:0:</>
+</block H-1-12-4.00228:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8720:0:0:</>
+</block >
+<block H-1-10-2.465777:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8740:0:0:</>
+</block H-1-10-2.465777:B>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8760:0:0:</>
+</block >
+<block H-3-20-2.458761:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8780:0:0:</>
+</block H-3-20-2.458761:B>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8800:0:0:</>
+</block >
+<block H-3-20-3.517177:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8820:0:0:</>
+</block H-3-20-3.517177:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8840:0:0:</>
+</block >
+<block H-0-10-4.254552:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8860:0:0:</>
+</block H-0-10-4.254552:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8880:0:0:</>
+</block >
+<block H-3-20-4.500192:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8900:0:0:</>
+</block H-3-20-4.500192:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8920:0:0:</>
+</block >
+<block H-3-20-3.898154:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8940:0:0:</>
+</block H-3-20-3.898154:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:8960:0:0:</>
+</block >
+<block H-1-9-5.845112:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:8980:0:0:</>
+</block H-1-9-5.845112:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9000:0:0:</>
+</block >
+<block H-1-10-4.211975:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9020:0:0:</>
+</block H-1-10-4.211975:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9040:0:0:</>
+</block >
+<block H-3-20-2.200863:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9060:0:0:</>
+</block H-3-20-2.200863:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9080:0:0:</>
+</block >
+<block H-1-13-5.49496:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9100:0:0:</>
+</block H-1-13-5.49496:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9120:0:0:</>
+</block >
+<block H-0-8-5.849543:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9140:0:0:</>
+</block H-0-8-5.849543:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9160:0:0:</>
+</block >
+<block H-0-4-3.107202:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9180:0:0:</>
+</block H-0-4-3.107202:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9200:0:0:</>
+</block >
+<block H-1-10-5.566833:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9220:0:0:</>
+</block H-1-10-5.566833:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9240:0:0:</>
+</block >
+<block H-1-9-5.498848:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9260:0:0:</>
+</block H-1-9-5.498848:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9280:0:0:</>
+</block >
+<block H-2-10-3.289312:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9300:0:0:</>
+</block H-2-10-3.289312:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9320:0:0:</>
+</block >
+<block H-3-20-5.090125:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9340:0:0:</>
+</block H-3-20-5.090125:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9360:0:0:</>
+</block >
+<block H-3-20-5.825837:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9380:0:0:</>
+</block H-3-20-5.825837:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9400:0:0:</>
+</block >
+<block H-2-14-2.74551:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9420:0:0:</>
+</block H-2-14-2.74551:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9440:0:0:</>
+</block >
+<block H-1-11-2.895176:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:9460:1.5:2:</>
+<BlockPosXYZ>:9460:0:0:</>
+</block H-1-11-2.895176:P2>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9480:0:0:</>
+</block >
+<block H-0-12-3.017635:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9500:0:0:</>
+</block H-0-12-3.017635:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9520:0:0:</>
+</block >
+<block H-3-20-4.538274:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9540:0:0:</>
+</block H-3-20-4.538274:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9560:0:0:</>
+</block >
+<block H-3-20-5.260093:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9580:0:0:</>
+</block H-3-20-5.260093:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9600:0:0:</>
+</block >
+<block H-1-13-3.958466:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9620:0:0:</>
+</block H-1-13-3.958466:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9640:0:0:</>
+</block >
+<block H-2-7-2.822564:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9660:0:0:</>
+</block H-2-7-2.822564:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9680:0:0:</>
+</block >
+<block H-0-10-4.689804:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:9700:1.5:-2:</>
+<BlockPosXYZ>:9700:0:0:</>
+</block H-0-10-4.689804:P2>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9720:0:0:</>
+</block >
+<block H-0-15-4.489663:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9740:0:0:</>
+</block H-0-15-4.489663:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9760:0:0:</>
+</block >
+<block H-2-7-3.064795:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9780:0:0:</>
+</block H-2-7-3.064795:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9800:0:0:</>
+</block >
+<block H-0-15-4.47651:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9820:0:0:</>
+</block H-0-15-4.47651:B>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9840:0:0:</>
+</block >
+<block H-1-9-5.734579:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9860:0:0:</>
+</block H-1-9-5.734579:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9880:0:0:</>
+</block >
+<block H-1-8-2.55549:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9900:0:0:</>
+</block H-1-8-2.55549:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9920:0:0:</>
+</block >
+<block H-0-12-2.016374:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9940:0:0:</>
+</block H-0-12-2.016374:B>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:9960:0:0:</>
+</block >
+<block H-2-14-2.993818:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:9980:0:0:</>
+</block H-2-14-2.993818:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:10000:0:0:</>
+</block >
+<block H-0-13-2.421933:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10020:0:0:</>
+</block H-0-13-2.421933:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:10040:0:0:</>
+</block >
+<block H-3-20-5.635977:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10060:0:0:</>
+</block H-3-20-5.635977:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:10080:0:0:</>
+</block >
+<block H-2-9-3.09489:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10100:0:0:</>
+</block H-2-9-3.09489:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:10120:0:0:</>
+</block >
+<block H-2-11-3.405893:BP1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:10140:1.5:0:</>
+<BlockPosXYZ>:10140:0:0:</>
+</block H-2-11-3.405893:BP1>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:10160:0:0:</>
+</block >
+<block H-0-14-4.308425:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10180:0:0:</>
+</block H-0-14-4.308425:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:10200:0:0:</>
+</block >
+<block H-2-5-3.113425:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10220:0:0:</>
+</block H-2-5-3.113425:>
+<block H-2-11-3.126844:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10240:0:0:</>
+</block H-2-11-3.126844:>
+<block H-2-13-3.121812:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10260:0:0:</>
+</block H-2-13-3.121812:>
+<block H-1-8-4.759648:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10280:0:0:</>
+</block H-1-8-4.759648:>
+<block H-2-15-2.59332:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:10300:1:-7.5:</>
+<BlockPosXYZ>:10300:0:0:</>
+</block H-2-15-2.59332:C>
+<block H-2-8-2.671111:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:10320:1.5:0:</>
+<BlockPosXYZ>:10320:0:0:</>
+</block H-2-8-2.671111:P2>
+<block H-0-13-3.746509:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:10340:1:7.5:</>
+<BlockPosXYZ>:10340:0:0:</>
+</block H-0-13-3.746509:C>
+<block H-1-6-4.777525:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10360:0:0:</>
+</block H-1-6-4.777525:>
+<block H-3-20-5.984741:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10380:0:0:</>
+</block H-3-20-5.984741:>
+<block H-2-10-3.207791:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:10400:1:-7.5:</>
+<BlockPosXYZ>:10400:0:0:</>
+</block H-2-10-3.207791:C>
+<block H-3-20-4.393594:CP3>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:10420:1:7.5:</>
+<PowerPosXYZ:10420:1.5:0:</>
+<BlockPosXYZ>:10420:0:0:</>
+</block H-3-20-4.393594:CP3>
+<block H-0-10-3.606326:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:10440:1:-7.5:</>
+<BlockPosXYZ>:10440:0:0:</>
+</block H-0-10-3.606326:BC>
+<block H-1-5-5.916318:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10460:0:0:</>
+</block H-1-5-5.916318:>
+<block H-1-7-5.63682:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10480:0:0:</>
+</block H-1-7-5.63682:>
+<block H-1-9-4.919908:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10500:0:0:</>
+</block H-1-9-4.919908:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:10520:0:0:</>
+</block >
+<block H-1-10-4.182163:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:10540:1:7.5:</>
+<BlockPosXYZ>:10540:0:0:</>
+</block H-1-10-4.182163:C>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:10560:0:0:</>
+</block >
+<block H-2-14-3.153454:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10580:0:0:</>
+</block H-2-14-3.153454:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:10600:0:0:</>
+</block >
+<block H-0-7-5.83435:P3C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:10620:1:7.5:</>
+<PowerPosXYZ:10620:1.5:-2:</>
+<BlockPosXYZ>:10620:0:0:</>
+</block H-0-7-5.83435:P3C>
+<block H-3-20-5.064514:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10640:0:0:</>
+</block H-3-20-5.064514:>
+<block H-1-12-3.855339:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10660:0:0:</>
+</block H-1-12-3.855339:>
+<block H-1-10-5.053822:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10680:0:0:</>
+</block H-1-10-5.053822:>
+<block H-1-12-4.185013:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10700:0:0:</>
+</block H-1-12-4.185013:>
+<block H-2-4-2.655907:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:10720:1:-7.5:</>
+<BlockPosXYZ>:10720:0:0:</>
+</block H-2-4-2.655907:C>
+<block H-1-12-2.012307:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10740:0:0:</>
+</block H-1-12-2.012307:>
+<block H-0-11-4.890812:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10760:0:0:</>
+</block H-0-11-4.890812:>
+<block H-2-13-3.197884:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10780:0:0:</>
+</block H-2-13-3.197884:>
+<block H-2-8-3.078722:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:10800:1:-7.5:</>
+<BlockPosXYZ>:10800:0:0:</>
+</block H-2-8-3.078722:C>
+<block H-1-15-4.775458:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10820:0:0:</>
+</block H-1-15-4.775458:>
+<block H-0-12-5.091159:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10840:0:0:</>
+</block H-0-12-5.091159:>
+<block H-0-12-2.243103:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:10860:1:-7.5:</>
+<BlockPosXYZ>:10860:0:0:</>
+</block H-0-12-2.243103:C>
+<block H-3-20-2.576423:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10880:0:0:</>
+</block H-3-20-2.576423:>
+<block H-2-8-3.476866:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10900:0:0:</>
+</block H-2-8-3.476866:>
+<block H-0-18-5.621241:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10920:0:0:</>
+</block H-0-18-5.621241:>
+<block H-0-13-3.536864:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10940:0:0:</>
+</block H-0-13-3.536864:B>
+<block H-0-12-5.206453:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:10960:1:-7.5:</>
+<BlockPosXYZ>:10960:0:0:</>
+</block H-0-12-5.206453:C>
+<block H-3-20-3.744307:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:10980:0:0:</>
+</block H-3-20-3.744307:>
+<block H-3-20-5.350033:CP3>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:11000:1:7.5:</>
+<PowerPosXYZ:11000:1.5:0:</>
+<BlockPosXYZ>:11000:0:0:</>
+</block H-3-20-5.350033:CP3>
+<block H-3-20-2.419602:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11020:0:0:</>
+</block H-3-20-2.419602:>
+<block H-0-11-4.968692:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:11040:1:-7.5:</>
+<BlockPosXYZ>:11040:0:0:</>
+</block H-0-11-4.968692:C>
+<block H-3-20-4.334383:P1C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:11060:1:-7.5:</>
+<PowerPosXYZ:11060:1.5:2:</>
+<BlockPosXYZ>:11060:0:0:</>
+</block H-3-20-4.334383:P1C>
+<block H-2-10-3.383634:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11080:0:0:</>
+</block H-2-10-3.383634:>
+<block H-2-15-2.589141:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11100:0:0:</>
+</block H-2-15-2.589141:B>
+<block H-3-20-2.481956:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:11120:1.5:2:</>
+<BlockPosXYZ>:11120:0:0:</>
+</block H-3-20-2.481956:P3>
+<block H-3-20-3.659685:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:11140:1.5:0:</>
+<BlockPosXYZ>:11140:0:0:</>
+</block H-3-20-3.659685:P2>
+<block H-2-11-3.348919:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11160:0:0:</>
+</block H-2-11-3.348919:>
+<block H-2-12-2.900378:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:11180:1:-7.5:</>
+<BlockPosXYZ>:11180:0:0:</>
+</block H-2-12-2.900378:BC>
+<block H-1-12-5.873932:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11200:0:0:</>
+</block H-1-12-5.873932:>
+<block H-1-11-5.752531:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:11220:1:7.5:</>
+<BlockPosXYZ>:11220:0:0:</>
+</block H-1-11-5.752531:C>
+<block H-2-13-2.842725:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11240:0:0:</>
+</block H-2-13-2.842725:>
+<block H-2-12-2.56684:BP2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:11260:1.5:0:</>
+<BlockPosXYZ>:11260:0:0:</>
+</block H-2-12-2.56684:BP2>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:11280:0:0:</>
+</block >
+<block H-1-13-3.01872:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11300:0:0:</>
+</block H-1-13-3.01872:>
+<block H-0-13-2.929798:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:11320:1:-7.5:</>
+<BlockPosXYZ>:11320:0:0:</>
+</block H-0-13-2.929798:C>
+<block H-2-10-3.374746:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11340:0:0:</>
+</block H-2-10-3.374746:>
+<block H-1-8-4.619595:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11360:0:0:</>
+</block H-1-8-4.619595:>
+<block H-1-9-3.376338:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11380:0:0:</>
+</block H-1-9-3.376338:>
+<block H-0-9-5.34759:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:11400:1:7.5:</>
+<BlockPosXYZ>:11400:0:0:</>
+</block H-0-9-5.34759:C>
+<block H-2-4-3.397886:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11420:0:0:</>
+</block H-2-4-3.397886:>
+<block H-3-20-5.56328:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11440:0:0:</>
+</block H-3-20-5.56328:>
+<block H-1-11-2.721614:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:11460:1:-7.5:</>
+<BlockPosXYZ>:11460:0:0:</>
+</block H-1-11-2.721614:C>
+<block H-0-9-2.403506:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:11480:1:-7.5:</>
+<BlockPosXYZ>:11480:0:0:</>
+</block H-0-9-2.403506:C>
+<block H-1-13-5.086091:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11500:0:0:</>
+</block H-1-13-5.086091:>
+<block H-0-13-3.3781:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11520:0:0:</>
+</block H-0-13-3.3781:>
+<block H-3-20-4.907312:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11540:0:0:</>
+</block H-3-20-4.907312:B>
+<block H-3-20-2.839266:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:11560:1:-7.5:</>
+<BlockPosXYZ>:11560:0:0:</>
+</block H-3-20-2.839266:C>
+<block H-1-18-5.594291:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11580:0:0:</>
+</block H-1-18-5.594291:>
+<block H-0-5-4.897957:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11600:0:0:</>
+</block H-0-5-4.897957:>
+<block H-2-13-2.519186:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:11620:1:-7.5:</>
+<BlockPosXYZ>:11620:0:0:</>
+</block H-2-13-2.519186:C>
+<block H-3-20-4.10151:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:11640:1:-7.5:</>
+<BlockPosXYZ>:11640:0:0:</>
+</block H-3-20-4.10151:C>
+<block H-2-13-2.684865:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11660:0:0:</>
+</block H-2-13-2.684865:>
+<block H-1-17-4.106338:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11680:0:0:</>
+</block H-1-17-4.106338:>
+<block H-2-14-3.265783:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:11700:1.5:0:</>
+<BlockPosXYZ>:11700:0:0:</>
+</block H-2-14-3.265783:P1>
+<block H-0-9-4.235031:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11720:0:0:</>
+</block H-0-9-4.235031:>
+<block H-2-8-2.976681:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11740:0:0:</>
+</block H-2-8-2.976681:>
+<block H-3-20-2.20787:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11760:0:0:</>
+</block H-3-20-2.20787:>
+<block H-0-16-2.598848:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11780:0:0:</>
+</block H-0-16-2.598848:>
+<block H-2-10-2.521378:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11800:0:0:</>
+</block H-2-10-2.521378:>
+<block H-1-12-3.416565:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11820:0:0:</>
+</block H-1-12-3.416565:>
+<block H-2-16-2.763006:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:11840:1:7.5:</>
+<BlockPosXYZ>:11840:0:0:</>
+</block H-2-16-2.763006:C>
+<block H-1-17-2.637736:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11860:0:0:</>
+</block H-1-17-2.637736:>
+<block H-2-7-2.87809:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:11880:0:0:</>
+</block H-2-7-2.87809:>
+<block H-2-10-3.021727:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:11900:1:7.5:</>
+<BlockPosXYZ>:11900:0:0:</>
+</block H-2-10-3.021727:C>
+<block C>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:11920:1:-7.5:</>
+<BlockPosXYZ>:11920:0:0:</>
+</block C>
+<block H-0-11-5.821337:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:11940:1:7.5:</>
+<BlockPosXYZ>:11940:0:0:</>
+</block H-0-11-5.821337:BC>
+<block H-3-20-4.627059:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:11960:1:-7.5:</>
+<BlockPosXYZ>:11960:0:0:</>
+</block H-3-20-4.627059:C>
+<block H-0-12-2.134576:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:11980:1:7.5:</>
+<BlockPosXYZ>:11980:0:0:</>
+</block H-0-12-2.134576:C>
+<block H-3-20-2.017197:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:12000:1:-7.5:</>
+<BlockPosXYZ>:12000:0:0:</>
+</block H-3-20-2.017197:BC>
+<block H-2-8-2.510796:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12020:0:0:</>
+</block H-2-8-2.510796:>
+<block H-3-20-4.139889:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:12040:1.5:2:</>
+<BlockPosXYZ>:12040:0:0:</>
+</block H-3-20-4.139889:P2>
+<block H-0-17-3.367371:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:12060:1:7.5:</>
+<BlockPosXYZ>:12060:0:0:</>
+</block H-0-17-3.367371:C>
+<block H-2-9-3.00592:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:12080:1.5:0:</>
+<BlockPosXYZ>:12080:0:0:</>
+</block H-2-9-3.00592:P3>
+<block H-2-14-3.215656:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12100:0:0:</>
+</block H-2-14-3.215656:>
+<block H-0-12-5.146868:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12120:0:0:</>
+</block H-0-12-5.146868:>
+<block H-2-8-2.953941:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12140:0:0:</>
+</block H-2-8-2.953941:>
+<block H-1-11-3.683775:P2C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:12160:1:7.5:</>
+<PowerPosXYZ:12160:1.5:2:</>
+<BlockPosXYZ>:12160:0:0:</>
+</block H-1-11-3.683775:P2C>
+<block H-0-6-3.899229:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:12180:1:7.5:</>
+<BlockPosXYZ>:12180:0:0:</>
+</block H-0-6-3.899229:C>
+<block H-3-20-2.149104:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12200:0:0:</>
+</block H-3-20-2.149104:>
+<block H-0-10-5.622969:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:12220:1.5:0:</>
+<BlockPosXYZ>:12220:0:0:</>
+</block H-0-10-5.622969:P2>
+<block H-1-7-2.386923:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:12240:1:-7.5:</>
+<BlockPosXYZ>:12240:0:0:</>
+</block H-1-7-2.386923:C>
+<block H-3-20-4.792274:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12260:0:0:</>
+</block H-3-20-4.792274:>
+<block H-2-6-3.467591:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:12280:1:7.5:</>
+<BlockPosXYZ>:12280:0:0:</>
+</block H-2-6-3.467591:C>
+<block H-3-20-4.011376:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:12300:1.5:2:</>
+<BlockPosXYZ>:12300:0:0:</>
+</block H-3-20-4.011376:P3>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:12320:0:0:</>
+</block >
+<block H-3-20-5.397567:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12340:0:0:</>
+</block H-3-20-5.397567:>
+<block H-2-8-3.402978:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12360:0:0:</>
+</block H-2-8-3.402978:>
+<block H-2-12-3.354191:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12380:0:0:</>
+</block H-2-12-3.354191:>
+<block H-1-11-2.196081:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12400:0:0:</>
+</block H-1-11-2.196081:>
+<block H-1-12-3.260465:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:12420:1:-7.5:</>
+<BlockPosXYZ>:12420:0:0:</>
+</block H-1-12-3.260465:C>
+<block H-3-20-4.652936:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12440:0:0:</>
+</block H-3-20-4.652936:>
+<block H-3-20-3.216925:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12460:0:0:</>
+</block H-3-20-3.216925:>
+<block H-2-15-3.280938:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12480:0:0:</>
+</block H-2-15-3.280938:>
+<block H-2-12-3.208104:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:12500:1:7.5:</>
+<BlockPosXYZ>:12500:0:0:</>
+</block H-2-12-3.208104:C>
+<block H-3-20-3.421556:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12520:0:0:</>
+</block H-3-20-3.421556:>
+<block H-1-8-4.660607:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12540:0:0:</>
+</block H-1-8-4.660607:>
+<block H-1-12-5.123888:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12560:0:0:</>
+</block H-1-12-5.123888:>
+<block H-2-8-3.011952:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12580:0:0:</>
+</block H-2-8-3.011952:>
+<block H-1-14-5.856441:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:12600:1:-7.5:</>
+<BlockPosXYZ>:12600:0:0:</>
+</block H-1-14-5.856441:C>
+<block H-1-5-3.311404:P3C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:12620:1:7.5:</>
+<PowerPosXYZ:12620:1.5:2:</>
+<BlockPosXYZ>:12620:0:0:</>
+</block H-1-5-3.311404:P3C>
+<block H-3-20-5.823761:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12640:0:0:</>
+</block H-3-20-5.823761:>
+<block H-2-7-3.203809:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12660:0:0:</>
+</block H-2-7-3.203809:>
+<block H-1-9-2.576174:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12680:0:0:</>
+</block H-1-9-2.576174:>
+<block H-3-20-5.309136:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:12700:1:-7.5:</>
+<BlockPosXYZ>:12700:0:0:</>
+</block H-3-20-5.309136:C>
+<block H-0-6-3.796096:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:12720:1:7.5:</>
+<BlockPosXYZ>:12720:0:0:</>
+</block H-0-6-3.796096:BC>
+<block H-3-20-2.863938:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12740:0:0:</>
+</block H-3-20-2.863938:>
+<block H-1-9-5.73806:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:12760:1:-7.5:</>
+<BlockPosXYZ>:12760:0:0:</>
+</block H-1-9-5.73806:C>
+<block H-2-11-2.923331:CP2>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:12780:1:-7.5:</>
+<PowerPosXYZ:12780:1.5:0:</>
+<BlockPosXYZ>:12780:0:0:</>
+</block H-2-11-2.923331:CP2>
+<block H-1-12-5.181756:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12800:0:0:</>
+</block H-1-12-5.181756:>
+<block H-0-6-2.801779:CP2>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:12820:1:7.5:</>
+<PowerPosXYZ:12820:1.5:0:</>
+<BlockPosXYZ>:12820:0:0:</>
+</block H-0-6-2.801779:CP2>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:12840:0:0:</>
+</block >
+<block H-3-20-3.301642:BP1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:12860:1.5:2:</>
+<BlockPosXYZ>:12860:0:0:</>
+</block H-3-20-3.301642:BP1>
+<block H-2-8-2.541899:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12880:0:0:</>
+</block H-2-8-2.541899:>
+<block H-2-15-2.522243:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12900:0:0:</>
+</block H-2-15-2.522243:>
+<block H-0-4-4.228276:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:12920:1:7.5:</>
+<BlockPosXYZ>:12920:0:0:</>
+</block H-0-4-4.228276:C>
+<block H-3-20-2.301011:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12940:0:0:</>
+</block H-3-20-2.301011:>
+<block H-1-11-2.095247:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:12960:1:7.5:</>
+<BlockPosXYZ>:12960:0:0:</>
+</block H-1-11-2.095247:C>
+<block H-2-9-3.272021:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:12980:0:0:</>
+</block H-2-9-3.272021:>
+<block H-2-12-3.3524:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13000:0:0:</>
+</block H-2-12-3.3524:>
+<block H-2-15-2.644582:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:13020:1.5:0:</>
+<BlockPosXYZ>:13020:0:0:</>
+</block H-2-15-2.644582:P3>
+<block H-1-8-2.304551:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:13040:1:7.5:</>
+<BlockPosXYZ>:13040:0:0:</>
+</block H-1-8-2.304551:C>
+<block H-2-13-2.700537:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:13060:1:-7.5:</>
+<BlockPosXYZ>:13060:0:0:</>
+</block H-2-13-2.700537:C>
+<block H-1-8-5.205773:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:13080:1:-7.5:</>
+<BlockPosXYZ>:13080:0:0:</>
+</block H-1-8-5.205773:C>
+<block H-1-13-5.523177:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:13100:1.5:2:</>
+<BlockPosXYZ>:13100:0:0:</>
+</block H-1-13-5.523177:P2>
+<block H-3-20-5.524796:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13120:0:0:</>
+</block H-3-20-5.524796:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:13140:0:0:</>
+</block >
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:13160:0:0:</>
+</block >
+<block H-2-13-3.05822:CP3>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:13180:1:-7.5:</>
+<PowerPosXYZ:13180:1.5:0:</>
+<BlockPosXYZ>:13180:0:0:</>
+</block H-2-13-3.05822:CP3>
+<block H-3-20-4.449409:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13200:0:0:</>
+</block H-3-20-4.449409:>
+<block H-3-20-4.374332:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13220:0:0:</>
+</block H-3-20-4.374332:>
+<block H-1-8-5.571979:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13240:0:0:</>
+</block H-1-8-5.571979:B>
+<block H-3-20-2.931579:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:13260:1.5:2:</>
+<BlockPosXYZ>:13260:0:0:</>
+</block H-3-20-2.931579:P2>
+<block H-3-20-2.358897:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13280:0:0:</>
+</block H-3-20-2.358897:>
+<block H-1-6-4.950037:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13300:0:0:</>
+</block H-1-6-4.950037:>
+<block C>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:13320:1:7.5:</>
+<BlockPosXYZ>:13320:0:0:</>
+</block C>
+<block H-2-10-3.195231:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13340:0:0:</>
+</block H-2-10-3.195231:>
+<block H-2-7-3.158234:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13360:0:0:</>
+</block H-2-7-3.158234:>
+<block H-3-20-5.912753:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13380:0:0:</>
+</block H-3-20-5.912753:>
+<block H-0-7-5.476253:P3C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:13400:1:-7.5:</>
+<PowerPosXYZ:13400:1.5:-2:</>
+<BlockPosXYZ>:13400:0:0:</>
+</block H-0-7-5.476253:P3C>
+<block H-2-8-3.085456:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:13420:1.5:0:</>
+<BlockPosXYZ>:13420:0:0:</>
+</block H-2-8-3.085456:P1>
+<block H-2-11-3.20211:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13440:0:0:</>
+</block H-2-11-3.20211:>
+<block H-0-8-3.683435:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:13460:1:-7.5:</>
+<BlockPosXYZ>:13460:0:0:</>
+</block H-0-8-3.683435:C>
+<block H-3-20-5.191444:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13480:0:0:</>
+</block H-3-20-5.191444:>
+<block H-1-12-4.613194:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13500:0:0:</>
+</block H-1-12-4.613194:>
+<block H-1-6-4.657474:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:13520:1:-7.5:</>
+<BlockPosXYZ>:13520:0:0:</>
+</block H-1-6-4.657474:C>
+<block H-2-11-2.741974:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:13540:1:7.5:</>
+<BlockPosXYZ>:13540:0:0:</>
+</block H-2-11-2.741974:BC>
+<block C>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:13560:1:-7.5:</>
+<BlockPosXYZ>:13560:0:0:</>
+</block C>
+<block H-3-20-3.803661:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:13580:1:7.5:</>
+<BlockPosXYZ>:13580:0:0:</>
+</block H-3-20-3.803661:C>
+<block H-0-7-3.64547:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:13600:1:-7.5:</>
+<BlockPosXYZ>:13600:0:0:</>
+</block H-0-7-3.64547:C>
+<block H-2-10-3.369422:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13620:0:0:</>
+</block H-2-10-3.369422:>
+<block H-0-9-3.679272:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:13640:1.5:-2:</>
+<BlockPosXYZ>:13640:0:0:</>
+</block H-0-9-3.679272:P3>
+<block H-3-20-4.207281:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:13660:1:7.5:</>
+<BlockPosXYZ>:13660:0:0:</>
+</block H-3-20-4.207281:C>
+<block H-3-20-3.015975:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13680:0:0:</>
+</block H-3-20-3.015975:>
+<block H-3-20-2.539687:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13700:0:0:</>
+</block H-3-20-2.539687:>
+<block H-1-16-5.571113:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13720:0:0:</>
+</block H-1-16-5.571113:>
+<block H-1-9-5.588627:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13740:0:0:</>
+</block H-1-9-5.588627:>
+<block C>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:13760:1:-7.5:</>
+<BlockPosXYZ>:13760:0:0:</>
+</block C>
+<block H-3-20-2.253382:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13780:0:0:</>
+</block H-3-20-2.253382:B>
+<block H-3-20-5.663823:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:13800:1.5:2:</>
+<BlockPosXYZ>:13800:0:0:</>
+</block H-3-20-5.663823:P1>
+<block H-3-20-5.471507:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13820:0:0:</>
+</block H-3-20-5.471507:>
+<block H-2-15-2.830232:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13840:0:0:</>
+</block H-2-15-2.830232:>
+<block H-0-16-5.521024:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:13860:1:-7.5:</>
+<BlockPosXYZ>:13860:0:0:</>
+</block H-0-16-5.521024:C>
+<block H-3-20-5.379044:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13880:0:0:</>
+</block H-3-20-5.379044:>
+<block H-0-10-2.220432:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:13900:1:7.5:</>
+<BlockPosXYZ>:13900:0:0:</>
+</block H-0-10-2.220432:C>
+<block H-0-8-4.73753:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13920:0:0:</>
+</block H-0-8-4.73753:>
+<block H-2-9-2.952534:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13940:0:0:</>
+</block H-2-9-2.952534:>
+<block H-3-20-4.377963:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:13960:0:0:</>
+</block H-3-20-4.377963:>
+<block H-2-10-3.466371:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:13980:1:7.5:</>
+<BlockPosXYZ>:13980:0:0:</>
+</block H-2-10-3.466371:C>
+<block H-3-20-4.584414:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:14000:1:-7.5:</>
+<BlockPosXYZ>:14000:0:0:</>
+</block H-3-20-4.584414:C>
+<block H-0-5-5.023561:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:14020:1.5:0:</>
+<BlockPosXYZ>:14020:0:0:</>
+</block H-0-5-5.023561:P1>
+<block H-0-12-5.417809:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14040:0:0:</>
+</block H-0-12-5.417809:>
+<block H-1-17-5.763895:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:14060:1:7.5:</>
+<BlockPosXYZ>:14060:0:0:</>
+</block H-1-17-5.763895:C>
+<block H-2-6-2.536824:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14080:0:0:</>
+</block H-2-6-2.536824:>
+<block H-2-5-3.07409:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14100:0:0:</>
+</block H-2-5-3.07409:>
+<block H-0-12-5.642413:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:14120:1:-7.5:</>
+<BlockPosXYZ>:14120:0:0:</>
+</block H-0-12-5.642413:C>
+<block H-1-14-2.56489:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:14140:1:7.5:</>
+<BlockPosXYZ>:14140:0:0:</>
+</block H-1-14-2.56489:C>
+<block H-1-10-4.245288:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14160:0:0:</>
+</block H-1-10-4.245288:>
+<block H-2-10-3.12785:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14180:0:0:</>
+</block H-2-10-3.12785:>
+<block H-1-13-2.995389:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14200:0:0:</>
+</block H-1-13-2.995389:>
+<block H-2-11-2.767736:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:14220:1:-7.5:</>
+<BlockPosXYZ>:14220:0:0:</>
+</block H-2-11-2.767736:C>
+<block H-2-15-2.850037:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:14240:1:-7.5:</>
+<BlockPosXYZ>:14240:0:0:</>
+</block H-2-15-2.850037:C>
+<block H-3-20-2.708774:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:14260:1:7.5:</>
+<BlockPosXYZ>:14260:0:0:</>
+</block H-3-20-2.708774:C>
+<block H-1-12-3.825432:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14280:0:0:</>
+</block H-1-12-3.825432:>
+<block H-0-9-4.324277:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14300:0:0:</>
+</block H-0-9-4.324277:>
+<block H-0-6-2.739387:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14320:0:0:</>
+</block H-0-6-2.739387:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:14340:0:0:</>
+</block >
+<block H-2-9-2.852788:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14360:0:0:</>
+</block H-2-9-2.852788:>
+<block H-2-13-2.727373:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14380:0:0:</>
+</block H-2-13-2.727373:>
+<block H-3-20-2.673531:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:14400:1:-7.5:</>
+<BlockPosXYZ>:14400:0:0:</>
+</block H-3-20-2.673531:C>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:14420:0:0:</>
+</block >
+<block H-2-13-2.575429:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:14440:1:7.5:</>
+<BlockPosXYZ>:14440:0:0:</>
+</block H-2-13-2.575429:C>
+<block H-0-10-4.279264:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:14460:1:7.5:</>
+<BlockPosXYZ>:14460:0:0:</>
+</block H-0-10-4.279264:C>
+<block H-2-13-3.037583:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14480:0:0:</>
+</block H-2-13-3.037583:>
+<block H-0-12-4.734881:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:14500:1:7.5:</>
+<BlockPosXYZ>:14500:0:0:</>
+</block H-0-12-4.734881:C>
+<block H-0-15-4.876839:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:14520:1:-7.5:</>
+<BlockPosXYZ>:14520:0:0:</>
+</block H-0-15-4.876839:C>
+<block H-0-14-2.216158:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14540:0:0:</>
+</block H-0-14-2.216158:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:14560:0:0:</>
+</block >
+<block H-0-9-3.27683:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14580:0:0:</>
+</block H-0-9-3.27683:>
+<block H-0-13-5.107948:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14600:0:0:</>
+</block H-0-13-5.107948:>
+<block H-0-12-3.630899:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14620:0:0:</>
+</block H-0-12-3.630899:>
+<block H-3-20-4.680434:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14640:0:0:</>
+</block H-3-20-4.680434:>
+<block H-2-11-3.481481:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14660:0:0:</>
+</block H-2-11-3.481481:>
+<block H-3-20-3.363745:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:14680:1:-7.5:</>
+<BlockPosXYZ>:14680:0:0:</>
+</block H-3-20-3.363745:C>
+<block H-1-10-3.322325:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14700:0:0:</>
+</block H-1-10-3.322325:>
+<block H-1-13-3.467785:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14720:0:0:</>
+</block H-1-13-3.467785:B>
+<block H-0-5-2.866425:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14740:0:0:</>
+</block H-0-5-2.866425:>
+<block H-1-14-3.586841:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14760:0:0:</>
+</block H-1-14-3.586841:B>
+<block H-0-10-3.909959:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:14780:1:-7.5:</>
+<BlockPosXYZ>:14780:0:0:</>
+</block H-0-10-3.909959:C>
+<block H-2-9-2.988102:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14800:0:0:</>
+</block H-2-9-2.988102:>
+<block H-0-12-3.5459:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14820:0:0:</>
+</block H-0-12-3.5459:>
+<block H-0-8-4.263876:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:14840:1.5:-2:</>
+<BlockPosXYZ>:14840:0:0:</>
+</block H-0-8-4.263876:P1>
+<block C>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:14860:1:-7.5:</>
+<BlockPosXYZ>:14860:0:0:</>
+</block C>
+<block H-0-8-2.302444:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:14880:1:7.5:</>
+<BlockPosXYZ>:14880:0:0:</>
+</block H-0-8-2.302444:C>
+<block H-0-14-4.186625:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:14900:1:-7.5:</>
+<BlockPosXYZ>:14900:0:0:</>
+</block H-0-14-4.186625:C>
+<block H-3-20-2.843695:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14920:0:0:</>
+</block H-3-20-2.843695:B>
+<block H-1-9-2.413942:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14940:0:0:</>
+</block H-1-9-2.413942:>
+<block H-2-8-2.612015:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:14960:1.5:0:</>
+<BlockPosXYZ>:14960:0:0:</>
+</block H-2-8-2.612015:P1>
+<block H-0-16-5.986631:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:14980:0:0:</>
+</block H-0-16-5.986631:>
+<block H-0-11-4.221188:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:15000:0:0:</>
+</block H-0-11-4.221188:>
+<block H-3-20-4.385324:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:15020:1.5:2:</>
+<BlockPosXYZ>:15020:0:0:</>
+</block H-3-20-4.385324:P3>
+<block H-2-15-2.641935:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:15040:1:-7.5:</>
+<BlockPosXYZ>:15040:0:0:</>
+</block H-2-15-2.641935:C>
+<block H-3-20-2.872905:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:15060:1:-7.5:</>
+<BlockPosXYZ>:15060:0:0:</>
+</block H-3-20-2.872905:C>
+<block H-2-12-2.772824:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:15080:0:0:</>
+</block H-2-12-2.772824:>
+<block H-0-12-4.9596:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:15100:0:0:</>
+</block H-0-12-4.9596:>
+<block H-0-11-3.914062:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:15120:0:0:</>
+</block H-0-11-3.914062:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:15140:0:0:</>
+</block >
+<block H-0-14-3.890293:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:15160:0:0:</>
+</block H-0-14-3.890293:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:15180:0:0:</>
+</block >
+<block H-3-20-4.714872:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:15200:1.5:2:</>
+<BlockPosXYZ>:15200:0:0:</>
+</block H-3-20-4.714872:P2>
+<block H-3-20-3.735508:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:15220:1:7.5:</>
+<BlockPosXYZ>:15220:0:0:</>
+</block H-3-20-3.735508:C>
+<block H-1-11-3.006908:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:15240:0:0:</>
+</block H-1-11-3.006908:>
+<block H-2-8-2.514466:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:15260:0:0:</>
+</block H-2-8-2.514466:B>
+<block H-1-15-2.725311:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:15280:0:0:</>
+</block H-1-15-2.725311:>
+<block H-0-9-4.710793:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:15300:0:0:</>
+</block H-0-9-4.710793:>
+<block H-1-12-3.969965:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:15320:0:0:</>
+</block H-1-12-3.969965:>
+<block H-2-11-3.082548:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:15340:1.5:0:</>
+<BlockPosXYZ>:15340:0:0:</>
+</block H-2-11-3.082548:P2>
+<block H-3-20-5.587946:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:15360:0:0:</>
+</block H-3-20-5.587946:>
+<block H-0-9-5.086206:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:15380:1.5:0:</>
+<BlockPosXYZ>:15380:0:0:</>
+</block H-0-9-5.086206:P1>
+<block H-1-8-3.018355:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:15400:1:-7.5:</>
+<BlockPosXYZ>:15400:0:0:</>
+</block H-1-8-3.018355:C>
+<block H-0-15-3.671065:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:15420:1:7.5:</>
+<BlockPosXYZ>:15420:0:0:</>
+</block H-0-15-3.671065:C>
+<block H-2-8-2.714737:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:15440:1:7.5:</>
+<BlockPosXYZ>:15440:0:0:</>
+</block H-2-8-2.714737:C>
+<block H-1-14-3.155891:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:15460:0:0:</>
+</block H-1-14-3.155891:>
+<block H-3-20-4.02424:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:15480:1:-7.5:</>
+<BlockPosXYZ>:15480:0:0:</>
+</block H-3-20-4.02424:C>
+<block H-1-12-5.976757:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:15500:0:0:</>
+</block H-1-12-5.976757:>
+<block H-3-20-4.696737:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:15520:0:0:</>
+</block H-3-20-4.696737:>
+<block H-3-20-3.051262:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:15540:1.5:2:</>
+<BlockPosXYZ>:15540:0:0:</>
+</block H-3-20-3.051262:P1>
+<block H-0-12-3.275532:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:15560:0:0:</>
+</block H-0-12-3.275532:>
+<block C>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:15580:1:7.5:</>
+<BlockPosXYZ>:15580:0:0:</>
+</block C>
+<block H-3-20-4.121397:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:15600:1:-7.5:</>
+<BlockPosXYZ>:15600:0:0:</>
+</block H-3-20-4.121397:C>
+<block H-2-10-2.775469:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:15620:1.5:0:</>
+<BlockPosXYZ>:15620:0:0:</>
+</block H-2-10-2.775469:P2>
+<block H-2-10-2.746585:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:15640:1:7.5:</>
+<BlockPosXYZ>:15640:0:0:</>
+</block H-2-10-2.746585:C>
+<block H-1-9-2.062669:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:15660:1:-7.5:</>
+<BlockPosXYZ>:15660:0:0:</>
+</block H-1-9-2.062669:C>
+<block H-3-20-5.459866:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:15680:1:7.5:</>
+<BlockPosXYZ>:15680:0:0:</>
+</block H-3-20-5.459866:BC>
+<block H-1-8-4.584498:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:15700:0:0:</>
+</block H-1-8-4.584498:>
+<block H-3-20-3.859016:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:15720:1.5:0:</>
+<BlockPosXYZ>:15720:0:0:</>
+</block H-3-20-3.859016:P2>
+<block H-0-11-5.2592:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:15740:1:-7.5:</>
+<BlockPosXYZ>:15740:0:0:</>
+</block H-0-11-5.2592:C>
+<block H-1-14-3.602307:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:15760:0:0:</>
+</block H-1-14-3.602307:B>
+<block H-2-12-2.557084:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:15780:0:0:</>
+</block H-2-12-2.557084:>
+<block H-1-11-3.616838:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:15800:1:-7.5:</>
+<BlockPosXYZ>:15800:0:0:</>
+</block H-1-11-3.616838:C>
+<block H-0-10-5.901532:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:15820:0:0:</>
+</block H-0-10-5.901532:>
+<block H-3-20-2.047836:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:15840:1.5:2:</>
+<BlockPosXYZ>:15840:0:0:</>
+</block H-3-20-2.047836:P3>
+<block H-0-7-5.617783:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:15860:0:0:</>
+</block H-0-7-5.617783:B>
+<block H-0-6-2.790168:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:15880:1:-7.5:</>
+<BlockPosXYZ>:15880:0:0:</>
+</block H-0-6-2.790168:C>
+<block H-0-10-4.287629:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:15900:0:0:</>
+</block H-0-10-4.287629:>
+<block H-2-9-3.212886:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:15920:1.5:0:</>
+<BlockPosXYZ>:15920:0:0:</>
+</block H-2-9-3.212886:P2>
+<block C>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:15940:1:-7.5:</>
+<BlockPosXYZ>:15940:0:0:</>
+</block C>
+<block P1>
+<sectiontype>StraightFlat(Clone)/>
+<PowerPosXYZ:15960:1.5:0:</>
+<BlockPosXYZ>:15960:0:0:</>
+</block P1>
+<block H-1-12-2.916588:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:15980:1:-7.5:</>
+<BlockPosXYZ>:15980:0:0:</>
+</block H-1-12-2.916588:C>
+<block H-3-20-3.613519:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16000:0:0:</>
+</block H-3-20-3.613519:>
+<block H-3-20-5.562391:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:16020:1.5:0:</>
+<BlockPosXYZ>:16020:0:0:</>
+</block H-3-20-5.562391:P2>
+<block H-2-14-2.939318:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16040:0:0:</>
+</block H-2-14-2.939318:>
+<block H-1-10-5.922645:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:16060:1:7.5:</>
+<BlockPosXYZ>:16060:0:0:</>
+</block H-1-10-5.922645:C>
+<block H-3-20-4.737696:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16080:0:0:</>
+</block H-3-20-4.737696:>
+<block H-1-9-4.372156:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16100:0:0:</>
+</block H-1-9-4.372156:>
+<block H-3-20-3.427104:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16120:0:0:</>
+</block H-3-20-3.427104:>
+<block H-1-7-4.660067:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:16140:1.5:2:</>
+<BlockPosXYZ>:16140:0:0:</>
+</block H-1-7-4.660067:P1>
+<block H-1-9-4.37303:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16160:0:0:</>
+</block H-1-9-4.37303:>
+<block H-0-12-5.746958:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:16180:1:7.5:</>
+<BlockPosXYZ>:16180:0:0:</>
+</block H-0-12-5.746958:BC>
+<block H-1-13-5.226196:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16200:0:0:</>
+</block H-1-13-5.226196:>
+<block H-2-10-2.516784:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16220:0:0:</>
+</block H-2-10-2.516784:>
+<block H-3-20-2.390097:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:16240:1:7.5:</>
+<BlockPosXYZ>:16240:0:0:</>
+</block H-3-20-2.390097:C>
+<block H-0-7-5.529214:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:16260:1:7.5:</>
+<BlockPosXYZ>:16260:0:0:</>
+</block H-0-7-5.529214:C>
+<block H-1-5-3.746931:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16280:0:0:</>
+</block H-1-5-3.746931:>
+<block P1>
+<sectiontype>StraightFlat(Clone)/>
+<PowerPosXYZ:16300:1.5:0:</>
+<BlockPosXYZ>:16300:0:0:</>
+</block P1>
+<block H-2-7-2.993557:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:16320:1:-7.5:</>
+<BlockPosXYZ>:16320:0:0:</>
+</block H-2-7-2.993557:C>
+<block H-0-8-3.94181:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:16340:1:-7.5:</>
+<BlockPosXYZ>:16340:0:0:</>
+</block H-0-8-3.94181:C>
+<block H-2-9-2.874443:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:16360:1:7.5:</>
+<BlockPosXYZ>:16360:0:0:</>
+</block H-2-9-2.874443:C>
+<block H-3-20-5.897328:P1C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:16380:1:-7.5:</>
+<PowerPosXYZ:16380:1.5:2:</>
+<BlockPosXYZ>:16380:0:0:</>
+</block H-3-20-5.897328:P1C>
+<block H-3-20-4.201823:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:16400:1:7.5:</>
+<BlockPosXYZ>:16400:0:0:</>
+</block H-3-20-4.201823:C>
+<block H-0-15-5.552646:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16420:0:0:</>
+</block H-0-15-5.552646:>
+<block H-1-13-5.010333:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16440:0:0:</>
+</block H-1-13-5.010333:>
+<block H-0-14-3.127979:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16460:0:0:</>
+</block H-0-14-3.127979:>
+<block H-0-3-4.659946:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16480:0:0:</>
+</block H-0-3-4.659946:>
+<block H-1-10-2.1092:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:16500:1:-7.5:</>
+<BlockPosXYZ>:16500:0:0:</>
+</block H-1-10-2.1092:C>
+<block H-3-20-3.337012:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16520:0:0:</>
+</block H-3-20-3.337012:B>
+<block H-0-13-2.58214:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16540:0:0:</>
+</block H-0-13-2.58214:>
+<block H-0-8-4.024505:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16560:0:0:</>
+</block H-0-8-4.024505:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:16580:0:0:</>
+</block >
+<block H-2-7-2.862981:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16600:0:0:</>
+</block H-2-7-2.862981:>
+<block H-2-11-2.554228:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:16620:1:-7.5:</>
+<BlockPosXYZ>:16620:0:0:</>
+</block H-2-11-2.554228:C>
+<block H-0-9-2.27599:P1C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:16640:1:7.5:</>
+<PowerPosXYZ:16640:1.5:-2:</>
+<BlockPosXYZ>:16640:0:0:</>
+</block H-0-9-2.27599:P1C>
+<block H-2-10-3.233996:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16660:0:0:</>
+</block H-2-10-3.233996:B>
+<block H-0-8-2.58955:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16680:0:0:</>
+</block H-0-8-2.58955:>
+<block H-1-11-2.39961:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16700:0:0:</>
+</block H-1-11-2.39961:>
+<block H-3-20-3.469413:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16720:0:0:</>
+</block H-3-20-3.469413:>
+<block H-3-20-3.053862:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16740:0:0:</>
+</block H-3-20-3.053862:>
+<block H-1-6-3.542672:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16760:0:0:</>
+</block H-1-6-3.542672:>
+<block H-3-20-4.540787:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:16780:1:-7.5:</>
+<BlockPosXYZ>:16780:0:0:</>
+</block H-3-20-4.540787:BC>
+<block H-0-10-2.709002:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16800:0:0:</>
+</block H-0-10-2.709002:>
+<block H-3-20-2.908839:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16820:0:0:</>
+</block H-3-20-2.908839:>
+<block H-0-9-3.45719:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16840:0:0:</>
+</block H-0-9-3.45719:>
+<block H-1-15-5.838522:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:16860:1:-7.5:</>
+<BlockPosXYZ>:16860:0:0:</>
+</block H-1-15-5.838522:C>
+<block C>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:16880:1:7.5:</>
+<BlockPosXYZ>:16880:0:0:</>
+</block C>
+<block H-3-20-5.455501:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16900:0:0:</>
+</block H-3-20-5.455501:>
+<block H-2-10-2.648479:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16920:0:0:</>
+</block H-2-10-2.648479:>
+<block H-3-20-3.321145:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16940:0:0:</>
+</block H-3-20-3.321145:>
+<block H-1-12-5.170857:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16960:0:0:</>
+</block H-1-12-5.170857:>
+<block H-2-7-3.181691:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:16980:0:0:</>
+</block H-2-7-3.181691:>
+<block H-2-15-3.045077:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:17000:1:7.5:</>
+<BlockPosXYZ>:17000:0:0:</>
+</block H-2-15-3.045077:C>
+<block H-0-12-2.085645:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17020:0:0:</>
+</block H-0-12-2.085645:B>
+<block H-2-9-3.368355:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17040:0:0:</>
+</block H-2-9-3.368355:>
+<block H-1-11-5.576237:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:17060:1:7.5:</>
+<BlockPosXYZ>:17060:0:0:</>
+</block H-1-11-5.576237:C>
+<block H-2-11-2.939152:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17080:0:0:</>
+</block H-2-11-2.939152:>
+<block H-3-20-3.742764:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17100:0:0:</>
+</block H-3-20-3.742764:>
+<block H-0-8-3.27964:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17120:0:0:</>
+</block H-0-8-3.27964:>
+<block H-0-13-2.184343:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17140:0:0:</>
+</block H-0-13-2.184343:>
+<block H-0-11-4.634882:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17160:0:0:</>
+</block H-0-11-4.634882:>
+<block H-0-10-5.518803:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:17180:1:7.5:</>
+<BlockPosXYZ>:17180:0:0:</>
+</block H-0-10-5.518803:C>
+<block H-1-12-2.874184:CP2>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:17200:1:7.5:</>
+<PowerPosXYZ:17200:1.5:0:</>
+<BlockPosXYZ>:17200:0:0:</>
+</block H-1-12-2.874184:CP2>
+<block H-3-20-3.904415:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:17220:1:7.5:</>
+<BlockPosXYZ>:17220:0:0:</>
+</block H-3-20-3.904415:C>
+<block H-2-12-2.843684:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:17240:1:7.5:</>
+<BlockPosXYZ>:17240:0:0:</>
+</block H-2-12-2.843684:BC>
+<block H-3-20-4.942108:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:17260:1.5:2:</>
+<BlockPosXYZ>:17260:0:0:</>
+</block H-3-20-4.942108:P1>
+<block H-2-12-3.170977:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17280:0:0:</>
+</block H-2-12-3.170977:>
+<block H-3-20-4.054548:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17300:0:0:</>
+</block H-3-20-4.054548:>
+<block H-3-20-4.149099:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17320:0:0:</>
+</block H-3-20-4.149099:>
+<block H-0-14-5.383428:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:17340:1.5:0:</>
+<BlockPosXYZ>:17340:0:0:</>
+</block H-0-14-5.383428:P3>
+<block H-2-6-2.96896:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17360:0:0:</>
+</block H-2-6-2.96896:>
+<block H-0-9-3.339752:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:17380:1:7.5:</>
+<BlockPosXYZ>:17380:0:0:</>
+</block H-0-9-3.339752:C>
+<block H-3-20-3.533715:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17400:0:0:</>
+</block H-3-20-3.533715:>
+<block H-2-16-3.464246:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17420:0:0:</>
+</block H-2-16-3.464246:B>
+<block H-3-20-5.460059:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17440:0:0:</>
+</block H-3-20-5.460059:>
+<block H-2-10-2.650758:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17460:0:0:</>
+</block H-2-10-2.650758:>
+<block P3>
+<sectiontype>StraightFlat(Clone)/>
+<PowerPosXYZ:17480:1.5:0:</>
+<BlockPosXYZ>:17480:0:0:</>
+</block P3>
+<block H-2-7-2.533437:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:17500:1:7.5:</>
+<BlockPosXYZ>:17500:0:0:</>
+</block H-2-7-2.533437:C>
+<block H-0-13-4.928245:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17520:0:0:</>
+</block H-0-13-4.928245:>
+<block H-3-20-5.757939:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17540:0:0:</>
+</block H-3-20-5.757939:>
+<block H-3-20-4.134287:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17560:0:0:</>
+</block H-3-20-4.134287:>
+<block P2>
+<sectiontype>StraightFlat(Clone)/>
+<PowerPosXYZ:17580:1.5:0:</>
+<BlockPosXYZ>:17580:0:0:</>
+</block P2>
+<block H-0-12-2.296713:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:17600:1:7.5:</>
+<BlockPosXYZ>:17600:0:0:</>
+</block H-0-12-2.296713:BC>
+<block H-2-12-2.868589:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:17620:1:7.5:</>
+<BlockPosXYZ>:17620:0:0:</>
+</block H-2-12-2.868589:C>
+<block H-2-7-2.623597:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:17640:1:-7.5:</>
+<BlockPosXYZ>:17640:0:0:</>
+</block H-2-7-2.623597:C>
+<block H-2-10-2.73724:BP1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:17660:1.5:0:</>
+<BlockPosXYZ>:17660:0:0:</>
+</block H-2-10-2.73724:BP1>
+<block H-2-7-3.289873:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:17680:1.5:0:</>
+<BlockPosXYZ>:17680:0:0:</>
+</block H-2-7-3.289873:P3>
+<block H-3-20-5.678302:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17700:0:0:</>
+</block H-3-20-5.678302:B>
+<block H-0-9-3.282053:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:17720:1:7.5:</>
+<BlockPosXYZ>:17720:0:0:</>
+</block H-0-9-3.282053:C>
+<block H-0-12-3.149709:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17740:0:0:</>
+</block H-0-12-3.149709:>
+<block H-0-12-5.616733:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:17760:1.5:-2:</>
+<BlockPosXYZ>:17760:0:0:</>
+</block H-0-12-5.616733:P3>
+<block H-1-7-4.548033:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:17780:1.5:2:</>
+<BlockPosXYZ>:17780:0:0:</>
+</block H-1-7-4.548033:P3>
+<block H-2-17-3.390643:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:17800:1:-7.5:</>
+<BlockPosXYZ>:17800:0:0:</>
+</block H-2-17-3.390643:C>
+<block H-3-20-2.791373:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:17820:1:-7.5:</>
+<BlockPosXYZ>:17820:0:0:</>
+</block H-3-20-2.791373:C>
+<block H-3-20-4.408047:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17840:0:0:</>
+</block H-3-20-4.408047:>
+<block H-2-9-2.687485:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17860:0:0:</>
+</block H-2-9-2.687485:>
+<block H-2-9-3.131243:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:17880:1:7.5:</>
+<BlockPosXYZ>:17880:0:0:</>
+</block H-2-9-3.131243:C>
+<block H-0-9-5.153006:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17900:0:0:</>
+</block H-0-9-5.153006:>
+<block H-2-9-2.658484:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17920:0:0:</>
+</block H-2-9-2.658484:>
+<block H-1-8-3.597628:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:17940:0:0:</>
+</block H-1-8-3.597628:>
+<block H-2-14-3.249179:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:17960:1:7.5:</>
+<BlockPosXYZ>:17960:0:0:</>
+</block H-2-14-3.249179:C>
+<block H-1-17-2.779097:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:17980:1.5:2:</>
+<BlockPosXYZ>:17980:0:0:</>
+</block H-1-17-2.779097:P2>
+<block H-3-20-5.717123:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18000:0:0:</>
+</block H-3-20-5.717123:>
+<block H-2-17-2.557362:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18020:0:0:</>
+</block H-2-17-2.557362:>
+<block H-2-9-3.452478:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18040:0:0:</>
+</block H-2-9-3.452478:>
+<block H-3-20-2.590803:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18060:0:0:</>
+</block H-3-20-2.590803:>
+<block H-2-16-2.70877:P2C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:18080:1:-7.5:</>
+<PowerPosXYZ:18080:1.5:0:</>
+<BlockPosXYZ>:18080:0:0:</>
+</block H-2-16-2.70877:P2C>
+<block H-0-11-4.324383:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18100:0:0:</>
+</block H-0-11-4.324383:>
+<block H-0-10-2.703356:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:18120:1:7.5:</>
+<BlockPosXYZ>:18120:0:0:</>
+</block H-0-10-2.703356:C>
+<block H-3-20-4.340746:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18140:0:0:</>
+</block H-3-20-4.340746:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:18160:0:0:</>
+</block >
+<block H-0-10-4.49513:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18180:0:0:</>
+</block H-0-10-4.49513:B>
+<block H-2-11-3.173872:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18200:0:0:</>
+</block H-2-11-3.173872:>
+<block H-2-12-3.1996:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18220:0:0:</>
+</block H-2-12-3.1996:>
+<block H-0-9-3.593084:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18240:0:0:</>
+</block H-0-9-3.593084:>
+<block H-3-20-5.188663:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18260:0:0:</>
+</block H-3-20-5.188663:>
+<block H-1-7-2.877476:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18280:0:0:</>
+</block H-1-7-2.877476:>
+<block H-3-20-4.670893:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18300:0:0:</>
+</block H-3-20-4.670893:>
+<block H-2-7-2.680788:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18320:0:0:</>
+</block H-2-7-2.680788:B>
+<block H-2-10-2.757572:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18340:0:0:</>
+</block H-2-10-2.757572:>
+<block H-3-20-2.12118:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18360:0:0:</>
+</block H-3-20-2.12118:>
+<block H-1-15-5.593649:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18380:0:0:</>
+</block H-1-15-5.593649:>
+<block H-0-10-4.35313:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18400:0:0:</>
+</block H-0-10-4.35313:>
+<block H-0-9-3.83309:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18420:0:0:</>
+</block H-0-9-3.83309:>
+<block H-1-5-4.018729:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18440:0:0:</>
+</block H-1-5-4.018729:>
+<block H-3-20-2.580383:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18460:0:0:</>
+</block H-3-20-2.580383:>
+<block H-2-11-2.777033:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18480:0:0:</>
+</block H-2-11-2.777033:>
+<block C>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:18500:1:7.5:</>
+<BlockPosXYZ>:18500:0:0:</>
+</block C>
+<block H-2-13-2.935781:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18520:0:0:</>
+</block H-2-13-2.935781:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:18540:0:0:</>
+</block >
+<block H-1-11-2.383827:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:18560:1:7.5:</>
+<BlockPosXYZ>:18560:0:0:</>
+</block H-1-11-2.383827:C>
+<block H-1-10-3.977998:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:18580:1:7.5:</>
+<BlockPosXYZ>:18580:0:0:</>
+</block H-1-10-3.977998:C>
+<block H-3-20-3.330867:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:18600:1:7.5:</>
+<BlockPosXYZ>:18600:0:0:</>
+</block H-3-20-3.330867:C>
+<block H-2-9-2.721637:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18620:0:0:</>
+</block H-2-9-2.721637:>
+<block H-1-17-4.55431:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18640:0:0:</>
+</block H-1-17-4.55431:>
+<block H-3-20-5.85786:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18660:0:0:</>
+</block H-3-20-5.85786:>
+<block H-3-20-4.959059:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18680:0:0:</>
+</block H-3-20-4.959059:>
+<block H-3-20-4.807107:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18700:0:0:</>
+</block H-3-20-4.807107:>
+<block H-0-11-2.589192:BP2C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:18720:1:-7.5:</>
+<PowerPosXYZ:18720:1.5:-2:</>
+<BlockPosXYZ>:18720:0:0:</>
+</block H-0-11-2.589192:BP2C>
+<block H-0-4-2.052792:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18740:0:0:</>
+</block H-0-4-2.052792:>
+<block H-0-11-4.708401:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:18760:1:-7.5:</>
+<BlockPosXYZ>:18760:0:0:</>
+</block H-0-11-4.708401:C>
+<block H-3-20-2.851401:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18780:0:0:</>
+</block H-3-20-2.851401:>
+<block H-3-20-4.114716:BP3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:18800:1.5:0:</>
+<BlockPosXYZ>:18800:0:0:</>
+</block H-3-20-4.114716:BP3>
+<block H-2-11-3.001461:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:18820:1:7.5:</>
+<BlockPosXYZ>:18820:0:0:</>
+</block H-2-11-3.001461:C>
+<block H-0-12-3.665261:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:18840:1:-7.5:</>
+<BlockPosXYZ>:18840:0:0:</>
+</block H-0-12-3.665261:C>
+<block H-0-9-3.618288:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18860:0:0:</>
+</block H-0-9-3.618288:>
+<block H-3-20-4.584288:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:18880:1:7.5:</>
+<BlockPosXYZ>:18880:0:0:</>
+</block H-3-20-4.584288:C>
+<block H-3-20-3.471081:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18900:0:0:</>
+</block H-3-20-3.471081:>
+<block H-1-10-5.38396:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18920:0:0:</>
+</block H-1-10-5.38396:>
+<block H-0-12-5.80338:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:18940:1:7.5:</>
+<BlockPosXYZ>:18940:0:0:</>
+</block H-0-12-5.80338:BC>
+<block H-3-20-4.30654:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:18960:1.5:2:</>
+<BlockPosXYZ>:18960:0:0:</>
+</block H-3-20-4.30654:P2>
+<block H-3-20-5.287593:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:18980:0:0:</>
+</block H-3-20-5.287593:>
+<block H-0-13-3.935778:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19000:0:0:</>
+</block H-0-13-3.935778:>
+<block H-1-12-3.358484:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19020:0:0:</>
+</block H-1-12-3.358484:>
+<block H-1-13-2.582623:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19040:0:0:</>
+</block H-1-13-2.582623:>
+<block H-3-20-4.852005:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19060:0:0:</>
+</block H-3-20-4.852005:>
+<block H-2-17-2.57999:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19080:0:0:</>
+</block H-2-17-2.57999:>
+<block H-0-13-3.369152:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19100:0:0:</>
+</block H-0-13-3.369152:>
+<block H-0-17-5.906597:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19120:0:0:</>
+</block H-0-17-5.906597:>
+<block H-0-14-3.730135:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19140:0:0:</>
+</block H-0-14-3.730135:>
+<block H-3-20-3.239706:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19160:0:0:</>
+</block H-3-20-3.239706:>
+<block H-1-11-5.52598:CP1>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:19180:1:7.5:</>
+<PowerPosXYZ:19180:1.5:0:</>
+<BlockPosXYZ>:19180:0:0:</>
+</block H-1-11-5.52598:CP1>
+<block H-2-9-2.968441:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19200:0:0:</>
+</block H-2-9-2.968441:>
+<block H-0-10-2.546002:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19220:0:0:</>
+</block H-0-10-2.546002:B>
+<block H-3-20-4.812614:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19240:0:0:</>
+</block H-3-20-4.812614:B>
+<block H-1-5-5.370484:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19260:0:0:</>
+</block H-1-5-5.370484:B>
+<block H-2-17-2.736576:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:19280:1:-7.5:</>
+<BlockPosXYZ>:19280:0:0:</>
+</block H-2-17-2.736576:C>
+<block H-1-10-3.60508:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19300:0:0:</>
+</block H-1-10-3.60508:>
+<block H-2-8-3.247993:BP3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:19320:1.5:0:</>
+<BlockPosXYZ>:19320:0:0:</>
+</block H-2-8-3.247993:BP3>
+<block H-1-7-4.657084:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19340:0:0:</>
+</block H-1-7-4.657084:>
+<block H-3-20-2.45657:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19360:0:0:</>
+</block H-3-20-2.45657:>
+<block H-3-20-5.295403:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:19380:1:-7.5:</>
+<BlockPosXYZ>:19380:0:0:</>
+</block H-3-20-5.295403:C>
+<block H-1-13-5.180907:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:19400:1:7.5:</>
+<BlockPosXYZ>:19400:0:0:</>
+</block H-1-13-5.180907:C>
+<block H-2-12-2.871895:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19420:0:0:</>
+</block H-2-12-2.871895:>
+<block H-3-20-4.573278:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:19440:1:7.5:</>
+<BlockPosXYZ>:19440:0:0:</>
+</block H-3-20-4.573278:BC>
+<block H-2-5-3.111314:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19460:0:0:</>
+</block H-2-5-3.111314:>
+<block H-1-6-5.526122:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:19480:1:-7.5:</>
+<BlockPosXYZ>:19480:0:0:</>
+</block H-1-6-5.526122:C>
+<block H-3-20-4.515615:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19500:0:0:</>
+</block H-3-20-4.515615:>
+<block H-0-3-5.508552:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:19520:1:7.5:</>
+<BlockPosXYZ>:19520:0:0:</>
+</block H-0-3-5.508552:BC>
+<block H-2-14-2.742695:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19540:0:0:</>
+</block H-2-14-2.742695:>
+<block H-1-12-2.798137:P1C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:19560:1:-7.5:</>
+<PowerPosXYZ:19560:1.5:2:</>
+<BlockPosXYZ>:19560:0:0:</>
+</block H-1-12-2.798137:P1C>
+<block H-2-12-3.383214:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19580:0:0:</>
+</block H-2-12-3.383214:>
+<block H-0-13-2.816034:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19600:0:0:</>
+</block H-0-13-2.816034:>
+<block P1C>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:19620:1:-7.5:</>
+<PowerPosXYZ:19620:1.5:0:</>
+<BlockPosXYZ>:19620:0:0:</>
+</block P1C>
+<block H-3-20-2.29929:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19640:0:0:</>
+</block H-3-20-2.29929:>
+<block H-3-20-4.107931:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19660:0:0:</>
+</block H-3-20-4.107931:>
+<block H-2-10-3.272048:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19680:0:0:</>
+</block H-2-10-3.272048:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:19700:0:0:</>
+</block >
+<block H-1-10-2.662998:P3C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:19720:1:7.5:</>
+<PowerPosXYZ:19720:1.5:2:</>
+<BlockPosXYZ>:19720:0:0:</>
+</block H-1-10-2.662998:P3C>
+<block H-3-20-5.701914:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19740:0:0:</>
+</block H-3-20-5.701914:>
+<block H-2-10-2.892185:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19760:0:0:</>
+</block H-2-10-2.892185:>
+<block H-0-15-3.076286:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19780:0:0:</>
+</block H-0-15-3.076286:B>
+<block H-1-16-2.97135:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:19800:1:-7.5:</>
+<BlockPosXYZ>:19800:0:0:</>
+</block H-1-16-2.97135:C>
+<block H-1-7-2.91836:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:19820:1:-7.5:</>
+<BlockPosXYZ>:19820:0:0:</>
+</block H-1-7-2.91836:C>
+<block H-1-9-2.054348:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:19840:1:7.5:</>
+<BlockPosXYZ>:19840:0:0:</>
+</block H-1-9-2.054348:C>
+<block H-3-20-5.143435:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19860:0:0:</>
+</block H-3-20-5.143435:>
+<block H-3-20-5.593961:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19880:0:0:</>
+</block H-3-20-5.593961:>
+<block H-3-20-3.505584:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:19900:1.5:2:</>
+<BlockPosXYZ>:19900:0:0:</>
+</block H-3-20-3.505584:P2>
+<block H-0-8-5.034412:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:19920:0:0:</>
+</block H-0-8-5.034412:>
+<block H-2-11-3.327636:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:19940:1:-7.5:</>
+<BlockPosXYZ>:19940:0:0:</>
+</block H-2-11-3.327636:C>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:19960:0:0:</>
+</block >
+<block H-1-11-4.176825:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:19980:1:-7.5:</>
+<BlockPosXYZ>:19980:0:0:</>
+</block H-1-11-4.176825:C>
+<block H-3-20-2.775918:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:20000:1.5:2:</>
+<BlockPosXYZ>:20000:0:0:</>
+</block H-3-20-2.775918:P2>
+<block H-2-10-2.67399:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:20020:1.5:0:</>
+<BlockPosXYZ>:20020:0:0:</>
+</block H-2-10-2.67399:P3>
+<block H-0-17-3.559622:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20040:0:0:</>
+</block H-0-17-3.559622:B>
+<block H-1-8-3.816238:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20060:0:0:</>
+</block H-1-8-3.816238:B>
+<block H-3-20-4.679035:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20080:0:0:</>
+</block H-3-20-4.679035:>
+<block H-3-20-3.739688:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20100:0:0:</>
+</block H-3-20-3.739688:>
+<block H-1-8-4.204783:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:20120:1:7.5:</>
+<BlockPosXYZ>:20120:0:0:</>
+</block H-1-8-4.204783:C>
+<block H-1-14-3.2657:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:20140:1.5:0:</>
+<BlockPosXYZ>:20140:0:0:</>
+</block H-1-14-3.2657:P1>
+<block H-3-20-4.574989:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20160:0:0:</>
+</block H-3-20-4.574989:>
+<block H-0-10-4.615829:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20180:0:0:</>
+</block H-0-10-4.615829:>
+<block H-1-9-2.634315:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20200:0:0:</>
+</block H-1-9-2.634315:>
+<block H-0-13-5.34006:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:20220:1:7.5:</>
+<BlockPosXYZ>:20220:0:0:</>
+</block H-0-13-5.34006:C>
+<block H-2-9-2.802474:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:20240:1:7.5:</>
+<BlockPosXYZ>:20240:0:0:</>
+</block H-2-9-2.802474:C>
+<block H-3-20-2.645683:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:20260:1.5:2:</>
+<BlockPosXYZ>:20260:0:0:</>
+</block H-3-20-2.645683:P1>
+<block H-2-5-2.865384:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:20280:1:-7.5:</>
+<BlockPosXYZ>:20280:0:0:</>
+</block H-2-5-2.865384:C>
+<block H-2-5-3.378:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20300:0:0:</>
+</block H-2-5-3.378:>
+<block H-0-16-4.668651:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20320:0:0:</>
+</block H-0-16-4.668651:>
+<block H-1-11-3.101501:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:20340:1:-7.5:</>
+<BlockPosXYZ>:20340:0:0:</>
+</block H-1-11-3.101501:C>
+<block H-0-12-3.866085:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20360:0:0:</>
+</block H-0-12-3.866085:>
+<block H-0-11-4.900188:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20380:0:0:</>
+</block H-0-11-4.900188:>
+<block H-1-15-2.021873:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:20400:1.5:2:</>
+<BlockPosXYZ>:20400:0:0:</>
+</block H-1-15-2.021873:P1>
+<block H-1-6-2.588495:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20420:0:0:</>
+</block H-1-6-2.588495:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:20440:0:0:</>
+</block >
+<block H-0-12-5.495136:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:20460:1:-7.5:</>
+<BlockPosXYZ>:20460:0:0:</>
+</block H-0-12-5.495136:C>
+<block H-0-10-5.239876:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20480:0:0:</>
+</block H-0-10-5.239876:B>
+<block H-2-8-3.422593:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20500:0:0:</>
+</block H-2-8-3.422593:>
+<block P2C>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:20520:1:-7.5:</>
+<PowerPosXYZ:20520:1.5:0:</>
+<BlockPosXYZ>:20520:0:0:</>
+</block P2C>
+<block H-1-9-3.030769:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:20540:1.5:2:</>
+<BlockPosXYZ>:20540:0:0:</>
+</block H-1-9-3.030769:P1>
+<block H-2-11-2.944582:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20560:0:0:</>
+</block H-2-11-2.944582:>
+<block H-0-13-5.805494:CP1>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:20580:1:-7.5:</>
+<PowerPosXYZ:20580:1.5:0:</>
+<BlockPosXYZ>:20580:0:0:</>
+</block H-0-13-5.805494:CP1>
+<block H-0-8-5.653936:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20600:0:0:</>
+</block H-0-8-5.653936:>
+<block H-0-10-5.061377:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20620:0:0:</>
+</block H-0-10-5.061377:>
+<block H-3-20-2.10041:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20640:0:0:</>
+</block H-3-20-2.10041:>
+<block H-2-13-2.973761:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20660:0:0:</>
+</block H-2-13-2.973761:>
+<block H-2-13-2.579478:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:20680:1:7.5:</>
+<BlockPosXYZ>:20680:0:0:</>
+</block H-2-13-2.579478:C>
+<block H-2-16-2.98075:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:20700:1:-7.5:</>
+<BlockPosXYZ>:20700:0:0:</>
+</block H-2-16-2.98075:C>
+<block C>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:20720:1:7.5:</>
+<BlockPosXYZ>:20720:0:0:</>
+</block C>
+<block H-3-20-3.515249:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20740:0:0:</>
+</block H-3-20-3.515249:>
+<block H-1-12-4.329658:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:20760:1:-7.5:</>
+<BlockPosXYZ>:20760:0:0:</>
+</block H-1-12-4.329658:C>
+<block H-3-20-4.890045:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20780:0:0:</>
+</block H-3-20-4.890045:>
+<block H-3-20-2.247998:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20800:0:0:</>
+</block H-3-20-2.247998:>
+<block H-2-7-3.250029:BP3C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:20820:1:7.5:</>
+<PowerPosXYZ:20820:1.5:0:</>
+<BlockPosXYZ>:20820:0:0:</>
+</block H-2-7-3.250029:BP3C>
+<block H-3-20-5.737854:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:20840:1:-7.5:</>
+<BlockPosXYZ>:20840:0:0:</>
+</block H-3-20-5.737854:C>
+<block H-3-20-4.412045:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20860:0:0:</>
+</block H-3-20-4.412045:>
+<block H-1-11-3.102306:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:20880:1:-7.5:</>
+<BlockPosXYZ>:20880:0:0:</>
+</block H-1-11-3.102306:C>
+<block H-3-20-5.146273:P1C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:20900:1:-7.5:</>
+<PowerPosXYZ:20900:1.5:2:</>
+<BlockPosXYZ>:20900:0:0:</>
+</block H-3-20-5.146273:P1C>
+<block H-1-14-5.049964:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20920:0:0:</>
+</block H-1-14-5.049964:>
+<block H-2-12-3.131346:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:20940:1:7.5:</>
+<BlockPosXYZ>:20940:0:0:</>
+</block H-2-12-3.131346:C>
+<block H-2-10-2.606538:BP1C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:20960:1:7.5:</>
+<PowerPosXYZ:20960:1.5:0:</>
+<BlockPosXYZ>:20960:0:0:</>
+</block H-2-10-2.606538:BP1C>
+<block H-2-7-2.617178:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:20980:0:0:</>
+</block H-2-7-2.617178:>
+<block H-0-7-3.413567:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21000:0:0:</>
+</block H-0-7-3.413567:>
+<block H-0-15-2.499933:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:21020:1:-7.5:</>
+<BlockPosXYZ>:21020:0:0:</>
+</block H-0-15-2.499933:C>
+<block H-2-13-2.51705:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21040:0:0:</>
+</block H-2-13-2.51705:>
+<block H-3-20-4.217698:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21060:0:0:</>
+</block H-3-20-4.217698:>
+<block H-1-7-4.853838:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21080:0:0:</>
+</block H-1-7-4.853838:>
+<block P1>
+<sectiontype>StraightFlat(Clone)/>
+<PowerPosXYZ:21100:1.5:0:</>
+<BlockPosXYZ>:21100:0:0:</>
+</block P1>
+<block H-1-10-2.250124:P2C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:21120:1:7.5:</>
+<PowerPosXYZ:21120:1.5:2:</>
+<BlockPosXYZ>:21120:0:0:</>
+</block H-1-10-2.250124:P2C>
+<block H-1-5-4.757291:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21140:0:0:</>
+</block H-1-5-4.757291:>
+<block H-1-5-5.864634:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21160:0:0:</>
+</block H-1-5-5.864634:>
+<block H-0-16-4.457914:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21180:0:0:</>
+</block H-0-16-4.457914:>
+<block H-1-9-4.649165:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:21200:1:7.5:</>
+<BlockPosXYZ>:21200:0:0:</>
+</block H-1-9-4.649165:C>
+<block P2>
+<sectiontype>StraightFlat(Clone)/>
+<PowerPosXYZ:21220:1.5:0:</>
+<BlockPosXYZ>:21220:0:0:</>
+</block P2>
+<block H-0-8-3.47624:CP3>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:21240:1:7.5:</>
+<PowerPosXYZ:21240:1.5:0:</>
+<BlockPosXYZ>:21240:0:0:</>
+</block H-0-8-3.47624:CP3>
+<block H-0-12-3.534561:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21260:0:0:</>
+</block H-0-12-3.534561:>
+<block H-0-6-3.721945:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21280:0:0:</>
+</block H-0-6-3.721945:B>
+<block H-0-11-5.664034:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:21300:1.5:0:</>
+<BlockPosXYZ>:21300:0:0:</>
+</block H-0-11-5.664034:P3>
+<block H-1-6-3.349416:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21320:0:0:</>
+</block H-1-6-3.349416:B>
+<block H-2-14-2.599705:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21340:0:0:</>
+</block H-2-14-2.599705:>
+<block H-3-20-2.552158:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21360:0:0:</>
+</block H-3-20-2.552158:>
+<block H-2-9-2.910507:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21380:0:0:</>
+</block H-2-9-2.910507:>
+<block H-1-15-5.968033:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:21400:1:-7.5:</>
+<BlockPosXYZ>:21400:0:0:</>
+</block H-1-15-5.968033:C>
+<block H-2-12-2.54625:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21420:0:0:</>
+</block H-2-12-2.54625:>
+<block H-0-10-4.193854:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21440:0:0:</>
+</block H-0-10-4.193854:>
+<block H-2-7-2.552156:P3C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:21460:1:7.5:</>
+<PowerPosXYZ:21460:1.5:0:</>
+<BlockPosXYZ>:21460:0:0:</>
+</block H-2-7-2.552156:P3C>
+<block H-1-10-5.059074:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21480:0:0:</>
+</block H-1-10-5.059074:>
+<block H-3-20-3.920951:P1C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:21500:1:-7.5:</>
+<PowerPosXYZ:21500:1.5:2:</>
+<BlockPosXYZ>:21500:0:0:</>
+</block H-3-20-3.920951:P1C>
+<block H-0-13-2.637898:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21520:0:0:</>
+</block H-0-13-2.637898:>
+<block H-0-5-5.536252:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21540:0:0:</>
+</block H-0-5-5.536252:B>
+<block H-1-8-4.781116:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:21560:1:-7.5:</>
+<BlockPosXYZ>:21560:0:0:</>
+</block H-1-8-4.781116:C>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:21580:0:0:</>
+</block >
+<block H-0-10-2.85634:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:21600:1.5:-2:</>
+<BlockPosXYZ>:21600:0:0:</>
+</block H-0-10-2.85634:P3>
+<block H-2-10-3.072836:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:21620:1.5:0:</>
+<BlockPosXYZ>:21620:0:0:</>
+</block H-2-10-3.072836:P1>
+<block H-3-20-5.131507:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21640:0:0:</>
+</block H-3-20-5.131507:>
+<block H-3-20-4.385674:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:21660:1.5:0:</>
+<BlockPosXYZ>:21660:0:0:</>
+</block H-3-20-4.385674:P2>
+<block H-1-14-3.56778:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:21680:1.5:0:</>
+<BlockPosXYZ>:21680:0:0:</>
+</block H-1-14-3.56778:P2>
+<block H-2-3-3.144311:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21700:0:0:</>
+</block H-2-3-3.144311:>
+<block H-2-11-3.209711:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21720:0:0:</>
+</block H-2-11-3.209711:>
+<block H-1-9-3.645734:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21740:0:0:</>
+</block H-1-9-3.645734:>
+<block H-2-8-2.577745:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:21760:1:-7.5:</>
+<BlockPosXYZ>:21760:0:0:</>
+</block H-2-8-2.577745:C>
+<block H-1-14-5.224493:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21780:0:0:</>
+</block H-1-14-5.224493:>
+<block H-0-13-5.699941:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21800:0:0:</>
+</block H-0-13-5.699941:>
+<block H-2-6-3.397875:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21820:0:0:</>
+</block H-2-6-3.397875:>
+<block H-2-10-2.939898:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21840:0:0:</>
+</block H-2-10-2.939898:>
+<block H-1-12-3.57344:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21860:0:0:</>
+</block H-1-12-3.57344:>
+<block H-2-13-3.07192:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:21880:1:-7.5:</>
+<BlockPosXYZ>:21880:0:0:</>
+</block H-2-13-3.07192:C>
+<block H-0-12-5.499353:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21900:0:0:</>
+</block H-0-12-5.499353:>
+<block H-3-20-4.274236:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21920:0:0:</>
+</block H-3-20-4.274236:>
+<block H-0-7-5.648346:P3C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:21940:1:-7.5:</>
+<PowerPosXYZ:21940:1.5:-2:</>
+<BlockPosXYZ>:21940:0:0:</>
+</block H-0-7-5.648346:P3C>
+<block C>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:21960:1:7.5:</>
+<BlockPosXYZ>:21960:0:0:</>
+</block C>
+<block H-1-13-4.878286:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:21980:0:0:</>
+</block H-1-13-4.878286:>
+<block H-1-13-5.942071:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22000:0:0:</>
+</block H-1-13-5.942071:>
+<block H-0-16-2.054561:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:22020:1.5:0:</>
+<BlockPosXYZ>:22020:0:0:</>
+</block H-0-16-2.054561:P3>
+<block H-1-15-4.822783:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:22040:1:7.5:</>
+<BlockPosXYZ>:22040:0:0:</>
+</block H-1-15-4.822783:C>
+<block CP2>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:22060:1:7.5:</>
+<PowerPosXYZ:22060:1.5:0:</>
+<BlockPosXYZ>:22060:0:0:</>
+</block CP2>
+<block H-3-20-2.795251:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22080:0:0:</>
+</block H-3-20-2.795251:>
+<block H-2-11-2.83134:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22100:0:0:</>
+</block H-2-11-2.83134:>
+<block H-1-14-4.721068:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22120:0:0:</>
+</block H-1-14-4.721068:>
+<block H-2-11-2.79831:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:22140:1.5:0:</>
+<BlockPosXYZ>:22140:0:0:</>
+</block H-2-11-2.79831:P1>
+<block H-2-10-2.660263:BP2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:22160:1.5:0:</>
+<BlockPosXYZ>:22160:0:0:</>
+</block H-2-10-2.660263:BP2>
+<block H-1-17-3.976218:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:22180:1:-7.5:</>
+<BlockPosXYZ>:22180:0:0:</>
+</block H-1-17-3.976218:C>
+<block H-0-8-2.489319:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22200:0:0:</>
+</block H-0-8-2.489319:>
+<block H-3-20-2.809842:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:22220:1:7.5:</>
+<BlockPosXYZ>:22220:0:0:</>
+</block H-3-20-2.809842:C>
+<block H-2-9-2.576695:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22240:0:0:</>
+</block H-2-9-2.576695:>
+<block H-0-10-5.122175:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22260:0:0:</>
+</block H-0-10-5.122175:B>
+<block H-0-11-4.944173:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:22280:1.5:-2:</>
+<BlockPosXYZ>:22280:0:0:</>
+</block H-0-11-4.944173:P3>
+<block H-0-9-4.108381:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22300:0:0:</>
+</block H-0-9-4.108381:>
+<block H-1-11-3.606559:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22320:0:0:</>
+</block H-1-11-3.606559:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:22340:0:0:</>
+</block >
+<block H-2-8-3.188808:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22360:0:0:</>
+</block H-2-8-3.188808:>
+<block H-1-6-4.264576:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22380:0:0:</>
+</block H-1-6-4.264576:>
+<block H-3-20-5.518077:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:22400:1:7.5:</>
+<BlockPosXYZ>:22400:0:0:</>
+</block H-3-20-5.518077:C>
+<block H-2-11-2.575126:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:22420:1:-7.5:</>
+<BlockPosXYZ>:22420:0:0:</>
+</block H-2-11-2.575126:BC>
+<block H-2-7-2.787198:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:22440:1:-7.5:</>
+<BlockPosXYZ>:22440:0:0:</>
+</block H-2-7-2.787198:C>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:22460:0:0:</>
+</block >
+<block H-1-18-5.836203:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:22480:1.5:2:</>
+<BlockPosXYZ>:22480:0:0:</>
+</block H-1-18-5.836203:P2>
+<block H-3-20-2.073249:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22500:0:0:</>
+</block H-3-20-2.073249:>
+<block H-0-10-2.65837:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22520:0:0:</>
+</block H-0-10-2.65837:>
+<block H-2-12-3.309505:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:22540:1:-7.5:</>
+<BlockPosXYZ>:22540:0:0:</>
+</block H-2-12-3.309505:C>
+<block H-2-7-3.483243:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:22560:1:-7.5:</>
+<BlockPosXYZ>:22560:0:0:</>
+</block H-2-7-3.483243:C>
+<block C>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:22580:1:7.5:</>
+<BlockPosXYZ>:22580:0:0:</>
+</block C>
+<block H-0-16-3.516984:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22600:0:0:</>
+</block H-0-16-3.516984:>
+<block H-3-20-2.240777:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22620:0:0:</>
+</block H-3-20-2.240777:>
+<block H-2-13-3.178387:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22640:0:0:</>
+</block H-2-13-3.178387:>
+<block H-3-20-4.669651:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22660:0:0:</>
+</block H-3-20-4.669651:>
+<block H-0-12-4.361538:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:22680:1.5:-2:</>
+<BlockPosXYZ>:22680:0:0:</>
+</block H-0-12-4.361538:P2>
+<block H-0-14-4.499916:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22700:0:0:</>
+</block H-0-14-4.499916:B>
+<block H-3-20-5.631034:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:22720:1:7.5:</>
+<BlockPosXYZ>:22720:0:0:</>
+</block H-3-20-5.631034:C>
+<block H-2-8-3.042746:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:22740:1:7.5:</>
+<BlockPosXYZ>:22740:0:0:</>
+</block H-2-8-3.042746:BC>
+<block H-3-20-3.040825:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:22760:1.5:2:</>
+<BlockPosXYZ>:22760:0:0:</>
+</block H-3-20-3.040825:P2>
+<block H-3-20-3.202004:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:22780:1:-7.5:</>
+<BlockPosXYZ>:22780:0:0:</>
+</block H-3-20-3.202004:C>
+<block H-3-20-5.390103:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22800:0:0:</>
+</block H-3-20-5.390103:B>
+<block H-0-12-5.961879:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22820:0:0:</>
+</block H-0-12-5.961879:>
+<block H-2-6-3.087296:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:22840:1:7.5:</>
+<BlockPosXYZ>:22840:0:0:</>
+</block H-2-6-3.087296:C>
+<block H-0-13-2.514958:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22860:0:0:</>
+</block H-0-13-2.514958:>
+<block H-2-16-2.536509:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:22880:1:7.5:</>
+<BlockPosXYZ>:22880:0:0:</>
+</block H-2-16-2.536509:C>
+<block H-3-20-2.619791:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:22900:1:-7.5:</>
+<BlockPosXYZ>:22900:0:0:</>
+</block H-3-20-2.619791:C>
+<block H-3-20-2.075538:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22920:0:0:</>
+</block H-3-20-2.075538:>
+<block H-2-9-2.717433:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:22940:1:-7.5:</>
+<BlockPosXYZ>:22940:0:0:</>
+</block H-2-9-2.717433:C>
+<block H-2-10-3.173415:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22960:0:0:</>
+</block H-2-10-3.173415:>
+<block H-1-10-4.001105:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:22980:0:0:</>
+</block H-1-10-4.001105:>
+<block H-0-7-5.274341:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23000:0:0:</>
+</block H-0-7-5.274341:>
+<block H-3-20-5.054656:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23020:0:0:</>
+</block H-3-20-5.054656:>
+<block H-1-9-5.802379:BP3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:23040:1.5:2:</>
+<BlockPosXYZ>:23040:0:0:</>
+</block H-1-9-5.802379:BP3>
+<block H-1-12-2.578815:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23060:0:0:</>
+</block H-1-12-2.578815:>
+<block H-3-20-3.227588:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23080:0:0:</>
+</block H-3-20-3.227588:B>
+<block H-0-10-2.224402:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23100:0:0:</>
+</block H-0-10-2.224402:>
+<block C>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:23120:1:-7.5:</>
+<BlockPosXYZ>:23120:0:0:</>
+</block C>
+<block H-1-12-2.013342:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:23140:1:7.5:</>
+<BlockPosXYZ>:23140:0:0:</>
+</block H-1-12-2.013342:C>
+<block H-1-13-2.847679:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23160:0:0:</>
+</block H-1-13-2.847679:>
+<block H-0-13-4.908592:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:23180:1:7.5:</>
+<BlockPosXYZ>:23180:0:0:</>
+</block H-0-13-4.908592:BC>
+<block H-1-10-3.63378:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23200:0:0:</>
+</block H-1-10-3.63378:>
+<block H-1-13-3.634018:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23220:0:0:</>
+</block H-1-13-3.634018:>
+<block H-0-9-3.640982:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23240:0:0:</>
+</block H-0-9-3.640982:>
+<block H-1-10-2.142878:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23260:0:0:</>
+</block H-1-10-2.142878:>
+<block H-0-11-4.338904:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23280:0:0:</>
+</block H-0-11-4.338904:B>
+<block H-3-20-2.17405:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23300:0:0:</>
+</block H-3-20-2.17405:>
+<block H-2-10-2.501752:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23320:0:0:</>
+</block H-2-10-2.501752:>
+<block H-2-7-3.358202:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23340:0:0:</>
+</block H-2-7-3.358202:>
+<block H-2-10-3.240294:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23360:0:0:</>
+</block H-2-10-3.240294:>
+<block H-3-20-2.080945:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:23380:1:7.5:</>
+<BlockPosXYZ>:23380:0:0:</>
+</block H-3-20-2.080945:C>
+<block H-2-16-2.870431:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23400:0:0:</>
+</block H-2-16-2.870431:>
+<block H-0-15-4.524459:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23420:0:0:</>
+</block H-0-15-4.524459:>
+<block H-1-14-4.147425:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23440:0:0:</>
+</block H-1-14-4.147425:>
+<block H-3-20-3.952935:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23460:0:0:</>
+</block H-3-20-3.952935:>
+<block H-1-7-2.251264:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23480:0:0:</>
+</block H-1-7-2.251264:>
+<block H-0-10-4.558586:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23500:0:0:</>
+</block H-0-10-4.558586:>
+<block H-2-6-3.100308:P3C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:23520:1:-7.5:</>
+<PowerPosXYZ:23520:1.5:0:</>
+<BlockPosXYZ>:23520:0:0:</>
+</block H-2-6-3.100308:P3C>
+<block H-0-9-5.968543:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23540:0:0:</>
+</block H-0-9-5.968543:B>
+<block H-1-11-4.302752:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23560:0:0:</>
+</block H-1-11-4.302752:>
+<block H-2-7-2.833734:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23580:0:0:</>
+</block H-2-7-2.833734:>
+<block H-2-12-3.429644:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23600:0:0:</>
+</block H-2-12-3.429644:>
+<block P3>
+<sectiontype>StraightFlat(Clone)/>
+<PowerPosXYZ:23620:1.5:0:</>
+<BlockPosXYZ>:23620:0:0:</>
+</block P3>
+<block H-0-12-4.376378:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23640:0:0:</>
+</block H-0-12-4.376378:>
+<block H-0-15-2.08232:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23660:0:0:</>
+</block H-0-15-2.08232:>
+<block H-1-17-3.424759:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23680:0:0:</>
+</block H-1-17-3.424759:B>
+<block H-1-7-5.115084:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:23700:1:-7.5:</>
+<BlockPosXYZ>:23700:0:0:</>
+</block H-1-7-5.115084:C>
+<block H-3-20-4.377861:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23720:0:0:</>
+</block H-3-20-4.377861:>
+<block H-0-14-3.336756:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23740:0:0:</>
+</block H-0-14-3.336756:>
+<block H-1-10-2.075952:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23760:0:0:</>
+</block H-1-10-2.075952:>
+<block H-2-8-2.643934:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23780:0:0:</>
+</block H-2-8-2.643934:>
+<block H-1-7-5.271191:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23800:0:0:</>
+</block H-1-7-5.271191:>
+<block H-1-13-5.14898:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:23820:1:7.5:</>
+<BlockPosXYZ>:23820:0:0:</>
+</block H-1-13-5.14898:C>
+<block H-2-15-3.064573:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23840:0:0:</>
+</block H-2-15-3.064573:>
+<block H-3-20-5.295813:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:23860:1.5:2:</>
+<BlockPosXYZ>:23860:0:0:</>
+</block H-3-20-5.295813:P3>
+<block H-3-20-2.462188:CP2>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:23880:1:7.5:</>
+<PowerPosXYZ:23880:1.5:0:</>
+<BlockPosXYZ>:23880:0:0:</>
+</block H-3-20-2.462188:CP2>
+<block H-2-7-3.230199:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:23900:1.5:0:</>
+<BlockPosXYZ>:23900:0:0:</>
+</block H-2-7-3.230199:P1>
+<block H-1-13-3.004408:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23920:0:0:</>
+</block H-1-13-3.004408:>
+<block H-0-11-3.846351:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:23940:1:-7.5:</>
+<BlockPosXYZ>:23940:0:0:</>
+</block H-0-11-3.846351:C>
+<block H-2-9-2.746427:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:23960:0:0:</>
+</block H-2-9-2.746427:>
+<block H-0-13-5.586383:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:23980:1:7.5:</>
+<BlockPosXYZ>:23980:0:0:</>
+</block H-0-13-5.586383:C>
+<block H-0-5-2.390741:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:24000:1:7.5:</>
+<BlockPosXYZ>:24000:0:0:</>
+</block H-0-5-2.390741:C>
+<block H-0-13-2.972495:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24020:0:0:</>
+</block H-0-13-2.972495:>
+<block H-0-11-3.32666:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24040:0:0:</>
+</block H-0-11-3.32666:>
+<block H-2-12-3.089364:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:24060:1:-7.5:</>
+<BlockPosXYZ>:24060:0:0:</>
+</block H-2-12-3.089364:C>
+<block H-3-20-5.185863:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24080:0:0:</>
+</block H-3-20-5.185863:>
+<block H-0-6-4.572971:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:24100:1:-7.5:</>
+<BlockPosXYZ>:24100:0:0:</>
+</block H-0-6-4.572971:BC>
+<block H-3-20-3.21453:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:24120:1:-7.5:</>
+<BlockPosXYZ>:24120:0:0:</>
+</block H-3-20-3.21453:C>
+<block H-0-5-5.923625:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24140:0:0:</>
+</block H-0-5-5.923625:>
+<block H-1-8-5.609593:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:24160:1:7.5:</>
+<BlockPosXYZ>:24160:0:0:</>
+</block H-1-8-5.609593:C>
+<block H-0-3-5.775198:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:24180:1:-7.5:</>
+<BlockPosXYZ>:24180:0:0:</>
+</block H-0-3-5.775198:C>
+<block H-2-6-3.33802:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:24200:1.5:0:</>
+<BlockPosXYZ>:24200:0:0:</>
+</block H-2-6-3.33802:P1>
+<block H-1-13-3.392945:P1C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:24220:1:7.5:</>
+<PowerPosXYZ:24220:1.5:2:</>
+<BlockPosXYZ>:24220:0:0:</>
+</block H-1-13-3.392945:P1C>
+<block H-3-20-5.73722:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24240:0:0:</>
+</block H-3-20-5.73722:>
+<block H-3-20-2.755675:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24260:0:0:</>
+</block H-3-20-2.755675:>
+<block H-1-5-5.619053:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24280:0:0:</>
+</block H-1-5-5.619053:>
+<block H-2-11-3.176726:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:24300:1:7.5:</>
+<BlockPosXYZ>:24300:0:0:</>
+</block H-2-11-3.176726:C>
+<block H-0-12-2.865992:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24320:0:0:</>
+</block H-0-12-2.865992:>
+<block H-1-7-4.06297:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24340:0:0:</>
+</block H-1-7-4.06297:>
+<block H-1-8-2.900747:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24360:0:0:</>
+</block H-1-8-2.900747:>
+<block H-2-8-2.971736:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24380:0:0:</>
+</block H-2-8-2.971736:B>
+<block H-2-13-2.572615:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:24400:1:-7.5:</>
+<BlockPosXYZ>:24400:0:0:</>
+</block H-2-13-2.572615:C>
+<block H-1-8-3.173805:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24420:0:0:</>
+</block H-1-8-3.173805:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:24440:0:0:</>
+</block >
+<block H-1-12-4.023032:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24460:0:0:</>
+</block H-1-12-4.023032:>
+<block H-1-8-2.350327:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24480:0:0:</>
+</block H-1-8-2.350327:>
+<block H-3-20-5.67885:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24500:0:0:</>
+</block H-3-20-5.67885:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:24520:0:0:</>
+</block >
+<block H-1-14-2.784248:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:24540:1:-7.5:</>
+<BlockPosXYZ>:24540:0:0:</>
+</block H-1-14-2.784248:C>
+<block H-0-11-4.496672:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:24560:1.5:-2:</>
+<BlockPosXYZ>:24560:0:0:</>
+</block H-0-11-4.496672:P3>
+<block H-0-7-4.761799:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24580:0:0:</>
+</block H-0-7-4.761799:>
+<block H-3-20-2.745719:CP2>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:24600:1:7.5:</>
+<PowerPosXYZ:24600:1.5:0:</>
+<BlockPosXYZ>:24600:0:0:</>
+</block H-3-20-2.745719:CP2>
+<block H-2-10-2.864697:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24620:0:0:</>
+</block H-2-10-2.864697:>
+<block H-0-9-4.742154:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:24640:1:-7.5:</>
+<BlockPosXYZ>:24640:0:0:</>
+</block H-0-9-4.742154:C>
+<block H-2-10-3.31216:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24660:0:0:</>
+</block H-2-10-3.31216:>
+<block H-3-20-2.080464:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24680:0:0:</>
+</block H-3-20-2.080464:>
+<block H-1-12-2.37468:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24700:0:0:</>
+</block H-1-12-2.37468:>
+<block H-3-20-5.516989:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24720:0:0:</>
+</block H-3-20-5.516989:>
+<block H-3-20-5.650327:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24740:0:0:</>
+</block H-3-20-5.650327:B>
+<block H-1-9-2.737601:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24760:0:0:</>
+</block H-1-9-2.737601:>
+<block H-2-7-3.449147:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24780:0:0:</>
+</block H-2-7-3.449147:>
+<block H-1-7-4.318207:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:24800:1.5:2:</>
+<BlockPosXYZ>:24800:0:0:</>
+</block H-1-7-4.318207:P1>
+<block H-1-13-2.100019:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:24820:1:-7.5:</>
+<BlockPosXYZ>:24820:0:0:</>
+</block H-1-13-2.100019:C>
+<block H-0-6-3.67708:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:24840:1:-7.5:</>
+<BlockPosXYZ>:24840:0:0:</>
+</block H-0-6-3.67708:BC>
+<block H-0-10-3.166314:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24860:0:0:</>
+</block H-0-10-3.166314:>
+<block H-1-11-5.166451:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24880:0:0:</>
+</block H-1-11-5.166451:>
+<block H-0-13-3.518764:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24900:0:0:</>
+</block H-0-13-3.518764:B>
+<block H-2-14-2.900725:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:24920:1:7.5:</>
+<BlockPosXYZ>:24920:0:0:</>
+</block H-2-14-2.900725:C>
+<block H-0-11-4.032085:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24940:0:0:</>
+</block H-0-11-4.032085:>
+<block H-3-20-5.178121:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:24960:1:-7.5:</>
+<BlockPosXYZ>:24960:0:0:</>
+</block H-3-20-5.178121:C>
+<block H-3-20-3.504217:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:24980:0:0:</>
+</block H-3-20-3.504217:>
+<block H-0-13-2.563135:P2C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:25000:1:-7.5:</>
+<PowerPosXYZ:25000:1.5:-2:</>
+<BlockPosXYZ>:25000:0:0:</>
+</block H-0-13-2.563135:P2C>
+<block H-0-12-3.89296:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25020:0:0:</>
+</block H-0-12-3.89296:>
+<block H-1-7-3.425143:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:25040:1:-7.5:</>
+<BlockPosXYZ>:25040:0:0:</>
+</block H-1-7-3.425143:C>
+<block H-3-20-5.149341:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:25060:1.5:0:</>
+<BlockPosXYZ>:25060:0:0:</>
+</block H-3-20-5.149341:P1>
+<block H-2-12-2.90819:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25080:0:0:</>
+</block H-2-12-2.90819:>
+<block H-2-7-3.005198:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25100:0:0:</>
+</block H-2-7-3.005198:>
+<block H-0-7-2.67838:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25120:0:0:</>
+</block H-0-7-2.67838:>
+<block H-2-11-2.750054:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25140:0:0:</>
+</block H-2-11-2.750054:>
+<block H-2-8-3.038065:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25160:0:0:</>
+</block H-2-8-3.038065:>
+<block H-0-13-5.953294:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25180:0:0:</>
+</block H-0-13-5.953294:>
+<block H-3-20-5.966029:P1C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:25200:1:-7.5:</>
+<PowerPosXYZ:25200:1.5:2:</>
+<BlockPosXYZ>:25200:0:0:</>
+</block H-3-20-5.966029:P1C>
+<block H-2-10-3.313206:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25220:0:0:</>
+</block H-2-10-3.313206:>
+<block H-2-17-3.447815:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:25240:1:-7.5:</>
+<BlockPosXYZ>:25240:0:0:</>
+</block H-2-17-3.447815:C>
+<block H-1-8-3.020277:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25260:0:0:</>
+</block H-1-8-3.020277:>
+<block H-0-9-4.306781:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25280:0:0:</>
+</block H-0-9-4.306781:>
+<block H-2-9-3.406688:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:25300:1.5:0:</>
+<BlockPosXYZ>:25300:0:0:</>
+</block H-2-9-3.406688:P2>
+<block H-3-20-4.802121:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:25320:1:-7.5:</>
+<BlockPosXYZ>:25320:0:0:</>
+</block H-3-20-4.802121:C>
+<block H-1-9-3.435247:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:25340:1.5:2:</>
+<BlockPosXYZ>:25340:0:0:</>
+</block H-1-9-3.435247:P2>
+<block H-3-20-5.825995:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:25360:1:-7.5:</>
+<BlockPosXYZ>:25360:0:0:</>
+</block H-3-20-5.825995:C>
+<block H-0-15-2.87868:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:25380:1.5:-2:</>
+<BlockPosXYZ>:25380:0:0:</>
+</block H-0-15-2.87868:P2>
+<block H-3-20-5.151977:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25400:0:0:</>
+</block H-3-20-5.151977:>
+<block H-2-13-3.325257:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25420:0:0:</>
+</block H-2-13-3.325257:>
+<block H-1-8-4.817428:CP3>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:25440:1:-7.5:</>
+<PowerPosXYZ:25440:1.5:0:</>
+<BlockPosXYZ>:25440:0:0:</>
+</block H-1-8-4.817428:CP3>
+<block H-1-10-4.605271:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25460:0:0:</>
+</block H-1-10-4.605271:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:25480:0:0:</>
+</block >
+<block H-0-15-4.550661:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25500:0:0:</>
+</block H-0-15-4.550661:>
+<block H-2-10-3.071222:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25520:0:0:</>
+</block H-2-10-3.071222:>
+<block H-3-20-2.942761:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:25540:1:-7.5:</>
+<BlockPosXYZ>:25540:0:0:</>
+</block H-3-20-2.942761:BC>
+<block H-0-9-4.936589:CP1>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:25560:1:7.5:</>
+<PowerPosXYZ:25560:1.5:0:</>
+<BlockPosXYZ>:25560:0:0:</>
+</block H-0-9-4.936589:CP1>
+<block H-3-20-2.694149:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:25580:1:-7.5:</>
+<BlockPosXYZ>:25580:0:0:</>
+</block H-3-20-2.694149:BC>
+<block H-3-20-2.594922:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:25600:1:-7.5:</>
+<BlockPosXYZ>:25600:0:0:</>
+</block H-3-20-2.594922:C>
+<block H-2-12-2.85707:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:25620:1:-7.5:</>
+<BlockPosXYZ>:25620:0:0:</>
+</block H-2-12-2.85707:C>
+<block H-3-20-4.454328:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25640:0:0:</>
+</block H-3-20-4.454328:>
+<block H-3-20-2.977674:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25660:0:0:</>
+</block H-3-20-2.977674:>
+<block H-2-9-2.567167:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25680:0:0:</>
+</block H-2-9-2.567167:>
+<block H-0-8-3.111301:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25700:0:0:</>
+</block H-0-8-3.111301:>
+<block H-0-13-5.415016:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:25720:1:-7.5:</>
+<BlockPosXYZ>:25720:0:0:</>
+</block H-0-13-5.415016:C>
+<block H-0-14-3.954317:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25740:0:0:</>
+</block H-0-14-3.954317:>
+<block H-0-13-3.139236:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25760:0:0:</>
+</block H-0-13-3.139236:>
+<block H-0-9-3.252233:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25780:0:0:</>
+</block H-0-9-3.252233:>
+<block H-2-10-2.534716:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:25800:1:7.5:</>
+<BlockPosXYZ>:25800:0:0:</>
+</block H-2-10-2.534716:C>
+<block H-0-12-2.591592:P2C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:25820:1:-7.5:</>
+<PowerPosXYZ:25820:1.5:-2:</>
+<BlockPosXYZ>:25820:0:0:</>
+</block H-0-12-2.591592:P2C>
+<block H-1-13-2.232635:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:25840:1:-7.5:</>
+<BlockPosXYZ>:25840:0:0:</>
+</block H-1-13-2.232635:C>
+<block H-2-15-3.312242:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25860:0:0:</>
+</block H-2-15-3.312242:>
+<block H-2-13-3.183887:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25880:0:0:</>
+</block H-2-13-3.183887:>
+<block H-3-20-3.047115:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25900:0:0:</>
+</block H-3-20-3.047115:>
+<block H-0-16-5.677815:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25920:0:0:</>
+</block H-0-16-5.677815:B>
+<block H-2-10-3.482589:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:25940:0:0:</>
+</block H-2-10-3.482589:>
+<block H-2-10-3.384118:P2C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:25960:1:7.5:</>
+<PowerPosXYZ:25960:1.5:0:</>
+<BlockPosXYZ>:25960:0:0:</>
+</block H-2-10-3.384118:P2C>
+<block H-1-14-2.949624:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:25980:1:-7.5:</>
+<BlockPosXYZ>:25980:0:0:</>
+</block H-1-14-2.949624:BC>
+<block C>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:26000:1:7.5:</>
+<BlockPosXYZ>:26000:0:0:</>
+</block C>
+<block H-1-12-3.101284:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26020:0:0:</>
+</block H-1-12-3.101284:>
+<block H-1-8-5.81357:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26040:0:0:</>
+</block H-1-8-5.81357:>
+<block H-1-9-2.957439:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:26060:1:-7.5:</>
+<BlockPosXYZ>:26060:0:0:</>
+</block H-1-9-2.957439:C>
+<block H-0-13-3.165233:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:26080:1:7.5:</>
+<BlockPosXYZ>:26080:0:0:</>
+</block H-0-13-3.165233:C>
+<block H-1-7-3.811277:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26100:0:0:</>
+</block H-1-7-3.811277:>
+<block H-1-13-2.09832:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26120:0:0:</>
+</block H-1-13-2.09832:>
+<block H-2-6-2.787399:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:26140:1:7.5:</>
+<BlockPosXYZ>:26140:0:0:</>
+</block H-2-6-2.787399:C>
+<block H-1-12-3.398245:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26160:0:0:</>
+</block H-1-12-3.398245:>
+<block H-3-20-3.412688:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:26180:1:7.5:</>
+<BlockPosXYZ>:26180:0:0:</>
+</block H-3-20-3.412688:C>
+<block H-0-13-3.271662:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26200:0:0:</>
+</block H-0-13-3.271662:>
+<block H-3-20-5.488168:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26220:0:0:</>
+</block H-3-20-5.488168:>
+<block H-0-13-2.693619:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:26240:1.5:-2:</>
+<BlockPosXYZ>:26240:0:0:</>
+</block H-0-13-2.693619:P1>
+<block H-3-20-4.736398:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26260:0:0:</>
+</block H-3-20-4.736398:>
+<block H-3-20-5.506031:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26280:0:0:</>
+</block H-3-20-5.506031:>
+<block H-1-11-5.704815:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:26300:1.5:2:</>
+<BlockPosXYZ>:26300:0:0:</>
+</block H-1-11-5.704815:P1>
+<block H-2-7-3.239327:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26320:0:0:</>
+</block H-2-7-3.239327:>
+<block H-3-20-4.175572:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26340:0:0:</>
+</block H-3-20-4.175572:>
+<block H-3-20-5.465271:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26360:0:0:</>
+</block H-3-20-5.465271:>
+<block H-3-20-2.961693:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:26380:1:-7.5:</>
+<BlockPosXYZ>:26380:0:0:</>
+</block H-3-20-2.961693:C>
+<block H-3-20-3.192564:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:26400:1:-7.5:</>
+<BlockPosXYZ>:26400:0:0:</>
+</block H-3-20-3.192564:C>
+<block H-0-13-5.919134:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26420:0:0:</>
+</block H-0-13-5.919134:>
+<block H-2-9-2.53014:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26440:0:0:</>
+</block H-2-9-2.53014:>
+<block H-1-14-4.883795:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:26460:1:7.5:</>
+<BlockPosXYZ>:26460:0:0:</>
+</block H-1-14-4.883795:C>
+<block H-2-6-2.525097:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26480:0:0:</>
+</block H-2-6-2.525097:>
+<block H-3-20-5.095551:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:26500:1:-7.5:</>
+<BlockPosXYZ>:26500:0:0:</>
+</block H-3-20-5.095551:C>
+<block H-1-13-4.846628:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:26520:1.5:2:</>
+<BlockPosXYZ>:26520:0:0:</>
+</block H-1-13-4.846628:P1>
+<block H-0-12-4.751307:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26540:0:0:</>
+</block H-0-12-4.751307:>
+<block H-0-11-4.58205:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26560:0:0:</>
+</block H-0-11-4.58205:>
+<block H-1-17-5.716231:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:26580:1.5:2:</>
+<BlockPosXYZ>:26580:0:0:</>
+</block H-1-17-5.716231:P2>
+<block H-2-10-2.524642:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:26600:1:7.5:</>
+<BlockPosXYZ>:26600:0:0:</>
+</block H-2-10-2.524642:C>
+<block H-3-20-5.120326:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26620:0:0:</>
+</block H-3-20-5.120326:>
+<block H-0-12-5.847099:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:26640:1:-7.5:</>
+<BlockPosXYZ>:26640:0:0:</>
+</block H-0-12-5.847099:C>
+<block H-0-13-5.773927:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26660:0:0:</>
+</block H-0-13-5.773927:>
+<block H-2-16-3.094809:P1C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:26680:1:-7.5:</>
+<PowerPosXYZ:26680:1.5:0:</>
+<BlockPosXYZ>:26680:0:0:</>
+</block H-2-16-3.094809:P1C>
+<block H-0-8-5.496431:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26700:0:0:</>
+</block H-0-8-5.496431:B>
+<block H-0-12-5.294173:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:26720:1:7.5:</>
+<BlockPosXYZ>:26720:0:0:</>
+</block H-0-12-5.294173:C>
+<block H-3-20-5.107899:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:26740:1:-7.5:</>
+<BlockPosXYZ>:26740:0:0:</>
+</block H-3-20-5.107899:C>
+<block H-2-9-2.788367:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:26760:1:-7.5:</>
+<BlockPosXYZ>:26760:0:0:</>
+</block H-2-9-2.788367:C>
+<block H-1-8-3.417914:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:26780:1.5:0:</>
+<BlockPosXYZ>:26780:0:0:</>
+</block H-1-8-3.417914:P2>
+<block H-1-12-2.777635:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26800:0:0:</>
+</block H-1-12-2.777635:>
+<block H-3-20-2.241313:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26820:0:0:</>
+</block H-3-20-2.241313:>
+<block H-3-20-5.927853:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:26840:1.5:0:</>
+<BlockPosXYZ>:26840:0:0:</>
+</block H-3-20-5.927853:P2>
+<block H-1-12-5.804057:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26860:0:0:</>
+</block H-1-12-5.804057:>
+<block H-3-20-3.026278:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26880:0:0:</>
+</block H-3-20-3.026278:>
+<block H-2-3-2.878435:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26900:0:0:</>
+</block H-2-3-2.878435:>
+<block H-3-20-4.60923:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26920:0:0:</>
+</block H-3-20-4.60923:B>
+<block H-1-9-4.02938:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26940:0:0:</>
+</block H-1-9-4.02938:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:26960:0:0:</>
+</block >
+<block H-3-20-3.630806:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:26980:0:0:</>
+</block H-3-20-3.630806:B>
+<block H-2-16-2.632902:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27000:0:0:</>
+</block H-2-16-2.632902:>
+<block H-2-10-2.756187:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27020:0:0:</>
+</block H-2-10-2.756187:>
+<block H-1-7-3.038239:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27040:0:0:</>
+</block H-1-7-3.038239:>
+<block H-1-17-4.554561:P3C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:27060:1:-7.5:</>
+<PowerPosXYZ:27060:1.5:2:</>
+<BlockPosXYZ>:27060:0:0:</>
+</block H-1-17-4.554561:P3C>
+<block H-2-11-2.574884:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27080:0:0:</>
+</block H-2-11-2.574884:>
+<block H-2-16-3.380034:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:27100:1:-7.5:</>
+<BlockPosXYZ>:27100:0:0:</>
+</block H-2-16-3.380034:C>
+<block H-0-8-4.712359:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:27120:1:7.5:</>
+<BlockPosXYZ>:27120:0:0:</>
+</block H-0-8-4.712359:C>
+<block H-2-12-3.27244:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27140:0:0:</>
+</block H-2-12-3.27244:>
+<block H-2-7-3.004458:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27160:0:0:</>
+</block H-2-7-3.004458:>
+<block H-0-11-2.350545:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27180:0:0:</>
+</block H-0-11-2.350545:>
+<block H-2-9-3.352937:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27200:0:0:</>
+</block H-2-9-3.352937:>
+<block H-3-20-3.250486:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:27220:1:-7.5:</>
+<BlockPosXYZ>:27220:0:0:</>
+</block H-3-20-3.250486:C>
+<block H-2-9-2.893039:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:27240:1.5:0:</>
+<BlockPosXYZ>:27240:0:0:</>
+</block H-2-9-2.893039:P2>
+<block H-3-20-2.266243:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:27260:1:7.5:</>
+<BlockPosXYZ>:27260:0:0:</>
+</block H-3-20-2.266243:BC>
+<block H-3-20-5.511237:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27280:0:0:</>
+</block H-3-20-5.511237:>
+<block H-2-8-3.118914:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:27300:1.5:0:</>
+<BlockPosXYZ>:27300:0:0:</>
+</block H-2-8-3.118914:P2>
+<block H-2-10-3.452794:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27320:0:0:</>
+</block H-2-10-3.452794:>
+<block H-3-20-4.799556:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27340:0:0:</>
+</block H-3-20-4.799556:>
+<block H-2-10-3.243763:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27360:0:0:</>
+</block H-2-10-3.243763:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:27380:0:0:</>
+</block >
+<block H-2-13-2.511985:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:27400:1:7.5:</>
+<BlockPosXYZ>:27400:0:0:</>
+</block H-2-13-2.511985:C>
+<block H-0-16-4.290119:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27420:0:0:</>
+</block H-0-16-4.290119:>
+<block H-3-20-4.581581:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27440:0:0:</>
+</block H-3-20-4.581581:>
+<block H-3-20-2.4954:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27460:0:0:</>
+</block H-3-20-2.4954:>
+<block H-3-20-4.467689:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:27480:1:7.5:</>
+<BlockPosXYZ>:27480:0:0:</>
+</block H-3-20-4.467689:C>
+<block H-1-10-2.492946:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:27500:1:-7.5:</>
+<BlockPosXYZ>:27500:0:0:</>
+</block H-1-10-2.492946:BC>
+<block H-3-20-4.578261:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:27520:1:-7.5:</>
+<BlockPosXYZ>:27520:0:0:</>
+</block H-3-20-4.578261:C>
+<block H-2-16-3.392889:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:27540:1:-7.5:</>
+<BlockPosXYZ>:27540:0:0:</>
+</block H-2-16-3.392889:C>
+<block H-2-11-3.170758:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27560:0:0:</>
+</block H-2-11-3.170758:>
+<block H-0-15-5.979483:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:27580:1:7.5:</>
+<BlockPosXYZ>:27580:0:0:</>
+</block H-0-15-5.979483:C>
+<block H-1-11-4.176721:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27600:0:0:</>
+</block H-1-11-4.176721:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:27620:0:0:</>
+</block >
+<block H-3-20-4.40108:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27640:0:0:</>
+</block H-3-20-4.40108:>
+<block H-2-16-2.561305:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:27660:1:7.5:</>
+<BlockPosXYZ>:27660:0:0:</>
+</block H-2-16-2.561305:C>
+<block H-2-7-2.940143:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:27680:1.5:0:</>
+<BlockPosXYZ>:27680:0:0:</>
+</block H-2-7-2.940143:P2>
+<block H-1-9-5.708262:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27700:0:0:</>
+</block H-1-9-5.708262:>
+<block H-1-12-3.461113:BP2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:27720:1.5:2:</>
+<BlockPosXYZ>:27720:0:0:</>
+</block H-1-12-3.461113:BP2>
+<block H-2-10-2.991621:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27740:0:0:</>
+</block H-2-10-2.991621:>
+<block H-2-7-2.548654:P1C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:27760:1:-7.5:</>
+<PowerPosXYZ:27760:1.5:0:</>
+<BlockPosXYZ>:27760:0:0:</>
+</block H-2-7-2.548654:P1C>
+<block H-1-9-2.561719:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:27780:1.5:2:</>
+<BlockPosXYZ>:27780:0:0:</>
+</block H-1-9-2.561719:P1>
+<block H-3-20-2.883732:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:27800:1:7.5:</>
+<BlockPosXYZ>:27800:0:0:</>
+</block H-3-20-2.883732:C>
+<block H-1-14-2.917316:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27820:0:0:</>
+</block H-1-14-2.917316:>
+<block H-0-12-5.557925:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27840:0:0:</>
+</block H-0-12-5.557925:>
+<block H-2-8-3.476989:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27860:0:0:</>
+</block H-2-8-3.476989:B>
+<block H-0-12-4.182781:BC>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:27880:1:-7.5:</>
+<BlockPosXYZ>:27880:0:0:</>
+</block H-0-12-4.182781:BC>
+<block H-1-7-4.116253:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27900:0:0:</>
+</block H-1-7-4.116253:>
+<block H-1-13-5.803849:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27920:0:0:</>
+</block H-1-13-5.803849:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:27940:0:0:</>
+</block >
+<block H-0-11-3.060577:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:27960:0:0:</>
+</block H-0-11-3.060577:>
+<block H-0-13-4.383494:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:27980:1:-7.5:</>
+<BlockPosXYZ>:27980:0:0:</>
+</block H-0-13-4.383494:C>
+<block C>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:28000:1:7.5:</>
+<BlockPosXYZ>:28000:0:0:</>
+</block C>
+<block H-2-7-2.726242:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28020:0:0:</>
+</block H-2-7-2.726242:>
+<block H-3-20-4.753451:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28040:0:0:</>
+</block H-3-20-4.753451:>
+<block H-1-9-5.353304:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28060:0:0:</>
+</block H-1-9-5.353304:>
+<block H-1-12-3.184141:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:28080:1:7.5:</>
+<BlockPosXYZ>:28080:0:0:</>
+</block H-1-12-3.184141:C>
+<block H-0-5-2.61718:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28100:0:0:</>
+</block H-0-5-2.61718:>
+<block H-3-20-4.823663:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28120:0:0:</>
+</block H-3-20-4.823663:B>
+<block H-0-10-3.408554:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28140:0:0:</>
+</block H-0-10-3.408554:>
+<block H-0-14-3.796365:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:28160:1:7.5:</>
+<BlockPosXYZ>:28160:0:0:</>
+</block H-0-14-3.796365:C>
+<block H-2-13-3.469642:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:28180:1.5:0:</>
+<BlockPosXYZ>:28180:0:0:</>
+</block H-2-13-3.469642:P3>
+<block H-3-20-2.524992:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28200:0:0:</>
+</block H-3-20-2.524992:B>
+<block H-3-20-3.820398:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:28220:1:-7.5:</>
+<BlockPosXYZ>:28220:0:0:</>
+</block H-3-20-3.820398:C>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:28240:0:0:</>
+</block >
+<block H-1-14-4.945229:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28260:0:0:</>
+</block H-1-14-4.945229:>
+<block H-3-20-4.607629:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28280:0:0:</>
+</block H-3-20-4.607629:>
+<block H-2-7-2.78936:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28300:0:0:</>
+</block H-2-7-2.78936:>
+<block H-3-20-4.940666:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28320:0:0:</>
+</block H-3-20-4.940666:>
+<block H-3-20-5.016439:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28340:0:0:</>
+</block H-3-20-5.016439:B>
+<block H-0-9-3.080655:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28360:0:0:</>
+</block H-0-9-3.080655:B>
+<block H-3-20-4.225078:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:28380:1:-7.5:</>
+<BlockPosXYZ>:28380:0:0:</>
+</block H-3-20-4.225078:C>
+<block H-1-7-3.032517:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28400:0:0:</>
+</block H-1-7-3.032517:>
+<block H-2-14-3.092799:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:28420:1:7.5:</>
+<BlockPosXYZ>:28420:0:0:</>
+</block H-2-14-3.092799:C>
+<block H-0-16-4.843266:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28440:0:0:</>
+</block H-0-16-4.843266:>
+<block H-3-20-5.705645:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:28460:1:-7.5:</>
+<BlockPosXYZ>:28460:0:0:</>
+</block H-3-20-5.705645:C>
+<block H-3-20-4.734267:P1C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:28480:1:7.5:</>
+<PowerPosXYZ:28480:1.5:2:</>
+<BlockPosXYZ>:28480:0:0:</>
+</block H-3-20-4.734267:P1C>
+<block H-1-11-5.960073:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28500:0:0:</>
+</block H-1-11-5.960073:>
+<block H-2-14-2.848097:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28520:0:0:</>
+</block H-2-14-2.848097:>
+<block H-1-11-2.71312:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28540:0:0:</>
+</block H-1-11-2.71312:>
+<block H-2-5-2.624332:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:28560:1:-7.5:</>
+<BlockPosXYZ>:28560:0:0:</>
+</block H-2-5-2.624332:C>
+<block H-3-20-5.637972:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28580:0:0:</>
+</block H-3-20-5.637972:>
+<block H-0-11-4.036193:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28600:0:0:</>
+</block H-0-11-4.036193:>
+<block H-3-20-2.087186:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28620:0:0:</>
+</block H-3-20-2.087186:>
+<block H-3-20-3.057729:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:28640:1:7.5:</>
+<BlockPosXYZ>:28640:0:0:</>
+</block H-3-20-3.057729:C>
+<block H-0-9-4.658198:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28660:0:0:</>
+</block H-0-9-4.658198:>
+<block H-2-15-3.171516:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28680:0:0:</>
+</block H-2-15-3.171516:>
+<block H-0-10-5.691041:P2C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:28700:1:7.5:</>
+<PowerPosXYZ:28700:1.5:-2:</>
+<BlockPosXYZ>:28700:0:0:</>
+</block H-0-10-5.691041:P2C>
+<block H-0-12-5.023504:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28720:0:0:</>
+</block H-0-12-5.023504:>
+<block H-3-20-4.629331:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28740:0:0:</>
+</block H-3-20-4.629331:>
+<block H-2-4-3.46735:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28760:0:0:</>
+</block H-2-4-3.46735:>
+<block H-1-14-2.855882:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:28780:1.5:0:</>
+<BlockPosXYZ>:28780:0:0:</>
+</block H-1-14-2.855882:P1>
+<block H-2-8-3.027364:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28800:0:0:</>
+</block H-2-8-3.027364:>
+<block H-1-8-4.300284:CP1>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:28820:1:-7.5:</>
+<PowerPosXYZ:28820:1.5:0:</>
+<BlockPosXYZ>:28820:0:0:</>
+</block H-1-8-4.300284:CP1>
+<block C>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:28840:1:-7.5:</>
+<BlockPosXYZ>:28840:0:0:</>
+</block C>
+<block H-0-12-4.429583:P2C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:28860:1:7.5:</>
+<PowerPosXYZ:28860:1.5:-2:</>
+<BlockPosXYZ>:28860:0:0:</>
+</block H-0-12-4.429583:P2C>
+<block H-1-10-5.963014:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:28880:1:-7.5:</>
+<BlockPosXYZ>:28880:0:0:</>
+</block H-1-10-5.963014:C>
+<block H-0-11-5.938054:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28900:0:0:</>
+</block H-0-11-5.938054:>
+<block H-0-11-3.322226:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28920:0:0:</>
+</block H-0-11-3.322226:>
+<block H-0-8-2.440272:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28940:0:0:</>
+</block H-0-8-2.440272:>
+<block H-2-13-2.599066:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:28960:0:0:</>
+</block H-2-13-2.599066:>
+<block H-1-12-3.695197:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:28980:1:-7.5:</>
+<BlockPosXYZ>:28980:0:0:</>
+</block H-1-12-3.695197:C>
+<block H-2-8-3.283054:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:29000:1:-7.5:</>
+<BlockPosXYZ>:29000:0:0:</>
+</block H-2-8-3.283054:C>
+<block H-0-7-3.295304:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:29020:1:-7.5:</>
+<BlockPosXYZ>:29020:0:0:</>
+</block H-0-7-3.295304:C>
+<block H-3-20-3.020674:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29040:0:0:</>
+</block H-3-20-3.020674:>
+<block H-0-7-3.725351:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29060:0:0:</>
+</block H-0-7-3.725351:B>
+<block H-1-11-5.858861:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29080:0:0:</>
+</block H-1-11-5.858861:B>
+<block H-0-9-3.789552:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29100:0:0:</>
+</block H-0-9-3.789552:>
+<block H-1-15-2.221041:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:29120:1.5:2:</>
+<BlockPosXYZ>:29120:0:0:</>
+</block H-1-15-2.221041:P2>
+<block H-1-12-4.925818:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:29140:1:-7.5:</>
+<BlockPosXYZ>:29140:0:0:</>
+</block H-1-12-4.925818:C>
+<block H-3-20-5.385406:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29160:0:0:</>
+</block H-3-20-5.385406:B>
+<block H-2-13-3.15889:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29180:0:0:</>
+</block H-2-13-3.15889:>
+<block H-1-14-4.396684:P2C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:29200:1:7.5:</>
+<PowerPosXYZ:29200:1.5:2:</>
+<BlockPosXYZ>:29200:0:0:</>
+</block H-1-14-4.396684:P2C>
+<block H-1-12-5.285771:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:29220:1.5:0:</>
+<BlockPosXYZ>:29220:0:0:</>
+</block H-1-12-5.285771:P3>
+<block H-3-20-4.108857:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29240:0:0:</>
+</block H-3-20-4.108857:>
+<block H-1-11-2.373337:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:29260:1:-7.5:</>
+<BlockPosXYZ>:29260:0:0:</>
+</block H-1-11-2.373337:C>
+<block H-3-20-2.550061:P3C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:29280:1:7.5:</>
+<PowerPosXYZ:29280:1.5:2:</>
+<BlockPosXYZ>:29280:0:0:</>
+</block H-3-20-2.550061:P3C>
+<block H-1-12-4.808198:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:29300:1:7.5:</>
+<BlockPosXYZ>:29300:0:0:</>
+</block H-1-12-4.808198:C>
+<block H-2-8-3.259866:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:29320:1:7.5:</>
+<BlockPosXYZ>:29320:0:0:</>
+</block H-2-8-3.259866:C>
+<block H-0-12-4.312737:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:29340:1:-7.5:</>
+<BlockPosXYZ>:29340:0:0:</>
+</block H-0-12-4.312737:C>
+<block H-0-9-5.010336:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29360:0:0:</>
+</block H-0-9-5.010336:>
+<block H-0-9-3.09457:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29380:0:0:</>
+</block H-0-9-3.09457:>
+<block H-3-20-3.973231:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29400:0:0:</>
+</block H-3-20-3.973231:>
+<block H-0-10-4.261178:P2C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:29420:1:-7.5:</>
+<PowerPosXYZ:29420:1.5:-2:</>
+<BlockPosXYZ>:29420:0:0:</>
+</block H-0-10-4.261178:P2C>
+<block H-1-7-4.420732:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29440:0:0:</>
+</block H-1-7-4.420732:>
+<block H-1-15-3.822691:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:29460:1:-7.5:</>
+<BlockPosXYZ>:29460:0:0:</>
+</block H-1-15-3.822691:C>
+<block H-3-20-2.447769:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29480:0:0:</>
+</block H-3-20-2.447769:>
+<block P1>
+<sectiontype>StraightFlat(Clone)/>
+<PowerPosXYZ:29500:1.5:0:</>
+<BlockPosXYZ>:29500:0:0:</>
+</block P1>
+<block H-2-8-3.005381:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:29520:1.5:0:</>
+<BlockPosXYZ>:29520:0:0:</>
+</block H-2-8-3.005381:P2>
+<block H-2-9-2.735002:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:29540:1.5:0:</>
+<BlockPosXYZ>:29540:0:0:</>
+</block H-2-9-2.735002:P1>
+<block H-1-11-5.693634:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29560:0:0:</>
+</block H-1-11-5.693634:>
+<block H-0-10-3.290426:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29580:0:0:</>
+</block H-0-10-3.290426:B>
+<block H-1-7-3.303217:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:29600:1:7.5:</>
+<BlockPosXYZ>:29600:0:0:</>
+</block H-1-7-3.303217:C>
+<block H-2-11-3.313706:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:29620:1:7.5:</>
+<BlockPosXYZ>:29620:0:0:</>
+</block H-2-11-3.313706:C>
+<block H-3-20-5.288628:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29640:0:0:</>
+</block H-3-20-5.288628:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:29660:0:0:</>
+</block >
+<block H-0-12-5.595427:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29680:0:0:</>
+</block H-0-12-5.595427:B>
+<block H-3-20-3.711938:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29700:0:0:</>
+</block H-3-20-3.711938:>
+<block H-1-13-2.350999:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29720:0:0:</>
+</block H-1-13-2.350999:>
+<block H-0-9-2.022367:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29740:0:0:</>
+</block H-0-9-2.022367:>
+<block H-3-20-4.734788:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29760:0:0:</>
+</block H-3-20-4.734788:>
+<block H-3-20-4.213987:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29780:0:0:</>
+</block H-3-20-4.213987:>
+<block H-0-11-5.777939:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29800:0:0:</>
+</block H-0-11-5.777939:B>
+<block H-3-20-3.792814:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29820:0:0:</>
+</block H-3-20-3.792814:B>
+<block H-1-7-2.173549:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29840:0:0:</>
+</block H-1-7-2.173549:B>
+<block H-2-9-2.920891:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29860:0:0:</>
+</block H-2-9-2.920891:>
+<block H-3-20-3.36289:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29880:0:0:</>
+</block H-3-20-3.36289:>
+<block H-2-6-2.522308:BP3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:29900:1.5:0:</>
+<BlockPosXYZ>:29900:0:0:</>
+</block H-2-6-2.522308:BP3>
+<block H-0-10-2.149925:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29920:0:0:</>
+</block H-0-10-2.149925:>
+<block H-1-6-4.273129:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29940:0:0:</>
+</block H-1-6-4.273129:>
+<block H-0-12-2.504817:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:29960:1:-7.5:</>
+<BlockPosXYZ>:29960:0:0:</>
+</block H-0-12-2.504817:C>
+<block H-2-9-3.280797:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:29980:0:0:</>
+</block H-2-9-3.280797:>
+<block H-2-9-2.647087:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30000:0:0:</>
+</block H-2-9-2.647087:>
+<block H-1-10-5.296102:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:30020:1:-7.5:</>
+<BlockPosXYZ>:30020:0:0:</>
+</block H-1-10-5.296102:C>
+<block H-0-8-3.831593:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30040:0:0:</>
+</block H-0-8-3.831593:>
+<block H-1-14-4.321977:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30060:0:0:</>
+</block H-1-14-4.321977:>
+<block H-1-7-4.163445:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:30080:1.5:0:</>
+<BlockPosXYZ>:30080:0:0:</>
+</block H-1-7-4.163445:P1>
+<block H-0-7-5.392605:BP3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:30100:1.5:-2:</>
+<BlockPosXYZ>:30100:0:0:</>
+</block H-0-7-5.392605:BP3>
+<block H-3-20-5.486994:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:30120:1:-7.5:</>
+<BlockPosXYZ>:30120:0:0:</>
+</block H-3-20-5.486994:C>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:30140:0:0:</>
+</block >
+<block H-1-13-5.864336:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:30160:1:7.5:</>
+<BlockPosXYZ>:30160:0:0:</>
+</block H-1-13-5.864336:C>
+<block H-3-20-4.992824:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:30180:1.5:2:</>
+<BlockPosXYZ>:30180:0:0:</>
+</block H-3-20-4.992824:P3>
+<block H-0-15-2.796127:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:30200:1:7.5:</>
+<BlockPosXYZ>:30200:0:0:</>
+</block H-0-15-2.796127:C>
+<block H-2-6-2.870097:BP3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:30220:1.5:0:</>
+<BlockPosXYZ>:30220:0:0:</>
+</block H-2-6-2.870097:BP3>
+<block H-0-10-3.890353:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30240:0:0:</>
+</block H-0-10-3.890353:B>
+<block P3C>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:30260:1:7.5:</>
+<PowerPosXYZ:30260:1.5:0:</>
+<BlockPosXYZ>:30260:0:0:</>
+</block P3C>
+<block H-3-20-3.481195:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30280:0:0:</>
+</block H-3-20-3.481195:B>
+<block H-0-14-3.545705:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:30300:1:-7.5:</>
+<BlockPosXYZ>:30300:0:0:</>
+</block H-0-14-3.545705:C>
+<block H-2-13-3.461051:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:30320:1:7.5:</>
+<BlockPosXYZ>:30320:0:0:</>
+</block H-2-13-3.461051:C>
+<block H-0-11-3.176724:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:30340:1:-7.5:</>
+<BlockPosXYZ>:30340:0:0:</>
+</block H-0-11-3.176724:C>
+<block H-3-20-4.134416:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30360:0:0:</>
+</block H-3-20-4.134416:>
+<block H-3-20-5.866211:CP2>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:30380:1:7.5:</>
+<PowerPosXYZ:30380:1.5:0:</>
+<BlockPosXYZ>:30380:0:0:</>
+</block H-3-20-5.866211:CP2>
+<block H-3-20-2.411779:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30400:0:0:</>
+</block H-3-20-2.411779:>
+<block H-1-9-4.371987:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30420:0:0:</>
+</block H-1-9-4.371987:B>
+<block H-0-8-5.228147:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30440:0:0:</>
+</block H-0-8-5.228147:>
+<block H-0-9-5.107185:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30460:0:0:</>
+</block H-0-9-5.107185:B>
+<block H-3-20-3.879799:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30480:0:0:</>
+</block H-3-20-3.879799:>
+<block H-0-11-5.961726:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30500:0:0:</>
+</block H-0-11-5.961726:>
+<block H-2-4-3.133398:P3C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:30520:1:-7.5:</>
+<PowerPosXYZ:30520:1.5:0:</>
+<BlockPosXYZ>:30520:0:0:</>
+</block H-2-4-3.133398:P3C>
+<block H-2-9-3.385632:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:30540:1:-7.5:</>
+<BlockPosXYZ>:30540:0:0:</>
+</block H-2-9-3.385632:C>
+<block H-2-9-3.467695:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30560:0:0:</>
+</block H-2-9-3.467695:>
+<block H-0-12-5.230944:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:30580:1.5:0:</>
+<BlockPosXYZ>:30580:0:0:</>
+</block H-0-12-5.230944:P3>
+<block H-2-5-2.641277:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:30600:1:7.5:</>
+<BlockPosXYZ>:30600:0:0:</>
+</block H-2-5-2.641277:C>
+<block H-1-18-4.152476:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30620:0:0:</>
+</block H-1-18-4.152476:B>
+<block H-0-7-2.419097:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30640:0:0:</>
+</block H-0-7-2.419097:>
+<block H-3-20-5.740035:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:30660:1:-7.5:</>
+<BlockPosXYZ>:30660:0:0:</>
+</block H-3-20-5.740035:C>
+<block H-2-11-3.249892:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30680:0:0:</>
+</block H-2-11-3.249892:>
+<block H-2-9-2.75702:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30700:0:0:</>
+</block H-2-9-2.75702:B>
+<block H-1-13-4.155602:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:30720:1:7.5:</>
+<BlockPosXYZ>:30720:0:0:</>
+</block H-1-13-4.155602:C>
+<block H-2-16-2.899382:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30740:0:0:</>
+</block H-2-16-2.899382:>
+<block H-0-15-4.319313:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30760:0:0:</>
+</block H-0-15-4.319313:>
+<block H-3-20-3.795302:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30780:0:0:</>
+</block H-3-20-3.795302:>
+<block H-1-13-4.232433:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30800:0:0:</>
+</block H-1-13-4.232433:>
+<block H-1-14-2.262088:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:30820:1:-7.5:</>
+<BlockPosXYZ>:30820:0:0:</>
+</block H-1-14-2.262088:C>
+<block H-0-10-5.335356:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30840:0:0:</>
+</block H-0-10-5.335356:>
+<block H-0-8-4.170731:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30860:0:0:</>
+</block H-0-8-4.170731:>
+<block H-2-10-2.929559:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30880:0:0:</>
+</block H-2-10-2.929559:>
+<block H-0-13-5.152637:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30900:0:0:</>
+</block H-0-13-5.152637:>
+<block H-0-9-2.528156:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:30920:1:7.5:</>
+<BlockPosXYZ>:30920:0:0:</>
+</block H-0-9-2.528156:C>
+<block H-3-20-2.497788:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:30940:1.5:2:</>
+<BlockPosXYZ>:30940:0:0:</>
+</block H-3-20-2.497788:P2>
+<block H-0-3-4.399959:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30960:0:0:</>
+</block H-0-3-4.399959:>
+<block H-3-20-3.359793:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:30980:0:0:</>
+</block H-3-20-3.359793:>
+<block H-2-6-3.123636:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:31000:1:-7.5:</>
+<BlockPosXYZ>:31000:0:0:</>
+</block H-2-6-3.123636:C>
+<block C>
+<sectiontype>StraightFlat(Clone)/>
+<CannonPosXYZ:31020:1:7.5:</>
+<BlockPosXYZ>:31020:0:0:</>
+</block C>
+<block H-2-8-3.286059:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31040:0:0:</>
+</block H-2-8-3.286059:>
+<block H-1-11-5.791336:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31060:0:0:</>
+</block H-1-11-5.791336:>
+<block H-0-14-4.704518:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31080:0:0:</>
+</block H-0-14-4.704518:>
+<block H-3-20-4.421546:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:31100:1:-7.5:</>
+<BlockPosXYZ>:31100:0:0:</>
+</block H-3-20-4.421546:C>
+<block H-1-14-4.118022:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31120:0:0:</>
+</block H-1-14-4.118022:>
+<block H-2-11-3.291025:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31140:0:0:</>
+</block H-2-11-3.291025:>
+<block H-1-11-2.961677:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31160:0:0:</>
+</block H-1-11-2.961677:>
+<block H-1-8-3.411343:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31180:0:0:</>
+</block H-1-8-3.411343:B>
+<block H-2-10-2.7569:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:31200:1.5:0:</>
+<BlockPosXYZ>:31200:0:0:</>
+</block H-2-10-2.7569:P2>
+<block H-2-9-2.723573:P1C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:31220:1:7.5:</>
+<PowerPosXYZ:31220:1.5:0:</>
+<BlockPosXYZ>:31220:0:0:</>
+</block H-2-9-2.723573:P1C>
+<block H-1-12-5.357203:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31240:0:0:</>
+</block H-1-12-5.357203:>
+<block H-1-10-5.145335:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:31260:1:-7.5:</>
+<BlockPosXYZ>:31260:0:0:</>
+</block H-1-10-5.145335:C>
+<block H-1-12-2.842439:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:31280:1.5:2:</>
+<BlockPosXYZ>:31280:0:0:</>
+</block H-1-12-2.842439:P3>
+<block H-0-14-2.636186:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:31300:1.5:-2:</>
+<BlockPosXYZ>:31300:0:0:</>
+</block H-0-14-2.636186:P2>
+<block H-1-10-3.141741:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:31320:1:-7.5:</>
+<BlockPosXYZ>:31320:0:0:</>
+</block H-1-10-3.141741:C>
+<block H-2-11-3.289057:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:31340:1:-7.5:</>
+<BlockPosXYZ>:31340:0:0:</>
+</block H-2-11-3.289057:C>
+<block H-3-20-5.519958:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31360:0:0:</>
+</block H-3-20-5.519958:>
+<block H-2-15-2.790503:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:31380:1:7.5:</>
+<BlockPosXYZ>:31380:0:0:</>
+</block H-2-15-2.790503:C>
+<block H-0-13-4.912837:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31400:0:0:</>
+</block H-0-13-4.912837:>
+<block H-0-10-3.292076:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:31420:1:7.5:</>
+<BlockPosXYZ>:31420:0:0:</>
+</block H-0-10-3.292076:C>
+<block H-3-20-2.613341:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31440:0:0:</>
+</block H-3-20-2.613341:>
+<block H-2-5-3.028302:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:31460:1:7.5:</>
+<BlockPosXYZ>:31460:0:0:</>
+</block H-2-5-3.028302:C>
+<block H-2-10-3.02986:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31480:0:0:</>
+</block H-2-10-3.02986:>
+<block H-3-20-3.089565:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31500:0:0:</>
+</block H-3-20-3.089565:>
+<block H-1-11-3.981079:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31520:0:0:</>
+</block H-1-11-3.981079:>
+<block H-3-20-5.033862:P3>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:31540:1.5:2:</>
+<BlockPosXYZ>:31540:0:0:</>
+</block H-3-20-5.033862:P3>
+<block H-2-9-3.310346:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31560:0:0:</>
+</block H-2-9-3.310346:>
+<block H-0-11-3.046305:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31580:0:0:</>
+</block H-0-11-3.046305:B>
+<block H-0-9-2.953495:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31600:0:0:</>
+</block H-0-9-2.953495:>
+<block H-3-20-4.880414:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31620:0:0:</>
+</block H-3-20-4.880414:>
+<block H-0-10-3.924364:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:31640:1:7.5:</>
+<BlockPosXYZ>:31640:0:0:</>
+</block H-0-10-3.924364:C>
+<block H-3-20-3.988554:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31660:0:0:</>
+</block H-3-20-3.988554:>
+<block H-2-13-2.847027:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31680:0:0:</>
+</block H-2-13-2.847027:>
+<block H-1-8-4.691816:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31700:0:0:</>
+</block H-1-8-4.691816:>
+<block H-2-12-3.422382:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31720:0:0:</>
+</block H-2-12-3.422382:>
+<block H-3-20-2.078899:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31740:0:0:</>
+</block H-3-20-2.078899:>
+<block H-3-20-5.07836:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31760:0:0:</>
+</block H-3-20-5.07836:>
+<block H-0-6-2.842759:BP3C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:31780:1:-7.5:</>
+<PowerPosXYZ:31780:1.5:-2:</>
+<BlockPosXYZ>:31780:0:0:</>
+</block H-0-6-2.842759:BP3C>
+<block H-1-7-4.610282:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:31800:1:7.5:</>
+<BlockPosXYZ>:31800:0:0:</>
+</block H-1-7-4.610282:C>
+<block H-3-20-2.998775:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31820:0:0:</>
+</block H-3-20-2.998775:>
+<block H-0-11-5.502536:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31840:0:0:</>
+</block H-0-11-5.502536:>
+<block H-0-4-2.620595:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31860:0:0:</>
+</block H-0-4-2.620595:>
+<block H-0-10-2.468405:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31880:0:0:</>
+</block H-0-10-2.468405:>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:31900:0:0:</>
+</block >
+<block H-1-8-3.495161:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31920:0:0:</>
+</block H-1-8-3.495161:>
+<block H-1-9-3.322246:P2>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:31940:1.5:2:</>
+<BlockPosXYZ>:31940:0:0:</>
+</block H-1-9-3.322246:P2>
+<block H-1-11-5.443847:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:31960:0:0:</>
+</block H-1-11-5.443847:>
+<block H-0-12-2.615651:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:31980:1:7.5:</>
+<BlockPosXYZ>:31980:0:0:</>
+</block H-0-12-2.615651:C>
+<block H-0-13-2.404919:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:32000:1:7.5:</>
+<BlockPosXYZ>:32000:0:0:</>
+</block H-0-13-2.404919:C>
+<block H-0-12-4.079165:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32020:0:0:</>
+</block H-0-12-4.079165:>
+<block H-1-7-2.583744:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32040:0:0:</>
+</block H-1-7-2.583744:>
+<block H-3-20-4.643973:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32060:0:0:</>
+</block H-3-20-4.643973:>
+<block H-1-7-2.750716:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32080:0:0:</>
+</block H-1-7-2.750716:>
+<block H-1-13-5.555488:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:32100:1:7.5:</>
+<BlockPosXYZ>:32100:0:0:</>
+</block H-1-13-5.555488:C>
+<block H-3-20-2.833742:CP1>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:32120:1:7.5:</>
+<PowerPosXYZ:32120:1.5:0:</>
+<BlockPosXYZ>:32120:0:0:</>
+</block H-3-20-2.833742:CP1>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:32140:0:0:</>
+</block >
+<block H-1-4-5.928463:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32160:0:0:</>
+</block H-1-4-5.928463:B>
+<block >
+<sectiontype>StraightFlat(Clone)/>
+<BlockPosXYZ>:32180:0:0:</>
+</block >
+<block H-0-13-3.645218:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32200:0:0:</>
+</block H-0-13-3.645218:>
+<block H-0-9-3.659317:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:32220:1:-7.5:</>
+<BlockPosXYZ>:32220:0:0:</>
+</block H-0-9-3.659317:C>
+<block H-2-13-3.368404:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32240:0:0:</>
+</block H-2-13-3.368404:>
+<block H-3-20-2.210252:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:32260:1.5:2:</>
+<BlockPosXYZ>:32260:0:0:</>
+</block H-3-20-2.210252:P1>
+<block H-0-12-5.337758:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32280:0:0:</>
+</block H-0-12-5.337758:>
+<block H-3-20-4.576343:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32300:0:0:</>
+</block H-3-20-4.576343:>
+<block H-3-20-3.735199:CP3>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:32320:1:-7.5:</>
+<PowerPosXYZ:32320:1.5:0:</>
+<BlockPosXYZ>:32320:0:0:</>
+</block H-3-20-3.735199:CP3>
+<block H-3-20-5.949944:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32340:0:0:</>
+</block H-3-20-5.949944:>
+<block H-3-20-4.092854:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:32360:1:-7.5:</>
+<BlockPosXYZ>:32360:0:0:</>
+</block H-3-20-4.092854:C>
+<block H-2-4-2.983886:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32380:0:0:</>
+</block H-2-4-2.983886:>
+<block H-0-10-5.054156:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32400:0:0:</>
+</block H-0-10-5.054156:>
+<block H-0-4-5.386838:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:32420:1:-7.5:</>
+<BlockPosXYZ>:32420:0:0:</>
+</block H-0-4-5.386838:C>
+<block H-1-12-2.546546:BP3C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:32440:1:7.5:</>
+<PowerPosXYZ:32440:1.5:2:</>
+<BlockPosXYZ>:32440:0:0:</>
+</block H-1-12-2.546546:BP3C>
+<block H-1-10-4.352685:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32460:0:0:</>
+</block H-1-10-4.352685:>
+<block H-0-6-5.657923:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32480:0:0:</>
+</block H-0-6-5.657923:>
+<block H-1-16-2.719544:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:32500:1:-7.5:</>
+<BlockPosXYZ>:32500:0:0:</>
+</block H-1-16-2.719544:C>
+<block H-1-17-5.382637:P1>
+<sectiontype>OmniBlock(Clone)/>
+<PowerPosXYZ:32520:1.5:2:</>
+<BlockPosXYZ>:32520:0:0:</>
+</block H-1-17-5.382637:P1>
+<block H-2-11-2.755233:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32540:0:0:</>
+</block H-2-11-2.755233:>
+<block H-1-13-5.529564:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32560:0:0:</>
+</block H-1-13-5.529564:>
+<block H-1-12-5.649518:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32580:0:0:</>
+</block H-1-12-5.649518:>
+<block H-2-9-2.56407:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32600:0:0:</>
+</block H-2-9-2.56407:>
+<block H-1-12-5.195722:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32620:0:0:</>
+</block H-1-12-5.195722:>
+<block H-1-10-3.678636:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:32640:1:-7.5:</>
+<BlockPosXYZ>:32640:0:0:</>
+</block H-1-10-3.678636:C>
+<block H-0-6-3.560243:C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:32660:1:-7.5:</>
+<BlockPosXYZ>:32660:0:0:</>
+</block H-0-6-3.560243:C>
+<block H-0-10-3.023805:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32680:0:0:</>
+</block H-0-10-3.023805:>
+<block H-3-20-3.122957:P3C>
+<sectiontype>OmniBlock(Clone)/>
+<CannonPosXYZ:32700:1:-7.5:</>
+<PowerPosXYZ:32700:1.5:2:</>
+<BlockPosXYZ>:32700:0:0:</>
+</block H-3-20-3.122957:P3C>
+<block H-0-8-2.559356:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32720:0:0:</>
+</block H-0-8-2.559356:>
+<block H-0-9-2.818969:B>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32740:0:0:</>
+</block H-0-9-2.818969:B>
+<block H-0-9-5.420609:>
+<sectiontype>OmniBlock(Clone)/>
+<BlockPosXYZ>:32760:0:0:</>
+</block H-0-9-5.420609:>

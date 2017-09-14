@@ -1,0 +1,6 @@
+syntax: glob
+Logs/*
+Builds/
+Temp/
+WorldPlaybackData/Player/
+Screenshot1.png
