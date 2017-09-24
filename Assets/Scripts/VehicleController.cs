@@ -38,6 +38,8 @@ public class VehicleController : MonoBehaviour {
     void OnCollisionEnter(Collision other)
     {
         _colliding = true;
+        if (other.gameObject.tag == "RoadBlock")
+            Destroy(gameObject);
         StartCoroutine(IncreaseResistance(other.gameObject));
     }
 
@@ -48,9 +50,12 @@ public class VehicleController : MonoBehaviour {
 
     IEnumerator IncreaseResistance(GameObject gameObejct)
     {
-        gameObejct.GetComponent<PlayerController>().BeginEnvironmentalResistanceOverride(SAND_RESISTANCE);
-        yield return new WaitForSeconds(5.0f);
-        gameObejct.GetComponent<PlayerController>().EndEnvironmentalResistanceOverride();
+        if(gameObject.tag == "Player")
+        {
+            gameObejct.GetComponent<PlayerController>().BeginEnvironmentalResistanceOverride(SAND_RESISTANCE);
+            yield return new WaitForSeconds(5.0f);
+            gameObejct.GetComponent<PlayerController>().EndEnvironmentalResistanceOverride();
+        }
     }
 
 }
