@@ -17,6 +17,7 @@ public class VehicleController : MonoBehaviour {
     public GameObject RFWheel;
     public GameObject LRWheel;
     public GameObject RRWheel;
+    public GameObject explosion;
 
     public static int SAND_RESISTANCE = 15;
 
@@ -51,7 +52,10 @@ public class VehicleController : MonoBehaviour {
     {
         _colliding = true;
         if (other.gameObject.tag == "RoadBlock")
+        {
+            Instantiate(explosion, transform.position, transform.rotation);
             Destroy(gameObject);
+        }
         StartCoroutine(IncreaseResistance(other.gameObject));
     }
 

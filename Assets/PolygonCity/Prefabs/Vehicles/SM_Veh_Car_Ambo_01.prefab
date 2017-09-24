@@ -29,7 +29,7 @@ GameObject:
   - component: {fileID: 2392894}
   m_Layer: 0
   m_Name: SM_Veh_Car_Ambo_Wheel_fr
-  m_TagString: Untagged
+  m_TagString: Wheel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 2333616}
   m_Layer: 0
   m_Name: SM_Veh_Car_Ambo_Wheel_rl
-  m_TagString: Untagged
+  m_TagString: Wheel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63,7 +63,7 @@ GameObject:
   - component: {fileID: 2323252}
   m_Layer: 0
   m_Name: SM_Veh_Car_Ambo_Wheel_fl
-  m_TagString: Untagged
+  m_TagString: Wheel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80,7 +80,7 @@ GameObject:
   - component: {fileID: 2372614}
   m_Layer: 0
   m_Name: SM_Veh_Car_Ambo_Wheel_rr
-  m_TagString: Untagged
+  m_TagString: Wheel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -892,3 +892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.1
+  LFWheel: {fileID: 134248}
+  RFWheel: {fileID: 125362}
+  LRWheel: {fileID: 125518}
+  RRWheel: {fileID: 142752}
