@@ -79,6 +79,7 @@ GameObject:
   - component: {fileID: 3321018}
   - component: {fileID: 2324734}
   - component: {fileID: 114641368969843220}
+  - component: {fileID: 65806665775523744}
   m_Layer: 0
   m_Name: SM_Veh_Car_Medium_01
   m_TagString: Untagged
@@ -571,6 +572,18 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 157676}
   m_IsPrefabParent: 1
+--- !u!65 &65806665775523744
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157676}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.3655212, y: 1.6393872, z: 4.968236}
+  m_Center: {x: 0, y: 1.0645186, z: 0.041665196}
 --- !u!114 &114641368969843220
 MonoBehaviour:
   m_ObjectHideFlags: 1
