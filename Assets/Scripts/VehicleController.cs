@@ -2,44 +2,48 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class moveCar : MonoBehaviour {
+public class VehicleController : MonoBehaviour {
 
     public float speed;
-    private bool HitByPlayer;
-    private bool colliding;
-    private float pingTime = 0.5f;
-    private float timeSinceLastPing = 0.0f;
+    private bool _hitByPlayer;
+    private bool _colliding;
+    private float _pingTime = 0.5f;
+    private float _timeSinceLastPing = 0.0f;
+    private GameObject _player;
 
     public static int SAND_RESISTANCE = 15;
 
     void Start()
     {
-        HitByPlayer = false;
+        _hitByPlayer = false;
+        _player = GameObject.Find("Player");
     }
 
     // Update is called once per frame
     void Update () {
         gameObject.transform.position = new Vector3(gameObject.transform.position.x + speed, transform.position.y, transform.position.z);
-        if (colliding)
+        if (_colliding)
         {
-            timeSinceLastPing += Time.deltaTime;
-            if (timeSinceLastPing >= pingTime)
+            _timeSinceLastPing += Time.deltaTime;
+            if (_timeSinceLastPing >= _pingTime)
             {
-                GameObject.Find("Player").GetComponent<PlayerController>().TakePoints(20);
-                timeSinceLastPing = 0.0f;
+                _player.GetComponent<PlayerController>().TakePoints(20);
+                _timeSinceLastPing = 0.0f;
             }
         }
+        if (_player.transform.position.x - transform.position.x > 200f)
+            Destroy(gameObject);
     }
 
     void OnCollisionEnter(Collision other)
     {
-        colliding = true;
+        _colliding = true;
         StartCoroutine(IncreaseResistance(other.gameObject));
     }
 
     void OnCollisionExit(Collision other)
     {
-        colliding = false;
+        _colliding = false;
     }
 
     IEnumerator IncreaseResistance(GameObject gameObejct)

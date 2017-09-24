@@ -1,5 +1,5 @@
 syntax: glob
-Logs/*
+Logs/
 Builds/
 Temp/
 WorldPlaybackData/Player/

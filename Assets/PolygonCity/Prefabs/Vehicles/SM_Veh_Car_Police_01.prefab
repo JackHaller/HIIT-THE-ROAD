@@ -129,6 +129,7 @@ GameObject:
   - component: {fileID: 434564}
   - component: {fileID: 3376028}
   - component: {fileID: 2353164}
+  - component: {fileID: 114403093415681740}
   m_Layer: 0
   m_Name: SM_Veh_Car_Police_01
   m_TagString: Untagged
@@ -640,3 +641,15 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 189930}
   m_IsPrefabParent: 1
+--- !u!114 &114403093415681740
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99397bcf71994f943bb6977fdcbd7e7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.1

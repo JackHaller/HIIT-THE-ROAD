@@ -112,6 +112,7 @@ GameObject:
   - component: {fileID: 414190}
   - component: {fileID: 3304360}
   - component: {fileID: 2335232}
+  - component: {fileID: 114845166484656284}
   m_Layer: 0
   m_Name: SM_Veh_Car_Taxi_01
   m_TagString: Untagged
@@ -570,3 +571,15 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 175378}
   m_IsPrefabParent: 1
+--- !u!114 &114845166484656284
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99397bcf71994f943bb6977fdcbd7e7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.1
