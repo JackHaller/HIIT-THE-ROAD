@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public class UrbanGenerator : MonoBehaviour {
 
 	public static int numOfBuildings = 14;
+    public GameObject[] vehicles;
 	public Transform[] BuildingList = new Transform[numOfBuildings];
 	private float currentXOfPlayer;
 	public float ChanceOfBuildingSpawn;
@@ -15,7 +16,7 @@ public class UrbanGenerator : MonoBehaviour {
 
     void Start()
     {
-        carPositions = new float[] { -2.8f, 0, 2.8f };
+        carPositions = new float[] { -2.7f, 0.1f, 2.9f };
     }
 
     public void UrbanLandscapeGeneration(Vector3 trackLocation, bool spawnCrowd, Transform parentTransform)
@@ -42,13 +43,10 @@ public class UrbanGenerator : MonoBehaviour {
             crowdTest.transform.Rotate(0, 180, 0);
         }
 
-        GameObject carTest = Instantiate(Resources.Load("redCar"), new Vector3(trackLocation.x, trackLocation.y + 0.5f, carPositions[Random.Range(0,3)]), Quaternion.identity) as GameObject;
-        carTest.transform.parent = _parentTransform;
+        var vehicle = vehicles[Random.Range(0, vehicles.Length - 1)];
+        GameObject carTest = Instantiate(vehicle, new Vector3(trackLocation.x + 10f, trackLocation.y + 0.5f, carPositions[Random.Range(0,3)]), Quaternion.identity) as GameObject;
         carTest.transform.Rotate(0, 90, 0);
 
-        carTest = Instantiate(Resources.Load("redCar"), new Vector3(trackLocation.x, trackLocation.y + 0.5f, carPositions[Random.Range(0, 3)]), Quaternion.identity) as GameObject;
-        carTest.transform.parent = _parentTransform;
-        carTest.transform.Rotate(0, 90, 0);
 
         Vector3 location = new Vector3(trackLocation.x, trackLocation.y, trackLocation.z - _initialSpacing); // difference of 3
 		

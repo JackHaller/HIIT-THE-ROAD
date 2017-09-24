@@ -112,6 +112,9 @@ GameObject:
   - component: {fileID: 414190}
   - component: {fileID: 3304360}
   - component: {fileID: 2335232}
+  - component: {fileID: 114845166484656284}
+  - component: {fileID: 65153346969822124}
+  - component: {fileID: 54480307862731038}
   m_Layer: 0
   m_Name: SM_Veh_Car_Taxi_01
   m_TagString: Untagged
@@ -156,7 +159,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 175378}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 440440}
@@ -570,3 +573,42 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 175378}
   m_IsPrefabParent: 1
+--- !u!54 &54480307862731038
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175378}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &65153346969822124
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175378}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.1721282, y: 1.496331, z: 5.1654243}
+  m_Center: {x: 0, y: 0.9742627, z: 0.11457074}
+--- !u!114 &114845166484656284
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99397bcf71994f943bb6977fdcbd7e7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.1
