@@ -9,7 +9,14 @@ public class VehicleController : MonoBehaviour {
     private bool _colliding;
     private float _pingTime = 0.5f;
     private float _timeSinceLastPing = 0.0f;
+    private Vector3 _xAxis = new Vector3(1, 0, 0);
+    private float _rotation = 20f;
     private GameObject _player;
+    private List<GameObject> _wheels;
+    public GameObject LFWheel;
+    public GameObject RFWheel;
+    public GameObject LRWheel;
+    public GameObject RRWheel;
 
     public static int SAND_RESISTANCE = 15;
 
@@ -33,6 +40,11 @@ public class VehicleController : MonoBehaviour {
         }
         if (_player.transform.position.x - transform.position.x > 200f)
             Destroy(gameObject);
+
+        LFWheel.transform.Rotate(_xAxis, _rotation);
+        RFWheel.transform.Rotate(_xAxis, _rotation);
+        LRWheel.transform.Rotate(_xAxis, _rotation);
+        RRWheel.transform.Rotate(_xAxis, _rotation);
     }
 
     void OnCollisionEnter(Collision other)
@@ -47,6 +59,7 @@ public class VehicleController : MonoBehaviour {
     {
         _colliding = false;
     }
+
 
     IEnumerator IncreaseResistance(GameObject gameObejct)
     {
