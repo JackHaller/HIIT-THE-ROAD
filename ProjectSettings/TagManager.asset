@@ -8,6 +8,7 @@ TagManager:
   - bar
   - PlayerHead
   - RoadBlock
+  - Wheel
   layers:
   - Default
   - TransparentFX

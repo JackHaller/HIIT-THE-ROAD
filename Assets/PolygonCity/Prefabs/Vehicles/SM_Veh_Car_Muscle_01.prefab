@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2312058}
   m_Layer: 0
   m_Name: SM_Veh_Car_Muscle_Wheel_fr
-  m_TagString: Untagged
+  m_TagString: Wheel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66,7 +66,7 @@ GameObject:
   - component: {fileID: 2309912}
   m_Layer: 0
   m_Name: SM_Veh_Car_Muscle_Wheel_fl
-  m_TagString: Untagged
+  m_TagString: Wheel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83,7 +83,7 @@ GameObject:
   - component: {fileID: 2358478}
   m_Layer: 0
   m_Name: SM_Veh_Car_Muscle_Wheel_rl
-  m_TagString: Untagged
+  m_TagString: Wheel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 2339652}
   m_Layer: 0
   m_Name: SM_Veh_Car_Muscle_Wheel_rr
-  m_TagString: Untagged
+  m_TagString: Wheel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -612,3 +612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.1
+  LFWheel: {fileID: 166256}
+  RFWheel: {fileID: 123088}
+  LRWheel: {fileID: 170074}
+  RRWheel: {fileID: 171134}
