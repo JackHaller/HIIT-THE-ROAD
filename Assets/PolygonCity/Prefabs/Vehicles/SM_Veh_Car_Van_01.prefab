@@ -891,8 +891,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99397bcf71994f943bb6977fdcbd7e7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
+  speed: 0.05
   LFWheel: {fileID: 148594}
   RFWheel: {fileID: 189986}
   LRWheel: {fileID: 104146}
   RRWheel: {fileID: 153066}
+  explosion: {fileID: 1000013063239222, guid: 843695ef5e6d39f458b99e399ccc09b1, type: 2}

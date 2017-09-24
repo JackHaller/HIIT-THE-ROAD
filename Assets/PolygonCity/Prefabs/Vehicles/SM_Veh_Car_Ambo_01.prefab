@@ -875,7 +875,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 164098}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2.472612, y: 2.3723326, z: 5.0940275}
@@ -891,8 +891,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99397bcf71994f943bb6977fdcbd7e7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
+  speed: 0.05
   LFWheel: {fileID: 134248}
   RFWheel: {fileID: 125362}
   LRWheel: {fileID: 125518}
   RRWheel: {fileID: 142752}
+  explosion: {fileID: 1000013063239222, guid: 843695ef5e6d39f458b99e399ccc09b1, type: 2}

@@ -43,11 +43,6 @@ public class UrbanGenerator : MonoBehaviour {
             crowdTest.transform.Rotate(0, 180, 0);
         }
 
-        var vehicle = vehicles[Random.Range(0, vehicles.Length - 1)];
-        GameObject carTest = Instantiate(vehicle, new Vector3(trackLocation.x + 10f, trackLocation.y + 0.5f, carPositions[Random.Range(0,3)]), Quaternion.identity) as GameObject;
-        carTest.transform.Rotate(0, 90, 0);
-
-
         Vector3 location = new Vector3(trackLocation.x, trackLocation.y, trackLocation.z - _initialSpacing); // difference of 3
 		
 		for(int i = 0; i < Density; i++){

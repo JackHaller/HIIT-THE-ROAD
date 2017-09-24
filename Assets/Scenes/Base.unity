@@ -800,20 +800,6 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 100, y: 100}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -855,7 +841,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4782995528071634, guid: 82803bf33db48ec409ae81f7f46c442a, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1654448810218218, guid: 82803bf33db48ec409ae81f7f46c442a, type: 2}
       propertyPath: m_Name
@@ -2105,7 +2091,7 @@ Transform:
   m_Children:
   - {fileID: 1221649946}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &569587520
 GameObject:
@@ -2241,20 +2227,6 @@ Light:
   m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -3350,7 +3322,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4470927696348238, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
@@ -5299,7 +5271,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e41fd8e068c46aa458315fd959006ecd, type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: e41fd8e068c46aa458315fd959006ecd, type: 2}
       propertyPath: m_Name
@@ -5697,20 +5669,6 @@ Light:
   m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -6179,7 +6137,7 @@ Transform:
   m_Children:
   - {fileID: 405918872}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1665670181
 MeshRenderer:
@@ -7645,7 +7603,7 @@ Transform:
   - {fileID: 706738852}
   - {fileID: 680770118}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2040614943
 GameObject:

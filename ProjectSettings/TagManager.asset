@@ -9,6 +9,7 @@ TagManager:
   - PlayerHead
   - RoadBlock
   - Wheel
+  - Explosion
   layers:
   - Default
   - TransparentFX
