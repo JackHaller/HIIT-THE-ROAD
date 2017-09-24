@@ -30,7 +30,6 @@ public class Generator : MonoBehaviour
     public Transform Straight;
     public Transform StraightBlockedStart;
     public Transform StraightBlockedZone;
-	public Transform LevelChange;
 	public Transform RespawnPlatform;
 	//Powerups
 	public Transform PowerupScore;
