@@ -611,7 +611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99397bcf71994f943bb6977fdcbd7e7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.05
+  speed: 1
   LFWheel: {fileID: 125712}
   RFWheel: {fileID: 187636}
   LRWheel: {fileID: 175114}

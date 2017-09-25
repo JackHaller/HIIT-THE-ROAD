@@ -5,19 +5,12 @@ using System.Collections.Generic;
 public class UrbanGenerator : MonoBehaviour {
 
 	public static int numOfBuildings = 14;
-    public GameObject[] vehicles;
 	public Transform[] BuildingList = new Transform[numOfBuildings];
 	private float currentXOfPlayer;
 	public float ChanceOfBuildingSpawn;
 	private int Density = 3;
     private int _initialSpacing = 20;
     private Transform _parentTransform = null;
-    private float[] carPositions;
-
-    void Start()
-    {
-        carPositions = new float[] { -2.7f, 0.1f, 2.9f };
-    }
 
     public void UrbanLandscapeGeneration(Vector3 trackLocation, bool spawnCrowd, Transform parentTransform)
     {
