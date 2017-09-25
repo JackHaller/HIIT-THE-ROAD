@@ -471,6 +471,7 @@ Transform:
   - {fileID: 332268414}
   - {fileID: 1660881091}
   - {fileID: 1634425229}
+  - {fileID: 231917596}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -800,20 +801,6 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 100, y: 100}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -855,15 +842,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4782995528071634, guid: 82803bf33db48ec409ae81f7f46c442a, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1654448810218218, guid: 82803bf33db48ec409ae81f7f46c442a, type: 2}
       propertyPath: m_Name
       value: straightBloked
-      objectReference: {fileID: 0}
-    - target: {fileID: 1654448810218218, guid: 82803bf33db48ec409ae81f7f46c442a, type: 2}
-      propertyPath: m_TagString
-      value: RoadBlock
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82803bf33db48ec409ae81f7f46c442a, type: 2}
@@ -942,6 +925,70 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 227682517}
+--- !u!1 &231917595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 231917596}
+  - component: {fileID: 231917597}
+  m_Layer: 0
+  m_Name: VehicleGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &231917596
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 231917595}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 90135765}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &231917597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 231917595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b88b3ffc2895a4a87e747d56d6a78a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicles:
+  - {fileID: 164098, guid: 416c46ca128db5f4bb76f235b4f991d5, type: 2}
+  - {fileID: 157676, guid: fcd06c9319e99cc4bbee7ce7730d9422, type: 2}
+  - {fileID: 141870, guid: edf6cb56e12fba648b2cf1e7dfa5bf88, type: 2}
+  - {fileID: 189930, guid: f539f0390d17a9f4a922b722e47998fe, type: 2}
+  - {fileID: 198730, guid: 85ac88d7c46e0ea4583870a98cc13580, type: 2}
+  - {fileID: 127632, guid: 0383b854a926f1643b20f9c7cdb2e4de, type: 2}
+  - {fileID: 175378, guid: a916a44328d322240bd1aaaca22fc8a7, type: 2}
+  - {fileID: 130278, guid: 94469aeaca2d49442af381840b70bb6c, type: 2}
+  vehiclesColours:
+  - {fileID: 2100000, guid: 62e25ef75a2216f418d06453c9ad15cb, type: 2}
+  - {fileID: 2100000, guid: a8e32d2cd442e564aa46c99f0ae7c0c8, type: 2}
+  - {fileID: 2100000, guid: c01b7c8cb1175b54aab24b670c2d58dd, type: 2}
+  - {fileID: 2100000, guid: 49ef76ea47782eb4b93ac08b234fd6c3, type: 2}
+  - {fileID: 2100000, guid: ee26ded8aeae32044836748251f93891, type: 2}
+  - {fileID: 2100000, guid: f145fd98abc7a354f83c3a2e8df80a75, type: 2}
+  - {fileID: 2100000, guid: 97942cb5527e6f24eb8b8f5c86f8744d, type: 2}
+  - {fileID: 2100000, guid: ae4870cba172f524491e4431ce936a9d, type: 2}
+  - {fileID: 2100000, guid: ac4517348fefb604bbf10afeb378a491, type: 2}
+  - {fileID: 2100000, guid: ee5d59fcc8497a641905c26644c20880, type: 2}
+  - {fileID: 2100000, guid: 912f300affe60c543ac3ac40ef980902, type: 2}
+  - {fileID: 2100000, guid: bb694a94be4a3c64ca9ef44c62415782, type: 2}
+  spawnTime: 0.5
+  distance: 30
 --- !u!1001 &232202459
 Prefab:
   m_ObjectHideFlags: 0
@@ -2105,7 +2152,7 @@ Transform:
   m_Children:
   - {fileID: 1221649946}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &569587520
 GameObject:
@@ -2241,20 +2288,6 @@ Light:
   m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -3132,37 +3165,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4470927696348238, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1928474873438756, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
       propertyPath: m_Name
       value: StraightBlockedStart (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4470927696348238, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 1928474873438756, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
-      propertyPath: m_TagString
-      value: RoadBlock
-      objectReference: {fileID: 0}
-    - target: {fileID: 1625569558172864, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
-      propertyPath: m_TagString
-      value: RoadBlock
-      objectReference: {fileID: 0}
-    - target: {fileID: 1525572810197240, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
-      propertyPath: m_TagString
-      value: RoadBlock
-      objectReference: {fileID: 0}
-    - target: {fileID: 65551679500276342, guid: 3701a4f9ce07d504db11a3c4cdb9c613,
-        type: 2}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 65951218094334994, guid: 3701a4f9ce07d504db11a3c4cdb9c613,
-        type: 2}
-      propertyPath: m_IsTrigger
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
@@ -3350,7 +3357,17 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4470927696348238, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
       propertyPath: m_RootOrder
-      value: 13
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 54238029775189622, guid: 3701a4f9ce07d504db11a3c4cdb9c613,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 54854385421915266, guid: 3701a4f9ce07d504db11a3c4cdb9c613,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
@@ -5040,15 +5057,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c71fdd1317e17b949a92f3c97eedd2b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vehicles:
-  - {fileID: 164098, guid: 416c46ca128db5f4bb76f235b4f991d5, type: 2}
-  - {fileID: 157676, guid: fcd06c9319e99cc4bbee7ce7730d9422, type: 2}
-  - {fileID: 141870, guid: edf6cb56e12fba648b2cf1e7dfa5bf88, type: 2}
-  - {fileID: 189930, guid: f539f0390d17a9f4a922b722e47998fe, type: 2}
-  - {fileID: 198730, guid: 85ac88d7c46e0ea4583870a98cc13580, type: 2}
-  - {fileID: 127632, guid: 0383b854a926f1643b20f9c7cdb2e4de, type: 2}
-  - {fileID: 175378, guid: a916a44328d322240bd1aaaca22fc8a7, type: 2}
-  - {fileID: 130278, guid: 94469aeaca2d49442af381840b70bb6c, type: 2}
   BuildingList:
   - {fileID: 0}
   - {fileID: 0}
@@ -5299,7 +5307,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e41fd8e068c46aa458315fd959006ecd, type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: e41fd8e068c46aa458315fd959006ecd, type: 2}
       propertyPath: m_Name
@@ -5697,20 +5705,6 @@ Light:
   m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -6179,7 +6173,7 @@ Transform:
   m_Children:
   - {fileID: 405918872}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1665670181
 MeshRenderer:
@@ -7645,7 +7639,7 @@ Transform:
   - {fileID: 706738852}
   - {fileID: 680770118}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2040614943
 GameObject:
@@ -7749,7 +7743,7 @@ Transform:
   - {fileID: 528861591}
   - {fileID: 1809245497}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2051692289
 MonoBehaviour:
