@@ -8,6 +8,7 @@ public class VehicleGenerator : MonoBehaviour {
     public Material[] vehiclesColours;
     public float spawnTime;
     public float distance;
+    private float _maxVehicle = 30;
     private float[] _carZPositions;
     private bool _playing;
     private GameObject _player;
@@ -30,23 +31,36 @@ public class VehicleGenerator : MonoBehaviour {
 
     IEnumerator VehicleSpawner()
     {
-        while(_playing)
+        GameObject newVehicle = null;
+        GameObject vehicle;
+        int oldPositionIndex = 0;
+        int newPositionIndex = 0;
+        int colourIndex = 0;
+        int vehicleIndex = 0;
+        Vector3 vehiclePos;
+        var vehicleRot = Quaternion.Euler(0, 90f, 0);
+
+        while (_playing)
         {
             yield return new WaitForSeconds(spawnTime);
-            var vehicleIndex = Random.Range(0, vehicles.Length);
-            var colourIndex = Random.Range(0, vehiclesColours.Length);
-            var zPositionIndex = Random.Range(0, _carZPositions.Length);
-            var vehicle = vehicles[vehicleIndex];
+            int vehicleNum = Random.Range(1, 3);
+            for (int i = 0; i < vehicleNum; i++)
+            {
+                while(oldPositionIndex == newPositionIndex)
+                    newPositionIndex = Random.Range(0, _carZPositions.Length);
+                vehicleIndex = Random.Range(0, vehicles.Length);
+                colourIndex = Random.Range(0, vehiclesColours.Length);
+                vehicle = vehicles[vehicleIndex];
 
-            Vector3 vehiclePos;
-            if (_latestVehicle == null)
-                vehiclePos = new Vector3(_player.transform.position.x + 50f, 0.5f, _carZPositions[zPositionIndex]);
-            else
-                vehiclePos = new Vector3(_latestVehicle.transform.position.x + distance, 0.5f, _carZPositions[zPositionIndex]);
+                if (_latestVehicle == null)
+                    vehiclePos = new Vector3(_player.transform.position.x + 50f, 0.5f, _carZPositions[newPositionIndex]);
+                else
+                    vehiclePos = new Vector3(_latestVehicle.transform.position.x + distance, 0.5f, _carZPositions[newPositionIndex]);
 
-            var vehicleRot = Quaternion.Euler(0, 90f, 0);
-            var newVehicle = Instantiate(vehicle, vehiclePos, vehicleRot);
-            newVehicle.GetComponent<Renderer>().material = vehiclesColours[colourIndex];
+                newVehicle = Instantiate(vehicle, vehiclePos, vehicleRot);
+                newVehicle.GetComponent<Renderer>().material = vehiclesColours[colourIndex];
+                oldPositionIndex = newPositionIndex;
+            }
 
             _latestVehicle = newVehicle;
         }

@@ -10,7 +10,7 @@ public class VehicleController : MonoBehaviour {
     private float _pingTime = 0.5f;
     private float _timeSinceLastPing = 0.0f;
     private Vector3 _xAxis = new Vector3(1, 0, 0);
-    private float _rotation = 20f;
+    private float _rotation = 10f;
     private GameObject _player;
     private List<GameObject> _wheels;
     public GameObject LFWheel;
