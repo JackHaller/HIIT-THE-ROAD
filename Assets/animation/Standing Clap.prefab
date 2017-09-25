@@ -280,6 +280,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4047743255398190}
   - component: {fileID: 95862227745658040}
+  - component: {fileID: 114856544808216088}
   - component: {fileID: 82466963199091996}
   - component: {fileID: 82843051236406544}
   m_Layer: 0
@@ -942,7 +943,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1284704418761996}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.809027, y: 1.179109, z: -5.4000006}
+  m_LocalPosition: {x: 14.620911, y: 0, z: -8.042419}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4345027657515184}
@@ -1740,23 +1741,23 @@ AudioSource:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1284704418761996}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 75feafa9b42d3e74d92357f197228f7a, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.08
+  m_audioClip: {fileID: 8300000, guid: ea0d5e969e4b16f47a01e0bcd7405f1b, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.05
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 1
+  DopplerLevel: 0
   MinDistance: 1
   MaxDistance: 50
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -1820,23 +1821,23 @@ AudioSource:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1284704418761996}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7e9d8cfc398a08c48b31ef8fc90f5b25, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.08
+  m_PlayOnAwake: 0
+  m_Volume: 0.05
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 1
+  DopplerLevel: 0
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 50
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -1911,6 +1912,19 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114856544808216088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1284704418761996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c978fcf50c7bd342acb833434bf0dbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BikeManager: {fileID: 1717599698902310, guid: d4217aa7980e2604c830746e4883a3de,
+    type: 2}
 --- !u!137 &137336471637881888
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
