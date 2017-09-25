@@ -43,23 +43,28 @@ public class VehicleGenerator : MonoBehaviour {
         while (_playing)
         {
             yield return new WaitForSeconds(spawnTime);
-            int vehicleNum = Random.Range(1, 3);
-            for (int i = 0; i < vehicleNum; i++)
+
+            var activeVehicles = GameObject.FindGameObjectsWithTag("Vehicle");
+            if (activeVehicles.Length <= _maxVehicle)
             {
-                while(oldPositionIndex == newPositionIndex)
-                    newPositionIndex = Random.Range(0, _carZPositions.Length);
-                vehicleIndex = Random.Range(0, vehicles.Length);
-                colourIndex = Random.Range(0, vehiclesColours.Length);
-                vehicle = vehicles[vehicleIndex];
+                int vehicleNum = Random.Range(1, 3);
+                for (int i = 0; i < vehicleNum; i++)
+                {
+                    while (oldPositionIndex == newPositionIndex)
+                        newPositionIndex = Random.Range(0, _carZPositions.Length);
+                    vehicleIndex = Random.Range(0, vehicles.Length);
+                    colourIndex = Random.Range(0, vehiclesColours.Length);
+                    vehicle = vehicles[vehicleIndex];
 
-                if (_latestVehicle == null)
-                    vehiclePos = new Vector3(_player.transform.position.x + 50f, 0.5f, _carZPositions[newPositionIndex]);
-                else
-                    vehiclePos = new Vector3(_latestVehicle.transform.position.x + distance, 0.5f, _carZPositions[newPositionIndex]);
+                    if (_latestVehicle == null)
+                        vehiclePos = new Vector3(_player.transform.position.x + 50f, 0.5f, _carZPositions[newPositionIndex]);
+                    else
+                        vehiclePos = new Vector3(_latestVehicle.transform.position.x + distance, 0.5f, _carZPositions[newPositionIndex]);
 
-                newVehicle = Instantiate(vehicle, vehiclePos, vehicleRot);
-                newVehicle.GetComponent<Renderer>().material = vehiclesColours[colourIndex];
-                oldPositionIndex = newPositionIndex;
+                    newVehicle = Instantiate(vehicle, vehiclePos, vehicleRot);
+                    newVehicle.GetComponent<Renderer>().material = vehiclesColours[colourIndex];
+                    oldPositionIndex = newPositionIndex;
+                }
             }
 
             _latestVehicle = newVehicle;

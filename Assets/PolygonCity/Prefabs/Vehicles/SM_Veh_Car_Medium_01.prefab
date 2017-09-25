@@ -83,7 +83,7 @@ GameObject:
   - component: {fileID: 54928624965528910}
   m_Layer: 0
   m_Name: SM_Veh_Car_Medium_01
-  m_TagString: Untagged
+  m_TagString: Vehicle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
