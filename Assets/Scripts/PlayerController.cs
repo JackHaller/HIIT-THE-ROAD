@@ -52,7 +52,8 @@ public class PlayerController : MonoBehaviour
 	private PlayerReader playerReader;
 	private bool writePlayerData;
     private bool pedalling = false;     //Used for tracking whether the player is *actively* pedalling, as opposed to coasting. Needed for sounds
-	
+    private string _lanePosition;
+
 	//RecordingInformations
 	public bool StoreInformationAboutPlayerAsFilename;
 	private string username;
@@ -89,7 +90,8 @@ public class PlayerController : MonoBehaviour
 	
 	// FixedUpdate is called once per physcics tick
 	void FixedUpdate ()
-	{	
+	{
+        _lanePosition = SetLanePosition();
 		//handle horizontal movement. Priority is Kinect > Camera > Keyboard
 		float moveHorizontal = 0.0f;
 		if (kinect.EnableKinect) {
@@ -464,4 +466,19 @@ public class PlayerController : MonoBehaviour
 			playerWriter = null;
 		}
 	}
+
+    string SetLanePosition()
+    {
+        var pos = transform.position.z;
+        if (pos < -0.6f)
+            return "left";
+        else if (pos > 0.8)
+            return "right";
+        return "centre";
+    }
+
+    public string GetLanePosition()
+    {
+        return _lanePosition;
+    }
 }

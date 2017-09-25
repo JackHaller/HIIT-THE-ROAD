@@ -24,11 +24,6 @@ public class VehicleGenerator : MonoBehaviour {
 
     }
 
-    // Update is called once per frame
-    void Update () {
-
-	}
-
     IEnumerator VehicleSpawner()
     {
         GameObject newVehicle = null;
