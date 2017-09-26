@@ -9,7 +9,6 @@ public class VehicleController : MonoBehaviour {
     public GameObject RFWheel;
     public GameObject LRWheel;
     public GameObject RRWheel;
-    public GameObject explosion;
     private bool _hitByPlayer;
     private bool _colliding;
     private float _pingTime = 0.5f;
@@ -68,13 +67,6 @@ public class VehicleController : MonoBehaviour {
     void OnCollisionEnter(Collision other)
     {
         _colliding = true;
-        if (other.gameObject.tag == "RoadBlock")
-        {
-            Instantiate(explosion, transform.position, transform.rotation);
-            Destroy(gameObject);
-        }
-        else if (other.gameObject.tag == "VerticalRoadBlock")
-            Destroy(gameObject);
         StartCoroutine(IncreaseResistance(other.gameObject));
     }
 
