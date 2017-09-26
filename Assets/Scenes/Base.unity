@@ -848,6 +848,16 @@ Prefab:
       propertyPath: m_Name
       value: straightBloked
       objectReference: {fileID: 0}
+    - target: {fileID: 54716395942172788, guid: 82803bf33db48ec409ae81f7f46c442a,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54246924584496788, guid: 82803bf33db48ec409ae81f7f46c442a,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82803bf33db48ec409ae81f7f46c442a, type: 2}
   m_IsPrefabParent: 0
@@ -3171,6 +3181,26 @@ Prefab:
       propertyPath: m_Name
       value: StraightBlockedStart (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 54169599869526252, guid: 3701a4f9ce07d504db11a3c4cdb9c613,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54104795066234278, guid: 3701a4f9ce07d504db11a3c4cdb9c613,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54238029775189622, guid: 3701a4f9ce07d504db11a3c4cdb9c613,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54854385421915266, guid: 3701a4f9ce07d504db11a3c4cdb9c613,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
   m_IsPrefabParent: 0
@@ -3359,15 +3389,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 54238029775189622, guid: 3701a4f9ce07d504db11a3c4cdb9c613,
+    - target: {fileID: 54169599869526252, guid: 3701a4f9ce07d504db11a3c4cdb9c613,
         type: 2}
       propertyPath: m_IsKinematic
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 54854385421915266, guid: 3701a4f9ce07d504db11a3c4cdb9c613,
+    - target: {fileID: 54104795066234278, guid: 3701a4f9ce07d504db11a3c4cdb9c613,
         type: 2}
       propertyPath: m_IsKinematic
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
