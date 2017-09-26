@@ -10,6 +10,19 @@ public class AudioController : MonoBehaviour {
     public GameObject BikeManager;
     public GameObject Cheer;
     public GameObject Clap;
+    
+    public AudioClip clap1;
+    public AudioClip clap1_1;
+    public AudioClip clap1_2;
+    public AudioClip clap1_3;
+    public AudioClip clap1_4;
+    public AudioClip clap1_5;
+    public AudioClip clap1_6;
+    public AudioClip clap1_7;
+    public AudioClip clap1_8;
+    public AudioClip clap1_9;
+    public AudioClip clap2;
+
 
     AudioSource clap;
     AudioSource cheer;
@@ -21,6 +34,8 @@ public class AudioController : MonoBehaviour {
         cheer = Cheer.GetComponent<AudioSource>();
         clap = Clap.GetComponent<AudioSource>();
         bike = BikeManager.GetComponent("BikeController") as BikeController;
+
+        cheer.Play();
         
     }
 	
@@ -43,15 +58,24 @@ public class AudioController : MonoBehaviour {
             moveVertical *= 2;
         }
 
-
-        if (Mathf.Abs(moveVertical) > 0.2f &&  !cheer.isPlaying)
+        if (Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl))
         {
-            cheer.Play();
+            moveVertical *= 2;
         }
-        print(clap);
-        if (Mathf.Abs(moveVertical) > 1.0f && !clap.isPlaying)
+
+        if (!clap.isPlaying)
         {
-            clap.Play();
+            if (Mathf.Abs(moveVertical) > 2.0f)
+            {
+                clap.clip = clap2;
+                clap.Play();
+            }
+            else if (Mathf.Abs(moveVertical) > 1.0f)
+            {
+                clap.clip = clap1;
+                clap.Play();
+            }
+            
         }
         
         
