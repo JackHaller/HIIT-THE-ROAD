@@ -11,6 +11,15 @@ public class UrbanGenerator : MonoBehaviour {
 	private int Density = 3;
     private int _initialSpacing = 20;
     private Transform _parentTransform = null;
+    private float[] carPositions;
+
+    public int crowdDensity = 10;
+    public GameObject crowdList;
+    public GameObject crowdAudio;
+    public GameObject clapManager;
+
+    private bool spawnAudio;
+
 
     public void UrbanLandscapeGeneration(Vector3 trackLocation, bool spawnCrowd, Transform parentTransform)
     {
@@ -29,11 +38,20 @@ public class UrbanGenerator : MonoBehaviour {
         GameObject newTile = Instantiate(Resources.Load("Tile"), new Vector3(trackLocation.x, trackLocation.y - 0.01f, trackLocation.z - 15.0f), Quaternion.identity) as GameObject;
         newTile.transform.parent = _parentTransform;
 
-        if(spawnCrowd == true)
-        {
-            GameObject crowdTest = Instantiate(Resources.Load("crowdTest"), new Vector3(trackLocation.x, trackLocation.y + 0.5f, trackLocation.z + 7), Quaternion.identity) as GameObject;
-            crowdTest.transform.parent = _parentTransform;
-            crowdTest.transform.Rotate(0, 180, 0);
+        if(spawnCrowd)
+        {        
+            GameObject crowdSound = Instantiate(crowdAudio);
+            crowdSound.transform.position = new Vector3(trackLocation.x + Random.Range(0, 20), trackLocation.y + 0.5f, trackLocation.z + Random.Range(0, 3) + 7);
+            crowdSound.transform.parent = _parentTransform;
+
+            for (int i = 0; i < crowdDensity; i++)
+            {
+                GameObject crowdTest = Instantiate(crowdList);
+                crowdTest.transform.GetChild(Random.Range(0, 8)).gameObject.SetActive(true);
+                crowdTest.transform.position = new Vector3(trackLocation.x + Random.Range(0, 20), trackLocation.y + 0.5f, trackLocation.z + Random.Range(0, 3) + 7);
+                crowdTest.transform.rotation = Quaternion.Euler(0, 180, 0);
+                crowdTest.transform.parent = _parentTransform;
+            }
         }
 
         Vector3 location = new Vector3(trackLocation.x, trackLocation.y, trackLocation.z - _initialSpacing); // difference of 3
@@ -50,10 +68,19 @@ public class UrbanGenerator : MonoBehaviour {
         GameObject newTile =  Instantiate(Resources.Load("Tile"), new Vector3(trackLocation.x, trackLocation.y - 0.01f, trackLocation.z + 15.0f), Quaternion.identity) as GameObject;
         newTile.transform.parent = _parentTransform;
 
-        if (spawnCrowd == true)
+        if(spawnCrowd)
         {
-            GameObject crowdTest = Instantiate(Resources.Load("crowdTest"), new Vector3(trackLocation.x, trackLocation.y + 0.5f, trackLocation.z - 7), Quaternion.identity) as GameObject;
-            crowdTest.transform.parent = _parentTransform;
+            GameObject crowdSound = Instantiate(crowdAudio);
+            crowdSound.transform.position = new Vector3(trackLocation.x + Random.Range(0, 20), trackLocation.y + 0.5f, trackLocation.z + Random.Range(0, 3) - 9);
+            crowdSound.transform.parent = _parentTransform;
+            for (int i = 0; i < crowdDensity; i++)
+            {
+                GameObject crowdTest = Instantiate(crowdList);
+                crowdTest.transform.GetChild(Random.Range(0, 8)).gameObject.SetActive(true);
+                crowdTest.transform.position = new Vector3(trackLocation.x + Random.Range(0, 20), trackLocation.y + 0.5f, trackLocation.z + Random.Range(0, 3) - 9);
+                crowdTest.transform.rotation = Quaternion.Euler(0, 0, 0);
+                crowdTest.transform.parent = _parentTransform;
+            }
         }
 
 
