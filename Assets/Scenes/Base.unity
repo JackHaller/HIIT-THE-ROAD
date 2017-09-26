@@ -257,35 +257,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 21846973}
   m_Mesh: {fileID: 4300000, guid: 9aa786dd3f793a84a8a8852a66498c63, type: 3}
---- !u!1 &59222481
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 1667272881}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 59222482}
-  m_Layer: 0
-  m_Name: Missing Prefab
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &59222482
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 1667272881}
-  m_GameObject: {fileID: 59222481}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1949414902}
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &65635496
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,6 +772,20 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 100, y: 100}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -847,6 +832,16 @@ Prefab:
     - target: {fileID: 1654448810218218, guid: 82803bf33db48ec409ae81f7f46c442a, type: 2}
       propertyPath: m_Name
       value: straightBloked
+      objectReference: {fileID: 0}
+    - target: {fileID: 54716395942172788, guid: 82803bf33db48ec409ae81f7f46c442a,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54246924584496788, guid: 82803bf33db48ec409ae81f7f46c442a,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82803bf33db48ec409ae81f7f46c442a, type: 2}
@@ -2152,7 +2147,7 @@ Transform:
   m_Children:
   - {fileID: 1221649946}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &569587520
 GameObject:
@@ -2288,6 +2283,20 @@ Light:
   m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -3171,6 +3180,26 @@ Prefab:
       propertyPath: m_Name
       value: StraightBlockedStart (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 54169599869526252, guid: 3701a4f9ce07d504db11a3c4cdb9c613,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54104795066234278, guid: 3701a4f9ce07d504db11a3c4cdb9c613,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54238029775189622, guid: 3701a4f9ce07d504db11a3c4cdb9c613,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54854385421915266, guid: 3701a4f9ce07d504db11a3c4cdb9c613,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
   m_IsPrefabParent: 0
@@ -3359,15 +3388,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 54238029775189622, guid: 3701a4f9ce07d504db11a3c4cdb9c613,
+    - target: {fileID: 54169599869526252, guid: 3701a4f9ce07d504db11a3c4cdb9c613,
         type: 2}
       propertyPath: m_IsKinematic
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 54854385421915266, guid: 3701a4f9ce07d504db11a3c4cdb9c613,
+    - target: {fileID: 54104795066234278, guid: 3701a4f9ce07d504db11a3c4cdb9c613,
         type: 2}
       propertyPath: m_IsKinematic
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
@@ -5705,25 +5734,24 @@ Light:
   m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!1 &1510633486
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 1667272881}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1949414902}
-  m_Layer: 0
-  m_Name: Missing Prefab (Dummy)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1537268255
 GameObject:
   m_ObjectHideFlags: 0
@@ -6173,7 +6201,7 @@ Transform:
   m_Children:
   - {fileID: 405918872}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1665670181
 MeshRenderer:
@@ -6356,7 +6384,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
       propertyPath: m_LocalScale.x
@@ -7297,20 +7325,10 @@ MonoBehaviour:
   forwardVector: {x: 1, y: 0}
   maxRadarRange: 160
   radarUIRadius: 4
---- !u!4 &1949414902
+--- !u!4 &1949414902 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400012, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
   m_PrefabInternal: {fileID: 1667272881}
-  m_GameObject: {fileID: 1510633486}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1192287503}
-  m_Father: {fileID: 59222482}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1957009738
 GameObject:
   m_ObjectHideFlags: 0
@@ -7639,7 +7657,7 @@ Transform:
   - {fileID: 706738852}
   - {fileID: 680770118}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2040614943
 GameObject:

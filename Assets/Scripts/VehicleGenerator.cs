@@ -8,7 +8,7 @@ public class VehicleGenerator : MonoBehaviour {
     public Material[] vehiclesColours;
     public float spawnTime;
     public float distance;
-    private float _maxVehicle = 30;
+    private float _maxVehicle = 100;
     private float[] _carZPositions;
     private bool _playing;
     private GameObject _player;
