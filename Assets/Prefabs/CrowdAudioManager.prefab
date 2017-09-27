@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114933749148889038}
   m_Layer: 0
   m_Name: CrowdAudioManager
-  m_TagString: Untagged
+  m_TagString: CrowdSound
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133,7 +133,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7e9d8cfc398a08c48b31ef8fc90f5b25, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.3
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -214,4 +214,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bike: {fileID: 114466521109120064, guid: d4217aa7980e2604c830746e4883a3de, type: 2}
-  crowdAudio: {fileID: 1413576157584450}

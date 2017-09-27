@@ -1035,7 +1035,7 @@ Transform:
   m_Children:
   - {fileID: 1221649946}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &576575478
 GameObject:
@@ -1901,7 +1901,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalSettings: {fileID: 232452328}
   ClientFileName: HeadTracker.exe
-  EnableCamera: 0
+  EnableCamera: 1
   CameraInitialised: 0
 --- !u!1 &1072962504
 GameObject:
@@ -2208,13 +2208,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1221649945}
-  m_LocalRotation: {x: 0.09229596, y: 0.7010574, z: -0.09229596, w: 0.7010574}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 557958546}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!20 &1221649947
 Camera:
   m_ObjectHideFlags: 0
@@ -2442,21 +2442,6 @@ MonoBehaviour:
   crowdAudio: {fileID: 1413576157584450, guid: 1c43eb4f7d5c1f845be94b86b9d47226, type: 2}
   clapManager: {fileID: 1639277853490706, guid: fdacf6a46ce383d47bded20f737f1b0b,
     type: 2}
---- !u!1 &1276011951
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 1667272881}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1949414902}
-  m_Layer: 0
-  m_Name: Missing Prefab (Dummy)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1311728084
 GameObject:
   m_ObjectHideFlags: 0
@@ -3239,7 +3224,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
       propertyPath: m_LocalScale.x
@@ -3862,20 +3847,10 @@ MonoBehaviour:
   forwardVector: {x: 1, y: 0}
   maxRadarRange: 160
   radarUIRadius: 4
---- !u!4 &1949414902
+--- !u!4 &1949414902 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400012, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
   m_PrefabInternal: {fileID: 1667272881}
-  m_GameObject: {fileID: 1276011951}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1192287503}
-  m_Father: {fileID: 2135768236}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1980387241
 GameObject:
   m_ObjectHideFlags: 0
@@ -4058,7 +4033,7 @@ Transform:
   - {fileID: 706738852}
   - {fileID: 680770118}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2051692287
 GameObject:
@@ -4161,32 +4136,3 @@ MonoBehaviour:
   Bar: {fileID: 839837330}
   Gradient: {fileID: 21300000, guid: 3c7129ae8661942468ccd8503377fe96, type: 3}
   Grey: {fileID: 21300000, guid: d8da00bcbf97434488a6f27769676b37, type: 3}
---- !u!1 &2135768235
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 1667272881}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2135768236}
-  m_Layer: 0
-  m_Name: Missing Prefab
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2135768236
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 1667272881}
-  m_GameObject: {fileID: 2135768235}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1949414902}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

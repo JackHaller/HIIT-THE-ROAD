@@ -12,6 +12,7 @@ TagManager:
   - Explosion
   - Vehicle
   - VerticalRoadBlock
+  - CrowdSound
   layers:
   - Default
   - TransparentFX
