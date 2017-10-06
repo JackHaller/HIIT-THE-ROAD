@@ -8,7 +8,10 @@ public class BarrierController : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
+        if (other.tag == "Vehicle")
+        {
             Instantiate(explosion, transform.position, transform.rotation);
             Destroy(other.gameObject);
+        }
     }
 }
