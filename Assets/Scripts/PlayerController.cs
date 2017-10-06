@@ -105,6 +105,7 @@ public class PlayerController : MonoBehaviour
             moveHorizontal = cameraTracker.PositionOffset.x * 2;
 
         } else if (headTiltMovement) {
+            print(usersHead.transform.position - transform.position);
             //Only start moving after a certain angle has be achieved as head naturally bobs side to side
             if (usersHead.transform.localRotation.eulerAngles.z < 270 && usersHead.transform.localRotation.eulerAngles.z > 15)
             {
@@ -115,10 +116,11 @@ public class PlayerController : MonoBehaviour
                 moveHorizontal = (usersHead.transform.localRotation.eulerAngles.z - 360) * -0.02f;
             }
 
-        } else if (headOffsetMovement){ 
+        } else if (headOffsetMovement){
 
+            moveHorizontal =  (transform.position.z- usersHead.transform.position.z) * 10;
 
-		} else {
+        } else {
 			moveHorizontal = Input.GetAxis ("Horizontal");
 		}
 		//Cap horizontal movement
