@@ -289,6 +289,20 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 100, y: 100}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -1098,6 +1112,20 @@ Light:
   m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -2437,7 +2465,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   ChanceOfBuildingSpawn: 0.7
-  crowdDensity: 10
+  crowdDensity: 20
   crowdList: {fileID: 1284704418761996, guid: 5c29aa527e36065469823accd791ef51, type: 2}
   crowdAudio: {fileID: 1413576157584450, guid: 1c43eb4f7d5c1f845be94b86b9d47226, type: 2}
   clapManager: {fileID: 1639277853490706, guid: fdacf6a46ce383d47bded20f737f1b0b,
@@ -2753,6 +2781,20 @@ Light:
   m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -3124,6 +3166,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faf4a2bfc305ec5439cd81a0531ed0c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  usersHead: {fileID: 0}
+  headTiltMovement: 0
+  headOffsetMovement: 0
   ui: {fileID: 1785173960}
   generator: {fileID: 1464920550}
   kinect: {fileID: 1311728086}
