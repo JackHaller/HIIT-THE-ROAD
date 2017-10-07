@@ -35,7 +35,7 @@ public class ClapController : MonoBehaviour {
         {
             Debug.Log("Clap");
             foreach (GameObject crowd in crowds)
-            {=
+            {
                 crowd.GetComponent<Animator>().SetBool("Clap", true);
                 crowd.GetComponent<Animator>().SetBool("Cheer", false);
             }
