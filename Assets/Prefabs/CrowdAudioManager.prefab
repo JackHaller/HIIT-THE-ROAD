@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4103366802363866}
   - component: {fileID: 82568914562703596}
   - component: {fileID: 82515903518000070}
-  - component: {fileID: 114933749148889038}
   m_Layer: 0
   m_Name: CrowdAudioManager
   m_TagString: CrowdSound
@@ -202,15 +201,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114933749148889038
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1413576157584450}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf35de90aecb4574e947ac6f344e4884, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bike: {fileID: 114466521109120064, guid: d4217aa7980e2604c830746e4883a3de, type: 2}
