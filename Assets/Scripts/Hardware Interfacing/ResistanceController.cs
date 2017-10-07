@@ -12,7 +12,7 @@ public class ResistanceController : MonoBehaviour {
 	private SerialPort port = null;
 	
 	private int baud = 9600;
-	private string portName = "COM2";
+	private string portName = "COM1";
 	
 	public BikeController bikeController;
 	
