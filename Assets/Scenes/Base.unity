@@ -2470,6 +2470,8 @@ MonoBehaviour:
   crowdAudio: {fileID: 1413576157584450, guid: 1c43eb4f7d5c1f845be94b86b9d47226, type: 2}
   clapManager: {fileID: 1639277853490706, guid: fdacf6a46ce383d47bded20f737f1b0b,
     type: 2}
+  powerUp: {fileID: 100000, guid: ba9219b66a220d7429159d7959bec3a5, type: 2}
+  powerUpSpawnChance: 8
 --- !u!1 &1311728084
 GameObject:
   m_ObjectHideFlags: 0

@@ -18,19 +18,27 @@ public class UrbanGenerator : MonoBehaviour {
     public GameObject crowdList;
     public GameObject crowdAudio;
     public GameObject clapManager;
-
     private bool spawnAudio;
 
 
-    public void UrbanLandscapeGeneration(Vector3 trackLocation, bool spawnCrowd, Transform parentTransform)
+    private float[] powerUpLocations = new float[] { -2.7f, 0.1f, 2.9f };
+    public GameObject powerUp;
+    public int powerUpSpawnChance = 1;
+
+public void UrbanLandscapeGeneration(Vector3 trackLocation, bool spawnCrowd, Transform parentTransform)
     {
         _parentTransform = parentTransform;
 
 
 		CreateLeftBuildingCluster(trackLocation, spawnCrowd);
 		CreateRightBuildingCluster(trackLocation, spawnCrowd);
-			
-		
+
+        if(Random.Range(0,powerUpSpawnChance) == 0)
+        {
+            GameObject powerUpPostion = Instantiate(powerUp);
+            powerUpPostion.transform.position = new Vector3(trackLocation.x, trackLocation.y + 1f, powerUpLocations[Random.Range(0, 3)]);
+        }
+        
 	}
 	
 	private void CreateLeftBuildingCluster (Vector3 trackLocation, bool spawnCrowd) {
