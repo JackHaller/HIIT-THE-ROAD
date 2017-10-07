@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 public class UrbanGenerator : MonoBehaviour {
 
@@ -13,23 +14,31 @@ public class UrbanGenerator : MonoBehaviour {
     private Transform _parentTransform = null;
     private float[] carPositions;
 
-    public int crowdDensity = 10;
+    public int crowdDensity = 50;
     public GameObject crowdList;
     public GameObject crowdAudio;
     public GameObject clapManager;
-
     private bool spawnAudio;
 
 
-    public void UrbanLandscapeGeneration(Vector3 trackLocation, bool spawnCrowd, Transform parentTransform)
+    private float[] powerUpLocations = new float[] { -2.7f, 0.1f, 2.9f };
+    public GameObject powerUp;
+    public int powerUpSpawnChance = 1;
+
+public void UrbanLandscapeGeneration(Vector3 trackLocation, bool spawnCrowd, Transform parentTransform)
     {
         _parentTransform = parentTransform;
 
 
 		CreateLeftBuildingCluster(trackLocation, spawnCrowd);
 		CreateRightBuildingCluster(trackLocation, spawnCrowd);
-			
-		
+
+        if(Random.Range(0,powerUpSpawnChance) == 0)
+        {
+            GameObject powerUpPostion = Instantiate(powerUp);
+            powerUpPostion.transform.position = new Vector3(trackLocation.x, trackLocation.y + 1f, powerUpLocations[Random.Range(0, 3)]);
+        }
+        
 	}
 	
 	private void CreateLeftBuildingCluster (Vector3 trackLocation, bool spawnCrowd) {
@@ -44,13 +53,25 @@ public class UrbanGenerator : MonoBehaviour {
             crowdSound.transform.position = new Vector3(trackLocation.x + Random.Range(0, 20), trackLocation.y + 0.5f, trackLocation.z + Random.Range(0, 3) + 7);
             crowdSound.transform.parent = _parentTransform;
 
-            for (int i = 0; i < crowdDensity; i++)
+            int crowdCount = 0;
+            int breakCount = 0;
+            List<Vector3> crowdPositons = new List<Vector3>();
+            while (crowdCount < crowdDensity && breakCount <20)
             {
-                GameObject crowdTest = Instantiate(crowdList);
-                crowdTest.transform.GetChild(Random.Range(0, 8)).gameObject.SetActive(true);
-                crowdTest.transform.position = new Vector3(trackLocation.x + Random.Range(0, 20), trackLocation.y + 0.5f, trackLocation.z + Random.Range(0, 3) + 7);
-                crowdTest.transform.rotation = Quaternion.Euler(0, 180, 0);
-                crowdTest.transform.parent = _parentTransform;
+                Vector3 currentPostion = new Vector3(trackLocation.x + Random.Range(0, 20), trackLocation.y + 0.5f, trackLocation.z + Random.Range(0, 3) + 7);
+                breakCount++;
+                if (!crowdPositons.Contains(currentPostion))
+                {
+                    crowdCount++;
+                    breakCount = 0;
+                    crowdPositons.Add(currentPostion);
+                    GameObject crowdTest = Instantiate(crowdList);
+                    crowdTest.transform.GetChild(Random.Range(0, 8)).gameObject.SetActive(true);
+                    crowdTest.transform.position = currentPostion;
+                    crowdTest.transform.rotation = Quaternion.Euler(0, 180, 0);
+                    crowdTest.transform.parent = _parentTransform;
+
+                }
             }
         }
 
@@ -73,13 +94,27 @@ public class UrbanGenerator : MonoBehaviour {
             GameObject crowdSound = Instantiate(crowdAudio);
             crowdSound.transform.position = new Vector3(trackLocation.x + Random.Range(0, 20), trackLocation.y + 0.5f, trackLocation.z + Random.Range(0, 3) - 9);
             crowdSound.transform.parent = _parentTransform;
-            for (int i = 0; i < crowdDensity; i++)
+
+
+            int crowdCount = 0;
+            int breakCount = 0;
+            List<Vector3> crowdPositons = new List<Vector3>();
+            while (crowdCount < crowdDensity && breakCount < 20)
             {
-                GameObject crowdTest = Instantiate(crowdList);
-                crowdTest.transform.GetChild(Random.Range(0, 8)).gameObject.SetActive(true);
-                crowdTest.transform.position = new Vector3(trackLocation.x + Random.Range(0, 20), trackLocation.y + 0.5f, trackLocation.z + Random.Range(0, 3) - 9);
-                crowdTest.transform.rotation = Quaternion.Euler(0, 0, 0);
-                crowdTest.transform.parent = _parentTransform;
+                Vector3 currentPostion = new Vector3(trackLocation.x + Random.Range(0, 20), trackLocation.y + 0.5f, trackLocation.z + Random.Range(0, 3) - 9);
+                breakCount++;
+                if (!crowdPositons.Contains(currentPostion))
+                {
+                    crowdCount++;
+                    breakCount = 0;
+                    crowdPositons.Add(currentPostion);
+                    GameObject crowdTest = Instantiate(crowdList);
+                    crowdTest.transform.GetChild(Random.Range(0, 8)).gameObject.SetActive(true);
+                    crowdTest.transform.position = currentPostion;
+                    crowdTest.transform.rotation = Quaternion.Euler(0, 0, 0);
+                    crowdTest.transform.parent = _parentTransform;
+
+                }
             }
         }
 

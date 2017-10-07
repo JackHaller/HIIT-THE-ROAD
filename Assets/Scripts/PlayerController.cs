@@ -7,7 +7,12 @@ using Exergame;
 
 public class PlayerController : MonoBehaviour
 {
-	//References to scene objects
+    [Header("Oculus Based Turning")]
+    public GameObject usersHead;
+    public bool headTiltMovement;
+    public bool headOffsetMovement;
+
+    //References to scene objects
     [Header("Scene Objects")]
 	public UIController ui;
 	public Generator generator;
@@ -21,7 +26,7 @@ public class PlayerController : MonoBehaviour
 	public Transform playerHead;
 	public TerrainSelector terrain;
 	public Transform bikeMesh;
-
+    
     //Sounds
     [Header("Sounds")]
     public AudioSource bikeOn;
@@ -94,11 +99,28 @@ public class PlayerController : MonoBehaviour
         _lanePosition = SetLanePosition();
 		//handle horizontal movement. Priority is Kinect > Camera > Keyboard
 		float moveHorizontal = 0.0f;
-		if (kinect.EnableKinect) {
-			moveHorizontal = kinect.movement;
-		} else if (cameraTracker.EnableCamera) {
-			moveHorizontal = cameraTracker.PositionOffset.x * 2;
-		} else {
+        if (kinect.EnableKinect) {
+            moveHorizontal = kinect.movement;
+        } else if (cameraTracker.EnableCamera) {
+            moveHorizontal = cameraTracker.PositionOffset.x * 2;
+
+        } else if (headTiltMovement) {
+            print(usersHead.transform.position - transform.position);
+            //Only start moving after a certain angle has be achieved as head naturally bobs side to side
+            if (usersHead.transform.localRotation.eulerAngles.z < 270 && usersHead.transform.localRotation.eulerAngles.z > 15)
+            {
+                moveHorizontal = usersHead.transform.localRotation.eulerAngles.z * -0.02f;
+            }
+            if (usersHead.transform.localRotation.eulerAngles.z > 270 && usersHead.transform.localRotation.eulerAngles.z < 345)
+            {
+                moveHorizontal = (usersHead.transform.localRotation.eulerAngles.z - 360) * -0.02f;
+            }
+
+        } else if (headOffsetMovement){
+
+            moveHorizontal =  (transform.position.z- usersHead.transform.position.z) * 10;
+
+        } else {
 			moveHorizontal = Input.GetAxis ("Horizontal");
 		}
 		//Cap horizontal movement
