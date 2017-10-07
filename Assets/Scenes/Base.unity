@@ -488,11 +488,11 @@ MonoBehaviour:
   UseDetailedPlaybackSettings: 0
   SimplePlaybackEnableGhost: 0
   SimplePlaybackEnableTrainer: 0
-  EnableBike: 0
+  EnableBike: 1
   EnableKinect: 0
   EnableCamera: 0
-  BikePort: COM2
-  ResistancePort: COM3
+  BikePort: COM3
+  ResistancePort: COM1
   UseOculus: 0
   EnableRadar: 0
   UsingIntervals: 0
@@ -705,7 +705,7 @@ MonoBehaviour:
   RPM: 0
   heartRate: 0
   status: -1
-  enableBike: 0
+  enableBike: 1
   ending: 0
 --- !u!1 &405918871
 GameObject:
@@ -1109,6 +1109,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 90135765}
     m_Modifications:
+    - target: {fileID: 114702274208183252, guid: fdacf6a46ce383d47bded20f737f1b0b,
+        type: 2}
+      propertyPath: claps.Array.size
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 4968626372829390, guid: fdacf6a46ce383d47bded20f737f1b0b, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1141,14 +1146,83 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114702274208183252, guid: fdacf6a46ce383d47bded20f737f1b0b,
+        type: 2}
+      propertyPath: claps.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 83b2975c11862e54684a837ab33dd547, type: 3}
+    - target: {fileID: 114702274208183252, guid: fdacf6a46ce383d47bded20f737f1b0b,
+        type: 2}
+      propertyPath: claps.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 33ab669fa17c89f44bf3153582f96212, type: 3}
+    - target: {fileID: 114702274208183252, guid: fdacf6a46ce383d47bded20f737f1b0b,
+        type: 2}
+      propertyPath: claps.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 89dc3ecb3e419bf4a9cf37adbd098320, type: 3}
+    - target: {fileID: 114702274208183252, guid: fdacf6a46ce383d47bded20f737f1b0b,
+        type: 2}
+      propertyPath: claps.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 633adcd40a7b72745abe43ef26e94920, type: 3}
+    - target: {fileID: 114702274208183252, guid: fdacf6a46ce383d47bded20f737f1b0b,
+        type: 2}
+      propertyPath: claps.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 63a1b86b3db8a5448b1b52993e1dd239, type: 3}
+    - target: {fileID: 114702274208183252, guid: fdacf6a46ce383d47bded20f737f1b0b,
+        type: 2}
+      propertyPath: claps.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 20fb56c7d7034534cb2b4849670ca99e, type: 3}
+    - target: {fileID: 114702274208183252, guid: fdacf6a46ce383d47bded20f737f1b0b,
+        type: 2}
+      propertyPath: claps.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: cedb86da4bad7e241af068d5679e837d, type: 3}
+    - target: {fileID: 114702274208183252, guid: fdacf6a46ce383d47bded20f737f1b0b,
+        type: 2}
+      propertyPath: claps.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: d02d6f55a1bcb444d8d8aeff44fc506f, type: 3}
+    - target: {fileID: 114702274208183252, guid: fdacf6a46ce383d47bded20f737f1b0b,
+        type: 2}
+      propertyPath: claps.Array.data[8]
+      value: 
+      objectReference: {fileID: 8300000, guid: 171d8f0378bff94499c3e63256a3cf36, type: 3}
+    - target: {fileID: 114702274208183252, guid: fdacf6a46ce383d47bded20f737f1b0b,
+        type: 2}
+      propertyPath: claps.Array.data[9]
+      value: 
+      objectReference: {fileID: 8300000, guid: de54ac06a24912d46899fdd8fc6786e9, type: 3}
+    - target: {fileID: 114702274208183252, guid: fdacf6a46ce383d47bded20f737f1b0b,
+        type: 2}
+      propertyPath: claps.Array.data[10]
+      value: 
+      objectReference: {fileID: 8300000, guid: fe97cd78bcfab2b45a3eb2f374d67464, type: 3}
+    - target: {fileID: 114702274208183252, guid: fdacf6a46ce383d47bded20f737f1b0b,
+        type: 2}
+      propertyPath: bike
+      value: 
+      objectReference: {fileID: 389131571}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fdacf6a46ce383d47bded20f737f1b0b, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &649278041 stripped
+--- !u!4 &649278041
 Transform:
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4968626372829390, guid: fdacf6a46ce383d47bded20f737f1b0b,
     type: 2}
   m_PrefabInternal: {fileID: 649278040}
+  m_GameObject: {fileID: 762247175}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 90135765}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &650265713
 GameObject:
   m_ObjectHideFlags: 0
@@ -1509,6 +1583,48 @@ Terrain:
   m_BakeLightProbesForTrees: 1
   m_ScaleInLightmap: 0.04096
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+--- !u!1 &762247175
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1639277853490706, guid: fdacf6a46ce383d47bded20f737f1b0b,
+    type: 2}
+  m_PrefabInternal: {fileID: 649278040}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 649278041}
+  - component: {fileID: 762247176}
+  m_Layer: 0
+  m_Name: ClapManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &762247176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114702274208183252, guid: fdacf6a46ce383d47bded20f737f1b0b,
+    type: 2}
+  m_PrefabInternal: {fileID: 649278040}
+  m_GameObject: {fileID: 762247175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf35de90aecb4574e947ac6f344e4884, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bike: {fileID: 389131571}
+  claps:
+  - {fileID: 8300000, guid: 83b2975c11862e54684a837ab33dd547, type: 3}
+  - {fileID: 8300000, guid: 33ab669fa17c89f44bf3153582f96212, type: 3}
+  - {fileID: 8300000, guid: 89dc3ecb3e419bf4a9cf37adbd098320, type: 3}
+  - {fileID: 8300000, guid: 633adcd40a7b72745abe43ef26e94920, type: 3}
+  - {fileID: 8300000, guid: 63a1b86b3db8a5448b1b52993e1dd239, type: 3}
+  - {fileID: 8300000, guid: 20fb56c7d7034534cb2b4849670ca99e, type: 3}
+  - {fileID: 8300000, guid: cedb86da4bad7e241af068d5679e837d, type: 3}
+  - {fileID: 8300000, guid: d02d6f55a1bcb444d8d8aeff44fc506f, type: 3}
+  - {fileID: 8300000, guid: 171d8f0378bff94499c3e63256a3cf36, type: 3}
+  - {fileID: 8300000, guid: de54ac06a24912d46899fdd8fc6786e9, type: 3}
+  - {fileID: 8300000, guid: fe97cd78bcfab2b45a3eb2f374d67464, type: 3}
 --- !u!1 &839837328
 GameObject:
   m_ObjectHideFlags: 0

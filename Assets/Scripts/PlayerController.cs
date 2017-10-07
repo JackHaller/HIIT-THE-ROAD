@@ -116,7 +116,6 @@ public class PlayerController : MonoBehaviour
 			moveVertical = Input.GetAxis ("Vertical");
 		}
 
-
         pedalling = Mathf.Abs(moveVertical) > 0.2f;
 
 		//use shift keys to move fast when testing with the keyboard
