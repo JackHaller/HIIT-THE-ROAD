@@ -7,6 +7,12 @@ TagManager:
   - Powerup
   - bar
   - PlayerHead
+  - RoadBlock
+  - Wheel
+  - Explosion
+  - Vehicle
+  - VerticalRoadBlock
+  - CrowdSound
   layers:
   - Default
   - TransparentFX
