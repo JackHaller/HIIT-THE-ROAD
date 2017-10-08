@@ -40,8 +40,8 @@ public class GlobalSettings : MonoBehaviour {
     public bool EnableBike = true;
     public bool EnableKinect = false;
     public bool EnableCamera = true;
-	public string BikePort = "COM9";
-	public string ResistancePort = "COM7";
+	public string BikePort = "COM3";
+	public string ResistancePort = "COM1";
 	public bool UseOculus = true;
 
     //Interface Settings

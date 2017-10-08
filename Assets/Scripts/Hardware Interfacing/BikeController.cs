@@ -11,7 +11,7 @@ public class BikeController : MonoBehaviour {
 	
 	public GlobalSettings globalSettings;
 
-	private string PortName = "COM9";
+	private string PortName = "COM3";
 	
 	//These two variables are what the game cares about as input from the bike
 	public float speed = 0.0f;		//1.0f at 60rpm
@@ -119,7 +119,7 @@ public class BikeController : MonoBehaviour {
 				readValue = port.ReadByte ();
 			}
 		}
-		Debug.Log ("Full Frame Recieved: " + convertBufferToString () + " " + infoTextString);
+		//Debug.Log ("Full Frame Recieved: " + convertBufferToString () + " " + infoTextString);
 		InterpretFrame ();
 		infoTextString = createDataString();
 		bufferIndex = 0;
