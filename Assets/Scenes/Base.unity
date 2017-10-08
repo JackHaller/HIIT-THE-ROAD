@@ -243,7 +243,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &189929780
 Transform:
   m_ObjectHideFlags: 0
@@ -502,7 +502,7 @@ MonoBehaviour:
   UseDetailedPlaybackSettings: 0
   SimplePlaybackEnableGhost: 0
   SimplePlaybackEnableTrainer: 0
-  EnableBike: 1
+  EnableBike: 0
   EnableKinect: 0
   EnableCamera: 0
   BikePort: COM3
@@ -719,7 +719,7 @@ MonoBehaviour:
   RPM: 0
   heartRate: 0
   status: -1
-  enableBike: 1
+  enableBike: 0
   ending: 0
 --- !u!1 &405918871
 GameObject:
@@ -2838,6 +2838,7 @@ MonoBehaviour:
   UrbanGen: {fileID: 1245743373}
   RuralGen: {fileID: 1660881090}
   terrainSelector: {fileID: 1634425230}
+  intervalTime: 30
 --- !u!1 &1475696014
 GameObject:
   m_ObjectHideFlags: 0
