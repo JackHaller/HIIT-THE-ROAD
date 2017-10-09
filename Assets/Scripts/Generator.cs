@@ -118,8 +118,7 @@ public class Generator : MonoBehaviour
 
         //dont know why i cant take out tutorial area without breaking game
 		BuildTutorialArea ();
-
-		if (recordLevel) {
+        if (recordLevel) {
 			blockRecorder = new BlockSerializer ();
 			blockRecorder.WriteTutorialData (BlockList);
 		}
@@ -148,8 +147,6 @@ public class Generator : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-        print(intervalTime);
-        print(_currentTime % (intervalTime * 2));
         //here we check the player's position, and if necessary remove the back block and add a new one
         if (Player.transform.position.x >= blockSwapThreshold || IgnoreThreshold) {
 			//remove the oldest block
@@ -162,33 +159,7 @@ public class Generator : MonoBehaviour
                 {
                     //Add a new, random block
                     AddBlockStandardMode();
-                }
-
-			    //if we are recording the level, serialise the most recent block
-				if (recordLevel && blockRecorder.isUsable) {
-					blockRecorder.Serialize (BlockList.Head.Value);
-				}
-			
-			
-				if (currentTileCount > LimitLengthByTileNumber && LimitLengthByTile) 
-                {
-					if(loadLevelFromRecording)
-                    {
-                        backblock.position = new Vector3 (nextBlockX + 10, ((Block)BlockList.Head.Value).TrackSection.position.y+1.5f, 0.0f);
-						addTiles = false;
-					}
-                    else
-                    {
-                        //AddBasicBlock(	new Vector3(nextBlockX, currentHeight, 0.0f),0);
-					    backblock.position = new Vector3 (nextBlockX + 10, ((Block)BlockList.Head.Value).TrackSection.position.y+1.5f, 0.0f);
-					    addTiles = false;
-					}
-					if (recordLevel && blockRecorder.isUsable)
-                    {
-					    blockRecorder.Serialize(BlockList.Head.Value); // Gotta serialize the final straight block too. Don't worry about the backblock
-					    blockRecorder.CloseBlockRecorder();
-					}
-				}
+                }                
 			}
 			blockSwapThreshold += 20.0f;
 			nextBlockX += 20.0f;
@@ -204,8 +175,6 @@ public class Generator : MonoBehaviour
     void AddBlockStandardMode()
     {
         _currentTime = Time.time;
-        print(intervalTime);
-        print(_currentTime % (intervalTime * 2));
         if (_currentTime % (intervalTime * 2) < intervalTime)
         {
             _startSpawned = true;
@@ -324,7 +293,7 @@ public class Generator : MonoBehaviour
 		//Start with 5 standard blocks, then a left pit, then a standard, then right, then a standard and a ramp down
 		for (int i = 0; i < 20; i++) 
         {
-			Block block = AddBasicBlock (new Vector3 (20.0f * i, 0.0f, 0.0f),0);
+			AddBasicBlock (new Vector3 (20.0f * i, 0.0f, 0.0f),0);
 		}
         blockSwapThreshold = 180.0f;
 		nextBlockX = 400.0f;

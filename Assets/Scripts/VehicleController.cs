@@ -76,13 +76,13 @@ public class VehicleController : MonoBehaviour {
     }
 
 
-    IEnumerator IncreaseResistance(GameObject gameObejct)
+    IEnumerator IncreaseResistance(GameObject gameObject)
     {
         if(gameObject.tag == "Player")
         {
-            gameObejct.GetComponent<PlayerController>().BeginEnvironmentalResistanceOverride(SAND_RESISTANCE);
+            gameObject.GetComponent<PlayerController>().BeginEnvironmentalResistanceOverride(SAND_RESISTANCE);
             yield return new WaitForSeconds(5.0f);
-            gameObejct.GetComponent<PlayerController>().EndEnvironmentalResistanceOverride();
+            gameObject.GetComponent<PlayerController>().EndEnvironmentalResistanceOverride();
         }
     }
 
