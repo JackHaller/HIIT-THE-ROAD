@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
 	private GameState gameState = GameState.GAME_STATE_WAIT;
 	private float speed = 220.0f;
     private float speedNoForce = 8.0f;
-    private int score = 0;
+    private int score = 10000;
 	private float resistancePowerupDurationRemaining = 0.0f;
 	private bool environmentalResistanceOverride = false;
 	private int environmentalResistance = 15;
