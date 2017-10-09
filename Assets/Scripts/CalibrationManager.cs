@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class CalibrationManager : MonoBehaviour {
@@ -22,17 +23,9 @@ public class CalibrationManager : MonoBehaviour {
         lowZone = true;
 
         clapManager = GameObject.FindGameObjectWithTag("ClapManager");
-        vehicleGenerator = GameObject.FindGameObjectWithTag("VehicleGenerator");
-        worldSpaceGUI = GameObject.FindGameObjectWithTag("WorldSpaceGUI");
         calibrationText = GameObject.FindGameObjectWithTag("CalibrationText");
 
-        print(clapManager.activeSelf);
-
         clapManager.SetActive(false);
-        vehicleGenerator.SetActive(false);
-        worldSpaceGUI.SetActive(false);
-        calibrationText.SetActive(false);
-        print(clapManager.activeSelf);
         StartCoroutine(Calibrate());
     }
 	
@@ -40,53 +33,70 @@ public class CalibrationManager : MonoBehaviour {
 	void Update () {
         var crowdSounds = GameObject.FindGameObjectsWithTag("CrowdSound");
         var crowds = GameObject.FindGameObjectsWithTag("Crowd");
+        var powerUps = GameObject.FindGameObjectsWithTag("Powerup");
 
         foreach (var crowdSound in crowdSounds)
         {
-            crowdSound.SetActive(false);
+            Destroy(crowdSound);
         }
         foreach(var crowd in crowds)
         {
-            crowd.gameObject.SetActive(false);
+            Destroy(crowd);
+        }
+        foreach (var powerUp in powerUps)
+        {
+            Destroy(powerUp);
         }
     }
 
     IEnumerator Calibrate()
     {
+        //duplicate code for countdown since IEnumerator method inside IEnumerator doesn't seem to work
         bool done = false;
+        var count = 10;
+        while (count != 0)
+        {
+            calibrationText.GetComponentInChildren<Text>().text = "Calibration starting in " + count + ".";
+            count--;
+            yield return new WaitForSeconds(1f);
+        }
 
-        while(!done)
+        while (!done)
         {
             if (lowZone)
             {
-                calibrationText.SetActive(true);
-                calibrationText.GetComponentInChildren<Text>().text = "Pedal at 60rpm for 10 seconds!";
-                yield return new WaitForSeconds(10f);
+                //60seconds includes warmup
+                count = 60;
+                while (count != 0)
+                {
+                    calibrationText.GetComponentInChildren<Text>().text = "Pedal at casual speed for " + count + " seconds!";
+                    count--;
+                    yield return new WaitForSeconds(1f);
+                }
                 startHR = bikeController.heartRate;
                 lowZone = false;
-                Debug.Log("lowzone");
             }
             else
             {
-                calibrationText.GetComponentInChildren<Text>().text = "Pedal as fast as you can for 30 seconds!";
-                yield return new WaitForSeconds(30f);
+                count = 30;
+                while (count != 0)
+                {
+                    calibrationText.GetComponentInChildren<Text>().text = "Pedal as fast as you can for " + count + " seconds!";
+                    count--;
+                    yield return new WaitForSeconds(1f);
+                }
                 endHR = bikeController.heartRate;
                 done = true;
-                Debug.Log("highzone");
-
             }
         }
-        calibrationText.GetComponentInChildren<Text>().text = "HIIT THE ROAD!";
-        yield return new WaitForSeconds(2f);
-        StartGame();
-    }
-    
 
-    void StartGame()
-    {
-        clapManager.SetActive(true);
-        vehicleGenerator.SetActive(true);
-        worldSpaceGUI.SetActive(true);
-        calibrationText.SetActive(false);
+        count = 10;
+        while (count != 0)
+        {
+            calibrationText.GetComponentInChildren<Text>().text = "End of Calibration. Moving to the main game in " + count + ".";
+            count--;
+            yield return new WaitForSeconds(1f);
+        }
+        SceneManager.LoadScene("Base");
     }
 }
