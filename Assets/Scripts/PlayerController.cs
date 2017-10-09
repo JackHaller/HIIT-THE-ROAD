@@ -202,7 +202,6 @@ public class PlayerController : MonoBehaviour
             }
 
 			int resistance = DetermineDesiredResistance ();
-            print("Resistance: " + resistance);
             resistanceController.SetResistance(resistance);
 
             //update the speed of the fan based on how fast the player is going
@@ -376,20 +375,17 @@ public class PlayerController : MonoBehaviour
 
 		int desiredResistance;
 		//first up, if they have a powerup, the resistance is 1. This takes priority over all other factors
-		if (!(resistancePowerupDurationRemaining > 0.0f))
+		if (environmentalResistanceOverride)
         {
-            if (environmentalResistanceOverride)
-            {
-                desiredResistance = environmentalResistance;
-            }
-            else
-            {
-                desiredResistance = DEFAULT_RESISTANCE;
-            }         
-		} 
-        else 
+            desiredResistance = environmentalResistance;
+        }
+        else if (resistancePowerupDurationRemaining > 0.0f)
         {
             desiredResistance = 1;
+        }
+        else
+        {
+            desiredResistance = DEFAULT_RESISTANCE;
         }
 		return desiredResistance;
 	}

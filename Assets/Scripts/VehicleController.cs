@@ -80,7 +80,6 @@ public class VehicleController : MonoBehaviour {
     {
         if(gameObject.tag == "Player")
         {
-            print("adssdads");
             gameObject.GetComponent<PlayerController>().BeginEnvironmentalResistanceOverride(SAND_RESISTANCE);
             yield return new WaitForSeconds(5.0f);
             gameObject.GetComponent<PlayerController>().EndEnvironmentalResistanceOverride();
