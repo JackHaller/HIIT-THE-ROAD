@@ -488,11 +488,11 @@ MonoBehaviour:
   UseDetailedPlaybackSettings: 0
   SimplePlaybackEnableGhost: 0
   SimplePlaybackEnableTrainer: 0
-  EnableBike: 0
+  EnableBike: 1
   EnableKinect: 0
   EnableCamera: 0
   BikePort: COM3
-  ResistancePort: COM1
+  ResistancePort: COM5
   UseOculus: 0
   EnableRadar: 0
   UsingIntervals: 0
@@ -3243,8 +3243,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faf4a2bfc305ec5439cd81a0531ed0c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usersHead: {fileID: 0}
-  headTiltMovement: 0
+  usersHead: {fileID: 1221649945}
+  headTiltMovement: 1
   headOffsetMovement: 0
   ui: {fileID: 1785173960}
   generator: {fileID: 1464920550}

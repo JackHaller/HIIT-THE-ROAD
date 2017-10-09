@@ -154,7 +154,7 @@ public class BikeController : MonoBehaviour {
 		bool dataStructuresRemaining = true;
 		while (dataStructuresRemaining) {
 			int currentDataStructureSize = 2 + buffer[currentDataStructureStartPoint + 1];	//identifier + databyteCountByte + databyteCount
-			Debug.Log(string.Format("CDSS: {0}, CDSSP: {1}", currentDataStructureSize, currentDataStructureStartPoint));
+			//Debug.Log(string.Format("CDSS: {0}, CDSSP: {1}", currentDataStructureSize, currentDataStructureStartPoint));
 			int[] newDataStructure = new int[currentDataStructureSize];
 			int index = 0;
 			//copy the data structure from the buffer to the data structure holder

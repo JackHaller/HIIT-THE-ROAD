@@ -33,7 +33,6 @@ public class ClapController : MonoBehaviour {
 
         if (moveVertical > 1.0f && clap)
         {
-            Debug.Log("Clap");
             foreach (GameObject crowd in crowds)
             {
                 crowd.GetComponent<Animator>().SetBool("Clap", true);

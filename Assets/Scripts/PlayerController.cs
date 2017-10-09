@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
     public AudioSource pointsAward;
     public AudioSource pointsDeny;
 
-	private static readonly int DEFAULT_RESISTANCE = 5;
+	private static readonly int DEFAULT_RESISTANCE = 7;
 	public static int STARTING_LIVES = 1;
 	
 	private GameState gameState = GameState.GAME_STATE_WAIT;
@@ -105,7 +105,6 @@ public class PlayerController : MonoBehaviour
             moveHorizontal = cameraTracker.PositionOffset.x * 2;
 
         } else if (headTiltMovement) {
-            print(usersHead.transform.position - transform.position);
             //Only start moving after a certain angle has be achieved as head naturally bobs side to side
             if (usersHead.transform.localRotation.eulerAngles.z < 270 && usersHead.transform.localRotation.eulerAngles.z > 15)
             {
@@ -161,19 +160,7 @@ public class PlayerController : MonoBehaviour
 		//Update the game based on the game state
 		if (gameState == GameState.GAME_STATE_PLAY) 
         {
-            //If the player has been idle for ten seconds, give them a game over
-			if (((kinect.EnableKinect && kinect.calibrationFinished) || (cameraTracker.EnableCamera && cameraTracker.CameraInitialised)) && moveVertical == 0.0f) 
-            {
-				timeToExit -= Time.deltaTime;	
-				if (timeToExit <= 0.0f) 
-                {
-					DoGameOver();
-				}
-			} 
-            else 
-            {
-				timeToExit = 10.0f;
-			}
+            
 			if (gameLengthInSeconds <= elapsedGameLength && LimitGameLength) {
 				DoGameOver (); // End the game after 10 minutes.
 			}
@@ -213,8 +200,10 @@ public class PlayerController : MonoBehaviour
                 resistancePowerupDurationRemaining -= Time.deltaTime;
                 ui.SetRemainingCharge((int)(resistancePowerupDurationRemaining * 10.0f));
             }
+
 			int resistance = DetermineDesiredResistance ();
-			resistanceController.SetResistance (resistance);
+            print("Resistance: " + resistance);
+            resistanceController.SetResistance(resistance);
 
             //update the speed of the fan based on how fast the player is going
             if (globalSettings.EnableFanFeedback)
@@ -387,42 +376,21 @@ public class PlayerController : MonoBehaviour
 
 		int desiredResistance;
 		//first up, if they have a powerup, the resistance is 1. This takes priority over all other factors
-		if (resistancePowerupDurationRemaining > 0.0f) 
+		if (!(resistancePowerupDurationRemaining > 0.0f))
         {
-			desiredResistance = 1;
+            if (environmentalResistanceOverride)
+            {
+                desiredResistance = environmentalResistance;
+            }
+            else
+            {
+                desiredResistance = DEFAULT_RESISTANCE;
+            }         
 		} 
         else 
         {
-			//if there is a current environmental resistance setting, use that
-			if (environmentalResistanceOverride) {
-				desiredResistance = environmentalResistance;	
-			} else {
-				//The base resistance (the resistance when travelling on a horizontal surface with no interference) is DEFAULT_RESISTANCE
-				//The easiest downhill resistance (1) occurs at a roughly 30 degree downward slope
-				//Uphill resistance (13) occurs at a roughly 30 degree uphill slope
-				//Getting hit with a cannonball head on causes a big increase in resistance as it forces the player's velocity to point upwards
-				
-				Vector3 velocity = this.GetComponent<Rigidbody>().velocity;
-				//if stationary, use the default resistance
-				if (velocity.magnitude == 0.0f) {
-					desiredResistance = DEFAULT_RESISTANCE;
-				} else {
-					//Moving, so determine the angle
-					float a = Mathf.Sqrt(velocity.x * velocity.x + velocity.z * velocity.z);
-					float o = velocity.y;
-					float angle = Mathf.Atan (o / a);
-					if (angle <= 0.001f && angle >= -0.001f) {
-						angle = 0.0f;	
-					}
-					//a 30 degree angle is Pi / 6
-					float fraction = angle / (Mathf.PI / 6.0f);
-					desiredResistance = DEFAULT_RESISTANCE + (int)(fraction * 6.0f);
-					if (desiredResistance < 1) {
-						desiredResistance = 1;	
-					}
-				}
-			}
-		}
+            desiredResistance = 1;
+        }
 		return desiredResistance;
 	}
 	
