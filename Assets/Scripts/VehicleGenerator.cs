@@ -52,7 +52,7 @@ public class VehicleGenerator : MonoBehaviour {
                     vehicle = vehicles[vehicleIndex];
 
                     if (_latestVehicle == null)
-                        vehiclePos = new Vector3(_player.transform.position.x + 50f, 0.5f, _carZPositions[newPositionIndex]);
+                        vehiclePos = new Vector3(_player.transform.position.x + 10f, 0.5f, _carZPositions[newPositionIndex]);
                     else
                         vehiclePos = new Vector3(_latestVehicle.transform.position.x + distance, 0.5f, _carZPositions[newPositionIndex]);
 
