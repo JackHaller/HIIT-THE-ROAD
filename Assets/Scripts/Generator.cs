@@ -25,6 +25,7 @@ public class Generator : MonoBehaviour
 	public GlobalSettings globalSettings;
     public IntervalController intervalController;
 
+    
 
     //Prefabs for building the game
     public Transform Straight;
@@ -60,7 +61,7 @@ public class Generator : MonoBehaviour
 	private bool playbackbranchtrigger = false;
 	public bool Newtutorial = false;
 	public int LimitLengthByTileNumber;
-	private int currentTileCount = 0;
+	private int currentTileCount = 1;
 	public bool LimitLengthByTile;
 	public Transform backblock;
 	private bool addTiles;
@@ -71,6 +72,7 @@ public class Generator : MonoBehaviour
     public TerrainSelector terrainSelector = null;
 
 
+
     //testing time based spawning
     public int intervalTime = 10;
     private float _currentTime;
@@ -78,6 +80,11 @@ public class Generator : MonoBehaviour
     private bool _endSpawned = false;
     private int _generatorType;
 
+    public float maxRPM = 180;
+    public float slowZoneSpeedRpm = 60;
+
+    public int slowZoneLength = 8;
+    public int fastZoneLength = 24;
 
 	// Use this for initialization
 	void Start ()
@@ -241,39 +248,38 @@ public class Generator : MonoBehaviour
         bool spawnCrowd;
 
 
+        float fastZoneLength = (maxRPM / 60f) * slowZoneLength;
 
-
-        if (type == 0)
+        if (currentTileCount < fastZoneLength)
         {
             track = (Transform)(Instantiate(Straight, location, Quaternion.identity));
             block = new Block(track);
             BlockList.AddFirst(block);
             spawnCrowd = true;
         }
-        else if (type == 1)
+        
+        else if (currentTileCount == fastZoneLength)
         {
             track = (Transform)(Instantiate(StraightBlockedStart, location, Quaternion.identity));
             block = new Block(track);
             BlockList.AddFirst(block);
             spawnCrowd = false;
         }
-        else if (type == 2)
+        else if (currentTileCount < currentTileCount+ fastZoneLength)
         {
             track = (Transform)(Instantiate(StraightBlockedStart, location, Quaternion.Euler(0,180,0)));
             block = new Block(track);
             BlockList.AddFirst(block);
             spawnCrowd = false;
         }
-        else
+        else 
         {
             track = (Transform)(Instantiate(StraightBlockedZone, location, Quaternion.identity));
             block = new Block(track);
             BlockList.AddFirst(block);
             spawnCrowd = false;
-        }
-        if (type == 3)
-        {
-            currentTileCount = 0;
+
+            currentTileCount = 1;
         }
         switch (globalSettings.environmentType)
         {
@@ -295,6 +301,7 @@ public class Generator : MonoBehaviour
         {
 			AddBasicBlock (new Vector3 (20.0f * i, 0.0f, 0.0f),0);
 		}
+        currentTileCount++;
         blockSwapThreshold = 60.0f;
 		nextBlockX = 400.0f;
 		buildIndex = 0;			//the first level begins at the end of the tutorial
