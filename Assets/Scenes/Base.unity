@@ -1856,7 +1856,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1192287502}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
@@ -2209,8 +2209,6 @@ MonoBehaviour:
   crowdDensity: 10
   crowdList: {fileID: 1480014024216738, guid: 5086ef7d80e8aae4a9bcac7657aff355, type: 2}
   crowdAudio: {fileID: 1413576157584450, guid: 1c43eb4f7d5c1f845be94b86b9d47226, type: 2}
-  clapManager: {fileID: 1639277853490706, guid: fdacf6a46ce383d47bded20f737f1b0b,
-    type: 2}
   powerUp: {fileID: 100000, guid: ba9219b66a220d7429159d7959bec3a5, type: 2}
   powerUpSpawnChance: 8
 --- !u!1 &1311728084
@@ -2910,6 +2908,42 @@ Prefab:
     - target: {fileID: 400008, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
       propertyPath: m_RootOrder
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300014, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300010, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300006, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300008, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300016, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300012, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300004, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
