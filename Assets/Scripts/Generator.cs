@@ -86,6 +86,9 @@ public class Generator : MonoBehaviour
     public int slowZoneLength = 8;
     public int fastZoneLength = 24;
 
+    public int numberOfIntervals = 5;
+    public int currentInterval = 1;
+
 	// Use this for initialization
 	void Start ()
 	{
@@ -208,9 +211,11 @@ public class Generator : MonoBehaviour
                 _generatorType = 3;
             }
         }
-
-        Block block = AddBasicBlock(new Vector3(nextBlockX, currentHeight, 0.0f), _generatorType);
-        currentTileCount++;
+        if (currentInterval < numberOfIntervals)
+        {
+            Block block = AddBasicBlock(new Vector3(nextBlockX, currentHeight, 0.0f), _generatorType);
+            currentTileCount++;
+        }
     }
 
 	/// <summary>
@@ -246,10 +251,10 @@ public class Generator : MonoBehaviour
         Transform track;
         Block block;
         bool spawnCrowd;
+        
 
-
-        float fastZoneLength = (maxRPM / 60f) * slowZoneLength;
-
+        print(currentTileCount);
+        print(fastZoneLength);
         if (currentTileCount < fastZoneLength)
         {
             track = (Transform)(Instantiate(Straight, location, Quaternion.identity));
@@ -265,21 +270,21 @@ public class Generator : MonoBehaviour
             BlockList.AddFirst(block);
             spawnCrowd = false;
         }
-        else if (currentTileCount < currentTileCount+ fastZoneLength)
+        else if (currentTileCount < slowZoneLength + fastZoneLength)
         {
-            track = (Transform)(Instantiate(StraightBlockedStart, location, Quaternion.Euler(0,180,0)));
+            track = (Transform)(Instantiate(StraightBlockedZone, location, Quaternion.identity));
             block = new Block(track);
             BlockList.AddFirst(block);
             spawnCrowd = false;
         }
         else 
         {
-            track = (Transform)(Instantiate(StraightBlockedZone, location, Quaternion.identity));
+            track = (Transform)(Instantiate(StraightBlockedStart, location, Quaternion.Euler(0, 180, 0)));
             block = new Block(track);
             BlockList.AddFirst(block);
             spawnCrowd = false;
-
             currentTileCount = 1;
+            currentInterval += 1;
         }
         switch (globalSettings.environmentType)
         {
@@ -301,7 +306,7 @@ public class Generator : MonoBehaviour
         {
 			AddBasicBlock (new Vector3 (20.0f * i, 0.0f, 0.0f),0);
 		}
-        currentTileCount++;
+        currentTileCount = 20;
         blockSwapThreshold = 60.0f;
 		nextBlockX = 400.0f;
 		buildIndex = 0;			//the first level begins at the end of the tutorial
