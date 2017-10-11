@@ -14,6 +14,7 @@ public class CalibrationManager : MonoBehaviour {
     private GameObject calibrationText;
     private int startHR;
     private int endHR;
+    private int maxRPM;
     private bool lowZone;
 
 	// Use this for initialization
@@ -62,6 +63,7 @@ public class CalibrationManager : MonoBehaviour {
         }
         startHR = 0;
         endHR = 0;
+        maxRPM = 0;
         while (!done)
         {
             if (lowZone)
@@ -82,6 +84,7 @@ public class CalibrationManager : MonoBehaviour {
                 count = 30;
                 while (count != 0)
                 {
+                    maxRPM = bikeController.RPM > maxRPM ? bikeController.RPM : maxRPM;
                     endHR = bikeController.heartRate > endHR ? bikeController.heartRate : endHR;
                     calibrationText.GetComponentInChildren<Text>().text = "Pedal as fast as you can for " + count + " seconds!";
                     count--;
