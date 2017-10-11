@@ -290,20 +290,6 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 100, y: 100}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -697,7 +683,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491618, guid: c2c402e99a56ad749b560bee7cdc6b2a, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.00000071525585
       objectReference: {fileID: 0}
     - target: {fileID: 491618, guid: c2c402e99a56ad749b560bee7cdc6b2a, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1039,20 +1025,6 @@ Light:
   m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -1164,6 +1136,11 @@ Prefab:
     - target: {fileID: 1639277853490706, guid: fdacf6a46ce383d47bded20f737f1b0b, type: 2}
       propertyPath: m_TagString
       value: ClapManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 114702274208183252, guid: fdacf6a46ce383d47bded20f737f1b0b,
+        type: 2}
+      propertyPath: maxRPM
+      value: 210
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fdacf6a46ce383d47bded20f737f1b0b, type: 2}
@@ -1510,6 +1487,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 171d8f0378bff94499c3e63256a3cf36, type: 3}
   - {fileID: 8300000, guid: de54ac06a24912d46899fdd8fc6786e9, type: 3}
   - {fileID: 8300000, guid: fe97cd78bcfab2b45a3eb2f374d67464, type: 3}
+  maxRPM: 210
 --- !u!1 &853295017
 GameObject:
   m_ObjectHideFlags: 0
@@ -2479,20 +2457,6 @@ Light:
   m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0

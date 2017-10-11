@@ -17,7 +17,6 @@ public class UrbanGenerator : MonoBehaviour {
     public int crowdDensity = 50;
     public GameObject crowdList;
     public GameObject crowdAudio;
-    public GameObject clapManager;
     private bool spawnAudio;
 
 

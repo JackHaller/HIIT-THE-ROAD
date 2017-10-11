@@ -6,19 +6,22 @@ public class ClapController : MonoBehaviour {
 
     public BikeController bike;
     public AudioClip[] claps;
+    public float maxRPM = 180.00f;
+
     private bool clap = true;
     private bool cheer = false;
+    private float maxSpeed;
 
     // Use this for initialization
     void Start () {
-
-	}
+        maxSpeed = maxRPM / 60.00f;
+    }
 	
 	// Update is called once per frame
 	void Update () {
         GameObject[] crowdSounds = GameObject.FindGameObjectsWithTag("CrowdSound");
         GameObject[] crowds = GameObject.FindGameObjectsWithTag("Crowd");
-
+        
 
         //Handle vertical movement. Priority is Bike > Keyboard
         float moveVertical = 0.0f;
@@ -31,7 +34,7 @@ public class ClapController : MonoBehaviour {
             moveVertical = Input.GetAxis("Vertical");
         }
 
-        if (moveVertical > 1.0f && clap)
+        if (moveVertical > 0.65f * maxSpeed && clap)
         {
             foreach (GameObject crowd in crowds)
             {
@@ -41,7 +44,7 @@ public class ClapController : MonoBehaviour {
             clap = false;
             cheer = true;
         }
-        else if (moveVertical < 1.0f && cheer)
+        else if (moveVertical < 0.65f * maxSpeed && cheer)
         {
             foreach (GameObject crowd in crowds)
             {
@@ -53,7 +56,7 @@ public class ClapController : MonoBehaviour {
         }
 
 
-        if (moveVertical > 3.0f && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
+        if (moveVertical > 1.15f * maxSpeed && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
         {
             foreach (GameObject crowdSound in crowdSounds)
             {
@@ -61,7 +64,7 @@ public class ClapController : MonoBehaviour {
                 crowdSound.GetComponents<AudioSource>()[1].Play();
             }            
         }
-        else if (moveVertical > 2.83f && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
+        else if (moveVertical > 1.10f * maxSpeed && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
         {
             foreach (GameObject crowdSound in crowdSounds)
             {
@@ -69,7 +72,7 @@ public class ClapController : MonoBehaviour {
                 crowdSound.GetComponents<AudioSource>()[1].Play();
             }
         }
-        else if (moveVertical > 2.66f && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
+        else if (moveVertical > 1.05f * maxSpeed && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
         {
             foreach (GameObject crowdSound in crowdSounds)
             {
@@ -77,7 +80,7 @@ public class ClapController : MonoBehaviour {
                 crowdSound.GetComponents<AudioSource>()[1].Play();
             }
         }
-        else if (moveVertical > 2.17f && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
+        else if (moveVertical > 1.00f * maxSpeed && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
         {
             foreach (GameObject crowdSound in crowdSounds)
             {
@@ -85,7 +88,7 @@ public class ClapController : MonoBehaviour {
                 crowdSound.GetComponents<AudioSource>()[1].Play();
             }
         }
-        else if (moveVertical > 2.0f && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
+        else if (moveVertical > 0.95f * maxSpeed && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
         {
             foreach (GameObject crowdSound in crowdSounds)
             {
@@ -93,7 +96,7 @@ public class ClapController : MonoBehaviour {
                 crowdSound.GetComponents<AudioSource>()[1].Play();
             }
         }
-        else if (moveVertical > 1.83f && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
+        else if (moveVertical > 0.90f * maxSpeed && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
         {
             foreach (GameObject crowdSound in crowdSounds)
             {
@@ -101,7 +104,7 @@ public class ClapController : MonoBehaviour {
                 crowdSound.GetComponents<AudioSource>()[1].Play();
             }
         }
-        else if (moveVertical > 1.66f && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
+        else if (moveVertical > 0.85f * maxSpeed && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
         {
             foreach (GameObject crowdSound in crowdSounds)
             {
@@ -109,7 +112,7 @@ public class ClapController : MonoBehaviour {
                 crowdSound.GetComponents<AudioSource>()[1].Play();
             }
         }
-        else if (moveVertical > 1.5f && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
+        else if (moveVertical > 0.80f * maxSpeed && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
         {
             foreach (GameObject crowdSound in crowdSounds)
             {
@@ -117,7 +120,7 @@ public class ClapController : MonoBehaviour {
                 crowdSound.GetComponents<AudioSource>()[1].Play();
             }
         }
-        else if (moveVertical > 1.33f && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
+        else if (moveVertical > 0.75 * maxSpeed && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
         {
             foreach (GameObject crowdSound in crowdSounds)
             {
@@ -125,7 +128,7 @@ public class ClapController : MonoBehaviour {
                 crowdSound.GetComponents<AudioSource>()[1].Play();
             }
         }
-        else if (moveVertical > 1.17f && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
+        else if (moveVertical > 0.70f * maxSpeed && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
         {
             foreach (GameObject crowdSound in crowdSounds)
             {
@@ -133,7 +136,7 @@ public class ClapController : MonoBehaviour {
                 crowdSound.GetComponents<AudioSource>()[1].Play();
             }
         }
-        else if (moveVertical > 1.0f && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
+        else if (moveVertical > 0.65f * maxSpeed && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
         {
             foreach (GameObject crowdSound in crowdSounds)
             {
