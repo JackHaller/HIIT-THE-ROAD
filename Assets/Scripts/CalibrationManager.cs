@@ -60,7 +60,8 @@ public class CalibrationManager : MonoBehaviour {
             count--;
             yield return new WaitForSeconds(1f);
         }
-
+        startHR = 0;
+        endHR = 0;
         while (!done)
         {
             if (lowZone)
@@ -69,11 +70,11 @@ public class CalibrationManager : MonoBehaviour {
                 count = 60;
                 while (count != 0)
                 {
+                    startHR = bikeController.heartRate > startHR ? bikeController.heartRate : startHR;
                     calibrationText.GetComponentInChildren<Text>().text = "Pedal at casual speed for " + count + " seconds!";
                     count--;
                     yield return new WaitForSeconds(1f);
                 }
-                startHR = bikeController.heartRate;
                 lowZone = false;
             }
             else
@@ -81,14 +82,17 @@ public class CalibrationManager : MonoBehaviour {
                 count = 30;
                 while (count != 0)
                 {
+                    endHR = bikeController.heartRate > endHR ? bikeController.heartRate : endHR;
                     calibrationText.GetComponentInChildren<Text>().text = "Pedal as fast as you can for " + count + " seconds!";
                     count--;
                     yield return new WaitForSeconds(1f);
                 }
-                endHR = bikeController.heartRate;
                 done = true;
             }
         }
+
+        Debug.Log(startHR);
+        Debug.Log(endHR);
 
         count = 10;
         while (count != 0)
