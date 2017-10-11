@@ -1380,7 +1380,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.3
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -1470,7 +1470,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 768891840}
-  m_LocalRotation: {x: 0.06645231, y: 0.90984374, z: -0.3768696, w: 0.16043007}
+  m_LocalRotation: {x: 0.06645226, y: 0.9098437, z: -0.37686953, w: 0.16043004}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1486,7 +1486,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 0.95043945, g: 0.995627, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.9858012, b: 0.7941176, a: 1}
   m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 39.1
@@ -1506,7 +1506,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 100, y: 100}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -2093,7 +2093,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 100, y: 100}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -2250,20 +2250,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BuildingList:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1141159737432736, guid: ecc0305910c0d7146812ad509d41c7db, type: 2}
+  - {fileID: 1988978520207358, guid: 636a8891aec4c864ebb434e918858c1e, type: 2}
+  - {fileID: 1076691286504210, guid: 66363126205dc4548b0309be5268a5ed, type: 2}
+  - {fileID: 1437699330871868, guid: f0ac7aa469688164c8777b1250101b31, type: 2}
+  - {fileID: 1005878131162572, guid: 58b3cbb48958c864c8e64751c14a3b31, type: 2}
+  - {fileID: 1971946794246574, guid: 613b7ab7464bf6f4db7745196709c6d0, type: 2}
   ChanceOfBuildingSpawn: 0.7
   crowdDensity: 10
   crowdList: {fileID: 1480014024216738, guid: 5086ef7d80e8aae4a9bcac7657aff355, type: 2}
@@ -2778,7 +2770,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   usersHead: {fileID: 1221649945}
-  headTiltMovement: 1
+  headTiltMovement: 0
   headOffsetMovement: 0
   ui: {fileID: 1785173960}
   generator: {fileID: 1464920550}
