@@ -946,20 +946,6 @@ Light:
   m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -1414,20 +1400,6 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 100, y: 100}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -2111,6 +2083,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 171d8f0378bff94499c3e63256a3cf36, type: 3}
   - {fileID: 8300000, guid: de54ac06a24912d46899fdd8fc6786e9, type: 3}
   - {fileID: 8300000, guid: fe97cd78bcfab2b45a3eb2f374d67464, type: 3}
+  maxRPM: 180
 --- !u!1 &1539791179
 GameObject:
   m_ObjectHideFlags: 0
@@ -2587,7 +2560,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1890109554}
-  m_LocalRotation: {x: 0.0664523, y: 0.9098437, z: -0.37686956, w: 0.16043006}
+  m_LocalRotation: {x: 0.06645231, y: 0.90984374, z: -0.3768696, w: 0.16043007}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -2626,20 +2599,6 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 100, y: 100}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -2821,26 +2780,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BuildingList:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1141159737432736, guid: ecc0305910c0d7146812ad509d41c7db, type: 2}
+  - {fileID: 1988978520207358, guid: 636a8891aec4c864ebb434e918858c1e, type: 2}
+  - {fileID: 1076691286504210, guid: 66363126205dc4548b0309be5268a5ed, type: 2}
+  - {fileID: 1437699330871868, guid: f0ac7aa469688164c8777b1250101b31, type: 2}
+  - {fileID: 1005878131162572, guid: 58b3cbb48958c864c8e64751c14a3b31, type: 2}
+  - {fileID: 1971946794246574, guid: 613b7ab7464bf6f4db7745196709c6d0, type: 2}
   ChanceOfBuildingSpawn: 0.7
   crowdDensity: 10
   crowdList: {fileID: 1480014024216738, guid: 5086ef7d80e8aae4a9bcac7657aff355, type: 2}
   crowdAudio: {fileID: 1413576157584450, guid: 1c43eb4f7d5c1f845be94b86b9d47226, type: 2}
-  clapManager: {fileID: 1639277853490706, guid: fdacf6a46ce383d47bded20f737f1b0b,
-    type: 2}
   powerUp: {fileID: 100000, guid: ba9219b66a220d7429159d7959bec3a5, type: 2}
   powerUpSpawnChance: 8
 --- !u!1 &2014329040
@@ -3322,20 +3271,6 @@ Light:
   m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
