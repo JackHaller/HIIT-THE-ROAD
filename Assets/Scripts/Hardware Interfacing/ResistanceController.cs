@@ -63,7 +63,7 @@ public class ResistanceController : MonoBehaviour {
         //If the bike is not in the appropriate state, don't fiddle with the resistance
         if (!(bikeController.status == 0x09 || bikeController.status == 0x19 || bikeController.status == 0x89))
         {
-            Debug.Log (string.Format("Cannot set resistance, bike in wrong state: {0}", bikeController.status));	
+            //Debug.Log (string.Format("Cannot set resistance, bike in wrong state: {0}", bikeController.status));	
             return;
         }
         if (port != null && port.IsOpen)
@@ -87,7 +87,7 @@ public class ResistanceController : MonoBehaviour {
         //If the bike is not in the appropriate state, don't fiddle with the resistance
         if (!(bikeController.status == 0x09 || bikeController.status == 0x19 || bikeController.status == 0x89))
         {
-            Debug.Log (string.Format("Cannot reset resistance, bike in wrong state: {0}", bikeController.status));	
+            //Debug.Log (string.Format("Cannot reset resistance, bike in wrong state: {0}", bikeController.status));	
             return;
         }
         if (port != null && port.IsOpen)
