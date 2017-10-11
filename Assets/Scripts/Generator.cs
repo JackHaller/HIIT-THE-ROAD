@@ -295,7 +295,7 @@ public class Generator : MonoBehaviour
         {
 			AddBasicBlock (new Vector3 (20.0f * i, 0.0f, 0.0f),0);
 		}
-        blockSwapThreshold = 180.0f;
+        blockSwapThreshold = 60.0f;
 		nextBlockX = 400.0f;
 		buildIndex = 0;			//the first level begins at the end of the tutorial
 		
