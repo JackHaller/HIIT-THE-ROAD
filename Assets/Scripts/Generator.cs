@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Xml;
 using System.Xml.Serialization;
+using System;
 using Exergame;
 
 public enum GeneratorMode
@@ -83,8 +84,16 @@ public class Generator : MonoBehaviour
     public float maxRPM = 180;
     public float slowZoneSpeedRpm = 60;
 
-    public int slowZoneLength = 8;
-    public int fastZoneLength = 24;
+
+    private double slowZoneSpeed;
+    private double fastZoneSpeed;
+    
+    //time in seconds
+    public int slowZoneTime = 60;
+    public int fastZoneTime = 30;
+    private double slowZoneLength;
+    private double fastZoneLength;
+
 
     public int numberOfIntervals = 5;
     public int currentInterval = 1;
@@ -93,7 +102,16 @@ public class Generator : MonoBehaviour
 	void Start ()
 	{
         generatorMode = globalSettings.LevelType;
+
+        slowZoneSpeed = 0.157f * (1 / Time.fixedDeltaTime);
+        fastZoneSpeed = (maxRPM / slowZoneSpeedRpm) * slowZoneSpeed;
         
+        slowZoneLength = Math.Ceiling((slowZoneTime * slowZoneSpeed)/20);
+        fastZoneLength = Math.Ceiling((fastZoneTime * fastZoneSpeed)/20);
+
+
+        print(fastZoneLength);
+
         switch (globalSettings.environmentType)
         {
             case (EnvironmentType.BARE):
@@ -252,9 +270,7 @@ public class Generator : MonoBehaviour
         Block block;
         bool spawnCrowd;
         
-
-        print(currentTileCount);
-        print(fastZoneLength);
+        
         if (currentTileCount < fastZoneLength)
         {
             track = (Transform)(Instantiate(Straight, location, Quaternion.identity));
