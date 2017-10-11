@@ -43,12 +43,17 @@ public void UrbanLandscapeGeneration(Vector3 trackLocation, bool spawnCrowd, Tra
 	private void CreateLeftBuildingCluster (Vector3 trackLocation, bool spawnCrowd) {
 
         // Add an extra tile to hide visible grass -- issue due to moving buildings far enough away from the track to clear the cannons
-        GameObject newTile1 = Instantiate(BuildingList[Random.Range(0,BuildingList.Count-1)], new Vector3(trackLocation.x, trackLocation.y - 0.01f, trackLocation.z - 15.0f), Quaternion.identity) as GameObject;
-        GameObject newTile2 = Instantiate(BuildingList[Random.Range(0, BuildingList.Count - 1)], new Vector3(trackLocation.x, trackLocation.y - 0.01f, trackLocation.z - 25.0f), Quaternion.identity) as GameObject;
+        GameObject newTile1 = Instantiate(BuildingList[Random.Range(0,BuildingList.Count-1)], new Vector3(trackLocation.x, trackLocation.y - 38f, trackLocation.z - 15.0f), Quaternion.identity) as GameObject;
+        GameObject newTile2 = Instantiate(BuildingList[Random.Range(0, BuildingList.Count - 1)], new Vector3(trackLocation.x, trackLocation.y - 38f, trackLocation.z - 25.0f), Quaternion.identity) as GameObject;
         newTile1.transform.parent = _parentTransform;
         newTile2.transform.parent = _parentTransform;
 
-        if(spawnCrowd)
+        SpawnedObjectLerper lerper1 = newTile1.gameObject.AddComponent<SpawnedObjectLerper>();
+        SpawnedObjectLerper lerper2 = newTile2.gameObject.AddComponent<SpawnedObjectLerper>();
+        lerper1.Initialise(38f, 0f);
+        lerper2.Initialise(38f, 0f);
+
+        if (spawnCrowd)
         {        
             GameObject crowdSound = Instantiate(crowdAudio);
             crowdSound.transform.position = new Vector3(trackLocation.x + Random.Range(0, 20), trackLocation.y + 0.5f, trackLocation.z + Random.Range(0, 3) + 7);
@@ -87,12 +92,17 @@ public void UrbanLandscapeGeneration(Vector3 trackLocation, bool spawnCrowd, Tra
 	private void CreateRightBuildingCluster (Vector3 trackLocation, bool spawnCrowd) {
 
         // Add an extra tile to hide visible grass -- issue due to moving buildings far enough away from the track to clear the cannons
-        GameObject newTile1 = Instantiate(BuildingList[Random.Range(0, BuildingList.Count - 1)], new Vector3(trackLocation.x, trackLocation.y - 0.01f, trackLocation.z + 15.0f), Quaternion.identity) as GameObject;
-        GameObject newTile2 = Instantiate(BuildingList[Random.Range(0, BuildingList.Count - 1)], new Vector3(trackLocation.x, trackLocation.y - 0.01f, trackLocation.z + 25.0f), Quaternion.identity) as GameObject;
+        GameObject newTile1 = Instantiate(BuildingList[Random.Range(0, BuildingList.Count - 1)], new Vector3(trackLocation.x, trackLocation.y - 38f, trackLocation.z + 15.0f), Quaternion.identity) as GameObject;
+        GameObject newTile2 = Instantiate(BuildingList[Random.Range(0, BuildingList.Count - 1)], new Vector3(trackLocation.x, trackLocation.y - 38f, trackLocation.z + 25.0f), Quaternion.identity) as GameObject;
         newTile1.transform.parent = _parentTransform;
         newTile2.transform.parent = _parentTransform;
         newTile1.transform.rotation = Quaternion.Euler(0, 180, 0);
         newTile2.transform.rotation = Quaternion.Euler(0, 180, 0);
+
+        SpawnedObjectLerper lerper1 = newTile1.gameObject.AddComponent<SpawnedObjectLerper>();
+        SpawnedObjectLerper lerper2 = newTile2.gameObject.AddComponent<SpawnedObjectLerper>();
+        lerper1.Initialise(38f, 0f);
+        lerper2.Initialise(38f, 0f);
 
 
         if (spawnCrowd)

@@ -6,7 +6,7 @@ public class SpawnedObjectLerper : MonoBehaviour {
     Vector3 finalPosition;
 
     private float startTime;
-    private float journeyTime = 0.0018f; // inverse
+    private float journeyTime = 0.005f;//0.0018f; // inverse
     private float lerpAmount = 0f;
 
     public void Initialise(float yDistanceToLerp, float zDistanceToLerp)
