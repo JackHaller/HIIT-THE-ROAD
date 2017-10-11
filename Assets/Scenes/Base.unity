@@ -2505,7 +2505,7 @@ MonoBehaviour:
   IgnoreThreshold: 0
   loadLevelFromRecording: 0
   Newtutorial: 0
-  LimitLengthByTileNumber: 54
+  LimitLengthByTileNumber: 80
   LimitLengthByTile: 0
   backblock: {fileID: 1996468054}
   UrbanGen: {fileID: 1245743373}
