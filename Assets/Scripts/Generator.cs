@@ -96,7 +96,7 @@ public class Generator : MonoBehaviour
     private double fastZoneLength;
 
 
-    public int numberOfIntervals = 5;
+    public int numberOfIntervals = 3;
     public int currentInterval = 1;
 
 	// Use this for initialization
@@ -109,9 +109,7 @@ public class Generator : MonoBehaviour
         
         slowZoneLength = Math.Ceiling((slowZoneTime * slowZoneSpeed)/20);
         fastZoneLength = Math.Ceiling((fastZoneTime * fastZoneSpeed)/20);
-
-
-        print(fastZoneLength);
+        
 
         switch (globalSettings.environmentType)
         {
