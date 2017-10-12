@@ -96,150 +96,187 @@ public class PlayerController : MonoBehaviour
 	// FixedUpdate is called once per physcics tick
 	void FixedUpdate ()
 	{
-        _lanePosition = SetLanePosition();
-		//handle horizontal movement. Priority is Kinect > Camera > Keyboard
-		float moveHorizontal = 0.0f;
-        if (kinect.EnableKinect) {
-            moveHorizontal = kinect.movement;
-        } else if (cameraTracker.EnableCamera) {
-            moveHorizontal = cameraTracker.PositionOffset.x * 2;
-
-        } else if (headTiltMovement) {
-            //Only start moving after a certain angle has be achieved as head naturally bobs side to side
-            if (usersHead.transform.localRotation.eulerAngles.z < 270 && usersHead.transform.localRotation.eulerAngles.z > 15)
-            {
-                moveHorizontal = usersHead.transform.localRotation.eulerAngles.z * -0.02f;
-            }
-            if (usersHead.transform.localRotation.eulerAngles.z > 270 && usersHead.transform.localRotation.eulerAngles.z < 345)
-            {
-                moveHorizontal = (usersHead.transform.localRotation.eulerAngles.z - 360) * -0.02f;
-            }
-
-        } else if (headOffsetMovement){
-
-            moveHorizontal =  (transform.position.z- usersHead.transform.position.z) * 10;
-
-        } else {
-			moveHorizontal = Input.GetAxis ("Horizontal");
-		}
-		//Cap horizontal movement
-		if (moveHorizontal > 1.2f) {
-			moveHorizontal = 1.2f;
-		} else if (moveHorizontal < -1.2f) {
-			moveHorizontal = -1.2f;	
-		}
-
-		//Handle vertical movement. Priority is Bike > Keyboard
-		float moveVertical = 0.0f;
-		if (bike.enableBike) {
-			moveVertical = bike.speed;
-		} else {
-			moveVertical = Input.GetAxis ("Vertical");
-		}
-
-        pedalling = Mathf.Abs(moveVertical) > 0.2f;
-
-		//use shift keys to move fast when testing with the keyboard
-		if (Input.GetKey (KeyCode.LeftShift) || Input.GetKey (KeyCode.RightShift)) {
-			moveVertical *= 2;
-		}
-
-        //we want to allow a quick exit if something goes bad
-        if (Input.GetKey(KeyCode.Escape))
+        if (Time.time > 5)
         {
-            Debug.Log("Force Quitting");
-            Application.Quit();
+            _lanePosition = SetLanePosition();
+            //handle horizontal movement. Priority is Kinect > Camera > Keyboard
+            float moveHorizontal = 0.0f;
+            if (kinect.EnableKinect)
+            {
+                moveHorizontal = kinect.movement;
+            }
+            else if (cameraTracker.EnableCamera)
+            {
+                moveHorizontal = cameraTracker.PositionOffset.x * 2;
+
+            }
+            else if (headTiltMovement)
+            {
+                //Only start moving after a certain angle has be achieved as head naturally bobs side to side
+                if (usersHead.transform.localRotation.eulerAngles.z < 270 && usersHead.transform.localRotation.eulerAngles.z > 15)
+                {
+                    moveHorizontal = usersHead.transform.localRotation.eulerAngles.z * -0.02f;
+                }
+                if (usersHead.transform.localRotation.eulerAngles.z > 270 && usersHead.transform.localRotation.eulerAngles.z < 345)
+                {
+                    moveHorizontal = (usersHead.transform.localRotation.eulerAngles.z - 360) * -0.02f;
+                }
+
+            }
+            else if (headOffsetMovement)
+            {
+
+                moveHorizontal = (transform.position.z - usersHead.transform.position.z) * 10;
+
+            }
+            else
+            {
+                moveHorizontal = Input.GetAxis("Horizontal");
+            }
+            //Cap horizontal movement
+            if (moveHorizontal > 1.2f)
+            {
+                moveHorizontal = 1.2f;
+            }
+            else if (moveHorizontal < -1.2f)
+            {
+                moveHorizontal = -1.2f;
+            }
+
+            //Handle vertical movement. Priority is Bike > Keyboard
+            float moveVertical = 0.0f;
+            if (bike.enableBike)
+            {
+                moveVertical = bike.speed;
+            }
+            else
+            {
+                moveVertical = Input.GetAxis("Vertical");
+            }
+
+            pedalling = Mathf.Abs(moveVertical) > 0.2f;
+
+            //use shift keys to move fast when testing with the keyboard
+            if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+            {
+                moveVertical *= 2;
+            }
+
+            //we want to allow a quick exit if something goes bad
+            if (Input.GetKey(KeyCode.Escape))
+            {
+                Debug.Log("Force Quitting");
+                Application.Quit();
+            }
+
+            //Don't allow movement until the movement tracking system has finished initialising
+            if ((kinect.EnableKinect && !kinect.calibrationFinished) || (cameraTracker.EnableCamera && !cameraTracker.CameraInitialised))
+            {
+                moveVertical = 0.0f;
+                moveHorizontal = 0.0f;
+            }
+
+            //Update the game based on the game state
+            if (gameState == GameState.GAME_STATE_PLAY)
+            {
+
+                if (gameLengthInSeconds <= elapsedGameLength && LimitGameLength)
+                {
+                    DoGameOver(); // End the game after 10 minutes.
+                }
+                elapsedGameLength += Time.deltaTime;
+                //before we apply the player's movement, if they are trying to move in the opposite direction
+                //to their current movement, we immediately reset their lateral velocity
+                if ((GetComponent<Rigidbody>().velocity.z > 0 && moveHorizontal > 0) || (GetComponent<Rigidbody>().velocity.z < 0 && moveHorizontal < 0) || moveHorizontal == 0.0f)
+                {
+                    GetComponent<Rigidbody>().velocity = new Vector3(GetComponent<Rigidbody>().velocity.x, 0.0f, 0.0f);
+                }
+
+                float verticalFactor = moveVertical != 0.0f ? moveVertical * speedNoForce : GetComponent<Rigidbody>().velocity.x;
+                float horizontalFactor = Mathf.Abs(moveHorizontal) > 0.1f ? -moveHorizontal * speedNoForce * 0.5f : GetComponent<Rigidbody>().velocity.z;
+                GetComponent<Rigidbody>().velocity = new Vector3(verticalFactor, 0.0f, horizontalFactor);// *Time.deltaTime;
+                                                                                                         //rigidbody.AddForce (new Vector3 (moveVertical, 0.0f, -moveHorizontal) * speed * Time.deltaTime);
+                                                                                                         //crude way of handling it, but for now just jump the terrain ahead if we push too far
+                if (terrain.currentTerrain != null && this.transform.position.x > terrain.currentTerrain.transform.position.x + 1400.0f)
+                {
+                    terrain.currentTerrain.transform.position = new Vector3(terrain.currentTerrain.transform.position.x + 1200.0f, 0f, -1000.0f);
+                }
+
+                if (writePlayerData)
+                {
+                    playerWriter.WritePositions(transform.position, playerHead.transform.position, score);
+                }
+
+                //if the player has fallen down a pit or off the side, kill 'em
+                if (this.transform.position.y <= -20.0f && canDie)
+                {
+                    if (lives == 0)
+                    {
+                        DoGameOver();
+                    }
+                    else
+                    {
+                        Respawn();
+                    }
+                }
+
+                //update the resistance of the bike based on what is going on in game
+                if (resistancePowerupDurationRemaining >= 0.0f)
+                {
+                    resistancePowerupDurationRemaining -= Time.deltaTime;
+                    ui.SetRemainingCharge((int)(resistancePowerupDurationRemaining * 10.0f));
+                }
+
+                int resistance = DetermineDesiredResistance();
+                resistanceController.SetResistance(resistance);
+
+                //update the speed of the fan based on how fast the player is going
+                if (globalSettings.EnableFanFeedback)
+                {
+                    float speedCap = 3.0f;
+                    float cappedSpeed = Mathf.Clamp(moveVertical, 0.0f, speedCap);
+                    int speedPercentage = (int)(cappedSpeed * (100.0f / speedCap));
+                    resistanceController.SetFanSpeed(speedPercentage);
+                }
+
+                PlayAppropriateAudio();
+
+                //We can use the Q key to force a game over while testing
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    DoGameOver();
+                }
+
+            }
+            else if (gameState == GameState.GAME_STATE_OVER)
+            {
+                if (timeToNewGame <= 0.0f)
+                {
+                    if (moveVertical > 0.0f)
+                    {
+                        //Player is pedalling at the end of the five seconds, they are still going
+                        StartNewGame();
+                    }
+                    else
+                    {
+                        //They've stopped pedalling, they're not keen to continue, close down
+                        ExitGame();
+                    }
+                }
+                else
+                {
+                    timeToNewGame -= Time.deltaTime;
+                }
+            }
+            else if (gameState == GameState.GAME_STATE_WAIT)
+            {
+                if (moveVertical != 0.0f)
+                {
+                    gameState = GameState.GAME_STATE_PLAY;
+                }
+            }
+            bikeMesh.transform.position = this.transform.position + new Vector3(0.325f, -0.15f, 0.0f);
         }
-
-		//Don't allow movement until the movement tracking system has finished initialising
-		if ((kinect.EnableKinect && !kinect.calibrationFinished) || (cameraTracker.EnableCamera && !cameraTracker.CameraInitialised)) {
-			moveVertical = 0.0f;
-			moveHorizontal = 0.0f;
-		}
-
-		//Update the game based on the game state
-		if (gameState == GameState.GAME_STATE_PLAY) 
-        {
-            
-			if (gameLengthInSeconds <= elapsedGameLength && LimitGameLength) {
-				DoGameOver (); // End the game after 10 minutes.
-			}
-			elapsedGameLength += Time.deltaTime;
-			//before we apply the player's movement, if they are trying to move in the opposite direction
-			//to their current movement, we immediately reset their lateral velocity
-			if ((GetComponent<Rigidbody>().velocity.z > 0 && moveHorizontal > 0) || (GetComponent<Rigidbody>().velocity.z < 0 && moveHorizontal < 0) || moveHorizontal == 0.0f) {
-				GetComponent<Rigidbody>().velocity = new Vector3(GetComponent<Rigidbody>().velocity.x, 0.0f, 0.0f);
-			}
-
-            float verticalFactor = moveVertical != 0.0f ? moveVertical * speedNoForce : GetComponent<Rigidbody>().velocity.x;
-            float horizontalFactor = Mathf.Abs(moveHorizontal) > 0.1f ? -moveHorizontal * speedNoForce * 0.5f : GetComponent<Rigidbody>().velocity.z;
-            GetComponent<Rigidbody>().velocity = new Vector3(verticalFactor, 0.0f, horizontalFactor);// *Time.deltaTime;
-            //rigidbody.AddForce (new Vector3 (moveVertical, 0.0f, -moveHorizontal) * speed * Time.deltaTime);
-			//crude way of handling it, but for now just jump the terrain ahead if we push too far
-            if (terrain.currentTerrain != null && this.transform.position.x > terrain.currentTerrain.transform.position.x + 1400.0f)
-            {
-				terrain.currentTerrain.transform.position = new Vector3(terrain.currentTerrain.transform.position.x + 1200.0f, 0f, -1000.0f);
-			}
-
-			if (writePlayerData) {
-				playerWriter.WritePositions (transform.position, playerHead.transform.position, score);
-			}	
-
-			//if the player has fallen down a pit or off the side, kill 'em
-			if (this.transform.position.y <= -20.0f && canDie) {
-				if (lives == 0) {
-					DoGameOver ();
-				} else {
-					Respawn ();	
-				}
-			}
-
-			//update the resistance of the bike based on what is going on in game
-            if (resistancePowerupDurationRemaining >= 0.0f)
-            {
-                resistancePowerupDurationRemaining -= Time.deltaTime;
-                ui.SetRemainingCharge((int)(resistancePowerupDurationRemaining * 10.0f));
-            }
-
-			int resistance = DetermineDesiredResistance ();
-            resistanceController.SetResistance(resistance);
-
-            //update the speed of the fan based on how fast the player is going
-            if (globalSettings.EnableFanFeedback)
-            {
-                float speedCap = 3.0f;
-                float cappedSpeed = Mathf.Clamp(moveVertical, 0.0f, speedCap);
-                int speedPercentage = (int)(cappedSpeed * (100.0f / speedCap));
-                resistanceController.SetFanSpeed(speedPercentage);
-            }
-
-            PlayAppropriateAudio();
-
-			//We can use the Q key to force a game over while testing
-			if (Input.GetKeyDown (KeyCode.Q)) {
-				DoGameOver ();
-			}
-			
-		} 
-        else if (gameState == GameState.GAME_STATE_OVER) 
-        {
-			if (timeToNewGame <= 0.0f) {
-				if (moveVertical > 0.0f) {
-					//Player is pedalling at the end of the five seconds, they are still going
-					StartNewGame ();
-				} else {
-					//They've stopped pedalling, they're not keen to continue, close down
-					ExitGame ();
-				}
-			} else {
-				timeToNewGame -= Time.deltaTime;	
-			}
-		} else if (gameState == GameState.GAME_STATE_WAIT) {
-			if (moveVertical != 0.0f) {
-				gameState = GameState.GAME_STATE_PLAY;
-			}
-		}
-		bikeMesh.transform.position = this.transform.position + new Vector3 (0.325f, -0.15f, 0.0f);
 	}
 	//Gets called when the player runs out of lives
 	public void DoGameOver ()
@@ -269,7 +306,7 @@ public class PlayerController : MonoBehaviour
 	public void StartNewGame ()
 	{
 		Debug.Log ("Starting new game");
-		score = 0;
+		score = 10000;
 		this.GetComponent<Rigidbody>().velocity = new Vector3 (0.0f, 0.0f, 0.0f);
 		this.transform.position = new Vector3 (0.0f, 1.0f, 0.0f);
         this.playerWriter = new PlayerWriter(username,age,BMI,assumedFitness); // Restart the playback with a new file.

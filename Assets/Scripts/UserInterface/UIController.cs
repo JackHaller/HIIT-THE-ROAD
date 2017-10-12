@@ -22,11 +22,16 @@ public class UIController : MonoBehaviour {
 	//Prefabs to instantiate
 	public GameObject scoreBonus;
     public GameObject HighScorePrefab;
+    private Text startingText;
+   
 
 	// Use this for initialization
 	void Start () {
+        HighScoresText.enabled = false;
+        startingText = GameObject.FindGameObjectWithTag("CalibrationText").GetComponentInChildren<Text>(); ;
+        StartCoroutine(StartCountDown());
         scoreTexts = new List<GameObject>();
-		score = 0;
+		score = 10000;
         Cursor.visible = false;
 	}
 	
@@ -138,4 +143,20 @@ public class UIController : MonoBehaviour {
 	public void SetRemainingCharge(int percentage) {
 		ChargeBar.fillAmount = (float)percentage / 100.0f;
 	}
+
+    IEnumerator StartCountDown()
+    {
+        var count = 5;
+        while (count != 0)
+        {
+            startingText.text = "Game Starting in " + count + ".";
+            yield return new WaitForSeconds(1f);
+            count--;
+        }
+        startingText.text = "GO you cunt.";
+        yield return new WaitForSeconds(1f);
+
+        GameObject.FindGameObjectWithTag("CalibrationText").SetActive(false);
+        HighScoresText.enabled = true;
+    }
 }
