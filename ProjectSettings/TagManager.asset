@@ -19,6 +19,7 @@ TagManager:
   - ClapManager
   - CalibrationText
   - GameStartText
+  - SlowZoneStart
   layers:
   - Default
   - TransparentFX
