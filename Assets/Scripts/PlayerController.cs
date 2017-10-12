@@ -69,7 +69,7 @@ public class PlayerController : MonoBehaviour
 
 	//Gamemode
 	public bool Cooperative, Competitive; // The two gametypes. 
-    public bool bikeOverriden = false;
+    public bool bikeOverRidden = false;
 
 
 
@@ -141,36 +141,34 @@ public class PlayerController : MonoBehaviour
 
         if (bike.enableBike) {
 
-            if (!bikeOverriden)
+            if (!bikeOverRidden)
             {
+
+                moveVertical = bike.speed;
                 test = bike.speed;
             }
-            if (bike.speed > 1 && bikeOverriden)
+            if (bike.speed > 1 && bikeOverRidden)
             {
-                //if (test > 1)
+                if (test > 1)
                 {
-                    //test -= 0.01f;
-                    //moveVertical = test;
+                    test -= 0.05f;
+                    moveVertical = test;
 
                 }
-                //else
+                else
                 {
                     moveVertical = 1;
                 }
-            }
-            else
-            {
-                moveVertical = bike.speed;
             }
 
 		} else {
 			moveVertical = Input.GetAxis ("Vertical")*3;
            
-            if (!bikeOverriden)
+            if (!bikeOverRidden)
             {
                 test = 3;
             }
-            if (bikeOverriden)
+            if (bikeOverRidden)
             {
                 print('1');
                 if (test > 1)
@@ -181,7 +179,7 @@ public class PlayerController : MonoBehaviour
                 }
                 else
                 {
-                    bikeOverriden = false;
+                    bikeOverRidden = false;
                 }
             }
             else
