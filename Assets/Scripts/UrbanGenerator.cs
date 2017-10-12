@@ -49,8 +49,8 @@ public void UrbanLandscapeGeneration(Vector3 trackLocation, bool spawnCrowd, Tra
 
         SpawnedObjectLerper lerper1 = newTile1.gameObject.AddComponent<SpawnedObjectLerper>();
         SpawnedObjectLerper lerper2 = newTile2.gameObject.AddComponent<SpawnedObjectLerper>();
-        lerper1.Initialise(38f, 0f);
-        lerper2.Initialise(38f, 0f);
+        lerper1.Initialise(38.35f, 0f);
+        lerper2.Initialise(38.35f, 0f);
 
         if (spawnCrowd)
         {        
@@ -100,8 +100,8 @@ public void UrbanLandscapeGeneration(Vector3 trackLocation, bool spawnCrowd, Tra
 
         SpawnedObjectLerper lerper1 = newTile1.gameObject.AddComponent<SpawnedObjectLerper>();
         SpawnedObjectLerper lerper2 = newTile2.gameObject.AddComponent<SpawnedObjectLerper>();
-        lerper1.Initialise(38f, 0f);
-        lerper2.Initialise(38f, 0f);
+        lerper1.Initialise(38.35f, 0f);
+        lerper2.Initialise(38.35f, 0f);
 
 
         if (spawnCrowd)

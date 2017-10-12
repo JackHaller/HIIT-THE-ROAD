@@ -1399,6 +1399,20 @@ Light:
   m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -1602,6 +1616,20 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 100, y: 100}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -2263,6 +2291,20 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 100, y: 100}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -2490,6 +2532,20 @@ Light:
   m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -2658,6 +2714,8 @@ MonoBehaviour:
   Straight: {fileID: 4521143510997720, guid: 8f5fa3de95e2c14418c059de3383375a, type: 2}
   StraightBlockedStart: {fileID: 4470927696348238, guid: 3701a4f9ce07d504db11a3c4cdb9c613,
     type: 2}
+  StraightBlockedEnd: {fileID: 4731073916376880, guid: 4c0660c855417a74b9ca302102a01d5d,
+    type: 2}
   StraightBlockedZone: {fileID: 4782995528071634, guid: 82803bf33db48ec409ae81f7f46c442a,
     type: 2}
   RespawnPlatform: {fileID: 400000, guid: b23bc66e3cfa7d44090d561ee888a115, type: 2}
@@ -2677,6 +2735,12 @@ MonoBehaviour:
   RuralGen: {fileID: 1660881090}
   terrainSelector: {fileID: 1634425230}
   intervalTime: 30
+  maxRPM: 180
+  slowZoneSpeedRpm: 60
+  slowZoneTime: 45
+  fastZoneTime: 30
+  numberOfIntervals: 5
+  currentInterval: 1
 --- !u!1 &1537268255
 GameObject:
   m_ObjectHideFlags: 0
@@ -3037,7 +3101,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
       propertyPath: m_LocalScale.x
@@ -3718,7 +3782,7 @@ Transform:
   - {fileID: 706738852}
   - {fileID: 680770118}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2051692287
 GameObject:
