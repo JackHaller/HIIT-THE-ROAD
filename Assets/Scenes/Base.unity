@@ -350,7 +350,7 @@ MonoBehaviour:
   UseDetailedPlaybackSettings: 0
   SimplePlaybackEnableGhost: 0
   SimplePlaybackEnableTrainer: 0
-  EnableBike: 1
+  EnableBike: 0
   EnableKinect: 0
   EnableCamera: 0
   BikePort: COM3
@@ -2827,9 +2827,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   usersHead: {fileID: 1221649945}
   headTiltMovement: 0
-  headOffsetMovement: 1
+  headOffsetMovement: 0
   ui: {fileID: 1785173960}
-  scoreController: {fileID: 0}
+  scoreController: {fileID: 546405321}
   generator: {fileID: 1464920550}
   kinect: {fileID: 1311728086}
   cameraTracker: {fileID: 987320323}

@@ -10,16 +10,20 @@ public class ScoreController : MonoBehaviour {
 
     public float maxHR;
 
+    private float currentTime;
+    private float lastTime;
+
     // Use this for initialization
     void Start () {
         //this should be taken from config from calibration scene
         maxHR = 170;
-        StartCoroutine(ScoreLoss());
+        lastTime = Time.time;
     }
 	
-    IEnumerator ScoreLoss()
+    void FixedUpdate()
     {
-        while (highSpeedZone)
+        currentTime = Time.time;
+        if (highSpeedZone && currentTime >= lastTime + 1)
         {
             if (bikeManager.heartRate != 0f)
             {
@@ -31,12 +35,12 @@ public class ScoreController : MonoBehaviour {
                 {
                     player.TakePoints(5);
                 }
+                lastTime = currentTime;
             }
             else
             {
                 player.TakePoints(100);
-            }
-            yield return new WaitForSeconds(1f);
+            }            
         }
     }
 }

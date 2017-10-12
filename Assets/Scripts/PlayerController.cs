@@ -514,13 +514,13 @@ public class PlayerController : MonoBehaviour
         return _lanePosition;
     }
 
-    void OnCollision(Collision other)
-    {
-        if (gameObject.tag == "SlowZoneStart")
+    void OnTriggerEnter(Collider other)
+    {        
+        if (other.tag == "SlowZoneStart")
         {
             scoreController.highSpeedZone = false;
         }
-        else if (gameObject.tag == "SlowZoneEnd")
+        else if (other.tag == "SlowZoneEnd")
         {
             scoreController.highSpeedZone = true;
         }
