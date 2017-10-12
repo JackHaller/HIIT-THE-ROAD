@@ -1257,7 +1257,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 125}
+  m_AnchoredPosition: {x: 0, y: 120}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &279066435
@@ -1273,7 +1273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: 349b2707bebd8c44891ef492f39ae8db, type: 2}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1292,7 +1292,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Score:'
+  m_Text: 4867484
 --- !u!222 &279066436
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6109,7 +6109,7 @@ Transform:
   - {fileID: 1600852421}
   - {fileID: 2147015957}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &1328648212
 GameObject:
@@ -7376,7 +7376,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
       propertyPath: m_LocalScale.x
@@ -7501,6 +7501,10 @@ Prefab:
     - target: {fileID: 2300004, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1ae526e01b365741a267bb8fac72db5, type: 3}
@@ -7799,8 +7803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9c766dd1af18ff468d20b9c6097bc0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1949414902}
-  ScoreText: {fileID: 0}
+  playerBike: {fileID: 1949414902}
   GameOverText: {fileID: 669938660}
   HighScoresText: {fileID: 279066435}
   ChargeBar: {fileID: 650265715}
