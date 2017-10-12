@@ -31,6 +31,7 @@ public class Generator : MonoBehaviour
     //Prefabs for building the game
     public Transform Straight;
     public Transform StraightBlockedStart;
+    public Transform StraightBlockedEnd;
     public Transform StraightBlockedZone;
 	public Transform RespawnPlatform;
 	//Powerups
@@ -295,7 +296,7 @@ public class Generator : MonoBehaviour
         }
         else 
         {
-            track = (Transform)(Instantiate(StraightBlockedStart, location, Quaternion.Euler(0, 180, 0)));
+            track = (Transform)(Instantiate(StraightBlockedEnd, location, Quaternion.Euler(0, 180, 0)));
             block = new Block(track);
             BlockList.AddFirst(block);
             spawnCrowd = false;
