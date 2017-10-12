@@ -9,7 +9,6 @@ public class PowerupController : MonoBehaviour {
 	public Transform Icon;
 
 	private GlobalSettings globalSettings;
-	private RadarController radar;
 
     public AudioClip lifeSound;
     public AudioClip scoreSound;
@@ -17,10 +16,8 @@ public class PowerupController : MonoBehaviour {
 
 	void Start() {
 		globalSettings = GameObject.Find ("GlobalSettings").GetComponent<GlobalSettings> ();
-		radar = GameObject.Find ("Radar").GetComponent<RadarController> ();
 		//Create the radar icon for this powerup
 		Transform instantiatedIcon = (Transform)Instantiate (Icon, Vector3.zero, Quaternion.identity);
-		radar.RegisterObjectForTracking (this.transform, instantiatedIcon);
 	}
 	
 	// Update is called once per frame
@@ -60,7 +57,6 @@ public class PowerupController : MonoBehaviour {
             //Remove the powerup
 			GetComponent<Renderer>().enabled = false;
 			GetComponent<Collider>().enabled = false;
-			radar.RequestHideTrackingIcon(this.transform);
 		}
 	}
 }

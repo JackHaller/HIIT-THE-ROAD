@@ -26,7 +26,7 @@ public class UIController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         scoreTexts = new List<GameObject>();
-		score = 0;
+		score = 10000;
         Cursor.visible = false;
 	}
 	

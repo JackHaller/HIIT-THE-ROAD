@@ -18,6 +18,7 @@ TagManager:
   - VehicleGenerator
   - ClapManager
   - CalibrationText
+  - SlowZoneStart
   layers:
   - Default
   - TransparentFX
