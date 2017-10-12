@@ -99,7 +99,7 @@ public class PlayerController : MonoBehaviour
 	
 	// FixedUpdate is called once per physcics tick
 	void FixedUpdate ()
-	{
+	{ 
         _lanePosition = SetLanePosition();
 		//handle horizontal movement. Priority is Kinect > Camera > Keyboard
 		float moveHorizontal = 0.0f;
@@ -319,7 +319,7 @@ public class PlayerController : MonoBehaviour
 	public void StartNewGame ()
 	{
 		Debug.Log ("Starting new game");
-		score = 0;
+		score = 100000;
 		this.GetComponent<Rigidbody>().velocity = new Vector3 (0.0f, 0.0f, 0.0f);
 		this.transform.position = new Vector3 (0.0f, 1.0f, 0.0f);
         this.playerWriter = new PlayerWriter(username,age,BMI,assumedFitness); // Restart the playback with a new file.

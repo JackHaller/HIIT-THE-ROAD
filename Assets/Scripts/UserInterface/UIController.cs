@@ -9,8 +9,7 @@ using System;
 public class UIController : MonoBehaviour {
 
 	//Other objects to reference
-	public Transform player;
-	public Text ScoreText;
+	public Transform playerBike;
     public Text GameOverText;
     public Text HighScoresText;
 	public Image ChargeBar;
@@ -31,13 +30,14 @@ public class UIController : MonoBehaviour {
         startingText = GameObject.FindGameObjectWithTag("CalibrationText").GetComponentInChildren<Text>(); ;
         StartCoroutine(StartCountDown());
         scoreTexts = new List<GameObject>();
-		score = 10000;
+        score = 10000;
+		HighScoresText.text = "Score: " + 10000;
         Cursor.visible = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		this.transform.position = new Vector3 (player.transform.position.x + 15.0f, player.transform.position.y - 0.75f, player.transform.position.z);
+		this.transform.position = new Vector3 (playerBike.transform.position.x + 15.0f, playerBike.transform.position.y - 0.75f, playerBike.transform.position.z);
 	}
 
 	public void GiveScore(int points) {
@@ -127,12 +127,12 @@ public class UIController : MonoBehaviour {
 
 	public void SetScore(int score) {
 		this.score = score;
-		ScoreText.text = "Score: " + score;
+        HighScoresText.text = "Score: " + score;
 	}
 
 	public void ModScore(int amountToChange) {
 		this.score += amountToChange;
-		ScoreText.text = "Score: " + this.score;
+		HighScoresText.text = "Score: " + this.score;
 	}
 
 	public void Resize(int x, int y) {
