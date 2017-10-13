@@ -12,24 +12,26 @@ public class ResistanceController : MonoBehaviour {
 	private SerialPort port = null;
 	
 	private int baud = 9600;
-	private string portName = "COM2";
+	private string portName = "COM4";
 	
 	public BikeController bikeController;
 	
 	private bool requiresReset = false;
-	
-	public int Resistance { get; private set; }
+
+    public int Resistance { get; private set; }
 
     public int FanSpeed { get; private set; }
 	
 	// Use this for initialization
 	void Start () {
+        Resistance = 5;
 		portName = globalSettings.ResistancePort;
 		Initialise();
+
 	}
 	
 	void Update() {
-		if (requiresReset) {
+        if (requiresReset) {
 			Reset ();
 		}
 	}
@@ -69,7 +71,7 @@ public class ResistanceController : MonoBehaviour {
             //Only tell the Arduino to change the resistance if we are not already at the desired resistance
             if (Resistance != resistance)
             {
-                //Debug.Log (string.Format ("Setting resistance to: {0}", resistance));
+                Debug.Log (string.Format ("Setting resistance to: {0}", resistance));
                 port.Write(new byte[] { (byte)resistance }, 0, 1);
                 Resistance = resistance;
             }
@@ -90,9 +92,9 @@ public class ResistanceController : MonoBehaviour {
         }
         if (port != null && port.IsOpen)
         {
-            Debug.Log("Resetting resistance.");
-            port.Write(new byte[] { 0 }, 0, 1);
-            Resistance = 1;
+            //Debug.Log("Resetting resistance.");
+            port.Write(new byte[] { (byte)7 }, 0, 1);
+            Resistance = 7;
             requiresReset = false;
         }
         else

@@ -600,7 +600,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.429984, y: 1.3140848, z: 5.642581}
+  m_Size: {x: 2.429984, y: 1.3140848, z: 6.13}
   m_Center: {x: 0.000000059604645, y: 0.8365443, z: 0.13018548}
 --- !u!82 &82499410024946646
 AudioSource:
@@ -778,4 +778,3 @@ MonoBehaviour:
   RFWheel: {fileID: 123088}
   LRWheel: {fileID: 170074}
   RRWheel: {fileID: 171134}
-  explosion: {fileID: 1000013063239222, guid: 843695ef5e6d39f458b99e399ccc09b1, type: 2}

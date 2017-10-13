@@ -5,8 +5,7 @@ using System.Linq;
 
 public class UrbanGenerator : MonoBehaviour {
 
-	public static int numOfBuildings = 14;
-	public Transform[] BuildingList = new Transform[numOfBuildings];
+	public List<GameObject> BuildingList = new List<GameObject>();
 	private float currentXOfPlayer;
 	public float ChanceOfBuildingSpawn;
 	private int Density = 3;
@@ -17,7 +16,6 @@ public class UrbanGenerator : MonoBehaviour {
     public int crowdDensity = 50;
     public GameObject crowdList;
     public GameObject crowdAudio;
-    public GameObject clapManager;
     private bool spawnAudio;
 
 
@@ -44,10 +42,17 @@ public void UrbanLandscapeGeneration(Vector3 trackLocation, bool spawnCrowd, Tra
 	private void CreateLeftBuildingCluster (Vector3 trackLocation, bool spawnCrowd) {
 
         // Add an extra tile to hide visible grass -- issue due to moving buildings far enough away from the track to clear the cannons
-        GameObject newTile = Instantiate(Resources.Load("Tile"), new Vector3(trackLocation.x, trackLocation.y - 0.01f, trackLocation.z - 15.0f), Quaternion.identity) as GameObject;
-        newTile.transform.parent = _parentTransform;
+        GameObject newTile1 = Instantiate(BuildingList[Random.Range(0,BuildingList.Count)], new Vector3(trackLocation.x, trackLocation.y - 38f, trackLocation.z - 15.0f), Quaternion.identity) as GameObject;
+        GameObject newTile2 = Instantiate(BuildingList[Random.Range(0, BuildingList.Count)], new Vector3(trackLocation.x, trackLocation.y - 38f, trackLocation.z - 25.0f), Quaternion.identity) as GameObject;
+        newTile1.transform.parent = _parentTransform;
+        newTile2.transform.parent = _parentTransform;
 
-        if(spawnCrowd)
+        SpawnedObjectLerper lerper1 = newTile1.gameObject.AddComponent<SpawnedObjectLerper>();
+        SpawnedObjectLerper lerper2 = newTile2.gameObject.AddComponent<SpawnedObjectLerper>();
+        lerper1.Initialise(38.35f, 0f);
+        lerper2.Initialise(38.35f, 0f);
+
+        if (spawnCrowd)
         {        
             GameObject crowdSound = Instantiate(crowdAudio);
             crowdSound.transform.position = new Vector3(trackLocation.x + Random.Range(0, 20), trackLocation.y + 0.5f, trackLocation.z + Random.Range(0, 3) + 7);
@@ -86,10 +91,20 @@ public void UrbanLandscapeGeneration(Vector3 trackLocation, bool spawnCrowd, Tra
 	private void CreateRightBuildingCluster (Vector3 trackLocation, bool spawnCrowd) {
 
         // Add an extra tile to hide visible grass -- issue due to moving buildings far enough away from the track to clear the cannons
-        GameObject newTile =  Instantiate(Resources.Load("Tile"), new Vector3(trackLocation.x, trackLocation.y - 0.01f, trackLocation.z + 15.0f), Quaternion.identity) as GameObject;
-        newTile.transform.parent = _parentTransform;
+        GameObject newTile1 = Instantiate(BuildingList[Random.Range(0, BuildingList.Count)], new Vector3(trackLocation.x, trackLocation.y - 38f, trackLocation.z + 15.0f), Quaternion.identity) as GameObject;
+        GameObject newTile2 = Instantiate(BuildingList[Random.Range(0, BuildingList.Count)], new Vector3(trackLocation.x, trackLocation.y - 38f, trackLocation.z + 25.0f), Quaternion.identity) as GameObject;
+        newTile1.transform.parent = _parentTransform;
+        newTile2.transform.parent = _parentTransform;
+        newTile1.transform.rotation = Quaternion.Euler(0, 180, 0);
+        newTile2.transform.rotation = Quaternion.Euler(0, 180, 0);
 
-        if(spawnCrowd)
+        SpawnedObjectLerper lerper1 = newTile1.gameObject.AddComponent<SpawnedObjectLerper>();
+        SpawnedObjectLerper lerper2 = newTile2.gameObject.AddComponent<SpawnedObjectLerper>();
+        lerper1.Initialise(38.35f, 0f);
+        lerper2.Initialise(38.35f, 0f);
+
+
+        if (spawnCrowd)
         {
             GameObject crowdSound = Instantiate(crowdAudio);
             crowdSound.transform.position = new Vector3(trackLocation.x + Random.Range(0, 20), trackLocation.y + 0.5f, trackLocation.z + Random.Range(0, 3) - 9);
@@ -156,7 +171,7 @@ public void UrbanLandscapeGeneration(Vector3 trackLocation, bool spawnCrowd, Tra
 
 	// Adds Building to certain location in scene
 	private void AddBuilding (Vector3 location, bool isRight) {
-		int indexOfBuilding = Random.Range (0, (numOfBuildings - 1));
+		int indexOfBuilding = Random.Range (0, (BuildingList.Count - 1));
 		
 		if (isRight) {
             if (Time.time != 0) // Does not add script if part of initial setup.

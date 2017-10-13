@@ -28,40 +28,44 @@ public class VehicleController : MonoBehaviour {
         _hitByPlayer = false;
         _hornPlaying = false;
         _horn = GetComponent<AudioSource>();
-        _player = GameObject.Find("Player");
+        _player = GameObject.FindGameObjectWithTag("Player");
         _lanePosition = SetLanePosition();
     }
 
     // Update is called once per frame
     void FixedUpdate () {
-        gameObject.transform.position = new Vector3(gameObject.transform.position.x + speed * 0.157f, transform.position.y, transform.position.z);
-        if (_colliding)
+        if(Time.time > 5)
         {
-            _timeSinceLastPing += Time.deltaTime;
-            if (_timeSinceLastPing >= _pingTime)
+            gameObject.transform.position = new Vector3(gameObject.transform.position.x + speed * 0.157f, transform.position.y, transform.position.z);
+            if (_colliding)
             {
-                _player.GetComponent<PlayerController>().TakePoints(20);
-                _timeSinceLastPing = 0.0f;
+                _timeSinceLastPing += Time.deltaTime;
+                if (_timeSinceLastPing >= _pingTime)
+                {
+                    _player.GetComponent<PlayerController>().TakePoints(20);
+                    _timeSinceLastPing = 0.0f;
+                }
             }
-        }
 
-        if (_player.transform.position.x - transform.position.x > 200f)
-            Destroy(gameObject);
+            if (_player.transform.position.x - transform.position.x > 200f)
+                Destroy(gameObject);
+
+            if (_player.transform.position.x - transform.position.x < 10f &&
+                _player.transform.position.x - transform.position.x > 0 &&
+                _player.GetComponent<PlayerController>().GetLanePosition() == _lanePosition &&
+                !_hornPlaying)
+            {
+                _hornPlaying = true;
+                _horn.Play();
+                StartCoroutine(AudioFinished());
+            }
+
+            LFWheel.transform.Rotate(_xAxis, _rotation);
+            RFWheel.transform.Rotate(_xAxis, _rotation);
+            LRWheel.transform.Rotate(_xAxis, _rotation);
+            RRWheel.transform.Rotate(_xAxis, _rotation);
+        }
         
-        if (_player.transform.position.x - transform.position.x < 10f &&
-            _player.transform.position.x - transform.position.x > 0 &&
-            _player.GetComponent<PlayerController>().GetLanePosition() == _lanePosition &&
-            !_hornPlaying)
-        {
-            _hornPlaying = true;
-            _horn.Play();
-            StartCoroutine(AudioFinished());
-        }
-
-        LFWheel.transform.Rotate(_xAxis, _rotation);
-        RFWheel.transform.Rotate(_xAxis, _rotation);
-        LRWheel.transform.Rotate(_xAxis, _rotation);
-        RRWheel.transform.Rotate(_xAxis, _rotation);
     }
 
     void OnCollisionEnter(Collision other)
@@ -76,13 +80,13 @@ public class VehicleController : MonoBehaviour {
     }
 
 
-    IEnumerator IncreaseResistance(GameObject gameObejct)
+    IEnumerator IncreaseResistance(GameObject gameObject)
     {
         if(gameObject.tag == "Player")
         {
-            gameObejct.GetComponent<PlayerController>().BeginEnvironmentalResistanceOverride(SAND_RESISTANCE);
+            gameObject.GetComponent<PlayerController>().BeginEnvironmentalResistanceOverride(SAND_RESISTANCE);
             yield return new WaitForSeconds(5.0f);
-            gameObejct.GetComponent<PlayerController>().EndEnvironmentalResistanceOverride();
+            gameObject.GetComponent<PlayerController>().EndEnvironmentalResistanceOverride();
         }
     }
 

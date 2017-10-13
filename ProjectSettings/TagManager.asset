@@ -13,6 +13,15 @@ TagManager:
   - Vehicle
   - VerticalRoadBlock
   - CrowdSound
+  - Crowd
+  - WorldSpaceGUI
+  - VehicleGenerator
+  - ClapManager
+  - CalibrationText
+  - GameStartText
+  - SlowZoneStart
+  - SlowZoneEnd
+  - BrakingEnd
   layers:
   - Default
   - TransparentFX
