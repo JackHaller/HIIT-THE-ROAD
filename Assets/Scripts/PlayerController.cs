@@ -156,49 +156,33 @@ public class PlayerController : MonoBehaviour
 
             if (!bikeOverRidden)
             {
-
-                moveVertical = bike.speed;
                 test = bike.speed;
-            }
-            if (bike.speed > 1 && bikeOverRidden)
-            {
-                if (test > 1)
-                {
-                    test -= 0.05f;
-                    moveVertical = test;
-
-                }
-                else
-                {
-                    moveVertical = 1;
-                }
-            }
-
-		} else {
-			moveVertical = Input.GetAxis ("Vertical")*3;
-           
-            if (!bikeOverRidden)
-            {
-                test = 3;
-            }
-            if (bikeOverRidden)
-            {
-                print('1');
-                if (test > 1)
-                {
-                    test -= 0.02f;
-                    moveVertical = test;
-
-                }
-                else
-                {
-                    bikeOverRidden = false;
-                }
             }
             else
             {
-                //moveVertical = 1;
+                if (test > 1.2)
+                {
+                    test -= 0.05f;
+                }
             }
+            moveVertical = test;
+
+        } else {
+			//moveVertical = Input.GetAxis ("Vertical")*3;
+           
+            if (!bikeOverRidden)
+            {
+                test = Input.GetAxis("Vertical") * 3;
+            }
+            else
+            {
+                if (test > 1.2)
+                {
+                    test -= 0.05f;
+                }
+            }
+            moveVertical = test;
+            print(moveVertical);
 		}
         pedalling = Mathf.Abs(moveVertical) > 0.2f;
 
@@ -421,8 +405,7 @@ public class PlayerController : MonoBehaviour
         if (resistancePowerupDurationRemaining <= 0.0f)
         {
             score -= amount;
-            pointsDeny.Play();
-            ui.GiveScore(-amount);
+            ui.ModScore(-amount);
         }
     }
 
@@ -452,13 +435,7 @@ public class PlayerController : MonoBehaviour
     }
 
     int DetermineDesiredResistance()
-    {
-        //cut this short if we're not allowing changes to resistance (with no allowed changes to resistance, resistance always sits at the default level
-        if (globalSettings.EnableResistanceChanges == false)
-        {
-            return DEFAULT_RESISTANCE;
-        }
-
+    { 
         int desiredResistance;
         //first up, if they have a powerup, the resistance is 1. This takes priority over all other factors
         if (environmentalResistanceOverride)
@@ -563,10 +540,15 @@ public class PlayerController : MonoBehaviour
         if (other.tag == "SlowZoneStart")
         {
             scoreController.highSpeedZone = false;
+            bikeOverRidden = true;
         }
         else if (other.tag == "SlowZoneEnd")
         {
             scoreController.highSpeedZone = true;
+        }
+        else if (other.tag == "BrakingEnd")
+        {
+            bikeOverRidden = false;
         }
     }
 }

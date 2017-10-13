@@ -20,6 +20,8 @@ TagManager:
   - CalibrationText
   - GameStartText
   - SlowZoneStart
+  - SlowZoneEnd
+  - BrakingEnd
   layers:
   - Default
   - TransparentFX
