@@ -405,8 +405,7 @@ public class PlayerController : MonoBehaviour
         if (resistancePowerupDurationRemaining <= 0.0f)
         {
             score -= amount;
-            pointsDeny.Play();
-            ui.GiveScore(-amount);
+            ui.ModScore(-amount);
         }
     }
 
