@@ -29,7 +29,7 @@ public class Generator : MonoBehaviour
     private UIController uiController;
     private bool isEndOfSession = true;
     public GameObject explosion;
-
+    private Scene scene;
     //Prefabs for building the game
     public Transform Straight;
     public Transform StraightBlockedStart;
@@ -104,7 +104,7 @@ public class Generator : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-        Scene scene = SceneManager.GetActiveScene();
+        scene = SceneManager.GetActiveScene();
         if (scene.name == "base")
         {
             maxRPM = globalSettings.MaxRPM;
@@ -236,7 +236,7 @@ public class Generator : MonoBehaviour
             }
         }
 
-        if (currentInterval == numberOfIntervals && isEndOfSession)
+        if (currentInterval == numberOfIntervals && isEndOfSession && scene.name == "base")
         {
             uiController.ShowGameOver();
             uiController.HighScoresText.enabled = false;

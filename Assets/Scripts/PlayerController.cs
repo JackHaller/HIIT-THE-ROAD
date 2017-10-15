@@ -73,14 +73,15 @@ public class PlayerController : MonoBehaviour
 	public bool Cooperative, Competitive; // The two gametypes. 
     public bool bikeOverRidden = false;
 
-    private float time = Time.time;
+    private float time;
 
     float test = 0;
     // Use this for initialization
     void Start ()
 	{
-		//pull the player's info from global settings
-		username = globalSettings.PlayerName;
+        time = Time.time;
+        //pull the player's info from global settings
+        username = globalSettings.PlayerName;
 		age = globalSettings.PlayerAge;
 		BMI = globalSettings.PlayerBMI;
 		assumedFitness = globalSettings.PlayerAssumedFitness;
