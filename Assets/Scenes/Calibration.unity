@@ -629,6 +629,8 @@ MonoBehaviour:
   Straight: {fileID: 4521143510997720, guid: 8f5fa3de95e2c14418c059de3383375a, type: 2}
   StraightBlockedStart: {fileID: 4470927696348238, guid: 3701a4f9ce07d504db11a3c4cdb9c613,
     type: 2}
+  StraightBlockedEnd: {fileID: 4731073916376880, guid: 4c0660c855417a74b9ca302102a01d5d,
+    type: 2}
   StraightBlockedZone: {fileID: 4782995528071634, guid: 82803bf33db48ec409ae81f7f46c442a,
     type: 2}
   RespawnPlatform: {fileID: 400000, guid: b23bc66e3cfa7d44090d561ee888a115, type: 2}
@@ -648,6 +650,12 @@ MonoBehaviour:
   RuralGen: {fileID: 0}
   terrainSelector: {fileID: 2014329042}
   intervalTime: 30
+  maxRPM: 180
+  slowZoneSpeedRpm: 60
+  slowZoneTime: 60
+  fastZoneTime: 30
+  numberOfIntervals: 3
+  currentInterval: 1
 --- !u!1 &398869937
 GameObject:
   m_ObjectHideFlags: 0
@@ -946,6 +954,20 @@ Light:
   m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -1400,6 +1422,20 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 100, y: 100}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -1445,7 +1481,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalSettings: {fileID: 398869939}
-  barController: {fileID: 0}
   intervalState: 0
 --- !u!1 &929346948
 GameObject:
@@ -1732,6 +1767,7 @@ MonoBehaviour:
   headTiltMovement: 0
   headOffsetMovement: 0
   ui: {fileID: 0}
+  scoreController: {fileID: 0}
   generator: {fileID: 390588428}
   kinect: {fileID: 535508345}
   cameraTracker: {fileID: 380814975}
@@ -1753,6 +1789,7 @@ MonoBehaviour:
   age: 25
   Cooperative: 0
   Competitive: 0
+  bikeOverRidden: 0
 --- !u!114 &1053720353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2599,6 +2636,20 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 100, y: 100}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -3271,6 +3322,20 @@ Light:
   m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
