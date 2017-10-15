@@ -13,6 +13,7 @@ public class VehicleGenerator : MonoBehaviour {
     private bool _playing;
     private GameObject _player;
     private GameObject _latestVehicle;
+    private bool endOfSession = false;
     
     // Use this for initialization
     void Start()
@@ -20,8 +21,16 @@ public class VehicleGenerator : MonoBehaviour {
         _player = GameObject.FindGameObjectWithTag("Player");
         _carZPositions = new float[] { -2.7f, 0.1f, 2.9f };
         _playing = true;
-        StartCoroutine(VehicleSpawner());
+        StartCoroutine("VehicleSpawner");
 
+    }
+
+    void Update()
+    {
+        if(endOfSession)
+        {
+            StopCoroutine("VehicleSpawner");
+        }
     }
 
     IEnumerator VehicleSpawner()
@@ -64,5 +73,10 @@ public class VehicleGenerator : MonoBehaviour {
 
             _latestVehicle = newVehicle;
         }
+    }
+
+    public void SetEndOfSession(bool endOfSession)
+    {
+        this.endOfSession = endOfSession;
     }
 }

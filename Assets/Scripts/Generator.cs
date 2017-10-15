@@ -25,8 +25,9 @@ public class Generator : MonoBehaviour
 	//public bool EnableBuildings = true;
 	public GlobalSettings globalSettings;
     public IntervalController intervalController;
-
-    
+    private UIController uiController;
+    private bool isEndOfSession = true;
+    public GameObject explosion;
 
     //Prefabs for building the game
     public Transform Straight;
@@ -109,7 +110,7 @@ public class Generator : MonoBehaviour
         
         slowZoneLength = Math.Ceiling((slowZoneTime * slowZoneSpeed)/20);
         fastZoneLength = Math.Ceiling((fastZoneTime * fastZoneSpeed)/20);
-        
+        uiController = FindObjectOfType<UIController>();
 
         switch (globalSettings.environmentType)
         {
@@ -228,11 +229,23 @@ public class Generator : MonoBehaviour
                 _generatorType = 3;
             }
         }
-        if (currentInterval < numberOfIntervals)
+
+        if (currentInterval == numberOfIntervals && isEndOfSession)
         {
-            Block block = AddBasicBlock(new Vector3(nextBlockX, currentHeight, 0.0f), _generatorType);
-            currentTileCount++;
+            uiController.ShowGameOver();
+            uiController.HighScoresText.enabled = false;
+            isEndOfSession = false;
+
+            var vehicles = GameObject.FindGameObjectsWithTag("Vehicle");
+            foreach (var vehicle in vehicles)
+            {
+                Instantiate(explosion, vehicle.transform.position, vehicle.transform.rotation);
+                Destroy(vehicle.gameObject);
+            }
+            FindObjectOfType<VehicleGenerator>().SetEndOfSession(true);
         }
+        Block block = AddBasicBlock(new Vector3(nextBlockX, currentHeight, 0.0f), _generatorType);
+        currentTileCount++;
     }
 
 	/// <summary>
