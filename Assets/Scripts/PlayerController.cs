@@ -45,6 +45,7 @@ public class PlayerController : MonoBehaviour
     private float resistancePowerupDurationRemaining = 0.0f;
     private bool environmentalResistanceOverride = false;
     private int environmentalResistance = 15;
+    private GameObject clapManager;
 
     public int lives { get; private set; }
 
@@ -72,7 +73,7 @@ public class PlayerController : MonoBehaviour
 	public bool Cooperative, Competitive; // The two gametypes. 
     public bool bikeOverRidden = false;
 
-
+    private float time = Time.time;
 
     float test = 0;
     // Use this for initialization
@@ -100,7 +101,42 @@ public class PlayerController : MonoBehaviour
 	
 	// FixedUpdate is called once per physcics tick
 	void FixedUpdate ()
-	{ 
+	{
+        if (globalSettings.EnableCrowd == false)
+        {
+            clapManager = GameObject.FindGameObjectWithTag("ClapManager");
+            clapManager.SetActive(false);
+
+            var crowdSounds = GameObject.FindGameObjectsWithTag("CrowdSound");
+            var crowds = GameObject.FindGameObjectsWithTag("Crowd");
+            var powerUps = GameObject.FindGameObjectsWithTag("Powerup");
+
+            foreach (var crowdSound in crowdSounds)
+            {
+                Destroy(crowdSound);
+            }
+            foreach (var crowd in crowds)
+            {
+                Destroy(crowd);
+            }
+            foreach (var powerUp in powerUps)
+            {
+                Destroy(powerUp);
+            }
+        }
+        if (Time.time >= time + 1)
+        {
+            using (StreamWriter file = new StreamWriter(Environment.CurrentDirectory + "\\heartrate.txt", true))
+            {
+                file.WriteLine(bike.heartRate);
+            }
+            using (StreamWriter file = new StreamWriter(Environment.CurrentDirectory + "\\rpm.txt", true))
+            {
+                file.WriteLine(bike.RPM);
+            }
+            time += 1;
+        }
+
         _lanePosition = SetLanePosition();
         //handle horizontal movement. Priority is Kinect > Camera > Keyboard
         float moveHorizontal = 0.0f;
@@ -182,7 +218,6 @@ public class PlayerController : MonoBehaviour
                 }
             }
             moveVertical = test;
-            print(moveVertical);
 		}
         pedalling = Mathf.Abs(moveVertical) > 0.2f;
 

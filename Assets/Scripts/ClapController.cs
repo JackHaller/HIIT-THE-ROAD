@@ -6,15 +6,17 @@ public class ClapController : MonoBehaviour {
 
     public BikeController bike;
     public AudioClip[] claps;
-    public float maxRPM = 180.00f;
+    public GlobalSettings globalSettings;
 
+    private int maxRPM = 100;
     private bool clap = true;
     private bool cheer = false;
     private float maxSpeed;
 
     // Use this for initialization
     void Start () {
-        maxSpeed = maxRPM / 60.00f;
+        maxRPM = globalSettings.MaxRPM;
+        maxSpeed = maxRPM / 60;
     }
 	
 	// Update is called once per frame

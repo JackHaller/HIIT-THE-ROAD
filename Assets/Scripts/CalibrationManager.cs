@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -69,7 +71,7 @@ public class CalibrationManager : MonoBehaviour {
             if (lowZone)
             {
                 //60seconds includes warmup
-                count = 60;
+                count = 30;
                 while (count != 0)
                 {
                     startHR = bikeController.heartRate > startHR ? bikeController.heartRate : startHR;
@@ -96,7 +98,12 @@ public class CalibrationManager : MonoBehaviour {
 
         Debug.Log(startHR);
         Debug.Log(endHR);
-
+        using (StreamWriter file = new StreamWriter(Environment.CurrentDirectory + "\\playerdata.cfg"))
+        {
+            file.WriteLine("MaxHR=" + endHR);
+            file.WriteLine("MaxRPM=" + maxRPM);
+            file.WriteLine("EnableCrowd=true");
+        }
         count = 10;
         while (count != 0)
         {
