@@ -111,7 +111,11 @@ public class Generator : MonoBehaviour
         
         slowZoneLength = Math.Ceiling((slowZoneTime * slowZoneSpeed)/20);
         fastZoneLength = Math.Ceiling((fastZoneTime * fastZoneSpeed)/20);
+<<<<<<< HEAD
         uiController = FindObjectOfType<UIController>();
+=======
+>>>>>>> Development
+
         
         switch (globalSettings.environmentType)
         {

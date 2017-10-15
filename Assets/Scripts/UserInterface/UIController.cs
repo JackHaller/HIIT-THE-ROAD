@@ -87,25 +87,15 @@ public class UIController : MonoBehaviour {
         }
 
         //build the scores prefabs
-        for (int i = 0; i < 5; i++)
-        {
-            Debug.Log(topScores[i]);
-            GameObject item = (GameObject)(Instantiate(HighScorePrefab));
-            RectTransform location = item.GetComponent<RectTransform>();
-            location.SetParent(this.transform);
-            Text itemText = item.GetComponent<Text>();
-            location.localPosition = new Vector3(0, 20 - i * 20, 0);
-            location.localScale = new Vector3(1.0f, 1.0f, 1.0f);
-            location.localRotation = Quaternion.identity;
-            scoreTexts.Add(item);
-            itemText.text = topScores[i].ToString();
-            if (topScores[i] == score)
-            {
-                itemText.color = Color.yellow;
-                itemText.fontStyle = FontStyle.Italic;
-            }
-        }
-        
+        GameObject item = (GameObject)(Instantiate(HighScorePrefab));
+        RectTransform location = item.GetComponent<RectTransform>();
+        location.SetParent(this.transform);
+        Text itemText = item.GetComponent<Text>();
+        itemText.text = HighScoresText.text;
+        location.localPosition = new Vector3(0, 63f, 0);
+        location.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+        location.localRotation = Quaternion.identity;
+        scoreTexts.Add(item);        
     }
 
     public void HideGameOver()
@@ -159,4 +149,5 @@ public class UIController : MonoBehaviour {
         GameObject.FindGameObjectWithTag("CalibrationText").SetActive(false);
         HighScoresText.enabled = true;
     }
+
 }
