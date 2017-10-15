@@ -6,6 +6,7 @@ using System.Xml;
 using System.Xml.Serialization;
 using System;
 using Exergame;
+using UnityEngine.SceneManagement;
 
 public enum GeneratorMode
 {
@@ -103,7 +104,11 @@ public class Generator : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-        maxRPM = globalSettings.MaxRPM;
+        Scene scene = SceneManager.GetActiveScene();
+        if (scene.name == "base")
+        {
+            maxRPM = globalSettings.MaxRPM;
+        }
         generatorMode = globalSettings.LevelType;
 
         slowZoneSpeed = 0.157f * (1 / Time.fixedDeltaTime);
