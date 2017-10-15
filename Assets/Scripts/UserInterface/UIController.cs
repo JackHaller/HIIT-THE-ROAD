@@ -37,7 +37,6 @@ public class UIController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        print(score);
 		this.transform.position = new Vector3 (playerBike.transform.position.x + 15.0f, playerBike.transform.position.y - 0.75f, playerBike.transform.position.z);
 	}
 

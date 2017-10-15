@@ -265,10 +265,13 @@ MonoBehaviour:
   LevelType: 0
   environmentType: 3
   GameDuration: 5
+  crowd: 1
   PlayerName: Player1
   PlayerAge: 25
   PlayerBMI: 17
   PlayerAssumedFitness: 4
+  MaxRPM: 170
+  MaxHR: 160
   RecordPlayer: 0
   RecordLevel: 0
   UseDetailedPlaybackSettings: 0
@@ -1033,7 +1036,7 @@ Prefab:
     - target: {fileID: 114702274208183252, guid: fdacf6a46ce383d47bded20f737f1b0b,
         type: 2}
       propertyPath: maxRPM
-      value: 210
+      value: 170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fdacf6a46ce383d47bded20f737f1b0b, type: 2}
@@ -1538,7 +1541,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 171d8f0378bff94499c3e63256a3cf36, type: 3}
   - {fileID: 8300000, guid: de54ac06a24912d46899fdd8fc6786e9, type: 3}
   - {fileID: 8300000, guid: fe97cd78bcfab2b45a3eb2f374d67464, type: 3}
-  maxRPM: 210
+  globalSettings: {fileID: 0}
 --- !u!1 &768891840
 GameObject:
   m_ObjectHideFlags: 0
@@ -2680,7 +2683,7 @@ MonoBehaviour:
   intervalTime: 30
   maxRPM: 180
   slowZoneSpeedRpm: 60
-  slowZoneTime: 45
+  slowZoneTime: 60
   fastZoneTime: 30
   numberOfIntervals: 5
   currentInterval: 1
@@ -3261,8 +3264,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bikeManager: {fileID: 389131571}
   player: {fileID: 1665670185}
+  globalSettings: {fileID: 0}
   highSpeedZone: 1
-  maxHR: 0
+  maxHR: 160
 --- !u!1 &1785173955
 GameObject:
   m_ObjectHideFlags: 0
