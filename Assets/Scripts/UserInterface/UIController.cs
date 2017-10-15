@@ -37,7 +37,6 @@ public class UIController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        print(score);
 		this.transform.position = new Vector3 (playerBike.transform.position.x + 15.0f, playerBike.transform.position.y - 0.75f, playerBike.transform.position.z);
 	}
 
@@ -154,7 +153,7 @@ public class UIController : MonoBehaviour {
             yield return new WaitForSeconds(1f);
             count--;
         }
-        startingText.text = "GO you cunt.";
+        startingText.text = "GO! GO! GO!";
         yield return new WaitForSeconds(1f);
 
         GameObject.FindGameObjectWithTag("CalibrationText").SetActive(false);

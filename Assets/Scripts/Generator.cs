@@ -102,6 +102,7 @@ public class Generator : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
+        maxRPM = globalSettings.MaxRPM;
         generatorMode = globalSettings.LevelType;
 
         slowZoneSpeed = 0.157f * (1 / Time.fixedDeltaTime);
@@ -109,8 +110,8 @@ public class Generator : MonoBehaviour
         
         slowZoneLength = Math.Ceiling((slowZoneTime * slowZoneSpeed)/20);
         fastZoneLength = Math.Ceiling((fastZoneTime * fastZoneSpeed)/20);
-        
 
+        
         switch (globalSettings.environmentType)
         {
             case (EnvironmentType.BARE):
