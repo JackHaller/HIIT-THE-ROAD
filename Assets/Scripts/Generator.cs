@@ -4,7 +4,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Xml;
 using System.Xml.Serialization;
+using System;
 using Exergame;
+using UnityEngine.SceneManagement;
 
 public enum GeneratorMode
 {
@@ -24,11 +26,14 @@ public class Generator : MonoBehaviour
 	//public bool EnableBuildings = true;
 	public GlobalSettings globalSettings;
     public IntervalController intervalController;
-
-
+    private UIController uiController;
+    private bool isEndOfSession = true;
+    public GameObject explosion;
+    private Scene scene;
     //Prefabs for building the game
     public Transform Straight;
     public Transform StraightBlockedStart;
+    public Transform StraightBlockedEnd;
     public Transform StraightBlockedZone;
 	public Transform RespawnPlatform;
 	//Powerups
@@ -60,7 +65,7 @@ public class Generator : MonoBehaviour
 	private bool playbackbranchtrigger = false;
 	public bool Newtutorial = false;
 	public int LimitLengthByTileNumber;
-	private int currentTileCount = 0;
+	private int currentTileCount = 1;
 	public bool LimitLengthByTile;
 	public Transform backblock;
 	private bool addTiles;
@@ -69,11 +74,49 @@ public class Generator : MonoBehaviour
 	public UrbanGenerator UrbanGen;
     public RuralGenerator RuralGen = null;
     public TerrainSelector terrainSelector = null;
-	
+
+
+
+    //testing time based spawning
+    public int intervalTime = 10;
+    private float _currentTime;
+    private bool _startSpawned;
+    private bool _endSpawned = false;
+    private int _generatorType;
+
+    public float maxRPM = 180;
+    public float slowZoneSpeedRpm = 60;
+
+
+    private double slowZoneSpeed;
+    private double fastZoneSpeed;
+    
+    //time in seconds
+    public int slowZoneTime = 60;
+    public int fastZoneTime = 30;
+    private double slowZoneLength;
+    private double fastZoneLength;
+
+
+    public int numberOfIntervals = 3;
+    public int currentInterval = 1;
+
 	// Use this for initialization
 	void Start ()
 	{
+        scene = SceneManager.GetActiveScene();
+        if (scene.name == "base")
+        {
+            maxRPM = globalSettings.MaxRPM;
+        }
         generatorMode = globalSettings.LevelType;
+
+        slowZoneSpeed = 0.157f * (1 / Time.fixedDeltaTime);
+        fastZoneSpeed = (maxRPM / slowZoneSpeedRpm) * slowZoneSpeed;
+        
+        slowZoneLength = Math.Ceiling((slowZoneTime * slowZoneSpeed)/20);
+        fastZoneLength = Math.Ceiling((fastZoneTime * fastZoneSpeed)/20);
+        uiController = FindObjectOfType<UIController>();
         
         switch (globalSettings.environmentType)
         {
@@ -105,9 +148,11 @@ public class Generator : MonoBehaviour
             Debug.Log("Loading level from recording");
 			blockPlayback = new BlockDeserializer (playbackfile);
 		}
-		BuildTutorialArea ();
 
-		if (recordLevel) {
+
+        //dont know why i cant take out tutorial area without breaking game
+		BuildTutorialArea ();
+        if (recordLevel) {
 			blockRecorder = new BlockSerializer ();
 			blockRecorder.WriteTutorialData (BlockList);
 		}
@@ -135,12 +180,12 @@ public class Generator : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update ()
-	{
-		//here we check the player's position, and if necessary remove the back block and add a new one
-		if (Player.transform.position.x >= blockSwapThreshold || IgnoreThreshold) {
+    {
+        //here we check the player's position, and if necessary remove the back block and add a new one
+        if (Player.transform.position.x >= blockSwapThreshold || IgnoreThreshold) {
 			//remove the oldest block
 			DestroyLastBlock ();
-
+            
             generatorMode = GeneratorMode.STANDARD;
             if (addTiles) // Make sure the generator is enabled.
             {
@@ -148,33 +193,7 @@ public class Generator : MonoBehaviour
                 {
                     //Add a new, random block
                     AddBlockStandardMode();
-                }
-
-			    //if we are recording the level, serialise the most recent block
-				if (recordLevel && blockRecorder.isUsable) {
-					blockRecorder.Serialize (BlockList.Head.Value);
-				}
-			
-			
-				if (currentTileCount > LimitLengthByTileNumber && LimitLengthByTile) 
-                {
-					if(loadLevelFromRecording)
-                    {
-                        backblock.position = new Vector3 (nextBlockX + 10, ((Block)BlockList.Head.Value).TrackSection.position.y+1.5f, 0.0f);
-						addTiles = false;
-					}
-                    else
-                    {
-                        AddBasicBlock(	new Vector3(nextBlockX, currentHeight, 0.0f));
-					    backblock.position = new Vector3 (nextBlockX + 10, ((Block)BlockList.Head.Value).TrackSection.position.y+1.5f, 0.0f);
-					    addTiles = false;
-					}
-					if (recordLevel && blockRecorder.isUsable)
-                    {
-					    blockRecorder.Serialize(BlockList.Head.Value); // Gotta serialize the final straight block too. Don't worry about the backblock
-					    blockRecorder.CloseBlockRecorder();
-					}
-				}
+                }                
 			}
 			blockSwapThreshold += 20.0f;
 			nextBlockX += 20.0f;
@@ -189,7 +208,57 @@ public class Generator : MonoBehaviour
 
     void AddBlockStandardMode()
     {
-        Block block = AddBasicBlock(new Vector3(nextBlockX, currentHeight, 0.0f));
+        _currentTime = Time.time;
+        if (_currentTime % (intervalTime * 2) < intervalTime)
+        {
+            _startSpawned = true;
+            if (_endSpawned)
+            {
+                _generatorType = 2;
+                _endSpawned = false;
+            }
+            else
+            {
+                _generatorType = 0;
+            }
+        }
+        else if (_currentTime % (intervalTime * 2) > intervalTime)
+        {
+            _endSpawned = true;
+            if (_startSpawned)
+            {
+                _generatorType = 1;
+                _startSpawned = false;
+            }
+            else
+            {
+                _generatorType = 3;
+            }
+        }
+
+        if (currentInterval == numberOfIntervals && isEndOfSession && scene.name == "Base")
+        {
+            uiController.ShowGameOver();
+            uiController.HighScoresText.enabled = false;
+            isEndOfSession = false;
+
+            var vehicles = GameObject.FindGameObjectsWithTag("Vehicle");
+            var powerUps = GameObject.FindGameObjectsWithTag("Powerup");
+            foreach (var vehicle in vehicles)
+            {
+                Instantiate(explosion, vehicle.transform.position, vehicle.transform.rotation);
+                Destroy(vehicle.gameObject);
+            }
+
+            foreach (var powerUp in powerUps)
+            {
+                Instantiate(explosion, powerUp.transform.position, powerUp.transform.rotation);
+                Destroy(powerUp.gameObject);
+            }
+
+            FindObjectOfType<VehicleGenerator>().SetEndOfSession(true);
+        }
+        AddBasicBlock(new Vector3(nextBlockX, currentHeight, 0.0f), _generatorType);
         currentTileCount++;
     }
 
@@ -221,42 +290,43 @@ public class Generator : MonoBehaviour
 	}
 	
 	//Adds a block with no special features
-	private Block AddBasicBlock (Vector3 location)
+	private Block AddBasicBlock (Vector3 location, int type)
 	{
         Transform track;
         Block block;
         bool spawnCrowd;
-        if (currentTileCount < 10)
+        
+        
+        if (currentTileCount < fastZoneLength)
         {
             track = (Transform)(Instantiate(Straight, location, Quaternion.identity));
             block = new Block(track);
             BlockList.AddFirst(block);
             spawnCrowd = true;
         }
-        else if (currentTileCount == 10)
+        
+        else if (currentTileCount == fastZoneLength)
         {
             track = (Transform)(Instantiate(StraightBlockedStart, location, Quaternion.identity));
             block = new Block(track);
             BlockList.AddFirst(block);
             spawnCrowd = false;
         }
-        else if (currentTileCount == 21)
-        {
-            track = (Transform)(Instantiate(StraightBlockedStart, location, Quaternion.Euler(0,180,0)));
-            block = new Block(track);
-            BlockList.AddFirst(block);
-            spawnCrowd = false;
-        }
-        else
+        else if (currentTileCount < slowZoneLength + fastZoneLength)
         {
             track = (Transform)(Instantiate(StraightBlockedZone, location, Quaternion.identity));
             block = new Block(track);
             BlockList.AddFirst(block);
             spawnCrowd = false;
         }
-        if (currentTileCount > 20)
+        else 
         {
-            currentTileCount = 0;
+            track = (Transform)(Instantiate(StraightBlockedEnd, location, Quaternion.Euler(0, 180, 0)));
+            block = new Block(track);
+            BlockList.AddFirst(block);
+            spawnCrowd = false;
+            currentTileCount = 1;
+            currentInterval += 1;
         }
         switch (globalSettings.environmentType)
         {
@@ -269,53 +339,17 @@ public class Generator : MonoBehaviour
         }
         return block;
 	}
-	
-	private void AddPowerupToBlock (Block block, float offset)
-	{
-		//Choose a random powerup type
-		int rnd;
-		if (globalSettings.EnableLives) {
-			rnd = Random.Range (0, 4);
-		} else {
-			rnd = Random.Range (1, 4);
-		}
-		PowerupType powerupType = (PowerupType)(rnd);
-		Vector3 powerupPosition = new Vector3 (block.TrackSection.position.x, block.TrackSection.position.y + 1.5f, block.TrackSection.position.z + offset);
-        AddPowerupToBlock(block, powerupPosition, powerupType);
-	}
-	
-	private void AddPowerupToBlock (Block block, Vector3 powerupPosition, PowerupType type)
-	{
-		block.BlockInfo += "P" + (int)type;
-		Transform powerup = null;
-		//Vector3 powerupPosition = new Vector3(block.TrackSection.position.x, block.TrackSection.position.y + 1.5f, block.TrackSection.position.z + offset);
-		switch (type) {
-		case PowerupType.Life:
-			powerup = (Transform)(Instantiate (PowerupLife, powerupPosition, Quaternion.identity));
-			break;
-		case PowerupType.RandomPowerup:
-			powerup = (Transform)(Instantiate (PowerupRandom, powerupPosition, Quaternion.identity));
-			break;
-		case PowerupType.Resistance:
-			powerup = (Transform)(Instantiate (PowerupResistance, powerupPosition, Quaternion.identity));
-			break;
-		case PowerupType.Score:
-			powerup = (Transform)(Instantiate (PowerupScore, powerupPosition, Quaternion.identity));
-			break;
-		}
-		block.Powerup = powerup;
-	}
-	
-	
+
 	public void BuildTutorialArea ()
 	{
         
 		//Start with 5 standard blocks, then a left pit, then a standard, then right, then a standard and a ramp down
 		for (int i = 0; i < 20; i++) 
         {
-			Block block = AddBasicBlock (new Vector3 (20.0f * i, 0.0f, 0.0f));
+			AddBasicBlock (new Vector3 (20.0f * i, 0.0f, 0.0f),0);
 		}
-        blockSwapThreshold = 180.0f;
+        currentTileCount = 20;
+        blockSwapThreshold = 60.0f;
 		nextBlockX = 400.0f;
 		buildIndex = 0;			//the first level begins at the end of the tutorial
 		

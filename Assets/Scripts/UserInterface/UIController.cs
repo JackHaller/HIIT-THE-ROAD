@@ -9,8 +9,7 @@ using System;
 public class UIController : MonoBehaviour {
 
 	//Other objects to reference
-	public Transform player;
-	public Text ScoreText;
+	public Transform playerBike;
     public Text GameOverText;
     public Text HighScoresText;
 	public Image ChargeBar;
@@ -22,17 +21,23 @@ public class UIController : MonoBehaviour {
 	//Prefabs to instantiate
 	public GameObject scoreBonus;
     public GameObject HighScorePrefab;
+    private Text startingText;
+   
 
 	// Use this for initialization
 	void Start () {
+        HighScoresText.enabled = false;
+        startingText = GameObject.FindGameObjectWithTag("CalibrationText").GetComponentInChildren<Text>(); ;
+        StartCoroutine(StartCountDown());
         scoreTexts = new List<GameObject>();
-		score = 0;
+        score = 10000;
+		HighScoresText.text = "Score: " + 10000;
         Cursor.visible = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		this.transform.position = new Vector3 (player.transform.position.x + 15.0f, player.transform.position.y - 0.75f, player.transform.position.z);
+		this.transform.position = new Vector3 (playerBike.transform.position.x + 15.0f, playerBike.transform.position.y - 0.75f, playerBike.transform.position.z);
 	}
 
 	public void GiveScore(int points) {
@@ -82,25 +87,15 @@ public class UIController : MonoBehaviour {
         }
 
         //build the scores prefabs
-        for (int i = 0; i < 5; i++)
-        {
-            Debug.Log(topScores[i]);
-            GameObject item = (GameObject)(Instantiate(HighScorePrefab));
-            RectTransform location = item.GetComponent<RectTransform>();
-            location.SetParent(this.transform);
-            Text itemText = item.GetComponent<Text>();
-            location.localPosition = new Vector3(0, 20 - i * 20, 0);
-            location.localScale = new Vector3(1.0f, 1.0f, 1.0f);
-            location.localRotation = Quaternion.identity;
-            scoreTexts.Add(item);
-            itemText.text = topScores[i].ToString();
-            if (topScores[i] == score)
-            {
-                itemText.color = Color.yellow;
-                itemText.fontStyle = FontStyle.Italic;
-            }
-        }
-        
+        GameObject item = (GameObject)(Instantiate(HighScorePrefab));
+        RectTransform location = item.GetComponent<RectTransform>();
+        location.SetParent(this.transform);
+        Text itemText = item.GetComponent<Text>();
+        itemText.text = HighScoresText.text;
+        location.localPosition = new Vector3(0, 63f, 0);
+        location.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+        location.localRotation = Quaternion.identity;
+        scoreTexts.Add(item);        
     }
 
     public void HideGameOver()
@@ -122,12 +117,12 @@ public class UIController : MonoBehaviour {
 
 	public void SetScore(int score) {
 		this.score = score;
-		ScoreText.text = "Score: " + score;
+        HighScoresText.text = "Score: " + score;
 	}
 
 	public void ModScore(int amountToChange) {
 		this.score += amountToChange;
-		ScoreText.text = "Score: " + this.score;
+		HighScoresText.text = "Score: " + this.score;
 	}
 
 	public void Resize(int x, int y) {
@@ -138,4 +133,21 @@ public class UIController : MonoBehaviour {
 	public void SetRemainingCharge(int percentage) {
 		ChargeBar.fillAmount = (float)percentage / 100.0f;
 	}
+
+    IEnumerator StartCountDown()
+    {
+        var count = 5;
+        while (count != 0)
+        {
+            startingText.text = "Game Starting in " + count + ".";
+            yield return new WaitForSeconds(1f);
+            count--;
+        }
+        startingText.text = "GO! GO! GO!";
+        yield return new WaitForSeconds(1f);
+
+        GameObject.FindGameObjectWithTag("CalibrationText").SetActive(false);
+        HighScoresText.enabled = true;
+    }
+
 }

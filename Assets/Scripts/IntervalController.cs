@@ -14,7 +14,6 @@ public class IntervalController : MonoBehaviour {
     }
 
     public GlobalSettings globalSettings;
-    public HRBarController barController;
 
     public IntervalState intervalState;
 
@@ -32,10 +31,7 @@ public class IntervalController : MonoBehaviour {
 	void Start () {
         elapsedTimeInCurrentState = 0.0f;
         intervalState = globalSettings.UsingIntervals ? IntervalState.WARMUP : IntervalState.NO_INTERVAL;
-
-		if(!globalSettings.UsingIntervals){
-			barController.transform.gameObject.SetActive(false);
-		}
+        
 
         warmupDuration = 60.0f * (float)globalSettings.WarmupMinutes;
         intervalDuration = 60.0f * (float)globalSettings.IntervalMinutes;
@@ -43,7 +39,6 @@ public class IntervalController : MonoBehaviour {
         HRMax = 208 - (int)(0.7f * (float)globalSettings.PlayerAge);  //maximum heart rate calculated as: 208 - 0.7 * age (Tanaka et al)
         HRLow = 0;          //We start in a warmup, where it doesn't matter what their HR is
         HRHigh = HRMax;
-        barController.SetZoneHRParameters(HRLow, HRHigh);
 	}
 
 	
@@ -61,7 +56,6 @@ public class IntervalController : MonoBehaviour {
                 elapsedTimeInCurrentState = 0.0f;
                 HRLow = (int)(0.9f * (float)HRMax);
                 HRHigh = (int)(0.95f * (float)HRMax);
-                barController.SetZoneHRParameters(HRLow, HRHigh);
             }
         }
         else if (intervalState == IntervalState.INTERVAL || intervalState == IntervalState.TRANSITION_TO_RECOVERY)
@@ -73,7 +67,6 @@ public class IntervalController : MonoBehaviour {
                 elapsedTimeInCurrentState = 0.0f;
                 HRLow = (int)(0.5f * (float)HRMax);
                 HRHigh = (int)(0.75f * (float)HRMax);
-                barController.SetZoneHRParameters(HRLow, HRHigh);
             }
             else if (elapsedTimeInCurrentState >= intervalDuration - 10)
             {
@@ -89,7 +82,6 @@ public class IntervalController : MonoBehaviour {
                 elapsedTimeInCurrentState = 0.0f;
                 HRLow = (int)(0.9f * (float)HRMax);
                 HRHigh = (int)(0.95f * (float)HRMax);
-                barController.SetZoneHRParameters(HRLow, HRHigh);
             }
             else if (elapsedTimeInCurrentState >= recoveryDuration - 10)
             {

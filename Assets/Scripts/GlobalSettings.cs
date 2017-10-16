@@ -19,13 +19,16 @@ public class GlobalSettings : MonoBehaviour {
     //public bool EnableTrees = false;
     public EnvironmentType environmentType = EnvironmentType.BARREN;
     public int GameDuration = 15;
+    public bool EnableCrowd = true;
 
-	//Player Settings
+    //Player Settings
     [Header("Player Settings")]
 	public string PlayerName = "Player";
 	public int PlayerAge = 24;
 	public double PlayerBMI = 25;
 	public int PlayerAssumedFitness = 4;
+    public int MaxRPM = 170;
+    public int MaxHR = 160;
 
 	//Playback Settings
     [Header("Playback Settings")]
@@ -40,8 +43,8 @@ public class GlobalSettings : MonoBehaviour {
     public bool EnableBike = true;
     public bool EnableKinect = false;
     public bool EnableCamera = true;
-	public string BikePort = "COM9";
-	public string ResistancePort = "COM7";
+	public string BikePort = "COM3";
+	public string ResistancePort = "COM1";
 	public bool UseOculus = true;
 
     //Interface Settings
@@ -68,7 +71,7 @@ public class GlobalSettings : MonoBehaviour {
 	// Because of this, anything that is not instantiated at runtime cannot have anything dependent on global settings in its Awake() method
     // as we can't guarantee that GlobalSettings.Awake() will be called before the Awake() method of other objects
 	void Awake () {
-		if (OverrideEditorSettingsWithConfigFile) {
+		/*if (OverrideEditorSettingsWithConfigFile) {
 			//load global settings from a config file
 			IDictionary<string, string> settings = new Dictionary<string, string>();
 			using (StreamReader configFile = new StreamReader(Environment.CurrentDirectory + "\\eg2config.cfg"))
@@ -84,9 +87,26 @@ public class GlobalSettings : MonoBehaviour {
 			}
 			//now that we've read all the settings into a dictionary, parse them into our specific settings
 			SetSettingsFromDictionary(settings);
-		}
-		//Make some changes as required by our settings
-		EnableAndDisableObjectsBasedOnSettings();
+		}*/
+        //load global settings from a config file
+        IDictionary<string, string> settings = new Dictionary<string, string>();
+        using (StreamReader configFile = new StreamReader(Environment.CurrentDirectory + "\\playerdata.cfg"))
+        {
+            string line;
+            while ((line = configFile.ReadLine()) != null)
+            {
+                int equalsIndex = line.IndexOf('=');
+                if (equalsIndex >= 0)
+                {
+                    settings.Add(line.Substring(0, equalsIndex), line.Substring(equalsIndex + 1, line.Length - (equalsIndex + 1)));
+                }
+            }
+        }
+        //now that we've read all the settings into a dictionary, parse them into our specific settings
+        SetSettingsFromDictionary(settings);
+        
+        //Make some changes as required by our settings
+        EnableAndDisableObjectsBasedOnSettings();
 	}
 				
 	void SetSettingsFromDictionary(IDictionary<string, string> values) {
@@ -136,8 +156,21 @@ public class GlobalSettings : MonoBehaviour {
 		if (values.ContainsKey ("PlayerAssumedFitness")) {
 			PlayerAssumedFitness = int.Parse(values["PlayerAssumedFitness"]);
 		}
-		//-------------------------Playback Settings-------------------------
-		if (values.ContainsKey("RecordPlayer")) {
+
+        if (values.ContainsKey("MaxHR"))
+        {
+            MaxHR = int.Parse(values["MaxHR"]);
+        }
+        if (values.ContainsKey("MaxRPM"))
+        {
+            MaxRPM = int.Parse(values["MaxRPM"]);
+        }
+        if (values.ContainsKey("EnableCrowd"))
+        {
+            EnableCrowd = Boolean.Parse(values["EnableCrowd"]);
+        }
+        //-------------------------Playback Settings-------------------------
+        if (values.ContainsKey("RecordPlayer")) {
 			RecordPlayer = Boolean.Parse(values["RecordPlayer"]);
 		}
         if (values.ContainsKey("RecordLevel"))

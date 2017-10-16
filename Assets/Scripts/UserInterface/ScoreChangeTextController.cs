@@ -17,7 +17,7 @@ public class ScoreChangeTextController : MonoBehaviour {
 	void Update () {
 		if (activated) {
 			elapsedTime += Time.deltaTime;
-			this.transform.localPosition = Vector3.Lerp(originalPosition, new Vector3(-100.0f, 75.0f, 0.0f), elapsedTime / MovementTime);
+			this.transform.localPosition = Vector3.Lerp(originalPosition, new Vector3(0f, 100.0f, 100.0f), elapsedTime / MovementTime);
 			if (elapsedTime >= MovementTime) {
 				Destroy(this.gameObject);
 				GameObject.Find ("WorldSpaceGUI").GetComponent<UIController>().ModScore(Score);
@@ -27,7 +27,7 @@ public class ScoreChangeTextController : MonoBehaviour {
 
 	public void Activate(int score) {
 		this.Score = score;
-		this.transform.localScale = new Vector3 (1.0f, 1.0f, 1.0f);
+		this.transform.localScale = new Vector3 (1.0f, 1.0f, 10.0f);
 		originalPosition = this.transform.localPosition;
 		Text t = this.GetComponent<Text> ();
 		t.text = string.Format ("{0}{1}", score >= 0 ? '+' : '-', score);
