@@ -236,21 +236,29 @@ public class Generator : MonoBehaviour
             }
         }
 
-        if (currentInterval == numberOfIntervals && isEndOfSession && scene.name == "base")
+        if (currentInterval == numberOfIntervals && isEndOfSession && scene.name == "Base")
         {
             uiController.ShowGameOver();
             uiController.HighScoresText.enabled = false;
             isEndOfSession = false;
 
             var vehicles = GameObject.FindGameObjectsWithTag("Vehicle");
+            var powerUps = GameObject.FindGameObjectsWithTag("Powerup");
             foreach (var vehicle in vehicles)
             {
                 Instantiate(explosion, vehicle.transform.position, vehicle.transform.rotation);
                 Destroy(vehicle.gameObject);
             }
+
+            foreach (var powerUp in powerUps)
+            {
+                Instantiate(explosion, powerUp.transform.position, powerUp.transform.rotation);
+                Destroy(powerUp.gameObject);
+            }
+
             FindObjectOfType<VehicleGenerator>().SetEndOfSession(true);
         }
-        Block block = AddBasicBlock(new Vector3(nextBlockX, currentHeight, 0.0f), _generatorType);
+        AddBasicBlock(new Vector3(nextBlockX, currentHeight, 0.0f), _generatorType);
         currentTileCount++;
     }
 
