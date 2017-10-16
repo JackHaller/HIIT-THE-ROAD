@@ -34,7 +34,7 @@ public void UrbanLandscapeGeneration(Vector3 trackLocation, bool spawnCrowd, Tra
         if(Random.Range(0,powerUpSpawnChance) == 0)
         {
             GameObject powerUpPostion = Instantiate(powerUp);
-            powerUpPostion.transform.position = new Vector3(trackLocation.x, trackLocation.y + 1f, powerUpLocations[Random.Range(0, 3)]);
+            powerUpPostion.transform.position = new Vector3(trackLocation.x + 20f, trackLocation.y + 1f, powerUpLocations[Random.Range(0, 3)]);
         }
         
 	}
