@@ -245,11 +245,6 @@ public class PlayerController : MonoBehaviour
         //Update the game based on the game state
         if (gameState == GameState.GAME_STATE_PLAY)
         {
-
-            if (gameLengthInSeconds <= elapsedGameLength && LimitGameLength)
-            {
-                DoGameOver(); // End the game after 10 minutes.
-            }
             elapsedGameLength += Time.deltaTime;
             //before we apply the player's movement, if they are trying to move in the opposite direction
             //to their current movement, we immediately reset their lateral velocity
@@ -273,19 +268,6 @@ public class PlayerController : MonoBehaviour
                 playerWriter.WritePositions(transform.position, playerHead.transform.position, score);
             }
 
-            //if the player has fallen down a pit or off the side, kill 'em
-            if (this.transform.position.y <= -20.0f && canDie)
-            {
-                if (lives == 0)
-                {
-                    DoGameOver();
-                }
-                else
-                {
-                    Respawn();
-                }
-            }
-
             //update the resistance of the bike based on what is going on in game
             if (resistancePowerupDurationRemaining >= 0.0f)
             {
@@ -306,13 +288,6 @@ public class PlayerController : MonoBehaviour
             }
 
             PlayAppropriateAudio();
-
-            //We can use the Q key to force a game over while testing
-            if (Input.GetKeyDown(KeyCode.Q))
-            {
-                DoGameOver();
-            }
-
         }
         else if (gameState == GameState.GAME_STATE_OVER)
         {
