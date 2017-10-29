@@ -34,6 +34,7 @@ public class CalibrationManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        //destroys crowds and powerups during calibration
         var crowdSounds = GameObject.FindGameObjectsWithTag("CrowdSound");
         var crowds = GameObject.FindGameObjectsWithTag("Crowd");
         var powerUps = GameObject.FindGameObjectsWithTag("Powerup");
@@ -70,7 +71,7 @@ public class CalibrationManager : MonoBehaviour {
         {
             if (lowZone)
             {
-                //60seconds includes warmup
+                //30 seconds of low intensity pedaling
                 count = 30;
                 while (count != 0)
                 {
@@ -83,6 +84,7 @@ public class CalibrationManager : MonoBehaviour {
             }
             else
             {
+                //30 seconds of high intensity pedaling
                 count = 30;
                 while (count != 0)
                 {
@@ -98,6 +100,8 @@ public class CalibrationManager : MonoBehaviour {
 
         Debug.Log(startHR);
         Debug.Log(endHR);
+
+        //recording hr and rpm data
         using (StreamWriter file = new StreamWriter(Environment.CurrentDirectory + "\\playerdata.cfg"))
         {
             file.WriteLine("MaxHR=" + endHR);

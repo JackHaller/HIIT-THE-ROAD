@@ -28,6 +28,7 @@ public class ScoreController : MonoBehaviour {
         {
             if (bikeManager.heartRate != 0)
             {
+                //calculating points to deduct based on current HR
                 if ((maxHR - bikeManager.heartRate) / 2 > 5)
                 {
                     player.TakePoints((int)((maxHR * 1.2 - bikeManager.heartRate) / 2));
@@ -39,6 +40,7 @@ public class ScoreController : MonoBehaviour {
             }
             else
             {
+                //100 points deducted when HR not detected
                 player.TakePoints(100);
             }
             lastTime = currentTime;

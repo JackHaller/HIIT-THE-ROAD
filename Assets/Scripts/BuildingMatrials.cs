@@ -8,6 +8,7 @@ public class BuildingMatrials : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
+        //randomizes buidling colours
         GetComponent<Renderer>().material = possibleTextures[Random.Range(0,possibleTextures.Length)];
 
     }

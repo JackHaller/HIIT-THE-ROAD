@@ -36,7 +36,8 @@ public class ClapController : MonoBehaviour {
             moveVertical = Input.GetAxis("Vertical");
         }
 
-        if (moveVertical > 0.65f * maxSpeed && clap)
+        //70% rpm threshold to hear the cheering sound
+        if (moveVertical > 0.70f * maxSpeed && clap)
         {
             foreach (GameObject crowd in crowds)
             {
@@ -46,7 +47,7 @@ public class ClapController : MonoBehaviour {
             clap = false;
             cheer = true;
         }
-        else if (moveVertical < 0.65f * maxSpeed && cheer)
+        else if (moveVertical < 0.70f * maxSpeed && cheer)
         {
             foreach (GameObject crowd in crowds)
             {
@@ -57,7 +58,7 @@ public class ClapController : MonoBehaviour {
             clap = true;
         }
 
-
+        //clapping beat manager
         if (moveVertical > 1.15f * maxSpeed && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
         {
             foreach (GameObject crowdSound in crowdSounds)
@@ -135,14 +136,6 @@ public class ClapController : MonoBehaviour {
             foreach (GameObject crowdSound in crowdSounds)
             {
                 crowdSound.GetComponents<AudioSource>()[1].clip = claps[1];
-                crowdSound.GetComponents<AudioSource>()[1].Play();
-            }
-        }
-        else if (moveVertical > 0.65f * maxSpeed && !crowdSounds[5].GetComponents<AudioSource>()[1].isPlaying)
-        {
-            foreach (GameObject crowdSound in crowdSounds)
-            {
-                crowdSound.GetComponents<AudioSource>()[1].clip = claps[0];
                 crowdSound.GetComponents<AudioSource>()[1].Play();
             }
         }

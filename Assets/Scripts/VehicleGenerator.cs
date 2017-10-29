@@ -27,6 +27,7 @@ public class VehicleGenerator : MonoBehaviour {
 
     void Update()
     {
+        //stops spawning vehicles at the end of the game
         if(endOfSession)
         {
             StopCoroutine("VehicleSpawner");
@@ -46,11 +47,14 @@ public class VehicleGenerator : MonoBehaviour {
 
         while (_playing)
         {
+            //spawn vehicles every 0.5 seconds in front the player
             yield return new WaitForSeconds(spawnTime);
 
+            //only spawn vehicles if max number hasnt been reached
             var activeVehicles = GameObject.FindGameObjectsWithTag("Vehicle");
             if (activeVehicles.Length <= _maxVehicle)
             {
+                //randomized spawning of vehicle type, number and position
                 int vehicleNum = Random.Range(1, 3);
                 for (int i = 0; i < vehicleNum; i++)
                 {

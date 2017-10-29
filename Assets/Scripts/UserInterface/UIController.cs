@@ -134,6 +134,7 @@ public class UIController : MonoBehaviour {
 		ChargeBar.fillAmount = (float)percentage / 100.0f;
 	}
 
+    //Game start UI manager
     IEnumerator StartCountDown()
     {
         var count = 5;

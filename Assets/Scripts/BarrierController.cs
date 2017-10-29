@@ -6,6 +6,7 @@ public class BarrierController : MonoBehaviour {
 
     public GameObject explosion;
 
+    //destroyes vehilces when colliding with barrier
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Vehicle")

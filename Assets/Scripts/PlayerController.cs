@@ -103,6 +103,7 @@ public class PlayerController : MonoBehaviour
 	// FixedUpdate is called once per physcics tick
 	void FixedUpdate ()
 	{
+        //disables crowd for game play without cheering
         if (globalSettings.EnableCrowd == false)
         {
             clapManager = GameObject.FindGameObjectWithTag("ClapManager");
@@ -127,6 +128,7 @@ public class PlayerController : MonoBehaviour
         }
         if (Time.time >= time + 1)
         {
+            //record data during game play
             using (StreamWriter file = new StreamWriter(Environment.CurrentDirectory + "\\heartrate.txt", true))
             {
                 file.WriteLine(bike.heartRate);

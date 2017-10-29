@@ -36,6 +36,7 @@ public class VehicleController : MonoBehaviour {
     void FixedUpdate () {
         if(Time.time > 5)
         {
+            //moves vehicles forward
             gameObject.transform.position = new Vector3(gameObject.transform.position.x + speed * 0.157f, transform.position.y, transform.position.z);
             if (_colliding)
             {
@@ -47,9 +48,11 @@ public class VehicleController : MonoBehaviour {
                 }
             }
 
+            //destroys vehilces when too far behind the player
             if (_player.transform.position.x - transform.position.x > 200f)
                 Destroy(gameObject);
 
+            //beeps at the player if player if too close in front of the vehicle
             if (_player.transform.position.x - transform.position.x < 10f &&
                 _player.transform.position.x - transform.position.x > 0 &&
                 _player.GetComponent<PlayerController>().GetLanePosition() == _lanePosition &&
@@ -60,6 +63,7 @@ public class VehicleController : MonoBehaviour {
                 StartCoroutine(AudioFinished());
             }
 
+            //wheel rotation animation
             LFWheel.transform.Rotate(_xAxis, _rotation);
             RFWheel.transform.Rotate(_xAxis, _rotation);
             LRWheel.transform.Rotate(_xAxis, _rotation);
@@ -79,7 +83,7 @@ public class VehicleController : MonoBehaviour {
         _colliding = false;
     }
 
-
+    //increase resistance on collision with vehicles
     IEnumerator IncreaseResistance(GameObject gameObject)
     {
         if(gameObject.tag == "Player")

@@ -208,6 +208,7 @@ public class Generator : MonoBehaviour
 
     void AddBlockStandardMode()
     {
+        //manages spawns differenct roads depending on the time, used to manage HIIT
         _currentTime = Time.time;
         if (_currentTime % (intervalTime * 2) < intervalTime)
         {
@@ -236,6 +237,7 @@ public class Generator : MonoBehaviour
             }
         }
 
+        //detect end of session by counting the number of intervals
         if (currentInterval == numberOfIntervals && isEndOfSession && scene.name == "Base")
         {
             uiController.ShowGameOver();
