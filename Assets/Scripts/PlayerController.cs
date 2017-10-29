@@ -129,11 +129,17 @@ public class PlayerController : MonoBehaviour
         {
             using (StreamWriter file = new StreamWriter(Environment.CurrentDirectory + "\\heartrate.txt", true))
             {
-                file.WriteLine(bike.heartRate);
+                if (bike.heartRate > 0)
+                {
+                    file.WriteLine(bike.heartRate);
+                }
             }
             using (StreamWriter file = new StreamWriter(Environment.CurrentDirectory + "\\rpm.txt", true))
             {
-                file.WriteLine(bike.RPM);
+                if (bike.RPM > 0)
+                {
+                    file.WriteLine(bike.RPM);
+                }
             }
             time += 1;
         }

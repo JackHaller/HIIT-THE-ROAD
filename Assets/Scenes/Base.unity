@@ -277,7 +277,7 @@ MonoBehaviour:
   UseDetailedPlaybackSettings: 0
   SimplePlaybackEnableGhost: 0
   SimplePlaybackEnableTrainer: 0
-  EnableBike: 0
+  EnableBike: 1
   EnableKinect: 0
   EnableCamera: 0
   BikePort: COM3
@@ -1405,6 +1405,20 @@ Light:
   m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -1608,6 +1622,20 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 100, y: 100}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -2269,6 +2297,20 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 100, y: 100}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -2435,64 +2477,6 @@ MonoBehaviour:
   crowdAudio: {fileID: 1413576157584450, guid: 1c43eb4f7d5c1f845be94b86b9d47226, type: 2}
   powerUp: {fileID: 100000, guid: ba9219b66a220d7429159d7959bec3a5, type: 2}
   powerUpSpawnChance: 8
---- !u!1001 &1272292183
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4470927696348238, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 12.280655
-      objectReference: {fileID: 0}
-    - target: {fileID: 4470927696348238, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4470927696348238, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 17.369995
-      objectReference: {fileID: 0}
-    - target: {fileID: 4470927696348238, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4470927696348238, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4470927696348238, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4470927696348238, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4470927696348238, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4721061069438044, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4752634131311212, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4953690008918730, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4873159720033278, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 3701a4f9ce07d504db11a3c4cdb9c613, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1279613332
 GameObject:
   m_ObjectHideFlags: 0
@@ -2554,6 +2538,20 @@ Light:
   m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -3009,7 +3007,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   usersHead: {fileID: 1221649945}
   headTiltMovement: 0
-  headOffsetMovement: 0
+  headOffsetMovement: 1
   ui: {fileID: 1785173960}
   scoreController: {fileID: 1701271992}
   generator: {fileID: 1464920550}
